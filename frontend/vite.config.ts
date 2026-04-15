@@ -13,8 +13,8 @@ export default defineConfig({
       name: 'serve-data-dir',
       // Dev mode
       configureServer(server) {
-        server.middlewares.use('/data', (req, res, next) => {
-          const filePath = path.resolve(__dirname, '..', 'data', (req.url ?? '').replace(/^\//, ''))
+        server.middlewares.use('/leagues', (req, res, next) => {
+          const filePath = path.resolve(__dirname, '..', 'leagues', (req.url ?? '').replace(/^\//, ''))
           if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
             res.setHeader('Content-Type', 'application/json')
             res.end(fs.readFileSync(filePath))
@@ -23,10 +23,10 @@ export default defineConfig({
           }
         })
       },
-      // Preview / Docker mode
+      // Preview mode
       configurePreviewServer(server) {
-        server.middlewares.use('/data', (req, res, next) => {
-          const filePath = path.resolve(__dirname, '..', 'data', (req.url ?? '').replace(/^\//, ''))
+        server.middlewares.use('/leagues', (req, res, next) => {
+          const filePath = path.resolve(__dirname, '..', 'leagues', (req.url ?? '').replace(/^\//, ''))
           if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
             res.setHeader('Content-Type', 'application/json')
             res.end(fs.readFileSync(filePath))

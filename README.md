@@ -26,15 +26,6 @@ npm run dev       # scrape + frontend (développement)
 npm run scrape    # scraper uniquement
 ```
 
-Avec Docker (nécessite Docker Desktop) :
-
-```bash
-make up           # démarre tout sur http://localhost:3001
-make scrape       # relance le scraper
-make logs         # voir les logs
-make down         # arrêter
-```
-
 ## Système de rating (LIR)
 
 Chaque joueur reçoit une note calculée par z-score par rapport aux joueurs du même rôle, combinant 4 piliers :

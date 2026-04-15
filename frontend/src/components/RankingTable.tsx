@@ -97,35 +97,48 @@ export default function RankingTable({ players, tournament, tournamentName }: Pr
     </th>
   );
 
+  const CARD_STATS = (p: Player, stats: ReturnType<typeof getPlayerStats>) => [
+    { label: 'Rating',   value: p.rating?.toFixed(1) ?? '—', cls: 'stat__value--gold'  },
+    { label: 'KDA',      value: fmt(stats?.kda),              cls: 'stat__value--green' },
+    { label: 'Win Rate', value: `${fmt(stats?.winRate)}%`,    cls: ''                   },
+    { label: 'DPM',      value: fmt(stats?.dpm, 0),           cls: ''                   },
+  ];
+
+  const renderCard = (p: Player, rank = 1) => {
+    const stats = getPlayerStats(p, tournament);
+    return (
+      <div key={p.id} className="role-top-card" onClick={() => setSelected(p)} style={{ cursor: 'pointer' }}>
+        <div className="role-top-card__watermark">#{rank}</div>
+        <div className="role-top-card__rank-badge">{rank}</div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 20, flex: 1, minWidth: 0 }}>
+          <div style={{ minWidth: 0 }}>
+            <div className="role-top-card__name">{p.name}</div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginTop: 2 }}>
+              <RoleTag role={p.role} />
+              <span className="text-muted" style={{ fontSize: 11 }}>{p.team}</span>
+            </div>
+          </div>
+          <div className="role-top-card__stats" style={{ marginTop: 0 }}>
+            {CARD_STATS(p, stats).map(s => (
+              <div key={s.label} className="stat">
+                <div className="stat__label">{s.label}</div>
+                <div className={`stat__value ${s.cls}`}>{s.value}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   const top = filtered[0]?.p;
 
   return (
     <>
-      {/* Top player hero card */}
-      {top && role === 'ALL' && !search && (
-        <div className="top-player animate-fade" onClick={() => setSelected(top)} style={{ cursor: 'pointer' }}>
-          <div className="top-player__watermark">#1</div>
-          <div className="top-player__rank-badge">1</div>
-          <div>
-            <div className="top-player__name">{top.name}</div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 4 }}>
-              <RoleTag role={top.role} />
-              <span className="text-muted" style={{ fontSize: 12 }}>{top.team}</span>
-            </div>
-            <div className="top-player__stats">
-              {[
-                { label: 'Rating',   value: top.rating?.toFixed(1) ?? '—', cls: 'stat__value--gold' },
-                { label: 'KDA',      value: fmt(getPlayerStats(top, tournament)?.kda),     cls: 'stat__value--green' },
-                { label: 'Win Rate', value: `${fmt(getPlayerStats(top, tournament)?.winRate)}%`, cls: '' },
-                { label: 'DPM',      value: fmt(getPlayerStats(top, tournament)?.dpm, 0),  cls: '' },
-              ].map(s => (
-                <div key={s.label} className="stat">
-                  <div className="stat__label">{s.label}</div>
-                  <div className={`stat__value ${s.cls}`}>{s.value}</div>
-                </div>
-              ))}
-            </div>
-          </div>
+      {/* Carte #1 du classement actuel */}
+      {top && !search && (
+        <div className="role-tops role-tops--single animate-fade">
+          {renderCard(top)}
         </div>
       )}
 
