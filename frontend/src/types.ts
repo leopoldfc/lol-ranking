@@ -27,6 +27,13 @@ export interface TournamentStats {
   soloKills: number;
 }
 
+export interface LIRSubscores {
+  laning: number;
+  damage: number;
+  presence: number;
+  efficiency: number;
+}
+
 export interface Player {
   id: number;
   name: string;
@@ -40,6 +47,8 @@ export interface Player {
     avgKda: number;
   };
   rating?: number;
+  confidence?: number;
+  subscores?: LIRSubscores;
 }
 
 export interface ExportData {

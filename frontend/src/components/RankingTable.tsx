@@ -40,15 +40,16 @@ function rankClass(i: number) {
   return 'rank-num rank-num--rest';
 }
 
+// Rating helpers — scale 0-100, center 50, top range 70+
 function ratingClass(r: number) {
   if (r >= 70) return 'rating-cell rating-cell--high';
-  if (r >= 45) return 'rating-cell rating-cell--mid';
+  if (r >= 55) return 'rating-cell rating-cell--mid';
   return 'rating-cell rating-cell--low';
 }
 
 function ratingBarClass(r: number) {
   if (r >= 70) return 'rating-bar rating-bar--high';
-  if (r >= 45) return 'rating-bar rating-bar--mid';
+  if (r >= 55) return 'rating-bar rating-bar--mid';
   return 'rating-bar rating-bar--low';
 }
 
@@ -164,7 +165,7 @@ export default function RankingTable({ players, tournament, tournamentName }: Pr
             <tr>
               <th style={{ width: 36 }}>#</th>
               <th className="th--left" style={{ minWidth: 160 }}>Joueur</th>
-              {th('rating',  'Rating')}
+              {th('rating', 'Rating')}
               {th('games',   'G',    'col--games')}
               {th('winRate', 'W%')}
               {th('kda',     'KDA')}

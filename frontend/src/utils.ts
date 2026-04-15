@@ -79,6 +79,8 @@ export function getPlayerStats(player: Player, tournament?: string): TournamentS
 
 export function enrichPlayers(players: Player[], tournament?: string): Player[] {
   return players.map(p => {
+    // Use rating from scraper if available, otherwise compute from stats
+    if (p.rating !== undefined) return p;
     const stats = getPlayerStats(p, tournament);
     if (!stats) return p;
     return { ...p, rating: computeRating(stats, p.role) };

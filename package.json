@@ -6,6 +6,7 @@
   "scripts": {
     "start": "tsx src/index.ts",
     "build": "tsc",
+    "scrape": "tsx scripts/scrape-lck-cup-2026.ts",
     "predev": "npx tsx scripts/scrape-lck-cup-2026.ts",
     "dev": "npm run dev --prefix frontend"
   },

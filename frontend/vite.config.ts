@@ -11,8 +11,20 @@ export default defineConfig({
     react(),
     {
       name: 'serve-data-dir',
+      // Dev mode
       configureServer(server) {
-        // Sert /data/* depuis le dossier ../data/ du projet
+        server.middlewares.use('/data', (req, res, next) => {
+          const filePath = path.resolve(__dirname, '..', 'data', (req.url ?? '').replace(/^\//, ''))
+          if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
+            res.setHeader('Content-Type', 'application/json')
+            res.end(fs.readFileSync(filePath))
+          } else {
+            next()
+          }
+        })
+      },
+      // Preview / Docker mode
+      configurePreviewServer(server) {
         server.middlewares.use('/data', (req, res, next) => {
           const filePath = path.resolve(__dirname, '..', 'data', (req.url ?? '').replace(/^\//, ''))
           if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {

@@ -9,6 +9,7 @@ import * as cheerio from 'cheerio';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { computeAllRatings } from '../src/rating/engine.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -138,6 +139,28 @@ $('table.table_list tbody tr').each((_, row) => {
 
 console.log(`\n${players.length} joueurs scrapés`);
 
+// ─── 4b. Calculer LIR ────────────────────────────────────────────────────────
+
+const validRoles = ['TOP', 'JGL', 'MID', 'BOT', 'SUP'];
+const lirInputs = players.map(p => ({
+  role: (validRoles.includes(p.role) ? p.role : 'MID') as any,
+  games: p.games, winRate: p.winRate, kda: p.kda,
+  avgAssists: p.avgAssists, kp: p.kp, dpm: p.dpm,
+  dmgPct: p.dmgPct, gpm: p.gpm, goldPct: p.goldPct,
+  gd15: p.gd15, csd15: p.csd15, xpd15: p.xpd15,
+}));
+
+const lirResults = computeAllRatings(lirInputs);
+
+// Attach ratings to players
+players.forEach((p, i) => {
+  if (lirResults[i]) {
+    p.rating = lirResults[i].rating;
+    p.confidence = lirResults[i].confidence;
+    p.subscores = lirResults[i].subscores;
+  }
+});
+
 // ─── 4. Résumé par rôle ───────────────────────────────────────────────────
 
 const byRole: Record<string, string[]> = { TOP: [], JGL: [], MID: [], BOT: [], SUP: [], UNKNOWN: [] };
@@ -150,6 +173,24 @@ console.log('\nDispatch par rôle :');
 for (const [role, names] of Object.entries(byRole)) {
   if (names.length) console.log(`  ${role.padEnd(8)} (${names.length}) : ${names.join(', ')}`);
 }
+
+// ─── 4c. Résumé global LIR ───────────────────────────────────────────────
+
+console.log('\n=== LIR Rankings (sur 100) ===');
+const sortedByRating = [...players]
+  .filter(p => p.rating !== undefined)
+  .sort((a, b) => b.rating - a.rating);
+
+sortedByRating.forEach((p, i) => {
+  const rank  = String(i + 1).padStart(2);
+  const name  = p.name.padEnd(14);
+  const role  = (p.role ?? '???').padEnd(3);
+  const team  = (p.team ?? '').padEnd(18);
+  const score = p.rating.toFixed(1).padStart(5);
+  const s     = p.subscores;
+  const sub   = `[L:${s.laning >= 0 ? '+' : ''}${s.laning.toFixed(2)} D:${s.damage >= 0 ? '+' : ''}${s.damage.toFixed(2)} P:${s.presence >= 0 ? '+' : ''}${s.presence.toFixed(2)} E:${s.efficiency >= 0 ? '+' : ''}${s.efficiency.toFixed(2)}]`;
+  console.log(`#${rank}  ${name} (${role}, ${team})  ${score}  ${sub}`);
+});
 
 // ─── 5. Export JSON (format frontend) ────────────────────────────────────
 
@@ -170,6 +211,9 @@ const exportData = {
     country: p.country,
     team: p.team,
     role: p.role ?? 'UNK',
+    rating: p.rating,
+    confidence: p.confidence,
+    subscores: p.subscores,
     tournaments: {
       'LCK Cup 2026': {
         games: p.games, winRate: p.winRate, kda: p.kda,

@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "exportedAt": "2026-04-14T15:36:31.609Z",
+    "exportedAt": "2026-04-15T15:13:06.331Z",
     "tournaments": [
       {
         "name": "LCK Cup 2026",
         "league": "LCK",
         "year": 2026,
         "split": "Cup",
-        "scrapedAt": "2026-04-14T15:36:31.610Z"
+        "scrapedAt": "2026-04-15T15:13:06.331Z"
       }
     ]
   },
@@ -18,6 +18,14 @@
       "country": "KR",
       "team": "KT Rolster",
       "role": "BOT",
+      "rating": 40.3,
+      "confidence": 0.76,
+      "subscores": {
+        "laning": -0.98,
+        "damage": -1.03,
+        "presence": 0.02,
+        "efficiency": 0.07
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 17,
@@ -58,6 +66,14 @@
       "country": "KR",
       "team": "DRX",
       "role": "SUP",
+      "rating": 48.6,
+      "confidence": 1,
+      "subscores": {
+        "laning": -0.74,
+        "damage": 0.15,
+        "presence": 0.34,
+        "efficiency": -0.3
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 33,
@@ -98,6 +114,14 @@
       "country": "KR",
       "team": "KT Rolster",
       "role": "MID",
+      "rating": 52.9,
+      "confidence": 0.76,
+      "subscores": {
+        "laning": 0.37,
+        "damage": 0.71,
+        "presence": -0.09,
+        "efficiency": -0.43
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 17,
@@ -138,6 +162,14 @@
       "country": "KR",
       "team": "Gen.G",
       "role": "JGL",
+      "rating": 80.3,
+      "confidence": 0.98,
+      "subscores": {
+        "laning": 0.94,
+        "damage": 1.17,
+        "presence": 1.31,
+        "efficiency": 1.91
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 22,
@@ -178,6 +210,14 @@
       "country": "KR",
       "team": "Dplus Kia",
       "role": "SUP",
+      "rating": 49.1,
+      "confidence": 1,
+      "subscores": {
+        "laning": -0.12,
+        "damage": -0.08,
+        "presence": 0.15,
+        "efficiency": -0.22
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 35,
@@ -218,6 +258,14 @@
       "country": "KR",
       "team": "BRION",
       "role": "MID",
+      "rating": 39.4,
+      "confidence": 0.84,
+      "subscores": {
+        "laning": 0.1,
+        "damage": 0.44,
+        "presence": -1.68,
+        "efficiency": -1.57
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 19,
@@ -258,6 +306,14 @@
       "country": "KR",
       "team": "Gen.G",
       "role": "MID",
+      "rating": 82.9,
+      "confidence": 0.98,
+      "subscores": {
+        "laning": 1.67,
+        "damage": 1.07,
+        "presence": 1.29,
+        "efficiency": 2.12
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 22,
@@ -298,6 +354,14 @@
       "country": "KR",
       "team": "BNK FEARX",
       "role": "TOP",
+      "rating": 38.7,
+      "confidence": 1,
+      "subscores": {
+        "laning": -0.52,
+        "damage": -0.7,
+        "presence": -0.04,
+        "efficiency": -0.48
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 33,
@@ -338,6 +402,14 @@
       "country": "KR",
       "team": "DN SOOPers",
       "role": "MID",
+      "rating": 42.1,
+      "confidence": 1,
+      "subscores": {
+        "laning": -0.29,
+        "damage": -0.71,
+        "presence": -0.16,
+        "efficiency": -0.18
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 33,
@@ -378,6 +450,14 @@
       "country": "KR",
       "team": "KT Rolster",
       "role": "JGL",
+      "rating": 48,
+      "confidence": 0.76,
+      "subscores": {
+        "laning": 0.07,
+        "damage": 0.03,
+        "presence": -0.11,
+        "efficiency": -0.33
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 17,
@@ -418,6 +498,14 @@
       "country": "KR",
       "team": "Hanwha Life",
       "role": "SUP",
+      "rating": 51,
+      "confidence": 0.65,
+      "subscores": {
+        "laning": 0.53,
+        "damage": -1.8,
+        "presence": 0.1,
+        "efficiency": 0.36
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 14,
@@ -458,6 +546,14 @@
       "country": "KR",
       "team": "BNK FEARX",
       "role": "BOT",
+      "rating": 53.7,
+      "confidence": 1,
+      "subscores": {
+        "laning": 0.81,
+        "damage": -0.19,
+        "presence": -0.06,
+        "efficiency": 0.16
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 33,
@@ -498,6 +594,14 @@
       "country": "KR",
       "team": "T1",
       "role": "TOP",
+      "rating": 63.1,
+      "confidence": 1,
+      "subscores": {
+        "laning": 0.71,
+        "damage": 0.61,
+        "presence": 0.37,
+        "efficiency": 0.51
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 23,
@@ -538,6 +642,14 @@
       "country": "KR",
       "team": "DN SOOPers",
       "role": "TOP",
+      "rating": 67.5,
+      "confidence": 1,
+      "subscores": {
+        "laning": 0.93,
+        "damage": 1.11,
+        "presence": -0.27,
+        "efficiency": 0.66
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 33,
@@ -578,6 +690,14 @@
       "country": "KR",
       "team": "Gen.G",
       "role": "SUP",
+      "rating": 75.8,
+      "confidence": 1,
+      "subscores": {
+        "laning": -0.2,
+        "damage": 0.2,
+        "presence": 1.66,
+        "efficiency": 1.48
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 22,
@@ -618,6 +738,14 @@
       "country": "KR",
       "team": "T1",
       "role": "MID",
+      "rating": 42.1,
+      "confidence": 1,
+      "subscores": {
+        "laning": -1.01,
+        "damage": -0.24,
+        "presence": -0.04,
+        "efficiency": -0.09
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 23,
@@ -658,6 +786,14 @@
       "country": "KR",
       "team": "BRION",
       "role": "JGL",
+      "rating": 34,
+      "confidence": 0.84,
+      "subscores": {
+        "laning": 0.06,
+        "damage": -2.08,
+        "presence": -0.93,
+        "efficiency": -0.43
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 19,
@@ -698,6 +834,14 @@
       "country": "KR",
       "team": "KT Rolster",
       "role": "SUP",
+      "rating": 45.4,
+      "confidence": 0.51,
+      "subscores": {
+        "laning": -0.03,
+        "damage": -0.6,
+        "presence": 0.11,
+        "efficiency": -1.1
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 11,
@@ -738,6 +882,14 @@
       "country": "KR",
       "team": "Hanwha Life",
       "role": "BOT",
+      "rating": 53.9,
+      "confidence": 0.62,
+      "subscores": {
+        "laning": -0.6,
+        "damage": 1.23,
+        "presence": -0.1,
+        "efficiency": 0.08
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 14,
@@ -778,6 +930,14 @@
       "country": "KR",
       "team": "DRX",
       "role": "BOT",
+      "rating": 55.6,
+      "confidence": 1,
+      "subscores": {
+        "laning": -0.57,
+        "damage": 0.88,
+        "presence": 0.77,
+        "efficiency": -0.1
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 33,
@@ -818,6 +978,14 @@
       "country": "KR",
       "team": "Hanwha Life",
       "role": "JGL",
+      "rating": 46,
+      "confidence": 0.62,
+      "subscores": {
+        "laning": -0.78,
+        "damage": 0.36,
+        "presence": -0.5,
+        "efficiency": -0.23
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 14,
@@ -858,6 +1026,14 @@
       "country": "KR",
       "team": "BNK FEARX",
       "role": "SUP",
+      "rating": 59.1,
+      "confidence": 1,
+      "subscores": {
+        "laning": 0.13,
+        "damage": 0.04,
+        "presence": 0.37,
+        "efficiency": 0.69
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 33,
@@ -898,6 +1074,14 @@
       "country": "KR",
       "team": "T1",
       "role": "SUP",
+      "rating": 64.3,
+      "confidence": 1,
+      "subscores": {
+        "laning": 0.95,
+        "damage": -0.1,
+        "presence": 0.41,
+        "efficiency": 1
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 23,
@@ -938,6 +1122,14 @@
       "country": "KR",
       "team": "Gen.G",
       "role": "TOP",
+      "rating": 84.2,
+      "confidence": 0.98,
+      "subscores": {
+        "laning": 1.55,
+        "damage": 0.98,
+        "presence": 1.89,
+        "efficiency": 2.27
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 22,
@@ -978,6 +1170,14 @@
       "country": "KR",
       "team": "NS RedForce",
       "role": "SUP",
+      "rating": 48.6,
+      "confidence": 0.98,
+      "subscores": {
+        "laning": 0.74,
+        "damage": 0.44,
+        "presence": -0.47,
+        "efficiency": -0.1
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 21,
@@ -1018,6 +1218,14 @@
       "country": "KR",
       "team": "DN SOOPers",
       "role": "SUP",
+      "rating": 44.2,
+      "confidence": 0.33,
+      "subscores": {
+        "laning": -0.65,
+        "damage": 1.63,
+        "presence": -1.72,
+        "efficiency": -0.54
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 7,
@@ -1058,6 +1266,14 @@
       "country": "KR",
       "team": "Dplus Kia",
       "role": "JGL",
+      "rating": 53.6,
+      "confidence": 1,
+      "subscores": {
+        "laning": 1.76,
+        "damage": 0.57,
+        "presence": -0.23,
+        "efficiency": -0.45
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 35,
@@ -1098,6 +1314,14 @@
       "country": "KR",
       "team": "BRION",
       "role": "SUP",
+      "rating": 55.1,
+      "confidence": 0.88,
+      "subscores": {
+        "laning": 0.72,
+        "damage": 1.78,
+        "presence": -0.07,
+        "efficiency": 0.01
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 19,
@@ -1138,6 +1362,14 @@
       "country": "KR",
       "team": "T1",
       "role": "JGL",
+      "rating": 55.7,
+      "confidence": 1,
+      "subscores": {
+        "laning": -0.29,
+        "damage": 1.04,
+        "presence": -0.63,
+        "efficiency": 1.05
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 23,
@@ -1178,6 +1410,14 @@
       "country": "KR",
       "team": "KT Rolster",
       "role": "TOP",
+      "rating": 36,
+      "confidence": 0.76,
+      "subscores": {
+        "laning": -0.01,
+        "damage": -1.92,
+        "presence": -0.99,
+        "efficiency": -0.64
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 17,
@@ -1218,6 +1458,14 @@
       "country": "KR",
       "team": "DN SOOPers",
       "role": "SUP",
+      "rating": 53,
+      "confidence": 1,
+      "subscores": {
+        "laning": 0.28,
+        "damage": -0.45,
+        "presence": 0.39,
+        "efficiency": -0.05
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 26,
@@ -1258,6 +1506,14 @@
       "country": "KR",
       "team": "T1",
       "role": "BOT",
+      "rating": 59.9,
+      "confidence": 1,
+      "subscores": {
+        "laning": 0.52,
+        "damage": 0.59,
+        "presence": -0.02,
+        "efficiency": 0.46
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 23,
@@ -1298,6 +1554,14 @@
       "country": "KR",
       "team": "KT Rolster",
       "role": "SUP",
+      "rating": 42,
+      "confidence": 0.28,
+      "subscores": {
+        "laning": -1.6,
+        "damage": -1.21,
+        "presence": -1.28,
+        "efficiency": -1.23
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 6,
@@ -1338,6 +1602,14 @@
       "country": "KR",
       "team": "DN SOOPers",
       "role": "JGL",
+      "rating": 50.1,
+      "confidence": 1,
+      "subscores": {
+        "laning": 0.89,
+        "damage": -0.94,
+        "presence": 0.25,
+        "efficiency": -0.09
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 33,
@@ -1378,6 +1650,14 @@
       "country": "KR",
       "team": "BNK FEARX",
       "role": "JGL",
+      "rating": 55,
+      "confidence": 1,
+      "subscores": {
+        "laning": -0.62,
+        "damage": 0.67,
+        "presence": 0.59,
+        "efficiency": -0.07
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 33,
@@ -1418,6 +1698,14 @@
       "country": "KR",
       "team": "DRX",
       "role": "TOP",
+      "rating": 47.4,
+      "confidence": 1,
+      "subscores": {
+        "laning": -0.64,
+        "damage": 0.61,
+        "presence": -0.13,
+        "efficiency": -0.26
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 33,
@@ -1458,6 +1746,14 @@
       "country": "KR",
       "team": "BRION",
       "role": "TOP",
+      "rating": 38.4,
+      "confidence": 0.84,
+      "subscores": {
+        "laning": -1.37,
+        "damage": -0.65,
+        "presence": 0.52,
+        "efficiency": 0
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 19,
@@ -1498,6 +1794,14 @@
       "country": "KR",
       "team": "Gen.G",
       "role": "BOT",
+      "rating": 69.1,
+      "confidence": 0.98,
+      "subscores": {
+        "laning": 1.04,
+        "damage": 0.05,
+        "presence": 1.15,
+        "efficiency": 1.76
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 22,
@@ -1538,6 +1842,14 @@
       "country": "KR",
       "team": "NS RedForce",
       "role": "MID",
+      "rating": 58.3,
+      "confidence": 0.93,
+      "subscores": {
+        "laning": -0.04,
+        "damage": 0.5,
+        "presence": 0.63,
+        "efficiency": 0.54
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 21,
@@ -1578,6 +1890,14 @@
       "country": "KR",
       "team": "Dplus Kia",
       "role": "MID",
+      "rating": 56.6,
+      "confidence": 1,
+      "subscores": {
+        "laning": 1.16,
+        "damage": -0.05,
+        "presence": -0.06,
+        "efficiency": 0.15
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 35,
@@ -1618,6 +1938,14 @@
       "country": "KR",
       "team": "Dplus Kia",
       "role": "TOP",
+      "rating": 48.1,
+      "confidence": 1,
+      "subscores": {
+        "laning": 0.55,
+        "damage": -0.44,
+        "presence": -0.58,
+        "efficiency": -0.36
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 35,
@@ -1658,6 +1986,14 @@
       "country": "KR",
       "team": "Dplus Kia",
       "role": "BOT",
+      "rating": 60.2,
+      "confidence": 1,
+      "subscores": {
+        "laning": 0.39,
+        "damage": 0.71,
+        "presence": 0.23,
+        "efficiency": 0.34
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 35,
@@ -1698,6 +2034,14 @@
       "country": "KR",
       "team": "NS RedForce",
       "role": "JGL",
+      "rating": 42.6,
+      "confidence": 0.93,
+      "subscores": {
+        "laning": -1,
+        "damage": -0.4,
+        "presence": 0.34,
+        "efficiency": -0.82
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 21,
@@ -1738,6 +2082,14 @@
       "country": "KR",
       "team": "NS RedForce",
       "role": "BOT",
+      "rating": 46.8,
+      "confidence": 0.93,
+      "subscores": {
+        "laning": 0.66,
+        "damage": -0.32,
+        "presence": -0.74,
+        "efficiency": -0.4
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 21,
@@ -1778,6 +2130,14 @@
       "country": "KR",
       "team": "BRION",
       "role": "BOT",
+      "rating": 41.2,
+      "confidence": 0.84,
+      "subscores": {
+        "laning": 0.65,
+        "damage": -0.71,
+        "presence": -0.7,
+        "efficiency": -1.13
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 19,
@@ -1818,6 +2178,14 @@
       "country": "KR",
       "team": "DRX",
       "role": "MID",
+      "rating": 32.1,
+      "confidence": 1,
+      "subscores": {
+        "laning": -2,
+        "damage": -1.03,
+        "presence": 0.18,
+        "efficiency": -0.16
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 33,
@@ -1858,6 +2226,14 @@
       "country": "KR",
       "team": "BNK FEARX",
       "role": "MID",
+      "rating": 59,
+      "confidence": 1,
+      "subscores": {
+        "laning": 0.14,
+        "damage": 1.02,
+        "presence": 0.15,
+        "efficiency": 0.16
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 33,
@@ -1898,6 +2274,14 @@
       "country": "KR",
       "team": "DRX",
       "role": "JGL",
+      "rating": 40.5,
+      "confidence": 1,
+      "subscores": {
+        "laning": -1.04,
+        "damage": -0.42,
+        "presence": -0.08,
+        "efficiency": -0.54
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 33,
@@ -1938,6 +2322,14 @@
       "country": "KR",
       "team": "Hanwha Life",
       "role": "MID",
+      "rating": 40.2,
+      "confidence": 0.62,
+      "subscores": {
+        "laning": -0.08,
+        "damage": -1.71,
+        "presence": -0.22,
+        "efficiency": -0.54
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 14,
@@ -1978,6 +2370,14 @@
       "country": "KR",
       "team": "Hanwha Life",
       "role": "TOP",
+      "rating": 50.4,
+      "confidence": 0.62,
+      "subscores": {
+        "laning": 0.27,
+        "damage": 0.63,
+        "presence": 0.12,
+        "efficiency": -1.06
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 14,
@@ -2018,6 +2418,14 @@
       "country": "KR",
       "team": "DN SOOPers",
       "role": "BOT",
+      "rating": 21.6,
+      "confidence": 1,
+      "subscores": {
+        "laning": -1.92,
+        "damage": -1.2,
+        "presence": -0.53,
+        "efficiency": -1.25
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 33,
@@ -2058,6 +2466,14 @@
       "country": "KR",
       "team": "NS RedForce",
       "role": "TOP",
+      "rating": 32.8,
+      "confidence": 0.93,
+      "subscores": {
+        "laning": -1.48,
+        "damage": -0.24,
+        "presence": -0.89,
+        "efficiency": -0.64
+      },
       "tournaments": {
         "LCK Cup 2026": {
           "games": 21,

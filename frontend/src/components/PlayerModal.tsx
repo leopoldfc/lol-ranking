@@ -1,4 +1,4 @@
-import type { Player, Role } from '../types';
+import type { Player, Role, LIRSubscores } from '../types';
 import { fmt, fmtSign, getPlayerStats } from '../utils';
 import RoleTag from './RoleTag';
 
@@ -78,6 +78,29 @@ export default function PlayerModal({ player, onClose, tournament }: Props) {
             <button className="modal__close" onClick={onClose}>✕</button>
           </div>
         </div>
+
+        {/* LIR Subscores */}
+        {player.subscores && (
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 8, marginBottom: 20 }}>
+            {([
+              { key: 'laning',     label: 'Laning' },
+              { key: 'damage',     label: 'Damage' },
+              { key: 'presence',   label: 'Presence' },
+              { key: 'efficiency', label: 'Efficiency' },
+            ] as { key: keyof LIRSubscores; label: string }[]).map(({ key, label }) => {
+              const val = player.subscores![key];
+              const isPos = val >= 0;
+              return (
+                <div key={key} style={{ background: 'var(--surface-2)', borderRadius: 6, padding: '8px 10px', textAlign: 'center' }}>
+                  <div style={{ fontSize: 16, fontWeight: 700, color: isPos ? 'var(--green)' : 'var(--red)' }}>
+                    {isPos ? '+' : ''}{val.toFixed(2)}
+                  </div>
+                  <div className="stat__label" style={{ marginTop: 2 }}>{label}</div>
+                </div>
+              );
+            })}
+          </div>
+        )}
 
         {/* Hero stats */}
         <div className="modal__hero">

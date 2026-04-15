@@ -11,7 +11,14 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/data/exports/lck-cup-2026.json)",
       "Bash(git init:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git remote:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(node -e \"const d = JSON.parse\\(require\\('fs'\\).readFileSync\\('data/exports/lck-cup-2026.json','utf8'\\)\\); const p = d.players[0]; console.log\\(JSON.stringify\\({name:p.name,lir:p.lir,confidence:p.confidence,subscores:p.subscores},null,2\\)\\)\")",
+      "Bash(docker --version)",
+      "Bash(node -e \"const d=JSON.parse\\(require\\('fs'\\).readFileSync\\('data/exports/lck-cup-2026.json','utf8'\\)\\); console.log\\(d.players.length, 'joueurs,', d.metadata.tournaments[0].name\\)\")",
+      "Bash(ssh -T git@github.com)"
     ]
   }
 }
