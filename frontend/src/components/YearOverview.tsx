@@ -56,7 +56,6 @@ function useAllLeaguesData(yearConfig: YearConfig) {
 }
 
 function TopRoleCard({ player, rank }: { player: Player; rank: number }) {
-  const roleColor = ROLE_COLOR[player.role] ?? 'var(--accent)';
   const rating = player.rating ?? 0;
 
   return (
