@@ -10,7 +10,7 @@ const ROLES: Role[] = ['TOP', 'JGL', 'MID', 'BOT', 'SUP'];
 const ROLE_LABEL: Record<Role, string> = { TOP: 'Top', JGL: 'Jungle', MID: 'Mid', BOT: 'Bot', SUP: 'Support' };
 
 // Une seule source de vérité pour les largeurs de colonnes
-const GRID = '40px 200px 80px 70px 70px 80px 70px 70px 70px 70px 80px 70px 70px 70px 80px';
+const GRID = '44px 220px 90px 72px 72px 86px 72px 72px 72px 72px 86px 72px 72px 80px 86px';
 //            #    PLAYER LIR  G    W%   KDA  K    D    A    KP%  DPM  CSM  GPM  GD15 CSD15
 
 function kdaClass(kda: number) {
@@ -107,7 +107,7 @@ export default function RankingTable({ players, tournament, tournamentName }: Pr
     padding: CELL_PAD,
     textAlign: 'right',
     fontFamily: 'var(--font-mono)',
-    fontSize: 12,
+    fontSize: 13,
   };
 
   // Style d'une cellule header numérique
@@ -117,7 +117,7 @@ export default function RankingTable({ players, tournament, tournamentName }: Pr
     cursor: 'pointer',
     fontSize: 11,
     fontFamily: 'var(--font-body)',
-    fontWeight: 500,
+    fontWeight: 600,
     letterSpacing: '0.05em',
     textTransform: 'uppercase' as const,
     color: sortKey === key ? 'var(--accent)' : 'var(--text-3)',
@@ -134,7 +134,7 @@ export default function RankingTable({ players, tournament, tournamentName }: Pr
   return (
     <>
       {/* ── Toolbar ───────────────────────────── */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 10, marginBottom: 16 }}>
+      <div className="ranking-toolbar" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 10, marginBottom: 16 }}>
         <div className="filters" style={{ marginBottom: 0 }}>
           <button className={`filter-btn ${role === 'ALL' ? 'filter-btn--active' : ''}`} onClick={() => setRole('ALL')}>All</button>
           {ROLES.map(r => (
@@ -160,7 +160,7 @@ export default function RankingTable({ players, tournament, tournamentName }: Pr
 
       {/* ── Grid table ────────────────────────── */}
       <div style={{ overflowX: 'auto' }}>
-        <div className="ranking-grid" style={{ minWidth: 900 }}>
+        <div className="ranking-grid" style={{ minWidth: 960 }}>
 
           {/* ── Header ── */}
           <div className="ranking-grid__head" style={rowStyle}>

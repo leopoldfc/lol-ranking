@@ -1,10 +1,12 @@
 /**
  * Détecte les nouveaux tournois gol.gg non encore configurés
- * Compare les tournois S16 filtrés avec les scrape.ts existants
+ * Compare les tournois filtrés avec les scrape.ts existants
+ * Affiche URLs + suggestions LeagueConfig pour les nouveaux
  *
  * Usage : npx tsx leagues/detect.ts
  *         npx tsx leagues/detect.ts --season S15
  *         npx tsx leagues/detect.ts --all     (sans filtre de league)
+ *         npx tsx leagues/detect.ts --debug   (inspecte le JSON brut)
  */
 
 import fetch from 'node-fetch';
@@ -17,7 +19,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const BASE    = 'https://gol.gg';
 const HEADERS = { 'User-Agent': 'lol-esports-scraper/1.0 (stats research bot)', 'Accept': 'text/html' };
 
-const LEAGUE_FILTERS = ['LCK ', 'LPL ', 'LEC ', 'LCS ', 'FIRST STAND', '2026 FIRST', 'MSI', 'WORLDS'];
+const LEAGUE_FILTERS = ['LCK ', 'LPL ', 'LEC ', 'LCS ', 'LTA ', 'FIRST STAND', '2026 FIRST', 'MSI', 'WORLDS', 'MID-SEASON', '2025 MID-SEASON', '2026 MID-SEASON'];
 const LEAGUE_EXCLUDE = ['LCK CL'];
 
 function isTargetLeague(name: string): boolean {
@@ -32,7 +34,8 @@ const seasonArg = process.argv.find(a => a.startsWith('--season='))?.split('=')[
   ?? (process.argv.includes('--season') ? process.argv[process.argv.indexOf('--season') + 1] : null)
   ?? 'S16';
 
-const showAll = process.argv.includes('--all');
+const showAll  = process.argv.includes('--all');
+const debug    = process.argv.includes('--debug');
 
 console.log(`Fetching tournaments from gol.gg (season ${seasonArg})...\n`);
 
@@ -45,12 +48,17 @@ const res  = await fetch(`${BASE}/tournament/ajax.trlist.php`, {
 if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
 const raw = await res.json() as any[];
+
+if (debug) {
+  console.log('Sample entry:', JSON.stringify(raw[0], null, 2));
+  process.exit(0);
+}
+
 const allTournaments = raw.map(t => (t.trname ?? '').trim()).filter(Boolean);
 const tournaments    = showAll ? allTournaments : allTournaments.filter(isTargetLeague);
 
 // ─── Lit les scrape.ts existants pour extraire les tournois configurés ────────
 
-// Cherche tous les scrape.ts dans leagues/<year>/
 const yearDirs = fs.readdirSync(__dirname)
   .filter(d => /^\d{4}$/.test(d) && fs.statSync(path.join(__dirname, d)).isDirectory());
 
@@ -68,7 +76,6 @@ for (const year of yearDirs) {
 
     const content = fs.readFileSync(scrapePath, 'utf8');
 
-    // Extrait les noms de tournois des constantes TOURNAMENT et SPLITS
     const singleMatch = content.match(/const TOURNAMENT\s*=\s*'([^']+)'/);
     if (singleMatch) {
       configuredTournaments.add(singleMatch[1]);
@@ -99,14 +106,30 @@ if (newTournaments.length === 0) {
 } else {
   console.log(`── Nouveaux non configurés (${newTournaments.length}) ──────────────────`);
   for (const t of newTournaments) {
+    const url = `${BASE}/tournament/tournament-stats/${encodeURIComponent(t)}/page-summary/`;
     console.log(`  ⚠  ${t}`);
+    console.log(`     ${url}`);
   }
 
-  console.log('\n── Suggestion à ajouter dans le scraper concerné ───────\n');
+  console.log('\n── Suggestion scraper (SPLITS) ──────────────────────────\n');
   for (const t of newTournaments) {
     const key = t.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
     console.log(`  // ${t}`);
     console.log(`  { key: '${key}', name: '${t}', season: 'ALL' },`);
+    console.log();
+  }
+
+  console.log('── Suggestion leagues.ts (LeagueConfig) ─────────────────\n');
+  for (const t of newTournaments) {
+    const id   = t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    const file = `${id}/export.json`;
+    console.log(`  {`);
+    console.log(`    id:        '${id}',`);
+    console.log(`    label:     '${t}',`);
+    console.log(`    title:     '${t}',`);
+    console.log(`    file:      '${file}',`);
+    console.log(`    available: false,`);
+    console.log(`  },`);
     console.log();
   }
 }

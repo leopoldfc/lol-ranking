@@ -1,0 +1,2928 @@
+{
+  "metadata": {
+    "exportedAt": "2026-04-16T20:47:46.332Z",
+    "tournaments": [
+      {
+        "name": "2025 Mid-Season Invitational",
+        "league": "International",
+        "year": 2025,
+        "split": "MSI",
+        "scrapedAt": "2026-04-16T20:47:46.333Z"
+      }
+    ]
+  },
+  "players": [
+    {
+      "id": 4634,
+      "name": "Alvaro",
+      "country": "ES",
+      "team": "Movistar KOI",
+      "role": "SUP",
+      "rating": 55.2,
+      "confidence": 0.5,
+      "subscores": {
+        "laning": 48.3,
+        "damage": 29,
+        "presence": 95,
+        "efficiency": 35
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 8,
+          "winRate": 25,
+          "kda": 2.6,
+          "avgKills": 0.4,
+          "avgDeaths": 3.3,
+          "avgAssists": 8,
+          "csm": 1,
+          "gpm": 240,
+          "kp": 80,
+          "dmgPct": 8,
+          "goldPct": 13.3,
+          "vsPct": 43.6,
+          "dpm": 182,
+          "vspm": 3.58,
+          "avgWpm": 1.95,
+          "avgWcpm": 0.47,
+          "avgVwpm": 0.51,
+          "gd15": -102,
+          "csd15": -1,
+          "xpd15": 18,
+          "fbPct": 50,
+          "fbVictim": 37.5,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 55.2,
+          "confidence": 0.5,
+          "subscores": {
+            "laning": 48.3,
+            "damage": 29,
+            "presence": 95,
+            "efficiency": 35
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 8,
+        "avgWinRate": 25,
+        "avgKda": 2.6
+      }
+    },
+    {
+      "id": 5343,
+      "name": "Aress",
+      "country": "VN",
+      "team": "GAM Esports",
+      "role": "MID",
+      "rating": 39.3,
+      "confidence": 0.62,
+      "subscores": {
+        "laning": 19.7,
+        "damage": 35.5,
+        "presence": 22.7,
+        "efficiency": 49.8
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 8,
+          "winRate": 50,
+          "kda": 3.3,
+          "avgKills": 2.1,
+          "avgDeaths": 2.4,
+          "avgAssists": 5.8,
+          "csm": 8,
+          "gpm": 377,
+          "kp": 61.5,
+          "dmgPct": 24.3,
+          "goldPct": 20.8,
+          "vsPct": 11.3,
+          "dpm": 558,
+          "vspm": 0.84,
+          "avgWpm": 0.36,
+          "avgWcpm": 0.16,
+          "avgVwpm": 0.14,
+          "gd15": -487,
+          "csd15": -7,
+          "xpd15": -253,
+          "fbPct": 12.5,
+          "fbVictim": 12.5,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 39.3,
+          "confidence": 0.62,
+          "subscores": {
+            "laning": 19.7,
+            "damage": 35.5,
+            "presence": 22.7,
+            "efficiency": 49.8
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 8,
+        "avgWinRate": 50,
+        "avgKda": 3.3
+      }
+    },
+    {
+      "id": 2078,
+      "name": "Artemis",
+      "country": "VN",
+      "team": "GAM Esports",
+      "role": "BOT",
+      "rating": 35.4,
+      "confidence": 0.81,
+      "subscores": {
+        "laning": 48.3,
+        "damage": 18,
+        "presence": 55,
+        "efficiency": 21.5
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 13,
+          "winRate": 38.5,
+          "kda": 3.4,
+          "avgKills": 3.8,
+          "avgDeaths": 2.8,
+          "avgAssists": 5.5,
+          "csm": 9.1,
+          "gpm": 420,
+          "kp": 69,
+          "dmgPct": 25.3,
+          "goldPct": 23.6,
+          "vsPct": 12.8,
+          "dpm": 632,
+          "vspm": 0.96,
+          "avgWpm": 0.35,
+          "avgWcpm": 0.29,
+          "avgVwpm": 0.11,
+          "gd15": 61,
+          "csd15": 1,
+          "xpd15": -40,
+          "fbPct": 30.8,
+          "fbVictim": 7.7,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 35.4,
+          "confidence": 0.81,
+          "subscores": {
+            "laning": 48.3,
+            "damage": 18,
+            "presence": 55,
+            "efficiency": 21.5
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 13,
+        "avgWinRate": 38.5,
+        "avgKda": 3.4
+      }
+    },
+    {
+      "id": 4976,
+      "name": "Ayu",
+      "country": "BR",
+      "team": "FURIA",
+      "role": "BOT",
+      "rating": 34.4,
+      "confidence": 0.63,
+      "subscores": {
+        "laning": 38.3,
+        "damage": 14,
+        "presence": 15,
+        "efficiency": 33
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 10,
+          "winRate": 40,
+          "kda": 3.5,
+          "avgKills": 4.1,
+          "avgDeaths": 2.6,
+          "avgAssists": 4.9,
+          "csm": 9.3,
+          "gpm": 431,
+          "kp": 60.3,
+          "dmgPct": 25,
+          "goldPct": 23.6,
+          "vsPct": 11.9,
+          "dpm": 632,
+          "vspm": 0.92,
+          "avgWpm": 0.39,
+          "avgWcpm": 0.2,
+          "avgVwpm": 0.09,
+          "gd15": -174,
+          "csd15": -4,
+          "xpd15": 26,
+          "fbPct": 30,
+          "fbVictim": 10,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 34.4,
+          "confidence": 0.63,
+          "subscores": {
+            "laning": 38.3,
+            "damage": 14,
+            "presence": 15,
+            "efficiency": 33
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 10,
+        "avgWinRate": 40,
+        "avgKda": 3.5
+      }
+    },
+    {
+      "id": 3767,
+      "name": "Beichuan",
+      "country": "CN",
+      "team": "Bilibili Gaming",
+      "role": "JGL",
+      "rating": 38.4,
+      "confidence": 1,
+      "subscores": {
+        "laning": 48.3,
+        "damage": 57,
+        "presence": 40,
+        "efficiency": 19.3
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 21,
+          "winRate": 57.1,
+          "kda": 3.1,
+          "avgKills": 2.7,
+          "avgDeaths": 3.5,
+          "avgAssists": 8.1,
+          "csm": 6.4,
+          "gpm": 359,
+          "kp": 68.3,
+          "dmgPct": 15.6,
+          "goldPct": 19.1,
+          "vsPct": 15.9,
+          "dpm": 445,
+          "vspm": 1.34,
+          "avgWpm": 0.35,
+          "avgWcpm": 0.23,
+          "avgVwpm": 0.29,
+          "gd15": -36,
+          "csd15": -1,
+          "xpd15": -54,
+          "fbPct": 42.9,
+          "fbVictim": 4.8,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 38.4,
+          "confidence": 1,
+          "subscores": {
+            "laning": 48.3,
+            "damage": 57,
+            "presence": 40,
+            "efficiency": 19.3
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 21,
+        "avgWinRate": 57.1,
+        "avgKda": 3.1
+      }
+    },
+    {
+      "id": 2606,
+      "name": "Bin",
+      "country": "CN",
+      "team": "Bilibili Gaming",
+      "role": "TOP",
+      "rating": 62.4,
+      "confidence": 1,
+      "subscores": {
+        "laning": 68.2,
+        "damage": 42.7,
+        "presence": 31.8,
+        "efficiency": 90
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 21,
+          "winRate": 57.1,
+          "kda": 4.1,
+          "avgKills": 3.1,
+          "avgDeaths": 2.2,
+          "avgAssists": 6,
+          "csm": 8,
+          "gpm": 388,
+          "kp": 53.7,
+          "dmgPct": 21,
+          "goldPct": 20.6,
+          "vsPct": 10.7,
+          "dpm": 590,
+          "vspm": 0.89,
+          "avgWpm": 0.34,
+          "avgWcpm": 0.15,
+          "avgVwpm": 0.11,
+          "gd15": 177,
+          "csd15": 6,
+          "xpd15": 71,
+          "fbPct": 14.3,
+          "fbVictim": 14.3,
+          "pentaKills": 0,
+          "soloKills": 7,
+          "rating": 62.4,
+          "confidence": 1,
+          "subscores": {
+            "laning": 68.2,
+            "damage": 42.7,
+            "presence": 31.8,
+            "efficiency": 90
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 21,
+        "avgWinRate": 57.1,
+        "avgKda": 4.1
+      }
+    },
+    {
+      "id": 1310,
+      "name": "Brokenblade",
+      "country": "DE",
+      "team": "G2 Esports",
+      "role": "TOP",
+      "rating": 34.7,
+      "confidence": 1,
+      "subscores": {
+        "laning": 10.6,
+        "damage": 53.6,
+        "presence": 50,
+        "efficiency": 39.5
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 20,
+          "winRate": 35,
+          "kda": 2.1,
+          "avgKills": 2.5,
+          "avgDeaths": 3.4,
+          "avgAssists": 4.6,
+          "csm": 7.6,
+          "gpm": 373,
+          "kp": 55.7,
+          "dmgPct": 24.3,
+          "goldPct": 20.7,
+          "vsPct": 12.4,
+          "dpm": 559,
+          "vspm": 0.97,
+          "avgWpm": 0.41,
+          "avgWcpm": 0.14,
+          "avgVwpm": 0.14,
+          "gd15": -373,
+          "csd15": -15,
+          "xpd15": -302,
+          "fbPct": 20,
+          "fbVictim": 20,
+          "pentaKills": 0,
+          "soloKills": 6,
+          "rating": 34.7,
+          "confidence": 1,
+          "subscores": {
+            "laning": 10.6,
+            "damage": 53.6,
+            "presence": 50,
+            "efficiency": 39.5
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 20,
+        "avgWinRate": 35,
+        "avgKda": 2.1
+      }
+    },
+    {
+      "id": 4500,
+      "name": "Busio",
+      "country": "US",
+      "team": "FlyQuest",
+      "role": "SUP",
+      "rating": 51.2,
+      "confidence": 0.75,
+      "subscores": {
+        "laning": 20,
+        "damage": 69,
+        "presence": 65,
+        "efficiency": 45
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 12,
+          "winRate": 50,
+          "kda": 3.3,
+          "avgKills": 0.8,
+          "avgDeaths": 3.8,
+          "avgAssists": 11.8,
+          "csm": 0.9,
+          "gpm": 245,
+          "kp": 75.7,
+          "dmgPct": 8.1,
+          "goldPct": 13.4,
+          "vsPct": 44.6,
+          "dpm": 232,
+          "vspm": 3.6,
+          "avgWpm": 2.02,
+          "avgWcpm": 0.37,
+          "avgVwpm": 0.5,
+          "gd15": -278,
+          "csd15": -4,
+          "xpd15": -46,
+          "fbPct": 25,
+          "fbVictim": 8.3,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 51.2,
+          "confidence": 0.75,
+          "subscores": {
+            "laning": 20,
+            "damage": 69,
+            "presence": 65,
+            "efficiency": 45
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 12,
+        "avgWinRate": 50,
+        "avgKda": 3.3
+      }
+    },
+    {
+      "id": 795,
+      "name": "Bwipo",
+      "country": "BE",
+      "team": "FlyQuest",
+      "role": "TOP",
+      "rating": 62.5,
+      "confidence": 0.92,
+      "subscores": {
+        "laning": 50,
+        "damage": 84.5,
+        "presence": 86.4,
+        "efficiency": 48.2
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 12,
+          "winRate": 50,
+          "kda": 2.8,
+          "avgKills": 3.3,
+          "avgDeaths": 3.5,
+          "avgAssists": 6.4,
+          "csm": 7.9,
+          "gpm": 397,
+          "kp": 61.1,
+          "dmgPct": 25.3,
+          "goldPct": 21.8,
+          "vsPct": 12.8,
+          "dpm": 707,
+          "vspm": 1.03,
+          "avgWpm": 0.47,
+          "avgWcpm": 0.17,
+          "avgVwpm": 0.15,
+          "gd15": -11,
+          "csd15": 1,
+          "xpd15": 122,
+          "fbPct": 8.3,
+          "fbVictim": 25,
+          "pentaKills": 0,
+          "soloKills": 3,
+          "rating": 62.5,
+          "confidence": 0.92,
+          "subscores": {
+            "laning": 50,
+            "damage": 84.5,
+            "presence": 86.4,
+            "efficiency": 48.2
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 12,
+        "avgWinRate": 50,
+        "avgKda": 2.8
+      }
+    },
+    {
+      "id": 1909,
+      "name": "Canyon",
+      "country": "KR",
+      "team": "Gen.G eSports",
+      "role": "JGL",
+      "rating": 54.9,
+      "confidence": 1,
+      "subscores": {
+        "laning": 28.3,
+        "damage": 33,
+        "presence": 55,
+        "efficiency": 82.5
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 19,
+          "winRate": 63.2,
+          "kda": 4.2,
+          "avgKills": 2,
+          "avgDeaths": 2.3,
+          "avgAssists": 7.7,
+          "csm": 6.7,
+          "gpm": 360,
+          "kp": 72.9,
+          "dmgPct": 15.2,
+          "goldPct": 19.3,
+          "vsPct": 19.3,
+          "dpm": 407,
+          "vspm": 1.71,
+          "avgWpm": 0.41,
+          "avgWcpm": 0.38,
+          "avgVwpm": 0.33,
+          "gd15": -153,
+          "csd15": -3,
+          "xpd15": -164,
+          "fbPct": 57.9,
+          "fbVictim": 5.3,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 54.9,
+          "confidence": 1,
+          "subscores": {
+            "laning": 28.3,
+            "damage": 33,
+            "presence": 55,
+            "efficiency": 82.5
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 19,
+        "avgWinRate": 63.2,
+        "avgKda": 4.2
+      }
+    },
+    {
+      "id": 802,
+      "name": "Caps",
+      "country": "DK",
+      "team": "G2 Esports",
+      "role": "MID",
+      "rating": 63.3,
+      "confidence": 1,
+      "subscores": {
+        "laning": 92.4,
+        "damage": 42.7,
+        "presence": 68.2,
+        "efficiency": 54.8
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 20,
+          "winRate": 35,
+          "kda": 3,
+          "avgKills": 3,
+          "avgDeaths": 2.7,
+          "avgAssists": 5.1,
+          "csm": 8.8,
+          "gpm": 416,
+          "kp": 67.4,
+          "dmgPct": 25.6,
+          "goldPct": 23.2,
+          "vsPct": 11.1,
+          "dpm": 620,
+          "vspm": 0.86,
+          "avgWpm": 0.25,
+          "avgWcpm": 0.23,
+          "avgVwpm": 0.07,
+          "gd15": 268,
+          "csd15": 7,
+          "xpd15": 304,
+          "fbPct": 20,
+          "fbVictim": 5,
+          "pentaKills": 0,
+          "soloKills": 5,
+          "rating": 63.3,
+          "confidence": 1,
+          "subscores": {
+            "laning": 92.4,
+            "damage": 42.7,
+            "presence": 68.2,
+            "efficiency": 54.8
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 20,
+        "avgWinRate": 35,
+        "avgKda": 3
+      }
+    },
+    {
+      "id": 1629,
+      "name": "Chovy",
+      "country": "KR",
+      "team": "Gen.G eSports",
+      "role": "MID",
+      "rating": 75.8,
+      "confidence": 1,
+      "subscores": {
+        "laning": 71.2,
+        "damage": 86.4,
+        "presence": 50,
+        "efficiency": 88.2
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 19,
+          "winRate": 63.2,
+          "kda": 4.6,
+          "avgKills": 3.3,
+          "avgDeaths": 2.2,
+          "avgAssists": 6.6,
+          "csm": 8.8,
+          "gpm": 412,
+          "kp": 67.1,
+          "dmgPct": 27.9,
+          "goldPct": 22,
+          "vsPct": 13.7,
+          "dpm": 771,
+          "vspm": 1.2,
+          "avgWpm": 0.4,
+          "avgWcpm": 0.33,
+          "avgVwpm": 0.14,
+          "gd15": -26,
+          "csd15": 8,
+          "xpd15": 123,
+          "fbPct": 36.8,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 75.8,
+          "confidence": 1,
+          "subscores": {
+            "laning": 71.2,
+            "damage": 86.4,
+            "presence": 50,
+            "efficiency": 88.2
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 19,
+        "avgWinRate": 63.2,
+        "avgKda": 4.6
+      }
+    },
+    {
+      "id": 3737,
+      "name": "Doggo",
+      "country": "TW",
+      "team": "CTBC Flying Oyster",
+      "role": "BOT",
+      "rating": 70.8,
+      "confidence": 0.81,
+      "subscores": {
+        "laning": 80,
+        "damage": 89,
+        "presence": 35,
+        "efficiency": 76.8
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 13,
+          "winRate": 46.2,
+          "kda": 6,
+          "avgKills": 5.5,
+          "avgDeaths": 1.6,
+          "avgAssists": 4.3,
+          "csm": 9.3,
+          "gpm": 462,
+          "kp": 66.3,
+          "dmgPct": 30.6,
+          "goldPct": 25,
+          "vsPct": 14.9,
+          "dpm": 791,
+          "vspm": 1.35,
+          "avgWpm": 0.49,
+          "avgWcpm": 0.4,
+          "avgVwpm": 0.19,
+          "gd15": 123,
+          "csd15": 3,
+          "xpd15": 213,
+          "fbPct": 46.2,
+          "fbVictim": 0,
+          "pentaKills": 1,
+          "soloKills": 3,
+          "rating": 70.8,
+          "confidence": 0.81,
+          "subscores": {
+            "laning": 80,
+            "damage": 89,
+            "presence": 35,
+            "efficiency": 76.8
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 13,
+        "avgWinRate": 46.2,
+        "avgKda": 6
+      }
+    },
+    {
+      "id": 1242,
+      "name": "Doran",
+      "country": "KR",
+      "team": "T1",
+      "role": "TOP",
+      "rating": 40.1,
+      "confidence": 1,
+      "subscores": {
+        "laning": 40.9,
+        "damage": 40.9,
+        "presence": 40.9,
+        "efficiency": 37.5
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 23,
+          "winRate": 56.5,
+          "kda": 2.5,
+          "avgKills": 2,
+          "avgDeaths": 3.4,
+          "avgAssists": 6.4,
+          "csm": 7.4,
+          "gpm": 373,
+          "kp": 55.4,
+          "dmgPct": 20.9,
+          "goldPct": 20.1,
+          "vsPct": 12.5,
+          "dpm": 561,
+          "vspm": 1.06,
+          "avgWpm": 0.41,
+          "avgWcpm": 0.2,
+          "avgVwpm": 0.21,
+          "gd15": 44,
+          "csd15": -4,
+          "xpd15": -108,
+          "fbPct": 17.4,
+          "fbVictim": 17.4,
+          "pentaKills": 0,
+          "soloKills": 7,
+          "rating": 40.1,
+          "confidence": 1,
+          "subscores": {
+            "laning": 40.9,
+            "damage": 40.9,
+            "presence": 40.9,
+            "efficiency": 37.5
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 23,
+        "avgWinRate": 56.5,
+        "avgKda": 2.5
+      }
+    },
+    {
+      "id": 2960,
+      "name": "Driver",
+      "country": "TW",
+      "team": "CTBC Flying Oyster",
+      "role": "TOP",
+      "rating": 52.5,
+      "confidence": 0.54,
+      "subscores": {
+        "laning": 80.3,
+        "damage": 19.1,
+        "presence": 68.2,
+        "efficiency": 56.1
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 7,
+          "winRate": 57.1,
+          "kda": 3.2,
+          "avgKills": 2.1,
+          "avgDeaths": 2.7,
+          "avgAssists": 6.6,
+          "csm": 7.5,
+          "gpm": 373,
+          "kp": 57.5,
+          "dmgPct": 19.1,
+          "goldPct": 19.8,
+          "vsPct": 12.2,
+          "dpm": 514,
+          "vspm": 1.14,
+          "avgWpm": 0.59,
+          "avgWcpm": 0.17,
+          "avgVwpm": 0.27,
+          "gd15": 111,
+          "csd15": 8,
+          "xpd15": 376,
+          "fbPct": 0,
+          "fbVictim": 14.3,
+          "pentaKills": 0,
+          "soloKills": 2,
+          "rating": 52.5,
+          "confidence": 0.54,
+          "subscores": {
+            "laning": 80.3,
+            "damage": 19.1,
+            "presence": 68.2,
+            "efficiency": 56.1
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 7,
+        "avgWinRate": 57.1,
+        "avgKda": 3.2
+      }
+    },
+    {
+      "id": 4259,
+      "name": "Duro",
+      "country": "KR",
+      "team": "Gen.G eSports",
+      "role": "SUP",
+      "rating": 46.9,
+      "confidence": 1,
+      "subscores": {
+        "laning": 13.3,
+        "damage": 15,
+        "presence": 45,
+        "efficiency": 72.5
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 19,
+          "winRate": 63.2,
+          "kda": 3.4,
+          "avgKills": 0.4,
+          "avgDeaths": 2.8,
+          "avgAssists": 9.1,
+          "csm": 0.9,
+          "gpm": 243,
+          "kp": 73.2,
+          "dmgPct": 6.3,
+          "goldPct": 13.1,
+          "vsPct": 41.2,
+          "dpm": 174,
+          "vspm": 3.64,
+          "avgWpm": 1.87,
+          "avgWcpm": 0.41,
+          "avgVwpm": 0.49,
+          "gd15": -106,
+          "csd15": -4,
+          "xpd15": -263,
+          "fbPct": 36.8,
+          "fbVictim": 15.8,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 46.9,
+          "confidence": 1,
+          "subscores": {
+            "laning": 13.3,
+            "damage": 15,
+            "presence": 45,
+            "efficiency": 72.5
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 19,
+        "avgWinRate": 63.2,
+        "avgKda": 3.4
+      }
+    },
+    {
+      "id": 3096,
+      "name": "Elio",
+      "country": "VN",
+      "team": "GAM Esports",
+      "role": "SUP",
+      "rating": 46.2,
+      "confidence": 0.81,
+      "subscores": {
+        "laning": 48.3,
+        "damage": 74,
+        "presence": 35,
+        "efficiency": 47.5
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 13,
+          "winRate": 38.5,
+          "kda": 3,
+          "avgKills": 0.6,
+          "avgDeaths": 3.3,
+          "avgAssists": 9.2,
+          "csm": 1,
+          "gpm": 244,
+          "kp": 72.8,
+          "dmgPct": 9.6,
+          "goldPct": 13.7,
+          "vsPct": 42.1,
+          "dpm": 217,
+          "vspm": 3.16,
+          "avgWpm": 1.59,
+          "avgWcpm": 0.32,
+          "avgVwpm": 0.43,
+          "gd15": 26,
+          "csd15": -1,
+          "xpd15": -50,
+          "fbPct": 30.8,
+          "fbVictim": 15.4,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 46.2,
+          "confidence": 0.81,
+          "subscores": {
+            "laning": 48.3,
+            "damage": 74,
+            "presence": 35,
+            "efficiency": 47.5
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 13,
+        "avgWinRate": 38.5,
+        "avgKda": 3
+      }
+    },
+    {
+      "id": 2376,
+      "name": "Elk",
+      "country": "CN",
+      "team": "Bilibili Gaming",
+      "role": "BOT",
+      "rating": 59.9,
+      "confidence": 1,
+      "subscores": {
+        "laning": 76.7,
+        "damage": 67,
+        "presence": 25,
+        "efficiency": 54.3
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 21,
+          "winRate": 57.1,
+          "kda": 4.3,
+          "avgKills": 4.5,
+          "avgDeaths": 2.5,
+          "avgAssists": 6.1,
+          "csm": 9.4,
+          "gpm": 452,
+          "kp": 63.8,
+          "dmgPct": 28,
+          "goldPct": 24,
+          "vsPct": 15.6,
+          "dpm": 788,
+          "vspm": 1.31,
+          "avgWpm": 0.37,
+          "avgWcpm": 0.44,
+          "avgVwpm": 0.13,
+          "gd15": 267,
+          "csd15": 3,
+          "xpd15": 71,
+          "fbPct": 47.6,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 3,
+          "rating": 59.9,
+          "confidence": 1,
+          "subscores": {
+            "laning": 76.7,
+            "damage": 67,
+            "presence": 25,
+            "efficiency": 54.3
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 21,
+        "avgWinRate": 57.1,
+        "avgKda": 4.3
+      }
+    },
+    {
+      "id": 2719,
+      "name": "Elyoya",
+      "country": "ES",
+      "team": "Movistar KOI",
+      "role": "JGL",
+      "rating": 39.6,
+      "confidence": 0.5,
+      "subscores": {
+        "laning": 8.3,
+        "damage": 41,
+        "presence": 40,
+        "efficiency": 19
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 8,
+          "winRate": 25,
+          "kda": 2.8,
+          "avgKills": 1.4,
+          "avgDeaths": 2.8,
+          "avgAssists": 6.4,
+          "csm": 5.9,
+          "gpm": 327,
+          "kp": 68.3,
+          "dmgPct": 16.4,
+          "goldPct": 18.1,
+          "vsPct": 19.8,
+          "dpm": 376,
+          "vspm": 1.66,
+          "avgWpm": 0.35,
+          "avgWcpm": 0.48,
+          "avgVwpm": 0.33,
+          "gd15": -192,
+          "csd15": -11,
+          "xpd15": -453,
+          "fbPct": 37.5,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 39.6,
+          "confidence": 0.5,
+          "subscores": {
+            "laning": 8.3,
+            "damage": 41,
+            "presence": 40,
+            "efficiency": 19
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 8,
+        "avgWinRate": 25,
+        "avgKda": 2.8
+      }
+    },
+    {
+      "id": 5154,
+      "name": "Emo",
+      "country": "VN",
+      "team": "GAM Esports",
+      "role": "MID",
+      "rating": 35.6,
+      "confidence": 0.38,
+      "subscores": {
+        "laning": 4.5,
+        "damage": 8.2,
+        "presence": 31.8,
+        "efficiency": 10.7
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 5,
+          "winRate": 20,
+          "kda": 2.5,
+          "avgKills": 3,
+          "avgDeaths": 3.6,
+          "avgAssists": 6,
+          "csm": 7.8,
+          "gpm": 365,
+          "kp": 64.3,
+          "dmgPct": 22.1,
+          "goldPct": 21.1,
+          "vsPct": 14.3,
+          "dpm": 491,
+          "vspm": 1.08,
+          "avgWpm": 0.56,
+          "avgWcpm": 0.18,
+          "avgVwpm": 0.28,
+          "gd15": -729,
+          "csd15": -13,
+          "xpd15": -768,
+          "fbPct": 0,
+          "fbVictim": 20,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 35.6,
+          "confidence": 0.38,
+          "subscores": {
+            "laning": 4.5,
+            "damage": 8.2,
+            "presence": 31.8,
+            "efficiency": 10.7
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 5,
+        "avgWinRate": 20,
+        "avgKda": 2.5
+      }
+    },
+    {
+      "id": 48,
+      "name": "Faker",
+      "country": "KR",
+      "team": "T1",
+      "role": "MID",
+      "rating": 46.7,
+      "confidence": 1,
+      "subscores": {
+        "laning": 40.9,
+        "damage": 44.5,
+        "presence": 40.9,
+        "efficiency": 59.8
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 23,
+          "winRate": 56.5,
+          "kda": 4.1,
+          "avgKills": 3.5,
+          "avgDeaths": 2.7,
+          "avgAssists": 7.3,
+          "csm": 8.3,
+          "gpm": 403,
+          "kp": 65.3,
+          "dmgPct": 23.9,
+          "goldPct": 21.7,
+          "vsPct": 12,
+          "dpm": 635,
+          "vspm": 1.02,
+          "avgWpm": 0.44,
+          "avgWcpm": 0.24,
+          "avgVwpm": 0.18,
+          "gd15": -126,
+          "csd15": -2,
+          "xpd15": -78,
+          "fbPct": 4.3,
+          "fbVictim": 21.7,
+          "pentaKills": 0,
+          "soloKills": 3,
+          "rating": 46.7,
+          "confidence": 1,
+          "subscores": {
+            "laning": 40.9,
+            "damage": 44.5,
+            "presence": 40.9,
+            "efficiency": 59.8
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 23,
+        "avgWinRate": 56.5,
+        "avgKda": 4.1
+      }
+    },
+    {
+      "id": 341,
+      "name": "Flandre",
+      "country": "CN",
+      "team": "Anyone s Legend",
+      "role": "TOP",
+      "rating": 58.9,
+      "confidence": 1,
+      "subscores": {
+        "laning": 43.9,
+        "damage": 55.5,
+        "presence": 77.3,
+        "efficiency": 76.8
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 21,
+          "winRate": 61.9,
+          "kda": 3.6,
+          "avgKills": 3.1,
+          "avgDeaths": 2.6,
+          "avgAssists": 6.2,
+          "csm": 7.9,
+          "gpm": 391,
+          "kp": 59.8,
+          "dmgPct": 21.8,
+          "goldPct": 20.8,
+          "vsPct": 10.6,
+          "dpm": 591,
+          "vspm": 0.95,
+          "avgWpm": 0.35,
+          "avgWcpm": 0.2,
+          "avgVwpm": 0.16,
+          "gd15": 20,
+          "csd15": -3,
+          "xpd15": -62,
+          "fbPct": 14.3,
+          "fbVictim": 14.3,
+          "pentaKills": 0,
+          "soloKills": 5,
+          "rating": 58.9,
+          "confidence": 1,
+          "subscores": {
+            "laning": 43.9,
+            "damage": 55.5,
+            "presence": 77.3,
+            "efficiency": 76.8
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 21,
+        "avgWinRate": 61.9,
+        "avgKda": 3.6
+      }
+    },
+    {
+      "id": 3116,
+      "name": "Guigo",
+      "country": "BR",
+      "team": "FURIA",
+      "role": "TOP",
+      "rating": 46.7,
+      "confidence": 0.77,
+      "subscores": {
+        "laning": 34.8,
+        "damage": 84.5,
+        "presence": 22.7,
+        "efficiency": 23.6
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 10,
+          "winRate": 40,
+          "kda": 2,
+          "avgKills": 3.1,
+          "avgDeaths": 4.1,
+          "avgAssists": 5.2,
+          "csm": 7.6,
+          "gpm": 381,
+          "kp": 52.3,
+          "dmgPct": 24.9,
+          "goldPct": 20.9,
+          "vsPct": 13.2,
+          "dpm": 632,
+          "vspm": 1.03,
+          "avgWpm": 0.35,
+          "avgWcpm": 0.21,
+          "avgVwpm": 0.13,
+          "gd15": -156,
+          "csd15": 2,
+          "xpd15": -156,
+          "fbPct": 20,
+          "fbVictim": 30,
+          "pentaKills": 0,
+          "soloKills": 2,
+          "rating": 46.7,
+          "confidence": 0.77,
+          "subscores": {
+            "laning": 34.8,
+            "damage": 84.5,
+            "presence": 22.7,
+            "efficiency": 23.6
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 10,
+        "avgWinRate": 40,
+        "avgKda": 2
+      }
+    },
+    {
+      "id": 3247,
+      "name": "Gumayusi",
+      "country": "KR",
+      "team": "T1",
+      "role": "BOT",
+      "rating": 85.5,
+      "confidence": 1,
+      "subscores": {
+        "laning": 81.7,
+        "damage": 91,
+        "presence": 75,
+        "efficiency": 88
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 23,
+          "winRate": 56.5,
+          "kda": 6,
+          "avgKills": 5.3,
+          "avgDeaths": 1.8,
+          "avgAssists": 5.7,
+          "csm": 9.7,
+          "gpm": 458,
+          "kp": 72,
+          "dmgPct": 30,
+          "goldPct": 24.6,
+          "vsPct": 15.6,
+          "dpm": 800,
+          "vspm": 1.33,
+          "avgWpm": 0.47,
+          "avgWcpm": 0.36,
+          "avgVwpm": 0.16,
+          "gd15": 124,
+          "csd15": 5,
+          "xpd15": 111,
+          "fbPct": 8.7,
+          "fbVictim": 13,
+          "pentaKills": 0,
+          "soloKills": 2,
+          "rating": 85.5,
+          "confidence": 1,
+          "subscores": {
+            "laning": 81.7,
+            "damage": 91,
+            "presence": 75,
+            "efficiency": 88
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 23,
+        "avgWinRate": 56.5,
+        "avgKda": 6
+      }
+    },
+    {
+      "id": 732,
+      "name": "Hans Sama",
+      "country": "FR",
+      "team": "G2 Esports",
+      "role": "BOT",
+      "rating": 15,
+      "confidence": 1,
+      "subscores": {
+        "laning": 10,
+        "damage": 13,
+        "presence": 5,
+        "efficiency": 29
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 20,
+          "winRate": 35,
+          "kda": 3.2,
+          "avgKills": 2.9,
+          "avgDeaths": 2.4,
+          "avgAssists": 4.8,
+          "csm": 9,
+          "gpm": 405,
+          "kp": 56.5,
+          "dmgPct": 24.9,
+          "goldPct": 22.5,
+          "vsPct": 13.6,
+          "dpm": 600,
+          "vspm": 1.06,
+          "avgWpm": 0.33,
+          "avgWcpm": 0.32,
+          "avgVwpm": 0.04,
+          "gd15": -336,
+          "csd15": -6,
+          "xpd15": -212,
+          "fbPct": 20,
+          "fbVictim": 20,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 15,
+          "confidence": 1,
+          "subscores": {
+            "laning": 10,
+            "damage": 13,
+            "presence": 5,
+            "efficiency": 29
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 20,
+        "avgWinRate": 35,
+        "avgKda": 3.2
+      }
+    },
+    {
+      "id": 5904,
+      "name": "HongQ",
+      "country": "TW",
+      "team": "CTBC Flying Oyster",
+      "role": "MID",
+      "rating": 57.3,
+      "confidence": 1,
+      "subscores": {
+        "laning": 53,
+        "damage": 95.5,
+        "presence": 59.1,
+        "efficiency": 14.3
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 13,
+          "winRate": 46.2,
+          "kda": 2.5,
+          "avgKills": 4.5,
+          "avgDeaths": 3.9,
+          "avgAssists": 5.3,
+          "csm": 8.1,
+          "gpm": 416,
+          "kp": 67.3,
+          "dmgPct": 30.8,
+          "goldPct": 22.5,
+          "vsPct": 14.6,
+          "dpm": 803,
+          "vspm": 1.32,
+          "avgWpm": 0.58,
+          "avgWcpm": 0.24,
+          "avgVwpm": 0.29,
+          "gd15": 136,
+          "csd15": 0,
+          "xpd15": -140,
+          "fbPct": 30.8,
+          "fbVictim": 15.4,
+          "pentaKills": 0,
+          "soloKills": 7,
+          "rating": 57.3,
+          "confidence": 1,
+          "subscores": {
+            "laning": 53,
+            "damage": 95.5,
+            "presence": 59.1,
+            "efficiency": 14.3
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 13,
+        "avgWinRate": 46.2,
+        "avgKda": 2.5
+      }
+    },
+    {
+      "id": 1561,
+      "name": "Hope",
+      "country": "CN",
+      "team": "Anyone s Legend",
+      "role": "BOT",
+      "rating": 49.8,
+      "confidence": 1,
+      "subscores": {
+        "laning": 31.7,
+        "damage": 59,
+        "presence": 45,
+        "efficiency": 57.8
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 21,
+          "winRate": 61.9,
+          "kda": 4.4,
+          "avgKills": 4.8,
+          "avgDeaths": 2.5,
+          "avgAssists": 6.2,
+          "csm": 9.4,
+          "gpm": 447,
+          "kp": 68.1,
+          "dmgPct": 28.1,
+          "goldPct": 23.8,
+          "vsPct": 15.3,
+          "dpm": 755,
+          "vspm": 1.37,
+          "avgWpm": 0.5,
+          "avgWcpm": 0.4,
+          "avgVwpm": 0.18,
+          "gd15": 54,
+          "csd15": 0,
+          "xpd15": -215,
+          "fbPct": 28.6,
+          "fbVictim": 4.8,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 49.8,
+          "confidence": 1,
+          "subscores": {
+            "laning": 31.7,
+            "damage": 59,
+            "presence": 45,
+            "efficiency": 57.8
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 21,
+        "avgWinRate": 61.9,
+        "avgKda": 4.4
+      }
+    },
+    {
+      "id": 1501,
+      "name": "Inspired",
+      "country": "PL",
+      "team": "FlyQuest",
+      "role": "JGL",
+      "rating": 70.5,
+      "confidence": 0.75,
+      "subscores": {
+        "laning": 81.7,
+        "damage": 91,
+        "presence": 85,
+        "efficiency": 57.3
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 12,
+          "winRate": 50,
+          "kda": 4.1,
+          "avgKills": 4.9,
+          "avgDeaths": 3,
+          "avgAssists": 7.5,
+          "csm": 6.8,
+          "gpm": 392,
+          "kp": 75.6,
+          "dmgPct": 18.5,
+          "goldPct": 21.4,
+          "vsPct": 16.4,
+          "dpm": 544,
+          "vspm": 1.31,
+          "avgWpm": 0.25,
+          "avgWcpm": 0.34,
+          "avgVwpm": 0.18,
+          "gd15": 227,
+          "csd15": 3,
+          "xpd15": 101,
+          "fbPct": 33.3,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 4,
+          "rating": 70.5,
+          "confidence": 0.75,
+          "subscores": {
+            "laning": 81.7,
+            "damage": 91,
+            "presence": 85,
+            "efficiency": 57.3
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 12,
+        "avgWinRate": 50,
+        "avgKda": 4.1
+      }
+    },
+    {
+      "id": 2329,
+      "name": "JoJo",
+      "country": "BR",
+      "team": "FURIA",
+      "role": "SUP",
+      "rating": 45.9,
+      "confidence": 0.63,
+      "subscores": {
+        "laning": 51.7,
+        "damage": 75,
+        "presence": 55,
+        "efficiency": 17.5
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 10,
+          "winRate": 40,
+          "kda": 2.6,
+          "avgKills": 0.4,
+          "avgDeaths": 4.1,
+          "avgAssists": 10.4,
+          "csm": 1,
+          "gpm": 244,
+          "kp": 74.3,
+          "dmgPct": 8.9,
+          "goldPct": 13.4,
+          "vsPct": 42.6,
+          "dpm": 228,
+          "vspm": 3.31,
+          "avgWpm": 1.69,
+          "avgWcpm": 0.32,
+          "avgVwpm": 0.44,
+          "gd15": -119,
+          "csd15": 0,
+          "xpd15": 81,
+          "fbPct": 30,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 45.9,
+          "confidence": 0.63,
+          "subscores": {
+            "laning": 51.7,
+            "damage": 75,
+            "presence": 55,
+            "efficiency": 17.5
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 10,
+        "avgWinRate": 40,
+        "avgKda": 2.6
+      }
+    },
+    {
+      "id": 2907,
+      "name": "JunJia",
+      "country": "TW",
+      "team": "CTBC Flying Oyster",
+      "role": "JGL",
+      "rating": 34.7,
+      "confidence": 0.81,
+      "subscores": {
+        "laning": 45,
+        "damage": 11,
+        "presence": 25,
+        "efficiency": 45
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 13,
+          "winRate": 46.2,
+          "kda": 3.5,
+          "avgKills": 1.8,
+          "avgDeaths": 2.8,
+          "avgAssists": 7.9,
+          "csm": 6.5,
+          "gpm": 356,
+          "kp": 67.4,
+          "dmgPct": 14.9,
+          "goldPct": 19.3,
+          "vsPct": 18.2,
+          "dpm": 388,
+          "vspm": 1.67,
+          "avgWpm": 0.44,
+          "avgWcpm": 0.4,
+          "avgVwpm": 0.38,
+          "gd15": -152,
+          "csd15": 1,
+          "xpd15": -83,
+          "fbPct": 46.2,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 34.7,
+          "confidence": 0.81,
+          "subscores": {
+            "laning": 45,
+            "damage": 11,
+            "presence": 25,
+            "efficiency": 45
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 13,
+        "avgWinRate": 46.2,
+        "avgKda": 3.5
+      }
+    },
+    {
+      "id": 3323,
+      "name": "Kael",
+      "country": "KR",
+      "team": "Anyone s Legend",
+      "role": "SUP",
+      "rating": 74.2,
+      "confidence": 1,
+      "subscores": {
+        "laning": 91.7,
+        "damage": 31,
+        "presence": 80,
+        "efficiency": 72.5
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 21,
+          "winRate": 61.9,
+          "kda": 3.7,
+          "avgKills": 0.4,
+          "avgDeaths": 3.2,
+          "avgAssists": 11.5,
+          "csm": 1.1,
+          "gpm": 250,
+          "kp": 76.9,
+          "dmgPct": 7.8,
+          "goldPct": 13.3,
+          "vsPct": 45,
+          "dpm": 210,
+          "vspm": 4.04,
+          "avgWpm": 2.15,
+          "avgWcpm": 0.5,
+          "avgVwpm": 0.65,
+          "gd15": 157,
+          "csd15": 4,
+          "xpd15": 237,
+          "fbPct": 33.3,
+          "fbVictim": 23.8,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 74.2,
+          "confidence": 1,
+          "subscores": {
+            "laning": 91.7,
+            "damage": 31,
+            "presence": 80,
+            "efficiency": 72.5
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 21,
+        "avgWinRate": 61.9,
+        "avgKda": 3.7
+      }
+    },
+    {
+      "id": 1006,
+      "name": "Kaiwing",
+      "country": "HK",
+      "team": "CTBC Flying Oyster",
+      "role": "SUP",
+      "rating": 42.9,
+      "confidence": 0.81,
+      "subscores": {
+        "laning": 31.7,
+        "damage": 5,
+        "presence": 20,
+        "efficiency": 80
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 13,
+          "winRate": 46.2,
+          "kda": 3.7,
+          "avgKills": 0.6,
+          "avgDeaths": 2.8,
+          "avgAssists": 9.8,
+          "csm": 1,
+          "gpm": 257,
+          "kp": 70.4,
+          "dmgPct": 6.1,
+          "goldPct": 13.9,
+          "vsPct": 40.6,
+          "dpm": 161,
+          "vspm": 3.69,
+          "avgWpm": 1.88,
+          "avgWcpm": 0.45,
+          "avgVwpm": 0.51,
+          "gd15": -8,
+          "csd15": -3,
+          "xpd15": -161,
+          "fbPct": 46.2,
+          "fbVictim": 7.7,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 42.9,
+          "confidence": 0.81,
+          "subscores": {
+            "laning": 31.7,
+            "damage": 5,
+            "presence": 20,
+            "efficiency": 80
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 13,
+        "avgWinRate": 46.2,
+        "avgKda": 3.7
+      }
+    },
+    {
+      "id": 1258,
+      "name": "Keria",
+      "country": "KR",
+      "team": "T1",
+      "role": "SUP",
+      "rating": 84.2,
+      "confidence": 1,
+      "subscores": {
+        "laning": 85,
+        "damage": 62,
+        "presence": 80,
+        "efficiency": 95
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 23,
+          "winRate": 56.5,
+          "kda": 5,
+          "avgKills": 0.8,
+          "avgDeaths": 2.4,
+          "avgAssists": 11.1,
+          "csm": 1,
+          "gpm": 251,
+          "kp": 76.9,
+          "dmgPct": 8.3,
+          "goldPct": 13.5,
+          "vsPct": 42,
+          "dpm": 217,
+          "vspm": 3.55,
+          "avgWpm": 2.03,
+          "avgWcpm": 0.33,
+          "avgVwpm": 0.57,
+          "gd15": 65,
+          "csd15": 3,
+          "xpd15": 262,
+          "fbPct": 4.3,
+          "fbVictim": 17.4,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 84.2,
+          "confidence": 1,
+          "subscores": {
+            "laning": 85,
+            "damage": 62,
+            "presence": 80,
+            "efficiency": 95
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 23,
+        "avgWinRate": 56.5,
+        "avgKda": 5
+      }
+    },
+    {
+      "id": 1671,
+      "name": "Kiaya",
+      "country": "VN",
+      "team": "GAM Esports",
+      "role": "TOP",
+      "rating": 71.6,
+      "confidence": 1,
+      "subscores": {
+        "laning": 90.9,
+        "damage": 71.8,
+        "presence": 59.1,
+        "efficiency": 49.3
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 13,
+          "winRate": 38.5,
+          "kda": 2.1,
+          "avgKills": 2.5,
+          "avgDeaths": 3.6,
+          "avgAssists": 5.1,
+          "csm": 8.1,
+          "gpm": 387,
+          "kp": 55.8,
+          "dmgPct": 25.4,
+          "goldPct": 21.7,
+          "vsPct": 14.5,
+          "dpm": 604,
+          "vspm": 1.09,
+          "avgWpm": 0.53,
+          "avgWcpm": 0.14,
+          "avgVwpm": 0.2,
+          "gd15": 351,
+          "csd15": 11,
+          "xpd15": 265,
+          "fbPct": 15.4,
+          "fbVictim": 7.7,
+          "pentaKills": 0,
+          "soloKills": 7,
+          "rating": 71.6,
+          "confidence": 1,
+          "subscores": {
+            "laning": 90.9,
+            "damage": 71.8,
+            "presence": 59.1,
+            "efficiency": 49.3
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 13,
+        "avgWinRate": 38.5,
+        "avgKda": 2.1
+      }
+    },
+    {
+      "id": 1115,
+      "name": "Kiin",
+      "country": "KR",
+      "team": "Gen.G eSports",
+      "role": "TOP",
+      "rating": 80.8,
+      "confidence": 1,
+      "subscores": {
+        "laning": 84.8,
+        "damage": 75.5,
+        "presence": 95.5,
+        "efficiency": 75.7
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 19,
+          "winRate": 63.2,
+          "kda": 3.4,
+          "avgKills": 2.9,
+          "avgDeaths": 2.7,
+          "avgAssists": 6.2,
+          "csm": 8,
+          "gpm": 402,
+          "kp": 67.4,
+          "dmgPct": 23.7,
+          "goldPct": 21.5,
+          "vsPct": 12.1,
+          "dpm": 671,
+          "vspm": 1.07,
+          "avgWpm": 0.38,
+          "avgWcpm": 0.2,
+          "avgVwpm": 0.15,
+          "gd15": 218,
+          "csd15": 11,
+          "xpd15": 258,
+          "fbPct": 31.6,
+          "fbVictim": 5.3,
+          "pentaKills": 0,
+          "soloKills": 2,
+          "rating": 80.8,
+          "confidence": 1,
+          "subscores": {
+            "laning": 84.8,
+            "damage": 75.5,
+            "presence": 95.5,
+            "efficiency": 75.7
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 19,
+        "avgWinRate": 63.2,
+        "avgKda": 3.4
+      }
+    },
+    {
+      "id": 1270,
+      "name": "Knight",
+      "country": "CN",
+      "team": "Bilibili Gaming",
+      "role": "MID",
+      "rating": 78.2,
+      "confidence": 1,
+      "subscores": {
+        "laning": 68.2,
+        "damage": 77.3,
+        "presence": 95.5,
+        "efficiency": 75.7
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 21,
+          "winRate": 57.1,
+          "kda": 4.9,
+          "avgKills": 5.3,
+          "avgDeaths": 2.4,
+          "avgAssists": 6.7,
+          "csm": 8.3,
+          "gpm": 427,
+          "kp": 72.4,
+          "dmgPct": 27.1,
+          "goldPct": 22.7,
+          "vsPct": 12.6,
+          "dpm": 765,
+          "vspm": 1.05,
+          "avgWpm": 0.26,
+          "avgWcpm": 0.28,
+          "avgVwpm": 0.11,
+          "gd15": 168,
+          "csd15": -1,
+          "xpd15": 168,
+          "fbPct": 28.6,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 11,
+          "rating": 78.2,
+          "confidence": 1,
+          "subscores": {
+            "laning": 68.2,
+            "damage": 77.3,
+            "presence": 95.5,
+            "efficiency": 75.7
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 21,
+        "avgWinRate": 57.1,
+        "avgKda": 4.9
+      }
+    },
+    {
+      "id": 2887,
+      "name": "Labrov",
+      "country": "GR",
+      "team": "G2 Esports",
+      "role": "SUP",
+      "rating": 20.6,
+      "confidence": 1,
+      "subscores": {
+        "laning": 48.3,
+        "damage": 61,
+        "presence": 5,
+        "efficiency": 15
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 20,
+          "winRate": 35,
+          "kda": 2.2,
+          "avgKills": 0.5,
+          "avgDeaths": 4,
+          "avgAssists": 8.1,
+          "csm": 1,
+          "gpm": 239,
+          "kp": 68.5,
+          "dmgPct": 9,
+          "goldPct": 13.3,
+          "vsPct": 44.8,
+          "dpm": 214,
+          "vspm": 3.46,
+          "avgWpm": 1.91,
+          "avgWcpm": 0.35,
+          "avgVwpm": 0.53,
+          "gd15": -33,
+          "csd15": 2,
+          "xpd15": -145,
+          "fbPct": 20,
+          "fbVictim": 5,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 20.6,
+          "confidence": 1,
+          "subscores": {
+            "laning": 48.3,
+            "damage": 61,
+            "presence": 5,
+            "efficiency": 15
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 20,
+        "avgWinRate": 35,
+        "avgKda": 2.2
+      }
+    },
+    {
+      "id": 974,
+      "name": "Levi",
+      "country": "VN",
+      "team": "GAM Esports",
+      "role": "JGL",
+      "rating": 44.7,
+      "confidence": 0.81,
+      "subscores": {
+        "laning": 43.3,
+        "damage": 35,
+        "presence": 70,
+        "efficiency": 18.3
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 13,
+          "winRate": 38.5,
+          "kda": 3.1,
+          "avgKills": 3.3,
+          "avgDeaths": 3.1,
+          "avgAssists": 6.3,
+          "csm": 6.3,
+          "gpm": 358,
+          "kp": 73.9,
+          "dmgPct": 16.2,
+          "goldPct": 20,
+          "vsPct": 18.1,
+          "dpm": 401,
+          "vspm": 1.35,
+          "avgWpm": 0.31,
+          "avgWcpm": 0.29,
+          "avgVwpm": 0.3,
+          "gd15": 166,
+          "csd15": -5,
+          "xpd15": -135,
+          "fbPct": 30.8,
+          "fbVictim": 7.7,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 44.7,
+          "confidence": 0.81,
+          "subscores": {
+            "laning": 43.3,
+            "damage": 35,
+            "presence": 70,
+            "efficiency": 18.3
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 13,
+        "avgWinRate": 38.5,
+        "avgKda": 3.1
+      }
+    },
+    {
+      "id": 4885,
+      "name": "Massu",
+      "country": "CA",
+      "team": "FlyQuest",
+      "role": "BOT",
+      "rating": 49.4,
+      "confidence": 0.75,
+      "subscores": {
+        "laning": 30,
+        "damage": 69,
+        "presence": 85,
+        "efficiency": 19
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 12,
+          "winRate": 50,
+          "kda": 3.9,
+          "avgKills": 4.1,
+          "avgDeaths": 3.1,
+          "avgAssists": 8.1,
+          "csm": 8.3,
+          "gpm": 417,
+          "kp": 76.1,
+          "dmgPct": 27.1,
+          "goldPct": 22.8,
+          "vsPct": 12,
+          "dpm": 770,
+          "vspm": 0.97,
+          "avgWpm": 0.34,
+          "avgWcpm": 0.26,
+          "avgVwpm": 0.06,
+          "gd15": -323,
+          "csd15": -6,
+          "xpd15": 84,
+          "fbPct": 16.7,
+          "fbVictim": 25,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 49.4,
+          "confidence": 0.75,
+          "subscores": {
+            "laning": 30,
+            "damage": 69,
+            "presence": 85,
+            "efficiency": 19
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 12,
+        "avgWinRate": 50,
+        "avgKda": 3.9
+      }
+    },
+    {
+      "id": 4310,
+      "name": "Myrwn",
+      "country": "ES",
+      "team": "Movistar KOI",
+      "role": "TOP",
+      "rating": 38.9,
+      "confidence": 0.62,
+      "subscores": {
+        "laning": 37.9,
+        "damage": 17.3,
+        "presence": 13.6,
+        "efficiency": 48.6
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 8,
+          "winRate": 25,
+          "kda": 1.6,
+          "avgKills": 2.1,
+          "avgDeaths": 3.3,
+          "avgAssists": 3.1,
+          "csm": 8,
+          "gpm": 369,
+          "kp": 47.2,
+          "dmgPct": 20.2,
+          "goldPct": 20.5,
+          "vsPct": 12,
+          "dpm": 447,
+          "vspm": 0.99,
+          "avgWpm": 0.32,
+          "avgWcpm": 0.2,
+          "avgVwpm": 0.14,
+          "gd15": 11,
+          "csd15": -2,
+          "xpd15": -139,
+          "fbPct": 0,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 3,
+          "rating": 38.9,
+          "confidence": 0.62,
+          "subscores": {
+            "laning": 37.9,
+            "damage": 17.3,
+            "presence": 13.6,
+            "efficiency": 48.6
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 8,
+        "avgWinRate": 25,
+        "avgKda": 1.6
+      }
+    },
+    {
+      "id": 3353,
+      "name": "ON",
+      "country": "CN",
+      "team": "Bilibili Gaming",
+      "role": "SUP",
+      "rating": 32.2,
+      "confidence": 1,
+      "subscores": {
+        "laning": 61.7,
+        "damage": 79,
+        "presence": 20,
+        "efficiency": 20
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 21,
+          "winRate": 57.1,
+          "kda": 2.8,
+          "avgKills": 0.8,
+          "avgDeaths": 4.2,
+          "avgAssists": 11.3,
+          "csm": 1.1,
+          "gpm": 255,
+          "kp": 70.4,
+          "dmgPct": 8.3,
+          "goldPct": 13.6,
+          "vsPct": 45.3,
+          "dpm": 234,
+          "vspm": 3.79,
+          "avgWpm": 1.92,
+          "avgWcpm": 0.52,
+          "avgVwpm": 0.61,
+          "gd15": 142,
+          "csd15": -1,
+          "xpd15": -37,
+          "fbPct": 47.6,
+          "fbVictim": 9.5,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 32.2,
+          "confidence": 1,
+          "subscores": {
+            "laning": 61.7,
+            "damage": 79,
+            "presence": 20,
+            "efficiency": 20
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 21,
+        "avgWinRate": 57.1,
+        "avgKda": 2.8
+      }
+    },
+    {
+      "id": 3741,
+      "name": "Oner",
+      "country": "KR",
+      "team": "T1",
+      "role": "JGL",
+      "rating": 75.2,
+      "confidence": 1,
+      "subscores": {
+        "laning": 71.7,
+        "damage": 71,
+        "presence": 95,
+        "efficiency": 56.8
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 23,
+          "winRate": 56.5,
+          "kda": 4.1,
+          "avgKills": 3.3,
+          "avgDeaths": 2.8,
+          "avgAssists": 8.1,
+          "csm": 6.6,
+          "gpm": 376,
+          "kp": 76.1,
+          "dmgPct": 17,
+          "goldPct": 20.1,
+          "vsPct": 17.8,
+          "dpm": 466,
+          "vspm": 1.51,
+          "avgWpm": 0.35,
+          "avgWcpm": 0.34,
+          "avgVwpm": 0.25,
+          "gd15": 177,
+          "csd15": 2,
+          "xpd15": 50,
+          "fbPct": 21.7,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 3,
+          "rating": 75.2,
+          "confidence": 1,
+          "subscores": {
+            "laning": 71.7,
+            "damage": 71,
+            "presence": 95,
+            "efficiency": 56.8
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 23,
+        "avgWinRate": 56.5,
+        "avgKda": 4.1
+      }
+    },
+    {
+      "id": 2648,
+      "name": "Quad",
+      "country": "KR",
+      "team": "FlyQuest",
+      "role": "MID",
+      "rating": 20.8,
+      "confidence": 0.92,
+      "subscores": {
+        "laning": 16.7,
+        "damage": 20.9,
+        "presence": 4.5,
+        "efficiency": 28.2
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 12,
+          "winRate": 50,
+          "kda": 3.4,
+          "avgKills": 2.8,
+          "avgDeaths": 3,
+          "avgAssists": 7.3,
+          "csm": 7.8,
+          "gpm": 380,
+          "kp": 58.7,
+          "dmgPct": 21,
+          "goldPct": 20.7,
+          "vsPct": 14.3,
+          "dpm": 602,
+          "vspm": 1.15,
+          "avgWpm": 0.49,
+          "avgWcpm": 0.16,
+          "avgVwpm": 0.22,
+          "gd15": -308,
+          "csd15": -10,
+          "xpd15": -392,
+          "fbPct": 16.7,
+          "fbVictim": 8.3,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 20.8,
+          "confidence": 0.92,
+          "subscores": {
+            "laning": 16.7,
+            "damage": 20.9,
+            "presence": 4.5,
+            "efficiency": 28.2
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 12,
+        "avgWinRate": 50,
+        "avgKda": 3.4
+      }
+    },
+    {
+      "id": 1172,
+      "name": "Rest",
+      "country": "TW",
+      "team": "CTBC Flying Oyster",
+      "role": "TOP",
+      "rating": 29.5,
+      "confidence": 0.46,
+      "subscores": {
+        "laning": 7.6,
+        "damage": 4.5,
+        "presence": 4.5,
+        "efficiency": 4.5
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 6,
+          "winRate": 33.3,
+          "kda": 1.2,
+          "avgKills": 1.3,
+          "avgDeaths": 4.3,
+          "avgAssists": 4,
+          "csm": 7.1,
+          "gpm": 336,
+          "kp": 36.2,
+          "dmgPct": 15.9,
+          "goldPct": 18.7,
+          "vsPct": 11.1,
+          "dpm": 395,
+          "vspm": 0.98,
+          "avgWpm": 0.48,
+          "avgWcpm": 0.13,
+          "avgVwpm": 0.18,
+          "gd15": -927,
+          "csd15": -16,
+          "xpd15": -234,
+          "fbPct": 0,
+          "fbVictim": 16.7,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 29.5,
+          "confidence": 0.46,
+          "subscores": {
+            "laning": 7.6,
+            "damage": 4.5,
+            "presence": 4.5,
+            "efficiency": 4.5
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 6,
+        "avgWinRate": 33.3,
+        "avgKda": 1.2
+      }
+    },
+    {
+      "id": 685,
+      "name": "Ruler",
+      "country": "KR",
+      "team": "Gen.G eSports",
+      "role": "BOT",
+      "rating": 67,
+      "confidence": 1,
+      "subscores": {
+        "laning": 78.3,
+        "damage": 41,
+        "presence": 95,
+        "efficiency": 75.3
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 19,
+          "winRate": 63.2,
+          "kda": 5.9,
+          "avgKills": 4.7,
+          "avgDeaths": 1.8,
+          "avgAssists": 5.7,
+          "csm": 9.4,
+          "gpm": 450,
+          "kp": 77.8,
+          "dmgPct": 26.9,
+          "goldPct": 24.1,
+          "vsPct": 13.8,
+          "dpm": 744,
+          "vspm": 1.23,
+          "avgWpm": 0.43,
+          "avgWcpm": 0.37,
+          "avgVwpm": 0.17,
+          "gd15": 125,
+          "csd15": 2,
+          "xpd15": 138,
+          "fbPct": 36.8,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 67,
+          "confidence": 1,
+          "subscores": {
+            "laning": 78.3,
+            "damage": 41,
+            "presence": 95,
+            "efficiency": 75.3
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 19,
+        "avgWinRate": 63.2,
+        "avgKda": 5.9
+      }
+    },
+    {
+      "id": 3344,
+      "name": "Shanks",
+      "country": "CN",
+      "team": "Anyone s Legend",
+      "role": "MID",
+      "rating": 66.9,
+      "confidence": 1,
+      "subscores": {
+        "laning": 68.2,
+        "damage": 64.5,
+        "presence": 86.4,
+        "efficiency": 52.7
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 21,
+          "winRate": 61.9,
+          "kda": 3.8,
+          "avgKills": 4,
+          "avgDeaths": 2.9,
+          "avgAssists": 6.7,
+          "csm": 8.4,
+          "gpm": 409,
+          "kp": 71.3,
+          "dmgPct": 24.9,
+          "goldPct": 21.9,
+          "vsPct": 11.1,
+          "dpm": 672,
+          "vspm": 1,
+          "avgWpm": 0.32,
+          "avgWcpm": 0.24,
+          "avgVwpm": 0.11,
+          "gd15": 206,
+          "csd15": 0,
+          "xpd15": 120,
+          "fbPct": 4.8,
+          "fbVictim": 14.3,
+          "pentaKills": 0,
+          "soloKills": 6,
+          "rating": 66.9,
+          "confidence": 1,
+          "subscores": {
+            "laning": 68.2,
+            "damage": 64.5,
+            "presence": 86.4,
+            "efficiency": 52.7
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 21,
+        "avgWinRate": 61.9,
+        "avgKda": 3.8
+      }
+    },
+    {
+      "id": 4946,
+      "name": "SkewMond",
+      "country": "FR",
+      "team": "G2 Esports",
+      "role": "JGL",
+      "rating": 37.3,
+      "confidence": 1,
+      "subscores": {
+        "laning": 75,
+        "damage": 25,
+        "presence": 5,
+        "efficiency": 64.3
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 20,
+          "winRate": 35,
+          "kda": 3.4,
+          "avgKills": 3,
+          "avgDeaths": 2.4,
+          "avgAssists": 5.3,
+          "csm": 6.8,
+          "gpm": 366,
+          "kp": 65.1,
+          "dmgPct": 16.3,
+          "goldPct": 20.3,
+          "vsPct": 18.1,
+          "dpm": 390,
+          "vspm": 1.41,
+          "avgWpm": 0.29,
+          "avgWcpm": 0.3,
+          "avgVwpm": 0.22,
+          "gd15": -32,
+          "csd15": 4,
+          "xpd15": 287,
+          "fbPct": 30,
+          "fbVictim": 10,
+          "pentaKills": 0,
+          "soloKills": 2,
+          "rating": 37.3,
+          "confidence": 1,
+          "subscores": {
+            "laning": 75,
+            "damage": 25,
+            "presence": 5,
+            "efficiency": 64.3
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 20,
+        "avgWinRate": 35,
+        "avgKda": 3.4
+      }
+    },
+    {
+      "id": 2717,
+      "name": "Supa",
+      "country": "ES",
+      "team": "Movistar KOI",
+      "role": "BOT",
+      "rating": 45.5,
+      "confidence": 0.5,
+      "subscores": {
+        "laning": 25,
+        "damage": 39,
+        "presence": 65,
+        "efficiency": 45.5
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 8,
+          "winRate": 25,
+          "kda": 3.2,
+          "avgKills": 5.3,
+          "avgDeaths": 2.4,
+          "avgAssists": 2.3,
+          "csm": 9.4,
+          "gpm": 448,
+          "kp": 69.7,
+          "dmgPct": 29,
+          "goldPct": 24.9,
+          "vsPct": 11.1,
+          "dpm": 658,
+          "vspm": 0.92,
+          "avgWpm": 0.29,
+          "avgWcpm": 0.32,
+          "avgVwpm": 0.06,
+          "gd15": -253,
+          "csd15": -5,
+          "xpd15": -181,
+          "fbPct": 50,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 45.5,
+          "confidence": 0.5,
+          "subscores": {
+            "laning": 25,
+            "damage": 39,
+            "presence": 65,
+            "efficiency": 45.5
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 8,
+        "avgWinRate": 25,
+        "avgKda": 3.2
+      }
+    },
+    {
+      "id": 1226,
+      "name": "Tarzan",
+      "country": "KR",
+      "team": "Anyone s Legend",
+      "role": "JGL",
+      "rating": 80.4,
+      "confidence": 1,
+      "subscores": {
+        "laning": 85,
+        "damage": 81,
+        "presence": 70,
+        "efficiency": 89.8
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 21,
+          "winRate": 61.9,
+          "kda": 4.7,
+          "avgKills": 3.2,
+          "avgDeaths": 2.4,
+          "avgAssists": 8.2,
+          "csm": 7,
+          "gpm": 379,
+          "kp": 73.9,
+          "dmgPct": 17.3,
+          "goldPct": 20.2,
+          "vsPct": 18,
+          "dpm": 477,
+          "vspm": 1.62,
+          "avgWpm": 0.35,
+          "avgWcpm": 0.37,
+          "avgVwpm": 0.29,
+          "gd15": 97,
+          "csd15": 6,
+          "xpd15": 322,
+          "fbPct": 19,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 80.4,
+          "confidence": 1,
+          "subscores": {
+            "laning": 85,
+            "damage": 81,
+            "presence": 70,
+            "efficiency": 89.8
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 21,
+        "avgWinRate": 61.9,
+        "avgKda": 4.7
+      }
+    },
+    {
+      "id": 4776,
+      "name": "Tatu",
+      "country": "BR",
+      "team": "FURIA",
+      "role": "JGL",
+      "rating": 39.2,
+      "confidence": 0.63,
+      "subscores": {
+        "laning": 13.3,
+        "damage": 55,
+        "presence": 15,
+        "efficiency": 48
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 10,
+          "winRate": 40,
+          "kda": 3.6,
+          "avgKills": 3.5,
+          "avgDeaths": 2.7,
+          "avgAssists": 6.3,
+          "csm": 6.3,
+          "gpm": 360,
+          "kp": 67.2,
+          "dmgPct": 16.1,
+          "goldPct": 19.7,
+          "vsPct": 18.9,
+          "dpm": 421,
+          "vspm": 1.46,
+          "avgWpm": 0.29,
+          "avgWcpm": 0.33,
+          "avgVwpm": 0.26,
+          "gd15": -316,
+          "csd15": -5,
+          "xpd15": -416,
+          "fbPct": 20,
+          "fbVictim": 10,
+          "pentaKills": 0,
+          "soloKills": 2,
+          "rating": 39.2,
+          "confidence": 0.63,
+          "subscores": {
+            "laning": 13.3,
+            "damage": 55,
+            "presence": 15,
+            "efficiency": 48
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 10,
+        "avgWinRate": 40,
+        "avgKda": 3.6
+      }
+    },
+    {
+      "id": 2709,
+      "name": "Tutsz",
+      "country": "BR",
+      "team": "FURIA",
+      "role": "MID",
+      "rating": 58.5,
+      "confidence": 0.77,
+      "subscores": {
+        "laning": 68.2,
+        "damage": 40.9,
+        "presence": 77.3,
+        "efficiency": 65
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 10,
+          "winRate": 40,
+          "kda": 3.6,
+          "avgKills": 3.3,
+          "avgDeaths": 2.5,
+          "avgAssists": 5.8,
+          "csm": 8.6,
+          "gpm": 405,
+          "kp": 68.3,
+          "dmgPct": 25,
+          "goldPct": 22.3,
+          "vsPct": 13.4,
+          "dpm": 615,
+          "vspm": 1.05,
+          "avgWpm": 0.3,
+          "avgWcpm": 0.25,
+          "avgVwpm": 0.19,
+          "gd15": 152,
+          "csd15": 0,
+          "xpd15": 158,
+          "fbPct": 0,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 5,
+          "rating": 58.5,
+          "confidence": 0.77,
+          "subscores": {
+            "laning": 68.2,
+            "damage": 40.9,
+            "presence": 77.3,
+            "efficiency": 65
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 10,
+        "avgWinRate": 40,
+        "avgKda": 3.6
+      }
+    },
+    {
+      "id": 3544,
+      "name": "jojopyun",
+      "country": "CA",
+      "team": "Movistar KOI",
+      "role": "MID",
+      "rating": 42.2,
+      "confidence": 0.62,
+      "subscores": {
+        "laning": 47,
+        "damage": 33.6,
+        "presence": 13.6,
+        "efficiency": 50.9
+      },
+      "tournaments": {
+        "2025 Mid-Season Invitational": {
+          "games": 8,
+          "winRate": 25,
+          "kda": 2.6,
+          "avgKills": 2.3,
+          "avgDeaths": 2.8,
+          "avgAssists": 4.9,
+          "csm": 9.3,
+          "gpm": 417,
+          "kp": 61.4,
+          "dmgPct": 26.3,
+          "goldPct": 23.2,
+          "vsPct": 13.5,
+          "dpm": 594,
+          "vspm": 1.11,
+          "avgWpm": 0.49,
+          "avgWcpm": 0.19,
+          "avgVwpm": 0.15,
+          "gd15": -235,
+          "csd15": 1,
+          "xpd15": -233,
+          "fbPct": 12.5,
+          "fbVictim": 12.5,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 42.2,
+          "confidence": 0.62,
+          "subscores": {
+            "laning": 47,
+            "damage": 33.6,
+            "presence": 13.6,
+            "efficiency": 50.9
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 8,
+        "avgWinRate": 25,
+        "avgKda": 2.6
+      }
+    }
+  ]
+}

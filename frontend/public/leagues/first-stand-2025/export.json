@@ -1,0 +1,1472 @@
+{
+  "metadata": {
+    "exportedAt": "2026-04-16T20:47:38.167Z",
+    "tournaments": [
+      {
+        "name": "First Stand 2025",
+        "league": "International",
+        "year": 2025,
+        "split": "First Stand",
+        "scrapedAt": "2026-04-16T20:47:38.168Z"
+      }
+    ]
+  },
+  "players": [
+    {
+      "id": 1922,
+      "name": "369",
+      "country": "CN",
+      "team": "Top Esports",
+      "role": "TOP",
+      "rating": 48.3,
+      "confidence": 1,
+      "subscores": {
+        "laning": 55.6,
+        "damage": 51.7,
+        "presence": 25,
+        "efficiency": 43.3
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 11,
+          "winRate": 18.2,
+          "kda": 1.8,
+          "avgKills": 2.1,
+          "avgDeaths": 3.3,
+          "avgAssists": 3.9,
+          "csm": 8,
+          "gpm": 370,
+          "kp": 49.2,
+          "dmgPct": 22,
+          "goldPct": 21.1,
+          "vsPct": 11.5,
+          "dpm": 613,
+          "vspm": 0.94,
+          "avgWpm": 0.35,
+          "avgWcpm": 0.17,
+          "avgVwpm": 0.12,
+          "gd15": 49,
+          "csd15": 2,
+          "xpd15": 23,
+          "fbPct": 9.1,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 48.3,
+          "confidence": 1,
+          "subscores": {
+            "laning": 55.6,
+            "damage": 51.7,
+            "presence": 25,
+            "efficiency": 43.3
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 11,
+        "avgWinRate": 18.2,
+        "avgKda": 1.8
+      }
+    },
+    {
+      "id": 3808,
+      "name": "APA",
+      "country": "US",
+      "team": "Team Liquid",
+      "role": "MID",
+      "rating": 46.1,
+      "confidence": 0.77,
+      "subscores": {
+        "laning": 50,
+        "damage": 34,
+        "presence": 70,
+        "efficiency": 33
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 10,
+          "winRate": 30,
+          "kda": 2,
+          "avgKills": 2.2,
+          "avgDeaths": 3.5,
+          "avgAssists": 4.8,
+          "csm": 8.7,
+          "gpm": 386,
+          "kp": 63.9,
+          "dmgPct": 27.1,
+          "goldPct": 22.9,
+          "vsPct": 15.9,
+          "dpm": 632,
+          "vspm": 1.27,
+          "avgWpm": 0.56,
+          "avgWcpm": 0.23,
+          "avgVwpm": 0.21,
+          "gd15": 143,
+          "csd15": -1,
+          "xpd15": -93,
+          "fbPct": 30,
+          "fbVictim": 30,
+          "pentaKills": 0,
+          "soloKills": 2,
+          "rating": 46.1,
+          "confidence": 0.77,
+          "subscores": {
+            "laning": 50,
+            "damage": 34,
+            "presence": 70,
+            "efficiency": 33
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 10,
+        "avgWinRate": 30,
+        "avgKda": 2
+      }
+    },
+    {
+      "id": 4900,
+      "name": "Caliste",
+      "country": "FR",
+      "team": "Karmine Corp",
+      "role": "BOT",
+      "rating": 33.3,
+      "confidence": 1,
+      "subscores": {
+        "laning": 40,
+        "damage": 18,
+        "presence": 10,
+        "efficiency": 62
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 19,
+          "winRate": 42.1,
+          "kda": 3.4,
+          "avgKills": 4.4,
+          "avgDeaths": 2.5,
+          "avgAssists": 4.3,
+          "csm": 9.5,
+          "gpm": 436,
+          "kp": 58.9,
+          "dmgPct": 27.5,
+          "goldPct": 24.1,
+          "vsPct": 13.1,
+          "dpm": 717,
+          "vspm": 1.08,
+          "avgWpm": 0.44,
+          "avgWcpm": 0.32,
+          "avgVwpm": 0.08,
+          "gd15": -132,
+          "csd15": 0,
+          "xpd15": 106,
+          "fbPct": 21.1,
+          "fbVictim": 10.5,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 33.3,
+          "confidence": 1,
+          "subscores": {
+            "laning": 40,
+            "damage": 18,
+            "presence": 10,
+            "efficiency": 62
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 19,
+        "avgWinRate": 42.1,
+        "avgKda": 3.4
+      }
+    },
+    {
+      "id": 2671,
+      "name": "Canna",
+      "country": "KR",
+      "team": "Karmine Corp",
+      "role": "TOP",
+      "rating": 68.3,
+      "confidence": 1,
+      "subscores": {
+        "laning": 55.6,
+        "damage": 81.7,
+        "presence": 91.7,
+        "efficiency": 60.8
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 19,
+          "winRate": 42.1,
+          "kda": 2.4,
+          "avgKills": 2.5,
+          "avgDeaths": 2.8,
+          "avgAssists": 4.4,
+          "csm": 8,
+          "gpm": 382,
+          "kp": 59.6,
+          "dmgPct": 24.5,
+          "goldPct": 21.2,
+          "vsPct": 13.6,
+          "dpm": 625,
+          "vspm": 1.13,
+          "avgWpm": 0.48,
+          "avgWcpm": 0.22,
+          "avgVwpm": 0.2,
+          "gd15": 84,
+          "csd15": 2,
+          "xpd15": -130,
+          "fbPct": 5.3,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 6,
+          "rating": 68.3,
+          "confidence": 1,
+          "subscores": {
+            "laning": 55.6,
+            "damage": 81.7,
+            "presence": 91.7,
+            "efficiency": 60.8
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 19,
+        "avgWinRate": 42.1,
+        "avgKda": 2.4
+      }
+    },
+    {
+      "id": 257,
+      "name": "CoreJJ",
+      "country": "KR",
+      "team": "Team Liquid",
+      "role": "SUP",
+      "rating": 44.7,
+      "confidence": 0.77,
+      "subscores": {
+        "laning": 76.7,
+        "damage": 66,
+        "presence": 10,
+        "efficiency": 60
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 10,
+          "winRate": 30,
+          "kda": 3,
+          "avgKills": 0.7,
+          "avgDeaths": 2.8,
+          "avgAssists": 7.8,
+          "csm": 1.1,
+          "gpm": 239,
+          "kp": 70,
+          "dmgPct": 8.9,
+          "goldPct": 14.2,
+          "vsPct": 41.9,
+          "dpm": 205,
+          "vspm": 3.37,
+          "avgWpm": 1.61,
+          "avgWcpm": 0.49,
+          "avgVwpm": 0.45,
+          "gd15": 120,
+          "csd15": 0,
+          "xpd15": 148,
+          "fbPct": 40,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 44.7,
+          "confidence": 0.77,
+          "subscores": {
+            "laning": 76.7,
+            "damage": 66,
+            "presence": 10,
+            "efficiency": 60
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 10,
+        "avgWinRate": 30,
+        "avgKda": 3
+      }
+    },
+    {
+      "id": 3906,
+      "name": "Creme",
+      "country": "CN",
+      "team": "Top Esports",
+      "role": "MID",
+      "rating": 35.6,
+      "confidence": 0.85,
+      "subscores": {
+        "laning": 63.3,
+        "damage": 42,
+        "presence": 10,
+        "efficiency": 10
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 11,
+          "winRate": 18.2,
+          "kda": 1.5,
+          "avgKills": 2.3,
+          "avgDeaths": 4.1,
+          "avgAssists": 4,
+          "csm": 8,
+          "gpm": 368,
+          "kp": 55.7,
+          "dmgPct": 24.5,
+          "goldPct": 20.9,
+          "vsPct": 12.4,
+          "dpm": 672,
+          "vspm": 1,
+          "avgWpm": 0.38,
+          "avgWcpm": 0.25,
+          "avgVwpm": 0.12,
+          "gd15": -142,
+          "csd15": 2,
+          "xpd15": 264,
+          "fbPct": 27.3,
+          "fbVictim": 9.1,
+          "pentaKills": 0,
+          "soloKills": 2,
+          "rating": 35.6,
+          "confidence": 0.85,
+          "subscores": {
+            "laning": 63.3,
+            "damage": 42,
+            "presence": 10,
+            "efficiency": 10
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 11,
+        "avgWinRate": 18.2,
+        "avgKda": 1.5
+      }
+    },
+    {
+      "id": 1169,
+      "name": "Crisp",
+      "country": "CN",
+      "team": "Top Esports",
+      "role": "SUP",
+      "rating": 24.3,
+      "confidence": 0.85,
+      "subscores": {
+        "laning": 16.7,
+        "damage": 16,
+        "presence": 30,
+        "efficiency": 10
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 11,
+          "winRate": 18.2,
+          "kda": 1.9,
+          "avgKills": 0.3,
+          "avgDeaths": 4.5,
+          "avgAssists": 8.4,
+          "csm": 1.1,
+          "gpm": 235,
+          "kp": 72.1,
+          "dmgPct": 6.1,
+          "goldPct": 13.4,
+          "vsPct": 41.9,
+          "dpm": 168,
+          "vspm": 3.4,
+          "avgWpm": 1.78,
+          "avgWcpm": 0.4,
+          "avgVwpm": 0.64,
+          "gd15": -221,
+          "csd15": -5,
+          "xpd15": -136,
+          "fbPct": 27.3,
+          "fbVictim": 18.2,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 24.3,
+          "confidence": 0.85,
+          "subscores": {
+            "laning": 16.7,
+            "damage": 16,
+            "presence": 30,
+            "efficiency": 10
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 11,
+        "avgWinRate": 18.2,
+        "avgKda": 1.9
+      }
+    },
+    {
+      "id": 3411,
+      "name": "Delight",
+      "country": "KR",
+      "team": "Hanwha Life eSports",
+      "role": "SUP",
+      "rating": 62.4,
+      "confidence": 1,
+      "subscores": {
+        "laning": 70,
+        "damage": 74,
+        "presence": 50,
+        "efficiency": 70
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 17,
+          "winRate": 82.4,
+          "kda": 5.1,
+          "avgKills": 0.9,
+          "avgDeaths": 3,
+          "avgAssists": 14.4,
+          "csm": 1.1,
+          "gpm": 273,
+          "kp": 73.6,
+          "dmgPct": 7.5,
+          "goldPct": 13.6,
+          "vsPct": 38.6,
+          "dpm": 223,
+          "vspm": 3.35,
+          "avgWpm": 1.71,
+          "avgWcpm": 0.39,
+          "avgVwpm": 0.46,
+          "gd15": 102,
+          "csd15": 3,
+          "xpd15": 84,
+          "fbPct": 47.1,
+          "fbVictim": 11.8,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 62.4,
+          "confidence": 1,
+          "subscores": {
+            "laning": 70,
+            "damage": 74,
+            "presence": 50,
+            "efficiency": 70
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 17,
+        "avgWinRate": 82.4,
+        "avgKda": 5.1
+      }
+    },
+    {
+      "id": 3737,
+      "name": "Doggo",
+      "country": "TW",
+      "team": "CTBC Flying Oyster",
+      "role": "BOT",
+      "rating": 56.6,
+      "confidence": 1,
+      "subscores": {
+        "laning": 30,
+        "damage": 58,
+        "presence": 90,
+        "efficiency": 61
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 13,
+          "winRate": 61.5,
+          "kda": 4.9,
+          "avgKills": 4.8,
+          "avgDeaths": 2,
+          "avgAssists": 5,
+          "csm": 9,
+          "gpm": 431,
+          "kp": 72.5,
+          "dmgPct": 29.7,
+          "goldPct": 23.6,
+          "vsPct": 15.5,
+          "dpm": 751,
+          "vspm": 1.31,
+          "avgWpm": 0.44,
+          "avgWcpm": 0.39,
+          "avgVwpm": 0.14,
+          "gd15": -70,
+          "csd15": -2,
+          "xpd15": -444,
+          "fbPct": 30.8,
+          "fbVictim": 7.7,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 56.6,
+          "confidence": 1,
+          "subscores": {
+            "laning": 30,
+            "damage": 58,
+            "presence": 90,
+            "efficiency": 61
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 13,
+        "avgWinRate": 61.5,
+        "avgKda": 4.9
+      }
+    },
+    {
+      "id": 2960,
+      "name": "Driver",
+      "country": "TW",
+      "team": "CTBC Flying Oyster",
+      "role": "TOP",
+      "rating": 45.2,
+      "confidence": 0.67,
+      "subscores": {
+        "laning": 41.7,
+        "damage": 55,
+        "presence": 41.7,
+        "efficiency": 30.4
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 7,
+          "winRate": 57.1,
+          "kda": 1.9,
+          "avgKills": 1.4,
+          "avgDeaths": 3.7,
+          "avgAssists": 5.6,
+          "csm": 7.8,
+          "gpm": 374,
+          "kp": 52.7,
+          "dmgPct": 22.9,
+          "goldPct": 20.4,
+          "vsPct": 10.7,
+          "dpm": 605,
+          "vspm": 0.9,
+          "avgWpm": 0.54,
+          "avgWcpm": 0.06,
+          "avgVwpm": 0.26,
+          "gd15": -139,
+          "csd15": -6,
+          "xpd15": 28,
+          "fbPct": 0,
+          "fbVictim": 14.3,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 45.2,
+          "confidence": 0.67,
+          "subscores": {
+            "laning": 41.7,
+            "damage": 55,
+            "presence": 41.7,
+            "efficiency": 30.4
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 7,
+        "avgWinRate": 57.1,
+        "avgKda": 1.9
+      }
+    },
+    {
+      "id": 5904,
+      "name": "HongQ",
+      "country": "TW",
+      "team": "CTBC Flying Oyster",
+      "role": "MID",
+      "rating": 62.7,
+      "confidence": 1,
+      "subscores": {
+        "laning": 43.3,
+        "damage": 62,
+        "presence": 90,
+        "efficiency": 61
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 13,
+          "winRate": 61.5,
+          "kda": 3.4,
+          "avgKills": 3.2,
+          "avgDeaths": 2.8,
+          "avgAssists": 6.2,
+          "csm": 8.7,
+          "gpm": 413,
+          "kp": 66.6,
+          "dmgPct": 26.4,
+          "goldPct": 22.5,
+          "vsPct": 15,
+          "dpm": 678,
+          "vspm": 1.24,
+          "avgWpm": 0.56,
+          "avgWcpm": 0.25,
+          "avgVwpm": 0.27,
+          "gd15": -70,
+          "csd15": 0,
+          "xpd15": -107,
+          "fbPct": 15.4,
+          "fbVictim": 15.4,
+          "pentaKills": 0,
+          "soloKills": 5,
+          "rating": 62.7,
+          "confidence": 1,
+          "subscores": {
+            "laning": 43.3,
+            "damage": 62,
+            "presence": 90,
+            "efficiency": 61
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 13,
+        "avgWinRate": 61.5,
+        "avgKda": 3.4
+      }
+    },
+    {
+      "id": 46,
+      "name": "Impact",
+      "country": "KR",
+      "team": "Team Liquid",
+      "role": "TOP",
+      "rating": 11,
+      "confidence": 0.95,
+      "subscores": {
+        "laning": 8.3,
+        "damage": 8.3,
+        "presence": 8.3,
+        "efficiency": 11.2
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 10,
+          "winRate": 30,
+          "kda": 1.5,
+          "avgKills": 2.3,
+          "avgDeaths": 3.7,
+          "avgAssists": 3.2,
+          "csm": 7.3,
+          "gpm": 344,
+          "kp": 46.3,
+          "dmgPct": 17.8,
+          "goldPct": 20.4,
+          "vsPct": 10.6,
+          "dpm": 404,
+          "vspm": 0.86,
+          "avgWpm": 0.33,
+          "avgWcpm": 0.16,
+          "avgVwpm": 0.09,
+          "gd15": -519,
+          "csd15": -14,
+          "xpd15": -280,
+          "fbPct": 20,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 11,
+          "confidence": 0.95,
+          "subscores": {
+            "laning": 8.3,
+            "damage": 8.3,
+            "presence": 8.3,
+            "efficiency": 11.2
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 10,
+        "avgWinRate": 30,
+        "avgKda": 1.5
+      }
+    },
+    {
+      "id": 1267,
+      "name": "JackeyLove",
+      "country": "CN",
+      "team": "Top Esports",
+      "role": "BOT",
+      "rating": 30.5,
+      "confidence": 0.85,
+      "subscores": {
+        "laning": 40,
+        "damage": 22,
+        "presence": 30,
+        "efficiency": 19
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 11,
+          "winRate": 18.2,
+          "kda": 1.6,
+          "avgKills": 2.9,
+          "avgDeaths": 4.6,
+          "avgAssists": 4.5,
+          "csm": 9,
+          "gpm": 407,
+          "kp": 64.2,
+          "dmgPct": 26.1,
+          "goldPct": 23.2,
+          "vsPct": 16.4,
+          "dpm": 721,
+          "vspm": 1.35,
+          "avgWpm": 0.4,
+          "avgWcpm": 0.44,
+          "avgVwpm": 0.17,
+          "gd15": -119,
+          "csd15": 0,
+          "xpd15": -286,
+          "fbPct": 27.3,
+          "fbVictim": 9.1,
+          "pentaKills": 0,
+          "soloKills": 2,
+          "rating": 30.5,
+          "confidence": 0.85,
+          "subscores": {
+            "laning": 40,
+            "damage": 22,
+            "presence": 30,
+            "efficiency": 19
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 11,
+        "avgWinRate": 18.2,
+        "avgKda": 1.6
+      }
+    },
+    {
+      "id": 2907,
+      "name": "JunJia",
+      "country": "TW",
+      "team": "CTBC Flying Oyster",
+      "role": "JGL",
+      "rating": 62.3,
+      "confidence": 1,
+      "subscores": {
+        "laning": 50,
+        "damage": 50,
+        "presence": 70,
+        "efficiency": 67.5
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 13,
+          "winRate": 61.5,
+          "kda": 4.4,
+          "avgKills": 3.1,
+          "avgDeaths": 2.3,
+          "avgAssists": 7.1,
+          "csm": 6.3,
+          "gpm": 359,
+          "kp": 75.8,
+          "dmgPct": 15.9,
+          "goldPct": 19.7,
+          "vsPct": 20.8,
+          "dpm": 416,
+          "vspm": 1.72,
+          "avgWpm": 0.42,
+          "avgWcpm": 0.42,
+          "avgVwpm": 0.37,
+          "gd15": -132,
+          "csd15": 0,
+          "xpd15": -129,
+          "fbPct": 46.2,
+          "fbVictim": 7.7,
+          "pentaKills": 0,
+          "soloKills": 2,
+          "rating": 62.3,
+          "confidence": 1,
+          "subscores": {
+            "laning": 50,
+            "damage": 50,
+            "presence": 70,
+            "efficiency": 67.5
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 13,
+        "avgWinRate": 61.5,
+        "avgKda": 4.4
+      }
+    },
+    {
+      "id": 1006,
+      "name": "Kaiwing",
+      "country": "HK",
+      "team": "CTBC Flying Oyster",
+      "role": "SUP",
+      "rating": 74.9,
+      "confidence": 1,
+      "subscores": {
+        "laning": 56.7,
+        "damage": 24,
+        "presence": 90,
+        "efficiency": 80
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 13,
+          "winRate": 61.5,
+          "kda": 4.6,
+          "avgKills": 0.9,
+          "avgDeaths": 2.3,
+          "avgAssists": 9.8,
+          "csm": 1,
+          "gpm": 250,
+          "kp": 79.7,
+          "dmgPct": 6.2,
+          "goldPct": 13.6,
+          "vsPct": 37.2,
+          "dpm": 168,
+          "vspm": 3.07,
+          "avgWpm": 1.68,
+          "avgWcpm": 0.31,
+          "avgVwpm": 0.49,
+          "gd15": -12,
+          "csd15": 0,
+          "xpd15": 110,
+          "fbPct": 46.2,
+          "fbVictim": 7.7,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 74.9,
+          "confidence": 1,
+          "subscores": {
+            "laning": 56.7,
+            "damage": 24,
+            "presence": 90,
+            "efficiency": 80
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 13,
+        "avgWinRate": 61.5,
+        "avgKda": 4.6
+      }
+    },
+    {
+      "id": 2360,
+      "name": "Kanavi",
+      "country": "KR",
+      "team": "Top Esports",
+      "role": "JGL",
+      "rating": 69.7,
+      "confidence": 0.85,
+      "subscores": {
+        "laning": 76.7,
+        "damage": 90,
+        "presence": 90,
+        "efficiency": 41
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 11,
+          "winRate": 18.2,
+          "kda": 2.3,
+          "avgKills": 4.2,
+          "avgDeaths": 3.8,
+          "avgAssists": 4.6,
+          "csm": 7,
+          "gpm": 377,
+          "kp": 80.8,
+          "dmgPct": 21.3,
+          "goldPct": 21.4,
+          "vsPct": 17.8,
+          "dpm": 584,
+          "vspm": 1.44,
+          "avgWpm": 0.27,
+          "avgWcpm": 0.35,
+          "avgVwpm": 0.25,
+          "gd15": 127,
+          "csd15": 10,
+          "xpd15": 294,
+          "fbPct": 36.4,
+          "fbVictim": 18.2,
+          "pentaKills": 0,
+          "soloKills": 3,
+          "rating": 69.7,
+          "confidence": 0.85,
+          "subscores": {
+            "laning": 76.7,
+            "damage": 90,
+            "presence": 90,
+            "efficiency": 41
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 11,
+        "avgWinRate": 18.2,
+        "avgKda": 2.3
+      }
+    },
+    {
+      "id": 392,
+      "name": "Peanut",
+      "country": "KR",
+      "team": "Hanwha Life eSports",
+      "role": "JGL",
+      "rating": 64.9,
+      "confidence": 1,
+      "subscores": {
+        "laning": 83.3,
+        "damage": 54,
+        "presence": 50,
+        "efficiency": 80.5
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 17,
+          "winRate": 82.4,
+          "kda": 6.3,
+          "avgKills": 4.2,
+          "avgDeaths": 2.3,
+          "avgAssists": 10.2,
+          "csm": 6.9,
+          "gpm": 396,
+          "kp": 68.3,
+          "dmgPct": 15.6,
+          "goldPct": 19.7,
+          "vsPct": 18.9,
+          "dpm": 476,
+          "vspm": 1.64,
+          "avgWpm": 0.3,
+          "avgWcpm": 0.42,
+          "avgVwpm": 0.25,
+          "gd15": 363,
+          "csd15": 8,
+          "xpd15": 492,
+          "fbPct": 35.3,
+          "fbVictim": 17.6,
+          "pentaKills": 0,
+          "soloKills": 4,
+          "rating": 64.9,
+          "confidence": 1,
+          "subscores": {
+            "laning": 83.3,
+            "damage": 54,
+            "presence": 50,
+            "efficiency": 80.5
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 17,
+        "avgWinRate": 82.4,
+        "avgKda": 6.3
+      }
+    },
+    {
+      "id": 1172,
+      "name": "Rest",
+      "country": "TW",
+      "team": "CTBC Flying Oyster",
+      "role": "TOP",
+      "rating": 48.3,
+      "confidence": 0.57,
+      "subscores": {
+        "laning": 47.2,
+        "damage": 25,
+        "presence": 58.3,
+        "efficiency": 68.3
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 6,
+          "winRate": 66.7,
+          "kda": 3.7,
+          "avgKills": 2.2,
+          "avgDeaths": 1.8,
+          "avgAssists": 4.7,
+          "csm": 7.8,
+          "gpm": 379,
+          "kp": 52.9,
+          "dmgPct": 20.5,
+          "goldPct": 21,
+          "vsPct": 12.5,
+          "dpm": 551,
+          "vspm": 1.01,
+          "avgWpm": 0.53,
+          "avgWcpm": 0.12,
+          "avgVwpm": 0.2,
+          "gd15": -218,
+          "csd15": -2,
+          "xpd15": 119,
+          "fbPct": 16.7,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 48.3,
+          "confidence": 0.57,
+          "subscores": {
+            "laning": 47.2,
+            "damage": 25,
+            "presence": 58.3,
+            "efficiency": 68.3
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 6,
+        "avgWinRate": 66.7,
+        "avgKda": 3.7
+      }
+    },
+    {
+      "id": 1218,
+      "name": "Targamas",
+      "country": "BE",
+      "team": "Karmine Corp",
+      "role": "SUP",
+      "rating": 50,
+      "confidence": 1,
+      "subscores": {
+        "laning": 30,
+        "damage": 70,
+        "presence": 70,
+        "efficiency": 30
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 19,
+          "winRate": 42.1,
+          "kda": 2.9,
+          "avgKills": 0.8,
+          "avgDeaths": 3.5,
+          "avgAssists": 9.4,
+          "csm": 1.2,
+          "gpm": 245,
+          "kp": 76.8,
+          "dmgPct": 8.3,
+          "goldPct": 13.6,
+          "vsPct": 43.7,
+          "dpm": 214,
+          "vspm": 3.57,
+          "avgWpm": 1.66,
+          "avgWcpm": 0.55,
+          "avgVwpm": 0.45,
+          "gd15": -18,
+          "csd15": 0,
+          "xpd15": -150,
+          "fbPct": 26.3,
+          "fbVictim": 26.3,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 50,
+          "confidence": 1,
+          "subscores": {
+            "laning": 30,
+            "damage": 70,
+            "presence": 70,
+            "efficiency": 30
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 19,
+        "avgWinRate": 42.1,
+        "avgKda": 2.9
+      }
+    },
+    {
+      "id": 798,
+      "name": "UmTi",
+      "country": "KR",
+      "team": "Team Liquid",
+      "role": "JGL",
+      "rating": 26.2,
+      "confidence": 0.77,
+      "subscores": {
+        "laning": 30,
+        "damage": 10,
+        "presence": 10,
+        "efficiency": 30
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 10,
+          "winRate": 30,
+          "kda": 2,
+          "avgKills": 1.5,
+          "avgDeaths": 3.4,
+          "avgAssists": 5.4,
+          "csm": 5.7,
+          "gpm": 318,
+          "kp": 56.3,
+          "dmgPct": 13.8,
+          "goldPct": 18.8,
+          "vsPct": 18.5,
+          "dpm": 323,
+          "vspm": 1.49,
+          "avgWpm": 0.37,
+          "avgWcpm": 0.36,
+          "avgVwpm": 0.29,
+          "gd15": -179,
+          "csd15": -7,
+          "xpd15": -318,
+          "fbPct": 30,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 1,
+          "rating": 26.2,
+          "confidence": 0.77,
+          "subscores": {
+            "laning": 30,
+            "damage": 10,
+            "presence": 10,
+            "efficiency": 30
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 10,
+        "avgWinRate": 30,
+        "avgKda": 2
+      }
+    },
+    {
+      "id": 1228,
+      "name": "Viper",
+      "country": "KR",
+      "team": "Hanwha Life eSports",
+      "role": "BOT",
+      "rating": 78.2,
+      "confidence": 1,
+      "subscores": {
+        "laning": 83.3,
+        "damage": 74,
+        "presence": 70,
+        "efficiency": 84
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 17,
+          "winRate": 82.4,
+          "kda": 8.7,
+          "avgKills": 5.6,
+          "avgDeaths": 1.6,
+          "avgAssists": 8.2,
+          "csm": 9.3,
+          "gpm": 461,
+          "kp": 66.4,
+          "dmgPct": 26.5,
+          "goldPct": 23.1,
+          "vsPct": 14.8,
+          "dpm": 773,
+          "vspm": 1.28,
+          "avgWpm": 0.49,
+          "avgWcpm": 0.36,
+          "avgVwpm": 0.13,
+          "gd15": 208,
+          "csd15": 3,
+          "xpd15": 239,
+          "fbPct": 35.3,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 3,
+          "rating": 78.2,
+          "confidence": 1,
+          "subscores": {
+            "laning": 83.3,
+            "damage": 74,
+            "presence": 70,
+            "efficiency": 84
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 17,
+        "avgWinRate": 82.4,
+        "avgKda": 8.7
+      }
+    },
+    {
+      "id": 4188,
+      "name": "Vladi",
+      "country": "GR",
+      "team": "Karmine Corp",
+      "role": "MID",
+      "rating": 30.6,
+      "confidence": 1,
+      "subscores": {
+        "laning": 10,
+        "damage": 22,
+        "presence": 30,
+        "efficiency": 62
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 19,
+          "winRate": 42.1,
+          "kda": 2.8,
+          "avgKills": 2.9,
+          "avgDeaths": 3.1,
+          "avgAssists": 5.8,
+          "csm": 9.1,
+          "gpm": 410,
+          "kp": 59.3,
+          "dmgPct": 24.4,
+          "goldPct": 22.6,
+          "vsPct": 13.8,
+          "dpm": 652,
+          "vspm": 1.13,
+          "avgWpm": 0.45,
+          "avgWcpm": 0.22,
+          "avgVwpm": 0.23,
+          "gd15": -260,
+          "csd15": -4,
+          "xpd15": -120,
+          "fbPct": 21.1,
+          "fbVictim": 10.5,
+          "pentaKills": 0,
+          "soloKills": 5,
+          "rating": 30.6,
+          "confidence": 1,
+          "subscores": {
+            "laning": 10,
+            "damage": 22,
+            "presence": 30,
+            "efficiency": 62
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 19,
+        "avgWinRate": 42.1,
+        "avgKda": 2.8
+      }
+    },
+    {
+      "id": 3537,
+      "name": "Yeon",
+      "country": "US",
+      "team": "Team Liquid",
+      "role": "BOT",
+      "rating": 53.8,
+      "confidence": 0.77,
+      "subscores": {
+        "laning": 56.7,
+        "damage": 78,
+        "presence": 50,
+        "efficiency": 24
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 10,
+          "winRate": 30,
+          "kda": 2.5,
+          "avgKills": 4.5,
+          "avgDeaths": 3.2,
+          "avgAssists": 3.4,
+          "csm": 8.8,
+          "gpm": 402,
+          "kp": 65.2,
+          "dmgPct": 32.4,
+          "goldPct": 23.7,
+          "vsPct": 13.2,
+          "dpm": 754,
+          "vspm": 1.09,
+          "avgWpm": 0.41,
+          "avgWcpm": 0.27,
+          "avgVwpm": 0.15,
+          "gd15": 120,
+          "csd15": -3,
+          "xpd15": 284,
+          "fbPct": 30,
+          "fbVictim": 10,
+          "pentaKills": 0,
+          "soloKills": 2,
+          "rating": 53.8,
+          "confidence": 0.77,
+          "subscores": {
+            "laning": 56.7,
+            "damage": 78,
+            "presence": 50,
+            "efficiency": 24
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 10,
+        "avgWinRate": 30,
+        "avgKda": 2.5
+      }
+    },
+    {
+      "id": 3406,
+      "name": "Yike",
+      "country": "SE",
+      "team": "Karmine Corp",
+      "role": "JGL",
+      "rating": 30.5,
+      "confidence": 1,
+      "subscores": {
+        "laning": 10,
+        "damage": 46,
+        "presence": 30,
+        "efficiency": 31
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 19,
+          "winRate": 42.1,
+          "kda": 2.8,
+          "avgKills": 2.7,
+          "avgDeaths": 3.6,
+          "avgAssists": 7.3,
+          "csm": 5.6,
+          "gpm": 335,
+          "kp": 66.5,
+          "dmgPct": 15.4,
+          "goldPct": 18.5,
+          "vsPct": 15.8,
+          "dpm": 405,
+          "vspm": 1.29,
+          "avgWpm": 0.29,
+          "avgWcpm": 0.26,
+          "avgVwpm": 0.25,
+          "gd15": -214,
+          "csd15": -10,
+          "xpd15": -355,
+          "fbPct": 26.3,
+          "fbVictim": 10.5,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 30.5,
+          "confidence": 1,
+          "subscores": {
+            "laning": 10,
+            "damage": 46,
+            "presence": 30,
+            "efficiency": 31
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 19,
+        "avgWinRate": 42.1,
+        "avgKda": 2.8
+      }
+    },
+    {
+      "id": 2906,
+      "name": "Zeka",
+      "country": "KR",
+      "team": "Hanwha Life eSports",
+      "role": "MID",
+      "rating": 78.8,
+      "confidence": 1,
+      "subscores": {
+        "laning": 83.3,
+        "damage": 90,
+        "presence": 50,
+        "efficiency": 84
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 17,
+          "winRate": 82.4,
+          "kda": 6.6,
+          "avgKills": 5.8,
+          "avgDeaths": 1.9,
+          "avgAssists": 7,
+          "csm": 8.8,
+          "gpm": 449,
+          "kp": 60.3,
+          "dmgPct": 26.8,
+          "goldPct": 22.4,
+          "vsPct": 15.2,
+          "dpm": 803,
+          "vspm": 1.32,
+          "avgWpm": 0.45,
+          "avgWcpm": 0.29,
+          "avgVwpm": 0.23,
+          "gd15": 351,
+          "csd15": 3,
+          "xpd15": 99,
+          "fbPct": 17.6,
+          "fbVictim": 5.9,
+          "pentaKills": 0,
+          "soloKills": 13,
+          "rating": 78.8,
+          "confidence": 1,
+          "subscores": {
+            "laning": 83.3,
+            "damage": 90,
+            "presence": 50,
+            "efficiency": 84
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 17,
+        "avgWinRate": 82.4,
+        "avgKda": 6.6
+      }
+    },
+    {
+      "id": 3658,
+      "name": "Zeus",
+      "country": "KR",
+      "team": "Hanwha Life eSports",
+      "role": "TOP",
+      "rating": 84.5,
+      "confidence": 1,
+      "subscores": {
+        "laning": 91.7,
+        "damage": 78.3,
+        "presence": 75,
+        "efficiency": 85.8
+      },
+      "tournaments": {
+        "First Stand 2025": {
+          "games": 17,
+          "winRate": 82.4,
+          "kda": 5,
+          "avgKills": 4.4,
+          "avgDeaths": 2.2,
+          "avgAssists": 6.9,
+          "csm": 8.1,
+          "gpm": 425,
+          "kp": 55.2,
+          "dmgPct": 23.7,
+          "goldPct": 21.2,
+          "vsPct": 12.5,
+          "dpm": 697,
+          "vspm": 1.09,
+          "avgWpm": 0.48,
+          "avgWcpm": 0.13,
+          "avgVwpm": 0.19,
+          "gd15": 314,
+          "csd15": 8,
+          "xpd15": 241,
+          "fbPct": 5.9,
+          "fbVictim": 11.8,
+          "pentaKills": 0,
+          "soloKills": 7,
+          "rating": 84.5,
+          "confidence": 1,
+          "subscores": {
+            "laning": 91.7,
+            "damage": 78.3,
+            "presence": 75,
+            "efficiency": 85.8
+          }
+        }
+      },
+      "aggregated": {
+        "totalGames": 17,
+        "avgWinRate": 82.4,
+        "avgKda": 5
+      }
+    }
+  ]
+}

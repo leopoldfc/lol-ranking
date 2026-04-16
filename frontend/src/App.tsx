@@ -3,7 +3,7 @@ import type { ExportData, Player } from './types';
 import { enrichPlayers } from './utils';
 import RankingTable from './components/RankingTable';
 import RosterPage from './components/RosterPage';
-import { LEAGUES, type LeagueConfig, type SplitConfig } from './leagues';
+import { YEARS, type LeagueConfig, type SplitConfig } from './leagues';
 
 type Page = 'rankings' | 'rosters';
 
@@ -35,6 +35,20 @@ const navBtn = (active: boolean): React.CSSProperties => ({
   fontWeight: 600,
   letterSpacing: '0.07em',
   textTransform: 'uppercase' as const,
+  cursor: 'pointer',
+  transition: 'all var(--t-fast)',
+});
+
+const yearBtn = (active: boolean): React.CSSProperties => ({
+  padding: '4px 12px',
+  borderRadius: 'var(--r-sm)',
+  border: `1px solid ${active ? 'var(--accent-border)' : 'var(--line)'}`,
+  background: active ? 'var(--accent-dim)' : 'transparent',
+  color: active ? 'var(--accent)' : 'var(--text-3)',
+  fontFamily: 'var(--font-mono)',
+  fontSize: 12,
+  fontWeight: 700,
+  letterSpacing: '0.04em',
   cursor: 'pointer',
   transition: 'all var(--t-fast)',
 });
@@ -91,14 +105,27 @@ function parentSplit(splits: SplitConfig[], id: string | null): SplitConfig | nu
 }
 
 export default function App() {
-  const [leagueId, setLeagueId] = useState(LEAGUES[0].id);
-  const [page, setPage]         = useState<Page>('rankings');
-  const [splitId, setSplitId]   = useState<string | null>(null);
+  const [page, setPage]     = useState<Page>('rankings');
+  const [splitId, setSplitId] = useState<string | null>(null);
+  const defaultYear = YEARS[YEARS.length - 1];
+  const [selection, setSelection] = useState({ year: defaultYear.year, leagueId: defaultYear.leagues[0].id });
 
-  const league = LEAGUES.find(l => l.id === leagueId) ?? LEAGUES[0];
+  const yearConfig = YEARS.find(y => y.year === selection.year) ?? YEARS[0];
+  const leagues    = yearConfig.leagues;
+  const league     = leagues.find(l => l.id === selection.leagueId) ?? leagues[0];
+
   const { data, error } = useExportData(league);
 
-  const handleSetLeague = (id: string) => { setLeagueId(id); setSplitId(null); };
+  const handleSetYear = (y: number) => {
+    const yc = YEARS.find(x => x.year === y) ?? YEARS[0];
+    setSelection({ year: y, leagueId: yc.leagues[0].id });
+    setSplitId(null);
+  };
+
+  const handleSetLeague = (id: string) => {
+    setSelection(s => ({ ...s, leagueId: id }));
+    setSplitId(null);
+  };
 
   const mainTournament   = data?.metadata.tournaments[0];
   const activeSplit      = league.splits ? findSplit(league.splits, splitId) : null;
@@ -121,21 +148,31 @@ export default function App() {
               </span>
             </div>
 
-            {/* Pages */}
-            <div style={{ display: 'flex', gap: 3 }}>
-              {(['rankings', 'rosters'] as Page[]).map(p => (
-                <button key={p} onClick={() => setPage(p)} style={navBtn(page === p)}>
-                  {p === 'rankings' ? 'Rankings' : 'Rosters'}
-                </button>
-              ))}
+            {/* Année + Pages */}
+            <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+              <div style={{ display: 'flex', gap: 3 }}>
+                {YEARS.map(y => (
+                  <button key={y.year} onClick={() => handleSetYear(y.year)} style={yearBtn(selection.year === y.year)}>
+                    {y.year}
+                  </button>
+                ))}
+              </div>
+              <div style={{ width: 1, height: 16, background: 'var(--line)' }} />
+              <div style={{ display: 'flex', gap: 3 }}>
+                {(['rankings', 'rosters'] as Page[]).map(p => (
+                  <button key={p} onClick={() => setPage(p)} style={navBtn(page === p)}>
+                    {p === 'rankings' ? 'Rankings' : 'Rosters'}
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
 
           {/* Ligne 2 : leagues */}
           <div style={{ display: 'flex', gap: 3, flexWrap: 'wrap' }}>
-            {LEAGUES.map(l => (
+            {leagues.map(l => (
               <button key={l.id} onClick={() => l.available && handleSetLeague(l.id)}
-                style={leagueBtn(leagueId === l.id, l.available)}>
+                style={leagueBtn(selection.leagueId === l.id, l.available)}>
                 {l.label}
               </button>
             ))}
@@ -146,15 +183,13 @@ export default function App() {
             )}
           </div>
 
-          {/* Ligne 3 : splits */}
-          {league.splits && league.splits.length > 0 && (
-            <div style={{ display: 'flex', alignItems: 'center', gap: 3, flexWrap: 'wrap', marginTop: 8 }}>
-              {league.splits.map(s => {
+          {/* Ligne 3 : splits (toujours rendue pour hauteur constante) */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 3, flexWrap: 'wrap', marginTop: 8, minHeight: 26 }}>
+              {(league.splits ?? []).map(s => {
                 const activeParent = league.splits ? parentSplit(league.splits, splitId)?.id === s.id : false;
                 const active       = activeParent;
 
                 if (s.children && s.children.length > 0) {
-                  // Bouton avec dropdown <select> intégré
                   const activeChild = s.children.find(c => c.id === splitId) ?? s.children[0];
                   return (
                     <span key={s.id} style={{ display: 'inline-flex', alignItems: 'center', position: 'relative' }}>
@@ -192,7 +227,6 @@ export default function App() {
                 );
               })}
             </div>
-          )}
 
         </div>
       </header>
