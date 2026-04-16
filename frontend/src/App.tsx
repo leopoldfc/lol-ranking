@@ -23,6 +23,52 @@ function useExportData(league: LeagueConfig) {
   return { data, error };
 }
 
+/* ── Styles boutons nav ──────────────────────── */
+const navBtn = (active: boolean): React.CSSProperties => ({
+  padding: '5px 14px',
+  borderRadius: 'var(--r-sm)',
+  border: `1px solid ${active ? 'var(--accent-border)' : 'var(--line)'}`,
+  background: active ? 'var(--accent-dim)' : 'transparent',
+  color: active ? 'var(--accent)' : 'var(--text-3)',
+  fontFamily: 'var(--font-body)',
+  fontSize: 11,
+  fontWeight: 600,
+  letterSpacing: '0.07em',
+  textTransform: 'uppercase' as const,
+  cursor: 'pointer',
+  transition: 'all var(--t-fast)',
+});
+
+const leagueBtn = (active: boolean, available: boolean): React.CSSProperties => ({
+  padding: '5px 13px',
+  borderRadius: 'var(--r-sm)',
+  border: `1px solid ${active ? 'var(--accent-border)' : 'var(--line)'}`,
+  background: active ? 'var(--accent-dim)' : 'transparent',
+  color: active ? 'var(--accent)' : available ? 'var(--text-3)' : 'var(--text-4)',
+  fontFamily: 'var(--font-display)',
+  fontSize: 11,
+  fontWeight: 700,
+  letterSpacing: '0.08em',
+  textTransform: 'uppercase' as const,
+  cursor: available ? 'pointer' : 'default',
+  opacity: available ? 1 : 0.4,
+  transition: 'all var(--t-fast)',
+});
+
+const splitBtn = (active: boolean): React.CSSProperties => ({
+  padding: '3px 11px',
+  borderRadius: 'var(--r-xs)',
+  border: `1px solid ${active ? 'rgba(212,245,60,0.25)' : 'var(--line)'}`,
+  background: active ? 'var(--accent-faint)' : 'transparent',
+  color: active ? 'var(--accent)' : 'var(--text-3)',
+  fontFamily: 'var(--font-mono)',
+  fontSize: 10,
+  fontWeight: 500,
+  letterSpacing: '0.04em',
+  cursor: 'pointer',
+  transition: 'all var(--t-fast)',
+});
+
 export default function App() {
   const [leagueId, setLeagueId] = useState(LEAGUES[0].id);
   const [page, setPage]         = useState<Page>('rankings');
@@ -31,136 +77,89 @@ export default function App() {
   const league = LEAGUES.find(l => l.id === leagueId) ?? LEAGUES[0];
   const { data, error } = useExportData(league);
 
-  // Reset split when changing league
-  const handleSetLeague = (id: string) => {
-    setLeagueId(id);
-    setSplitId(null);
-  };
+  const handleSetLeague = (id: string) => { setLeagueId(id); setSplitId(null); };
 
-  const mainTournament    = data?.metadata.tournaments[0];
-  const activeSplit       = league.splits?.find(s => s.id === splitId) ?? league.splits?.[0] ?? null;
-  const activeTournament  = activeSplit?.tournament ?? mainTournament?.name;
+  const mainTournament   = data?.metadata.tournaments[0];
+  const activeSplit      = league.splits?.find(s => s.id === splitId) ?? league.splits?.[0] ?? null;
+  const activeTournament = activeSplit?.tournament ?? mainTournament?.name;
 
   const rawPlayers: Player[] = data?.players ?? [];
-  const players    = enrichPlayers(rawPlayers, activeTournament);
+  const players = enrichPlayers(rawPlayers, activeTournament);
 
   return (
     <div>
       <header className="header">
-        <div className="header__content">
-          <div style={{ display: 'flex', alignItems: 'baseline', gap: 12, marginBottom: 14 }}>
-            <h1 className="header__title">{league.title}</h1>
-            <span className="header__subtitle">
-              {page === 'rankings' ? 'Player Rankings' : 'Team Rosters'}
-            </span>
-          </div>
+        <div className="header__content container">
 
-          {/* Barre de navigation */}
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 8 }}>
+          {/* Ligne 1 : titre + page */}
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 12 }}>
+            <div style={{ display: 'flex', alignItems: 'baseline', gap: 10 }}>
+              <h1 className="header__title">{league.title}</h1>
+              <span className="header__subtitle">
+                {page === 'rankings' ? 'Rankings' : 'Rosters'}
+              </span>
+            </div>
 
             {/* Pages */}
-            <div style={{ display: 'flex', gap: 4 }}>
-              {([
-                { key: 'rankings', label: 'Rankings' },
-                { key: 'rosters',  label: 'Rosters'  },
-              ] as { key: Page; label: string }[]).map(({ key, label }) => (
-                <button
-                  key={key}
-                  onClick={() => setPage(key)}
-                  style={{
-                    padding: '5px 16px',
-                    borderRadius: 'var(--radius-sm)',
-                    border: `1px solid ${page === key ? 'var(--gold-border)' : 'var(--border-light)'}`,
-                    background: page === key ? 'var(--gold-ghost)' : 'transparent',
-                    color: page === key ? 'var(--gold)' : 'var(--text-muted)',
-                    fontFamily: 'var(--font-heading)',
-                    fontSize: 13,
-                    fontWeight: 600,
-                    letterSpacing: '0.08em',
-                    textTransform: 'uppercase',
-                    cursor: 'pointer',
-                    transition: 'all var(--transition-fast)',
-                  }}
-                >
-                  {label}
+            <div style={{ display: 'flex', gap: 3 }}>
+              {(['rankings', 'rosters'] as Page[]).map(p => (
+                <button key={p} onClick={() => setPage(p)} style={navBtn(page === p)}>
+                  {p === 'rankings' ? 'Rankings' : 'Rosters'}
                 </button>
               ))}
             </div>
+          </div>
 
-            {/* Sélecteur de league */}
-            <div style={{ display: 'flex', gap: 4 }}>
+          {/* Ligne 2 : leagues + splits */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap' }}>
+
+            {/* Leagues */}
+            <div style={{ display: 'flex', gap: 3 }}>
               {LEAGUES.map(l => (
-                <button
-                  key={l.id}
-                  onClick={() => l.available && handleSetLeague(l.id)}
-                  style={{
-                    padding: '5px 14px',
-                    borderRadius: 'var(--radius-sm)',
-                    border: `1px solid ${leagueId === l.id ? 'var(--gold-border)' : 'var(--border-light)'}`,
-                    background: leagueId === l.id ? 'var(--gold-ghost)' : 'transparent',
-                    color: leagueId === l.id ? 'var(--gold)' : l.available ? 'var(--text-muted)' : 'var(--text-dim)',
-                    fontFamily: 'var(--font-heading)',
-                    fontSize: 12,
-                    fontWeight: 600,
-                    letterSpacing: '0.06em',
-                    textTransform: 'uppercase',
-                    cursor: l.available ? 'pointer' : 'default',
-                    opacity: l.available ? 1 : 0.45,
-                    transition: 'all var(--transition-fast)',
-                  }}
-                >
+                <button key={l.id} onClick={() => l.available && handleSetLeague(l.id)}
+                  style={leagueBtn(leagueId === l.id, l.available)}>
                   {l.label}
                 </button>
               ))}
             </div>
+
+            {/* Splits */}
+            {league.splits && league.splits.length > 0 && (
+              <>
+                <span style={{ width: 1, height: 14, background: 'var(--line)', display: 'block' }} />
+                <div style={{ display: 'flex', gap: 3 }}>
+                  {league.splits.map(s => {
+                    const active = (splitId ?? league.splits![0].id) === s.id;
+                    return (
+                      <button key={s.id} onClick={() => setSplitId(s.id)} style={splitBtn(active)}>
+                        {s.label}
+                      </button>
+                    );
+                  })}
+                </div>
+              </>
+            )}
+
+            {error && (
+              <span style={{ fontSize: 11, color: 'var(--red)', fontFamily: 'var(--font-mono)', marginLeft: 8 }}>
+                data unavailable
+              </span>
+            )}
           </div>
 
-          {/* Sélecteur de split (LEC Versus etc.) */}
-          {league.splits && league.splits.length > 0 && (
-            <div style={{ display: 'flex', gap: 4, marginTop: 10 }}>
-              {league.splits.map(s => {
-                const active = (splitId ?? league.splits![0].id) === s.id;
-                return (
-                  <button
-                    key={s.id}
-                    onClick={() => setSplitId(s.id)}
-                    style={{
-                      padding: '4px 12px',
-                      borderRadius: 'var(--radius-sm)',
-                      border: `1px solid ${active ? 'var(--gold-border)' : 'var(--border-light)'}`,
-                      background: active ? 'var(--gold-ghost)' : 'transparent',
-                      color: active ? 'var(--gold)' : 'var(--text-muted)',
-                      fontFamily: 'var(--font-heading)',
-                      fontSize: 11,
-                      fontWeight: 600,
-                      letterSpacing: '0.07em',
-                      textTransform: 'uppercase',
-                      cursor: 'pointer',
-                      transition: 'all var(--transition-fast)',
-                    }}
-                  >
-                    {s.label}
-                  </button>
-                );
-              })}
-            </div>
-          )}
-
-          {error && (
-            <p className="header__meta" style={{ marginTop: 8 }}>
-              <span style={{ color: 'var(--red)' }}>JSON non trouvé</span>
-            </p>
-          )}
         </div>
       </header>
 
       <main className="page container">
         {!league.available ? (
-          <div style={{ textAlign: 'center', padding: '80px 0', color: 'var(--text-dim)' }}>
-            <div style={{ fontFamily: 'var(--font-heading)', fontSize: 24, fontWeight: 700, color: 'var(--text-secondary)', letterSpacing: 1, marginBottom: 12 }}>
+          <div style={{ textAlign: 'center', padding: '100px 0' }}>
+            <div style={{
+              fontFamily: 'var(--font-display)', fontSize: 22, fontWeight: 800,
+              color: 'var(--text-3)', letterSpacing: '0.06em', textTransform: 'uppercase', marginBottom: 10,
+            }}>
               {league.label}
             </div>
-            <div style={{ fontSize: 14, letterSpacing: '0.1em', textTransform: 'uppercase' }}>
+            <div style={{ fontSize: 11, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--text-4)', fontFamily: 'var(--font-mono)' }}>
               Coming soon
             </div>
           </div>
@@ -174,20 +173,13 @@ export default function App() {
               />
             )}
             {page === 'rosters' && (
-              <RosterPage
-                players={players}
-                tournament={activeTournament}
-              />
+              <RosterPage players={players} tournament={activeTournament} />
             )}
           </>
         )}
 
         <footer className="footer">
-          <p>
-            Données : <strong>gol.gg</strong> ·
-            Scraper : <strong>lol-esports-scraper</strong> ·
-            Rating composite pondéré par rôle
-          </p>
+          <p>Data · <strong>gol.gg</strong> · LIR percentile rating by role</p>
         </footer>
       </main>
     </div>
