@@ -92,6 +92,26 @@ export const YEARS: YearConfig[] = [
         ],
       },
       {
+        id:        'lfl-2025',
+        label:     'LFL',
+        title:     'LFL 2025',
+        file:      '2025/lfl-2025/export.json',
+        available: true,
+        splits: [
+          { id: 'combined', label: 'Combined', tournament: 'LFL 2025' },
+          { id: 'spring', label: 'Spring', tournament: 'LFL 2025 Spring', children: [
+            { id: 'spring',   label: 'Combined', tournament: 'LFL 2025 Spring'          },
+            { id: 'springS',  label: 'Season',   tournament: 'LFL 2025 Spring Split'    },
+            { id: 'springPO', label: 'Playoffs', tournament: 'LFL 2025 Spring Playoffs' },
+          ]},
+          { id: 'summer', label: 'Summer', tournament: 'LFL 2025 Summer', children: [
+            { id: 'summer',   label: 'Combined', tournament: 'LFL 2025 Summer'          },
+            { id: 'summerS',  label: 'Season',   tournament: 'LFL 2025 Summer Split'    },
+            { id: 'summerPO', label: 'Playoffs', tournament: 'LFL 2025 Summer Playoffs' },
+          ]},
+        ],
+      },
+      {
         id:        'first-stand-2025',
         label:     'First Stand',
         title:     'First Stand 2025',
@@ -176,6 +196,18 @@ export const YEARS: YearConfig[] = [
           { id: 'combined', label: 'Combined', tournament: 'LCS 2026'         },
           { id: 'lockin',   label: 'Lock-In',  tournament: 'LCS 2026 Lock-In' },
           { id: 'spring',   label: 'Spring',   tournament: 'LCS 2026 Spring'  },
+        ],
+      },
+      {
+        id:        'lfl-2026',
+        label:     'LFL',
+        title:     'LFL 2026',
+        file:      '2026/lfl-2026/export.json',
+        available: true,
+        splits: [
+          { id: 'combined',     label: 'Combined',     tournament: 'LFL 2026'              },
+          { id: 'spring',       label: 'Spring Split', tournament: 'LFL 2026 Spring Split' },
+          { id: 'invitational', label: 'Invitational', tournament: 'LFL 2026 Invitational' },
         ],
       },
       {

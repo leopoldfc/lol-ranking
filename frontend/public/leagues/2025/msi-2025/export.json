@@ -12,16 +12,16 @@
     ]
   },
   "teamLogos": {
-    "Anyone s Legend": "https://gol.gg/_img/teams_icon/Anyone_Legendlogo_profile.webp",
-    "Bilibili Gaming": "https://gol.gg/_img/teams_icon/bilibili-gaming-2020.png",
-    "CTBC Flying Oyster": "https://gol.gg/_img/teams_icon/CTBC_Flying_Oysterlogo_square.webp",
-    "FlyQuest": "https://gol.gg/_img/teams_icon/FlyQuestlogo_square.png",
-    "FURIA": "https://gol.gg/_img/teams_icon/FURIAlogo_profile.webp",
-    "G2 Esports": "https://gol.gg/_img/teams_icon/G2_Esportslogo_square.webp",
-    "GAM Esports": "https://gol.gg/_img/teams_icon/GAM_Esportslogo_square.webp",
-    "Gen.G eSports": "https://gol.gg/_img/teams_icon/Gen.Glogo_profile.webp",
-    "Movistar KOI": "https://gol.gg/_img/teams_icon/Movistar_KOIlogo_square.webp",
-    "T1": "https://gol.gg/_img/teams_icon/t1-2021.png"
+    "Anyone s Legend": "/logos/anyone_s_legend.png",
+    "Bilibili Gaming": "/logos/bilibili_gaming.png",
+    "CTBC Flying Oyster": "/logos/ctbc_flying_oyster.png",
+    "FlyQuest": "/logos/flyquest.png",
+    "FURIA": "/logos/furia.png",
+    "G2 Esports": "/logos/g2_esports.png",
+    "GAM Esports": "/logos/gam_esports.png",
+    "Gen.G eSports": "/logos/gen_g_esports.png",
+    "Movistar KOI": "/logos/movistar_koi.png",
+    "T1": "/logos/t1.png"
   },
   "players": [
     {

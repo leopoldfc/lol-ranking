@@ -12,11 +12,11 @@
     ]
   },
   "teamLogos": {
-    "CTBC Flying Oyster": "https://gol.gg/_img/teams_icon/CTBC_Flying_Oysterlogo_square.webp",
-    "Hanwha Life eSports": "https://gol.gg/_img/teams_icon/hanwha-life-esports-2020.png",
-    "Karmine Corp": "https://gol.gg/_img/teams_icon/Karmine_Corplogo_square.webp",
-    "Team Liquid": "https://gol.gg/_img/teams_icon/Team_Liquidlogo_profile.webp",
-    "Top Esports": "https://gol.gg/_img/teams_icon/top-esports-2019.png"
+    "CTBC Flying Oyster": "/logos/ctbc_flying_oyster.png",
+    "Hanwha Life eSports": "/logos/hanwha_life_esports.png",
+    "Karmine Corp": "/logos/karmine_corp.png",
+    "Team Liquid": "/logos/team_liquid.png",
+    "Top Esports": "/logos/top_esports.png"
   },
   "players": [
     {

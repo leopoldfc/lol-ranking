@@ -10,19 +10,20 @@ import { YEARS, type LeagueConfig, type SplitConfig } from './leagues';
 type Page = 'overview' | 'rankings' | 'rosters' | 'about';
 
 function useExportData(league: LeagueConfig) {
-  const [data, setData]   = useState<ExportData | null>(null);
-  const [error, setError] = useState(false);
+  const [data, setData]       = useState<ExportData | null>(null);
+  const [error, setError]     = useState(false);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    if (!league.available) { setData(null); setError(false); return; }
-    setData(null); setError(false);
+    if (!league.available) { setData(null); setError(false); setLoading(false); return; }
+    setData(null); setError(false); setLoading(true);
     fetch(`/leagues/${league.file}`)
       .then(r => { if (!r.ok) throw new Error(); return r.json(); })
-      .then((d: ExportData) => setData(d))
-      .catch(() => setError(true));
+      .then((d: ExportData) => { setData(d); setLoading(false); })
+      .catch(() => { setError(true); setLoading(false); });
   }, [league.id]);
 
-  return { data, error };
+  return { data, error, loading };
 }
 
 function findSplit(splits: SplitConfig[], id: string | null): SplitConfig | null {
@@ -48,7 +49,7 @@ const PAGE_ICONS: Record<Page, string> = {
   overview: '◈',
   rankings: '▤',
   rosters:  '⊞',
-  about:    '?',
+  about:    '◎',
 };
 
 function useTheme() {
@@ -76,22 +77,28 @@ export default function App() {
   const leagues    = yearConfig.leagues;
   const league     = leagues.find(l => l.id === selection.leagueId) ?? leagues[0];
 
-  const { data, error } = useExportData(league);
+  const { data, error, loading } = useExportData(league);
 
   const closeNav = () => setNavOpen(false);
 
   const handleSetYear = (y: number) => {
     const yc = YEARS.find(x => x.year === y) ?? YEARS[0];
-    setSelection({ year: y, leagueId: yc.leagues[0].id });
-    setSplitId(null);
-    setPage('overview');
+    const sameLeague = yc.leagues.find(l => l.id.replace(/\d{4}$/, '') === league.id.replace(/\d{4}$/, '') && l.available);
+    const newLeague = sameLeague ?? yc.leagues[0];
+    const firstSplit = newLeague.splits?.[0];
+    const firstLeafId = firstSplit?.children ? firstSplit.children[0].id : firstSplit?.id ?? null;
+    setSelection({ year: y, leagueId: newLeague.id });
+    setSplitId(firstLeafId);
     closeNav();
   };
 
   const handleSetLeague = (id: string) => {
+    const newLeague = leagues.find(l => l.id === id) ?? leagues[0];
+    const firstSplit = newLeague.splits?.[0];
+    const firstLeafId = firstSplit?.children ? firstSplit.children[0].id : firstSplit?.id ?? null;
     setSelection(s => ({ ...s, leagueId: id }));
-    setSplitId(null);
-    setPage('rankings');
+    setSplitId(firstLeafId);
+    if (page === 'overview' || page === 'about') setPage('rankings');
     closeNav();
   };
 
@@ -201,8 +208,8 @@ export default function App() {
           ))}
         </div>
 
-        {/* Splits — shown when a league is selected */}
-        {page !== 'overview' && league.splits && league.splits.length > 0 && (
+        {/* Splits — shown whenever the selected league has splits */}
+        {league.splits && league.splits.length > 0 && (
           <>
             <div className="sidebar__divider" />
             <div className="sidebar__splits">
@@ -297,6 +304,10 @@ export default function App() {
             <div className="state-center">
               <div className="state-center__label">{league.label}</div>
               <div className="state-center__sub">Coming soon</div>
+            </div>
+          ) : loading ? (
+            <div className="state-center">
+              <div className="state-center__sub">Loading…</div>
             </div>
           ) : (
             <>

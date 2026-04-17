@@ -97,15 +97,23 @@ async function downloadLogo(teamName: string, url: string): Promise<string | nul
 // ─── 4. Process all league export.json files ─────────────────────────────────
 
 const leagueDir = path.join(ROOT, 'frontend/public/leagues');
-const leagues   = fs.readdirSync(leagueDir).filter(d =>
-  fs.statSync(path.join(leagueDir, d)).isDirectory()
-);
+
+function findExportFiles(dir: string): string[] {
+  const results: string[] = [];
+  for (const entry of fs.readdirSync(dir)) {
+    const full = path.join(dir, entry);
+    if (fs.statSync(full).isDirectory()) results.push(...findExportFiles(full));
+    else if (entry === 'export.json') results.push(full);
+  }
+  return results;
+}
+
+const exportFiles = findExportFiles(leagueDir).sort();
 
 let totalUpdated = 0;
 let totalMissed  = 0;
 
-for (const league of leagues.sort()) {
-  const exportFile = path.join(leagueDir, league, 'export.json');
+for (const exportFile of exportFiles) {
   if (!fs.existsSync(exportFile)) continue;
 
   const data = JSON.parse(fs.readFileSync(exportFile, 'utf8'));
@@ -143,7 +151,8 @@ for (const league of leagues.sort()) {
 
   const total = teamNames.length;
   const ok    = total - missed;
-  console.log(`  ${league.padEnd(22)} ${ok}/${total} logos`);
+  const label = path.relative(leagueDir, path.dirname(exportFile));
+  console.log(`  ${label.padEnd(22)} ${ok}/${total} logos`);
   totalUpdated += updated;
   totalMissed  += missed;
 }

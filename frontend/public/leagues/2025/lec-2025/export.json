@@ -12,17 +12,17 @@
     ]
   },
   "teamLogos": {
-    "Fnatic": "https://gol.gg/_img/teams_icon/Fnaticlogo_square.png",
-    "G2 Esports": "https://gol.gg/_img/teams_icon/G2_Esportslogo_square.webp",
-    "GIANTX": "https://gol.gg/_img/teams_icon/GIANTXlogo_profile.webp",
-    "Karmine Corp": "https://gol.gg/_img/teams_icon/Karmine_Corplogo_square.webp",
-    "Movistar KOI": "https://gol.gg/_img/teams_icon/Movistar_KOIlogo_square.webp",
-    "Rogue": "https://gol.gg/_img/teams_icon/Rogue_29logo_square.webp",
-    "SK Gaming": "https://gol.gg/_img/teams_icon/SK_Gaminglogo_square.webp",
-    "Team BDS": "https://gol.gg/_img/teams_icon/Team_BDSlogo_profile.webp",
-    "Team Heretics": "https://gol.gg/_img/teams_icon/Team_Hereticslogo_square.webp",
-    "Team Vitality": "https://gol.gg/_img/teams_icon/Team_Vitalitylogo_square.webp",
-    "Natus Vincere": "https://gol.gg/_img/teams_icon/Natus_Vincerelogo_square.webp"
+    "Fnatic": "/logos/fnatic.png",
+    "G2 Esports": "/logos/g2_esports.png",
+    "GIANTX": "/logos/giantx.png",
+    "Karmine Corp": "/logos/karmine_corp.png",
+    "Movistar KOI": "/logos/movistar_koi.png",
+    "Rogue": "/logos/rogue.png",
+    "SK Gaming": "/logos/sk_gaming.png",
+    "Team BDS": "/logos/team_bds.png",
+    "Team Heretics": "/logos/team_heretics.png",
+    "Team Vitality": "/logos/team_vitality.png",
+    "Natus Vincere": "/logos/natus_vincere.png"
   },
   "players": [
     {

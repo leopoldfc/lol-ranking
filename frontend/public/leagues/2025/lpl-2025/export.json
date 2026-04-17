@@ -12,22 +12,22 @@
     ]
   },
   "teamLogos": {
-    "Anyone s Legend": "https://gol.gg/_img/teams_icon/Anyone_Legendlogo_profile.webp",
-    "Bilibili Gaming": "https://gol.gg/_img/teams_icon/bilibili-gaming-2020.png",
-    "Edward Gaming": "https://gol.gg/_img/teams_icon/edward-gaming-2017.png",
-    "Funplus Phoenix": "https://gol.gg/_img/teams_icon/funplus-phoenix-2021.png",
-    "Invictus Gaming": "https://gol.gg/_img/teams_icon/invictus-gaming-2017.png",
-    "JD Gaming": "https://gol.gg/_img/teams_icon/jd-gaming-2020.png",
-    "LGD Gaming": "https://gol.gg/_img/teams_icon/lgd-gaming-2020.png",
-    "LNG Esports": "https://gol.gg/_img/teams_icon/lng-esports-2020.png",
-    "Ninjas in Pyjamas": "https://gol.gg/_img/teams_icon/Ninjas_in_Pyjamaslogo_profile.webp",
-    "OMG": "https://gol.gg/_img/teams_icon/Oh_My_Godlogo_square.webp",
-    "Royal Never Give Up": "https://gol.gg/_img/teams_icon/royal-never-give-up-2020.png",
-    "Team WE": "https://gol.gg/_img/teams_icon/team-we-2020.png",
-    "Top Esports": "https://gol.gg/_img/teams_icon/top-esports-2019.png",
-    "TT": "https://gol.gg/_img/teams_icon/tt-2020.png",
-    "Ultra Prime": "https://gol.gg/_img/teams_icon/ultra-prime-2021.png",
-    "Weibo Gaming": "https://gol.gg/_img/teams_icon/Weibo_Gaminglogo_profile.webp"
+    "Anyone s Legend": "/logos/anyone_s_legend.png",
+    "Bilibili Gaming": "/logos/bilibili_gaming.png",
+    "Edward Gaming": "/logos/edward_gaming.png",
+    "Funplus Phoenix": "/logos/funplus_phoenix.png",
+    "Invictus Gaming": "/logos/invictus_gaming.png",
+    "JD Gaming": "/logos/jd_gaming.png",
+    "LGD Gaming": "/logos/lgd_gaming.png",
+    "LNG Esports": "/logos/lng_esports.png",
+    "Ninjas in Pyjamas": "/logos/ninjas_in_pyjamas.png",
+    "OMG": "/logos/omg.png",
+    "Royal Never Give Up": "/logos/royal_never_give_up.png",
+    "Team WE": "/logos/team_we.png",
+    "Top Esports": "/logos/top_esports.png",
+    "TT": "/logos/tt.png",
+    "Ultra Prime": "/logos/ultra_prime.png",
+    "Weibo Gaming": "/logos/weibo_gaming.png"
   },
   "players": [
     {

@@ -12,16 +12,16 @@
     ]
   },
   "teamLogos": {
-    "BNK FearX": "https://gol.gg/_img/teams_icon/BNK_FEARXlogo_profile.webp",
-    "DN Freecs": "https://gol.gg/_img/teams_icon/DN_Freecslogo_profile.webp",
-    "Dplus KIA": "https://gol.gg/_img/teams_icon/Dplus_KIAlogo_profile.webp",
-    "DRX": "https://gol.gg/_img/teams_icon/DRX-2020.png",
-    "Gen.G eSports": "https://gol.gg/_img/teams_icon/Gen.Glogo_profile.webp",
-    "Hanwha Life eSports": "https://gol.gg/_img/teams_icon/hanwha-life-esports-2020.png",
-    "KT Rolster": "https://gol.gg/_img/teams_icon/kt-rolster-2021.png",
-    "Nongshim RedForce": "https://gol.gg/_img/teams_icon/nongshim-redforce-2020.png",
-    "OK BRION": "https://gol.gg/_img/teams_icon/OKSavingsBank_BRIONlogo_profile.webp",
-    "T1": "https://gol.gg/_img/teams_icon/t1-2021.png"
+    "BNK FearX": "/logos/bnk_fearx.png",
+    "DN Freecs": "/logos/dn_freecs.png",
+    "Dplus KIA": "/logos/dplus_kia.png",
+    "DRX": "/logos/drx.png",
+    "Gen.G eSports": "/logos/gen_g_esports.png",
+    "Hanwha Life eSports": "/logos/hanwha_life_esports.png",
+    "KT Rolster": "/logos/kt_rolster.png",
+    "Nongshim RedForce": "/logos/nongshim_redforce.png",
+    "OK BRION": "/logos/ok_brion.png",
+    "T1": "/logos/t1.png"
   },
   "players": [
     {
