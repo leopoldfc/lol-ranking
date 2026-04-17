@@ -1346,17 +1346,15 @@ a:hover { opacity: 0.75; }
     border-right: none;
     overflow-y: visible;
     gap: 12px;
-    /* Push radar to top: reorder so right col comes first */
-    order: 2;
+    order: 1;
   }
 
   .sheet-right {
     padding: 14px 14px 10px;
-    border-top: none;
-    border-bottom: 1px solid var(--line);
+    border-top: 1px solid var(--line);
     overflow-y: visible;
     justify-content: flex-start;
-    order: 1;
+    order: 2;
   }
 }
 
