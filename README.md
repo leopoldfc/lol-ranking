@@ -37,11 +37,145 @@ npx tsx leagues/detect.ts --all       # sans filtre de ligue
 
 ## Ajouter une ligue
 
-1. Créer `leagues/<année>/<id>/scrape.ts` en s'inspirant d'un scraper existant
-2. Définir `SPLITS` (tournois gol.gg) et `COMBINED_NAME`
-3. Ajouter la ligue dans `frontend/src/leagues.ts`
-4. Créer le dossier de sortie : `frontend/public/leagues/<id>/`
-5. Lancer `npx tsx leagues/<année>/<id>/scrape.ts`
+Guide complet pour ajouter une nouvelle ligue (ex : `lcs-2025`).
+
+---
+
+### Étape 1 — Trouver les tournois sur gol.gg
+
+Lance le détecteur pour repérer les noms exacts de tournois disponibles :
+
+```bash
+npx tsx leagues/detect.ts             # saison S16 (2026, défaut)
+npx tsx leagues/detect.ts --season S15  # saison 2025
+npx tsx leagues/detect.ts --all       # sans filtre de ligue
+```
+
+Note les noms exacts affichés (ex : `"LCS 2025 Spring"`, `"LCS 2025 Playoffs"`). Ces noms seront utilisés dans `SPLITS` et dans `frontend/src/leagues.ts`.
+
+---
+
+### Étape 2 — Créer le scraper
+
+Crée le fichier `leagues/<année>/<id>/scrape.ts` en copiant un scraper existant :
+
+```bash
+cp -r leagues/2026/lck-2026 leagues/2025/lcs-2025
+# renommer le fichier scrape.ts et l'adapter
+```
+
+Modifie les variables en haut du fichier :
+
+```ts
+const SPLITS = [
+  { key: 'spring',   name: 'LCS 2025 Spring',   season: 'ALL' },
+  { key: 'playoffs', name: 'LCS 2025 Playoffs',  season: 'ALL' },
+  // ajoute autant de splits que nécessaire
+];
+const COMBINED_NAME = 'LCS 2025'; // nom du tournoi "combiné" (tous splits fusionnés)
+```
+
+> `key` : identifiant court libre (sera utilisé en interne).  
+> `name` : nom **exact** du tournoi sur gol.gg (copier-coller depuis l'étape 1).  
+> `COMBINED_NAME` : nom du tournoi virtuel qui agrège tous les splits.
+
+En bas du fichier, mets à jour la section LIR par split pour refléter tes splits :
+
+```ts
+// Pour chaque split défini dans SPLITS, ajouter un bloc du type :
+const springPlayers = players.filter(p => p.rows.spring);
+const springResults = computeRatingsForGroup(springPlayers, p => p.rows.spring);
+springPlayers.forEach((p, i) => { p.lirSpring = springResults[i]; });
+```
+
+Et dans la section export, ajouter les entrées `tournaments` correspondantes :
+
+```ts
+if (p.rows.spring) {
+  tournaments[SPLITS[0].name] = { ...toStats(p.rows.spring), ...(p.lirSpring ?? {}) };
+}
+```
+
+Mets aussi à jour le chemin de sortie en bas du fichier :
+
+```ts
+fs.writeFileSync(
+  path.join(__dirname, '../../../frontend/public/leagues/lcs-2025/export.json'),
+  JSON.stringify(exportData, null, 2)
+);
+```
+
+---
+
+### Étape 3 — Créer le dossier de sortie
+
+```bash
+mkdir frontend/public/leagues/lcs-2025
+```
+
+---
+
+### Étape 4 — Lancer le scraper
+
+```bash
+npx tsx leagues/2025/lcs-2025/scrape.ts
+```
+
+Le scraper affiche sa progression équipe par équipe. À la fin, vérifie que `frontend/public/leagues/lcs-2025/export.json` a bien été créé.
+
+---
+
+### Étape 5 — Déclarer la ligue dans le frontend
+
+Ouvre `frontend/src/leagues.ts` et ajoute la ligue dans le bon bloc `year` :
+
+```ts
+{
+  id:        'lcs-2025',
+  label:     'LCS',           // affiché dans la sidebar
+  title:     'LCS 2025',      // titre de la page
+  file:      'lcs-2025/export.json',
+  available: true,
+  splits: [
+    // "Combined" agrège tous les splits — son tournament = COMBINED_NAME du scraper
+    { id: 'combined', label: 'Combined', tournament: 'LCS 2025' },
+    // Un split par entrée dans SPLITS du scraper
+    { id: 'spring',   label: 'Spring',   tournament: 'LCS 2025 Spring'   },
+    { id: 'playoffs', label: 'Playoffs', tournament: 'LCS 2025 Playoffs' },
+  ],
+},
+```
+
+> Le champ `tournament` doit correspondre **exactement** à la clé utilisée dans `tournaments` du JSON exporté (= le `name` du split dans le scraper, ou `COMBINED_NAME`).
+
+Pour grouper des splits avec un menu déroulant hiérarchique, utilise `children` :
+
+```ts
+{ id: 'spring', label: 'Spring', tournament: 'LCS 2025 Spring', children: [
+  { id: 'spring',   label: 'Saison',   tournament: 'LCS 2025 Spring'   },
+  { id: 'playoffs', label: 'Playoffs', tournament: 'LCS 2025 Playoffs' },
+]},
+```
+
+---
+
+### Étape 6 — Ajouter le script npm (optionnel)
+
+Dans `package.json`, ajoute le scraper à `scrape:2025` :
+
+```json
+"scrape:2025": "... && tsx leagues/2025/lcs-2025/scrape.ts"
+```
+
+---
+
+### Étape 7 — Vérifier
+
+```bash
+npm run dev
+```
+
+La ligue doit apparaître dans la sidebar. Clique dessus et vérifie que les joueurs s'affichent correctement dans Rankings et Rosters.
 
 ## Système de rating (LIR)
 
