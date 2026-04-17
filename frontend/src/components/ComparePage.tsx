@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useRef, useState, useMemo } from 'react';
 import {
   Radar, RadarChart, PolarGrid, PolarAngleAxis, ResponsiveContainer, Tooltip,
 } from 'recharts';
@@ -196,6 +196,18 @@ function PlayerSelector({ pools, selectedPlayer, onSelect, color, slot, teamLogo
   const [filterLeague, setFilterLeague] = useState<string | null>(null);
   const [filterRole, setFilterRole] = useState<Role | null>(null);
   const [open, setOpen] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!open) return;
+    const handler = (e: MouseEvent) => {
+      if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
+        setOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handler);
+    return () => document.removeEventListener('mousedown', handler);
+  }, [open]);
 
   const availableLeagues = useMemo(() =>
     pools.filter(p => filterYear === null || p.year === filterYear)
@@ -224,7 +236,7 @@ function PlayerSelector({ pools, selectedPlayer, onSelect, color, slot, teamLogo
   const label = slot === 'a' ? 'Player 1' : 'Player 2';
 
   return (
-    <div className={`csel csel--${slot}${open ? ' csel--open' : ''}`} style={{ '--csel-color': color } as React.CSSProperties}>
+    <div ref={containerRef} className={`csel csel--${slot}${open ? ' csel--open' : ''}`} style={{ '--csel-color': color } as React.CSSProperties}>
 
       {/* Selected player display / trigger */}
       <button className="csel__trigger" onClick={() => setOpen(o => !o)} style={{ borderColor: open ? color : undefined }}>
@@ -320,24 +332,31 @@ function PlayerSelector({ pools, selectedPlayer, onSelect, color, slot, teamLogo
 
 function PlayerHero({ player, pool, color, align }: { player: Player; pool: LeaguePlayerPool; color: string; align: 'left' | 'right' }) {
   const isRight = align === 'right';
+  const hasPhoto = !!pool.playerImages[player.name];
   return (
     <div className="chero" style={{ textAlign: align }}>
       <div className="chero__inner" style={{ flexDirection: isRight ? 'row-reverse' : 'row' }}>
-        {/* Team logo — big */}
-        {pool.teamLogos[player.team] && (
+        {/* Player photo or team logo fallback */}
+        {hasPhoto ? (
+          <img src={pool.playerImages[player.name]} alt={player.name}
+            style={{ width: 52, height: 52, objectFit: 'cover', objectPosition: 'top', borderRadius: 5, flexShrink: 0, border: `1px solid ${color}30` }} />
+        ) : pool.teamLogos[player.team] ? (
           <img src={pool.teamLogos[player.team]} alt={player.team}
             style={{ width: 44, height: 44, objectFit: 'contain', flexShrink: 0 }} />
-        )}
+        ) : null}
         <div style={{ minWidth: 0 }}>
-          <div style={{ fontFamily: 'var(--font-display)', fontSize: 26, color, letterSpacing: '0.04em', lineHeight: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{player.name}</div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 5, marginTop: 5, justifyContent: isRight ? 'flex-end' : 'flex-start' }}>
+          <div style={{ fontFamily: 'var(--font-display)', fontSize: 24, color, letterSpacing: '0.04em', lineHeight: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{player.name}</div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 5, marginTop: 5, justifyContent: isRight ? 'flex-end' : 'flex-start', flexWrap: 'wrap' }}>
             <RoleTag role={player.role} />
+            {pool.teamLogos[player.team] && hasPhoto && (
+              <img src={pool.teamLogos[player.team]} alt={player.team} style={{ width: 14, height: 14, objectFit: 'contain' }} />
+            )}
             <span style={{ fontFamily: 'var(--font-mono)', fontSize: 10, color: 'var(--text-2)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{player.team}</span>
-            <span style={{ fontFamily: 'var(--font-mono)', fontSize: 9, color: 'var(--text-4)' }}>· {pool.leagueLabel} {pool.year}</span>
+            <span style={{ fontFamily: 'var(--font-mono)', fontSize: 9, color: 'var(--text-4)', whiteSpace: 'nowrap' }}>· {pool.leagueLabel} {pool.year}</span>
           </div>
         </div>
       </div>
-      <div style={{ fontFamily: 'var(--font-mono)', fontSize: 36, fontWeight: 700, color, letterSpacing: '-0.04em', lineHeight: 1, marginTop: 10 }}>
+      <div style={{ fontFamily: 'var(--font-mono)', fontSize: 34, fontWeight: 700, color, letterSpacing: '-0.04em', lineHeight: 1, marginTop: 10 }}>
         {(player.rating ?? 0).toFixed(1)}
         <span style={{ fontSize: 8, color: 'var(--text-4)', letterSpacing: '0.10em', textTransform: 'uppercase', marginLeft: 5, fontWeight: 400 }}>LIR</span>
       </div>
@@ -405,6 +424,7 @@ export default function ComparePage() {
                       tickLine={false} />
                     <Radar dataKey="a" stroke={COLOR_A} fill={COLOR_A} fillOpacity={0.18} strokeWidth={2} dot={false} />
                     <Radar dataKey="b" stroke={COLOR_B} fill={COLOR_B} fillOpacity={0.18} strokeWidth={2} dot={false} />
+                    <Tooltip content={<CompareTooltip />} />
                     <Tooltip content={<CompareTooltip />} />
                   </RadarChart>
                 </ResponsiveContainer>
