@@ -169,8 +169,8 @@ export default function RankingTable({ players, tournament, tournamentName, team
             <div style={{ padding: CELL_PAD, textAlign: 'left', fontSize: 11, color: 'var(--text-3)', fontFamily: 'var(--font-body)', fontWeight: 500, letterSpacing: '0.05em', textTransform: 'uppercase' }}>#</div>
             {/* PLAYER */}
             <div style={{ padding: CELL_PAD, textAlign: 'left', fontSize: 11, color: 'var(--text-3)', fontFamily: 'var(--font-body)', fontWeight: 500, letterSpacing: '0.05em', textTransform: 'uppercase' }}>Player</div>
-            {/* LIR */}
-            <div style={numHead('rating')} onClick={() => toggleSort('rating')}>LIR{sortIcon('rating')}</div>
+            {/* RATING */}
+            <div style={numHead('rating')} onClick={() => toggleSort('rating')}>RATING{sortIcon('rating')}</div>
             {/* G */}
             <div style={numHead('games')} onClick={() => toggleSort('games')}>G{sortIcon('games')}</div>
             {/* W% */}
