@@ -1489,19 +1489,21 @@ a:hover { opacity: 0.75; }
 
 /* Tablette : 5 cols maintenu */
 
-/* Mobile ≤ 640px : scroll horizontal des cartes */
-@media (max-width: 640px) {
+/* Tablette ≤ 900px : 3 cols */
+@media (max-width: 900px) {
   .role-top-grid {
-    grid-template-columns: repeat(5, minmax(120px, 1fr));
-    overflow-x: auto;
-    padding-bottom: 4px;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
+    grid-template-columns: repeat(3, 1fr);
   }
-  .role-top-grid::-webkit-scrollbar { display: none; }
+}
 
+/* Mobile ≤ 580px : 2 cols */
+@media (max-width: 580px) {
+  .role-top-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .role-card__name { font-size: 11px; }
   .role-card__rating { font-size: 13px; }
+  .role-card .recharts-wrapper { width: 70px !important; height: 70px !important; }
 }
 
 
