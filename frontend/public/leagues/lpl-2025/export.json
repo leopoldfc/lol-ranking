@@ -1,33 +1,33 @@
 {
   "metadata": {
-    "exportedAt": "2026-04-17T09:37:29.567Z",
+    "exportedAt": "2026-04-17T13:02:14.421Z",
     "tournaments": [
       {
         "name": "LPL 2025",
         "league": "LPL",
         "year": 2025,
         "split": "Full Year",
-        "scrapedAt": "2026-04-17T09:37:29.567Z"
+        "scrapedAt": "2026-04-17T13:02:14.422Z"
       }
     ]
   },
   "teamLogos": {
-    "Anyone s Legend": "/logos/anyone_s_legend.webp",
-    "Bilibili Gaming": "/logos/bilibili_gaming.png",
+    "Anyone s Legend": "https://gol.gg/_img/teams_icon/Anyone_Legendlogo_profile.webp",
+    "Bilibili Gaming": "https://gol.gg/_img/teams_icon/bilibili-gaming-2020.png",
     "Edward Gaming": "https://gol.gg/_img/teams_icon/edward-gaming-2017.png",
     "Funplus Phoenix": "https://gol.gg/_img/teams_icon/funplus-phoenix-2021.png",
-    "Invictus Gaming": "/logos/invictus_gaming.png",
-    "JD Gaming": "/logos/jd_gaming.webp",
-    "LGD Gaming": "/logos/lgd_gaming.webp",
-    "LNG Esports": "/logos/lng_esports.webp",
-    "Ninjas in Pyjamas": "/logos/ninjas_in_pyjamas.webp",
+    "Invictus Gaming": "https://gol.gg/_img/teams_icon/invictus-gaming-2017.png",
+    "JD Gaming": "https://gol.gg/_img/teams_icon/jd-gaming-2020.png",
+    "LGD Gaming": "https://gol.gg/_img/teams_icon/lgd-gaming-2020.png",
+    "LNG Esports": "https://gol.gg/_img/teams_icon/lng-esports-2020.png",
+    "Ninjas in Pyjamas": "https://gol.gg/_img/teams_icon/Ninjas_in_Pyjamaslogo_profile.webp",
     "OMG": "https://gol.gg/_img/teams_icon/Oh_My_Godlogo_square.webp",
     "Royal Never Give Up": "https://gol.gg/_img/teams_icon/royal-never-give-up-2020.png",
-    "Team WE": "/logos/team_we.webp",
-    "Top Esports": "/logos/top_esports.png",
+    "Team WE": "https://gol.gg/_img/teams_icon/team-we-2020.png",
+    "Top Esports": "https://gol.gg/_img/teams_icon/top-esports-2019.png",
     "TT": "https://gol.gg/_img/teams_icon/tt-2020.png",
-    "Ultra Prime": "/logos/ultra_prime.webp",
-    "Weibo Gaming": "/logos/weibo_gaming.webp"
+    "Ultra Prime": "https://gol.gg/_img/teams_icon/ultra-prime-2021.png",
+    "Weibo Gaming": "https://gol.gg/_img/teams_icon/Weibo_Gaminglogo_profile.webp"
   },
   "players": [
     {
@@ -70,6 +70,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 42.5,
           "confidence": 1,
           "subscores": {
@@ -104,6 +105,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 51.6,
           "confidence": 0.33,
           "subscores": {
@@ -138,6 +140,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 45.1,
           "confidence": 1,
           "subscores": {
@@ -172,6 +175,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 46.8,
           "confidence": 0.84,
           "subscores": {
@@ -206,6 +210,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 44.7,
           "confidence": 0.24,
           "subscores": {
@@ -240,6 +245,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 45.2,
           "confidence": 0.86,
           "subscores": {
@@ -274,6 +280,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 53.1,
           "confidence": 0.54,
           "subscores": {
@@ -308,6 +315,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 44.5,
           "confidence": 0.75,
           "subscores": {
@@ -398,6 +406,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 71.7,
           "confidence": 1,
           "subscores": {
@@ -432,6 +441,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 30.2,
           "confidence": 0.76,
           "subscores": {
@@ -466,6 +476,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 20.7,
           "confidence": 1,
           "subscores": {
@@ -500,6 +511,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 49.6,
           "confidence": 0.23,
           "subscores": {
@@ -534,6 +546,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 45.5,
           "confidence": 1,
           "subscores": {
@@ -568,6 +581,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 69.1,
           "confidence": 0.78,
           "subscores": {
@@ -602,6 +616,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 63.5,
           "confidence": 1,
           "subscores": {
@@ -636,6 +651,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 26.3,
           "confidence": 0.98,
           "subscores": {
@@ -670,6 +686,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 68.3,
           "confidence": 0.66,
           "subscores": {
@@ -760,6 +777,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 49.8,
           "confidence": 0.91,
           "subscores": {
@@ -794,6 +812,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 73.4,
           "confidence": 1,
           "subscores": {
@@ -828,6 +847,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 68,
           "confidence": 1,
           "subscores": {
@@ -862,6 +882,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 55.8,
           "confidence": 0.92,
           "subscores": {
@@ -896,6 +917,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 59.8,
           "confidence": 1,
           "subscores": {
@@ -930,6 +952,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 49.9,
           "confidence": 1,
           "subscores": {
@@ -964,6 +987,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 54.9,
           "confidence": 0.67,
           "subscores": {
@@ -998,6 +1022,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 57.8,
           "confidence": 1,
           "subscores": {
@@ -1032,6 +1057,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 68.9,
           "confidence": 1,
           "subscores": {
@@ -1066,6 +1092,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 65.4,
           "confidence": 1,
           "subscores": {
@@ -1100,6 +1127,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 53.7,
           "confidence": 1,
           "subscores": {
@@ -1190,6 +1218,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 62.4,
           "confidence": 0.95,
           "subscores": {
@@ -1224,6 +1253,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 37.4,
           "confidence": 0.86,
           "subscores": {
@@ -1258,6 +1288,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 19.1,
           "confidence": 1,
           "subscores": {
@@ -1292,6 +1323,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 40.3,
           "confidence": 0.38,
           "subscores": {
@@ -1326,6 +1358,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 29,
           "confidence": 1,
           "subscores": {
@@ -1360,6 +1393,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 28.5,
           "confidence": 0.96,
           "subscores": {
@@ -1394,6 +1428,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 58.3,
           "confidence": 1,
           "subscores": {
@@ -1428,6 +1463,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 19.9,
           "confidence": 1,
           "subscores": {
@@ -1462,6 +1498,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 34.1,
           "confidence": 0.74,
           "subscores": {
@@ -1552,6 +1589,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 72.9,
           "confidence": 1,
           "subscores": {
@@ -1586,6 +1624,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 49.9,
           "confidence": 1,
           "subscores": {
@@ -1620,6 +1659,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 55.4,
           "confidence": 1,
           "subscores": {
@@ -1654,6 +1694,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 33.4,
           "confidence": 0.69,
           "subscores": {
@@ -1688,6 +1729,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 59.3,
           "confidence": 1,
           "subscores": {
@@ -1722,6 +1764,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 68.6,
           "confidence": 1,
           "subscores": {
@@ -1756,6 +1799,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 52.2,
           "confidence": 1,
           "subscores": {
@@ -1846,6 +1890,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 57.5,
           "confidence": 0.91,
           "subscores": {
@@ -1880,6 +1925,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 52.3,
           "confidence": 0.33,
           "subscores": {
@@ -1914,6 +1960,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 51.1,
           "confidence": 0.23,
           "subscores": {
@@ -1948,6 +1995,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 30.1,
           "confidence": 1,
           "subscores": {
@@ -1982,6 +2030,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 55.5,
           "confidence": 0.69,
           "subscores": {
@@ -2016,6 +2065,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 56.9,
           "confidence": 0.96,
           "subscores": {
@@ -2050,6 +2100,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 58.8,
           "confidence": 0.71,
           "subscores": {
@@ -2084,6 +2135,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 50.1,
           "confidence": 0.44,
           "subscores": {
@@ -2118,6 +2170,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 54.6,
           "confidence": 0.85,
           "subscores": {
@@ -2208,6 +2261,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 33.4,
           "confidence": 0.91,
           "subscores": {
@@ -2242,6 +2296,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 35.8,
           "confidence": 1,
           "subscores": {
@@ -2276,6 +2331,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 63.9,
           "confidence": 1,
           "subscores": {
@@ -2310,6 +2366,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 45,
           "confidence": 1,
           "subscores": {
@@ -2344,6 +2401,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 35,
           "confidence": 0.71,
           "subscores": {
@@ -2378,6 +2436,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 42.8,
           "confidence": 1,
           "subscores": {
@@ -2468,6 +2527,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 74,
           "confidence": 1,
           "subscores": {
@@ -2502,6 +2562,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 51.4,
           "confidence": 0.76,
           "subscores": {
@@ -2536,6 +2597,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 40.7,
           "confidence": 1,
           "subscores": {
@@ -2570,6 +2632,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 38.8,
           "confidence": 1,
           "subscores": {
@@ -2604,6 +2667,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 71,
           "confidence": 1,
           "subscores": {
@@ -2638,6 +2702,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 58.8,
           "confidence": 1,
           "subscores": {
@@ -2672,6 +2737,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 68.7,
           "confidence": 1,
           "subscores": {
@@ -2706,6 +2772,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 42,
           "confidence": 1,
           "subscores": {
@@ -2740,6 +2807,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 48.9,
           "confidence": 0.35,
           "subscores": {
@@ -2830,6 +2898,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 46.8,
           "confidence": 1,
           "subscores": {
@@ -2864,6 +2933,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 53.3,
           "confidence": 1,
           "subscores": {
@@ -2898,6 +2968,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 57.5,
           "confidence": 1,
           "subscores": {
@@ -2932,6 +3003,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 76.3,
           "confidence": 1,
           "subscores": {
@@ -2966,6 +3038,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 60.8,
           "confidence": 1,
           "subscores": {
@@ -3000,6 +3073,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 55.3,
           "confidence": 1,
           "subscores": {
@@ -3034,6 +3108,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 47.3,
           "confidence": 1,
           "subscores": {
@@ -3068,6 +3143,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 49.3,
           "confidence": 1,
           "subscores": {
@@ -3102,6 +3178,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 65.3,
           "confidence": 1,
           "subscores": {
@@ -3136,6 +3213,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 49.7,
           "confidence": 1,
           "subscores": {
@@ -3226,6 +3304,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 37.4,
           "confidence": 1,
           "subscores": {
@@ -3260,6 +3339,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 43.1,
           "confidence": 0.38,
           "subscores": {
@@ -3294,6 +3374,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 50,
           "confidence": 1,
           "subscores": {
@@ -3328,6 +3409,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 60,
           "confidence": 1,
           "subscores": {
@@ -3362,6 +3444,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 63.2,
           "confidence": 1,
           "subscores": {
@@ -3396,6 +3479,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 49.7,
           "confidence": 1,
           "subscores": {
@@ -3430,6 +3514,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 54.3,
           "confidence": 0.67,
           "subscores": {
@@ -3464,6 +3549,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 55.9,
           "confidence": 1,
           "subscores": {
@@ -3498,6 +3584,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 35,
           "confidence": 1,
           "subscores": {
@@ -3532,6 +3619,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 61.3,
           "confidence": 1,
           "subscores": {
@@ -3566,6 +3654,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 54.9,
           "confidence": 1,
           "subscores": {
@@ -3656,6 +3745,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 57.1,
           "confidence": 0.91,
           "subscores": {
@@ -3690,6 +3780,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 28.8,
           "confidence": 1,
           "subscores": {
@@ -3724,6 +3815,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 50.9,
           "confidence": 1,
           "subscores": {
@@ -3758,6 +3850,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 38.8,
           "confidence": 1,
           "subscores": {
@@ -3792,6 +3885,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 17.4,
           "confidence": 1,
           "subscores": {
@@ -3826,6 +3920,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 53,
           "confidence": 0.4,
           "subscores": {
@@ -3860,6 +3955,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 56.1,
           "confidence": 0.71,
           "subscores": {
@@ -3894,6 +3990,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 33.9,
           "confidence": 1,
           "subscores": {
@@ -3928,6 +4025,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 28.7,
           "confidence": 0.93,
           "subscores": {
@@ -4018,6 +4116,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 41.4,
           "confidence": 0.86,
           "subscores": {
@@ -4052,6 +4151,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 47.1,
           "confidence": 0.31,
           "subscores": {
@@ -4086,6 +4186,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 47.9,
           "confidence": 1,
           "subscores": {
@@ -4120,6 +4221,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 61,
           "confidence": 0.92,
           "subscores": {
@@ -4154,6 +4256,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 45.4,
           "confidence": 0.25,
           "subscores": {
@@ -4188,6 +4291,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 44,
           "confidence": 0.72,
           "subscores": {
@@ -4222,6 +4326,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 45.3,
           "confidence": 0.46,
           "subscores": {
@@ -4256,6 +4361,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 54.7,
           "confidence": 0.79,
           "subscores": {
@@ -4346,6 +4452,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 67,
           "confidence": 0.91,
           "subscores": {
@@ -4380,6 +4487,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 62.5,
           "confidence": 1,
           "subscores": {
@@ -4414,6 +4522,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 61.2,
           "confidence": 1,
           "subscores": {
@@ -4448,6 +4557,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 51.6,
           "confidence": 0.92,
           "subscores": {
@@ -4482,6 +4592,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 75.1,
           "confidence": 1,
           "subscores": {
@@ -4516,6 +4627,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 70,
           "confidence": 1,
           "subscores": {
@@ -4550,6 +4662,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 69.4,
           "confidence": 0.67,
           "subscores": {
@@ -4584,6 +4697,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 55.1,
           "confidence": 1,
           "subscores": {
@@ -4618,6 +4732,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 64.1,
           "confidence": 1,
           "subscores": {
@@ -4652,6 +4767,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 63.6,
           "confidence": 1,
           "subscores": {
@@ -4686,6 +4802,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 70.2,
           "confidence": 1,
           "subscores": {
@@ -4776,6 +4893,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 52,
           "confidence": 1,
           "subscores": {
@@ -4810,6 +4928,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 47.8,
           "confidence": 1,
           "subscores": {
@@ -4844,6 +4963,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 58.1,
           "confidence": 1,
           "subscores": {
@@ -4878,6 +4998,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 29.4,
           "confidence": 0.92,
           "subscores": {
@@ -4912,6 +5033,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 69.2,
           "confidence": 1,
           "subscores": {
@@ -4946,6 +5068,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 46.3,
           "confidence": 1,
           "subscores": {
@@ -4980,6 +5103,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 34.2,
           "confidence": 0.67,
           "subscores": {
@@ -5014,6 +5138,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 57.8,
           "confidence": 1,
           "subscores": {
@@ -5048,6 +5173,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 60.6,
           "confidence": 1,
           "subscores": {
@@ -5082,6 +5208,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 60.3,
           "confidence": 1,
           "subscores": {
@@ -5116,6 +5243,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 44.6,
           "confidence": 1,
           "subscores": {
@@ -5206,6 +5334,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 60.4,
           "confidence": 0.91,
           "subscores": {
@@ -5240,6 +5369,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 30.5,
           "confidence": 1,
           "subscores": {
@@ -5274,6 +5404,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 55.1,
           "confidence": 1,
           "subscores": {
@@ -5308,6 +5439,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 46.2,
           "confidence": 1,
           "subscores": {
@@ -5342,6 +5474,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 47.1,
           "confidence": 1,
           "subscores": {
@@ -5376,6 +5509,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 49.8,
           "confidence": 0.32,
           "subscores": {
@@ -5410,6 +5544,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 59.2,
           "confidence": 0.71,
           "subscores": {
@@ -5444,6 +5579,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 40.3,
           "confidence": 1,
           "subscores": {
@@ -5478,6 +5614,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 50.4,
           "confidence": 1,
           "subscores": {
@@ -5568,6 +5705,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 57.8,
           "confidence": 0.91,
           "subscores": {
@@ -5602,6 +5740,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 37.5,
           "confidence": 0.86,
           "subscores": {
@@ -5636,6 +5775,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 38.5,
           "confidence": 1,
           "subscores": {
@@ -5670,6 +5810,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 45.9,
           "confidence": 0.38,
           "subscores": {
@@ -5704,6 +5845,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 67.7,
           "confidence": 1,
           "subscores": {
@@ -5738,6 +5880,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 66.3,
           "confidence": 0.78,
           "subscores": {
@@ -5772,6 +5915,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 37.9,
           "confidence": 1,
           "subscores": {
@@ -5806,6 +5950,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 53.2,
           "confidence": 1,
           "subscores": {
@@ -5840,6 +5985,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 44.4,
           "confidence": 1,
           "subscores": {
@@ -5874,6 +6020,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 68.6,
           "confidence": 0.95,
           "subscores": {
@@ -5964,6 +6111,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 74.6,
           "confidence": 1,
           "subscores": {
@@ -5998,6 +6146,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 64.7,
           "confidence": 1,
           "subscores": {
@@ -6032,6 +6181,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 51.5,
           "confidence": 1,
           "subscores": {
@@ -6066,6 +6216,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 61.5,
           "confidence": 1,
           "subscores": {
@@ -6100,6 +6251,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 51.9,
           "confidence": 1,
           "subscores": {
@@ -6134,6 +6286,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 57.5,
           "confidence": 1,
           "subscores": {
@@ -6168,6 +6321,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 50.5,
           "confidence": 1,
           "subscores": {
@@ -6202,6 +6356,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 74.1,
           "confidence": 1,
           "subscores": {
@@ -6236,6 +6391,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 58.8,
           "confidence": 1,
           "subscores": {
@@ -6270,6 +6426,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 57.9,
           "confidence": 1,
           "subscores": {
@@ -6360,6 +6517,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 77.2,
           "confidence": 1,
           "subscores": {
@@ -6394,6 +6552,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 49.5,
           "confidence": 0.76,
           "subscores": {
@@ -6428,6 +6587,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 36.7,
           "confidence": 1,
           "subscores": {
@@ -6462,6 +6622,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 42.5,
           "confidence": 0.23,
           "subscores": {
@@ -6496,6 +6657,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 71.3,
           "confidence": 1,
           "subscores": {
@@ -6530,6 +6692,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 55.5,
           "confidence": 0.83,
           "subscores": {
@@ -6564,6 +6727,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 70.6,
           "confidence": 1,
           "subscores": {
@@ -6598,6 +6762,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 39.6,
           "confidence": 1,
           "subscores": {
@@ -6632,6 +6797,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 55.3,
           "confidence": 0.66,
           "subscores": {
@@ -6722,6 +6888,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 59.9,
           "confidence": 1,
           "subscores": {
@@ -6756,6 +6923,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 55.9,
           "confidence": 1,
           "subscores": {
@@ -6790,6 +6958,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 59.7,
           "confidence": 1,
           "subscores": {
@@ -6824,6 +6993,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 49.9,
           "confidence": 1,
           "subscores": {
@@ -6858,6 +7028,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 75,
           "confidence": 1,
           "subscores": {
@@ -6892,6 +7063,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 62,
           "confidence": 1,
           "subscores": {
@@ -6926,6 +7098,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 56.3,
           "confidence": 1,
           "subscores": {
@@ -6960,6 +7133,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 59.2,
           "confidence": 1,
           "subscores": {
@@ -6994,6 +7168,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 64,
           "confidence": 1,
           "subscores": {
@@ -7028,6 +7203,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 58.8,
           "confidence": 1,
           "subscores": {
@@ -7118,6 +7294,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 44.1,
           "confidence": 1,
           "subscores": {
@@ -7152,6 +7329,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 48.1,
           "confidence": 0.38,
           "subscores": {
@@ -7186,6 +7364,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 50,
           "confidence": 1,
           "subscores": {
@@ -7220,6 +7399,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 48.5,
           "confidence": 1,
           "subscores": {
@@ -7254,6 +7434,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 75.5,
           "confidence": 1,
           "subscores": {
@@ -7288,6 +7469,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 66.9,
           "confidence": 1,
           "subscores": {
@@ -7322,6 +7504,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 43.3,
           "confidence": 1,
           "subscores": {
@@ -7356,6 +7539,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 41.7,
           "confidence": 0.8,
           "subscores": {
@@ -7390,6 +7574,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 49.3,
           "confidence": 1,
           "subscores": {
@@ -7424,6 +7609,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 57,
           "confidence": 1,
           "subscores": {
@@ -7458,6 +7644,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 62.8,
           "confidence": 1,
           "subscores": {
@@ -7548,6 +7735,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 30,
           "confidence": 0.91,
           "subscores": {
@@ -7582,6 +7770,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 57.6,
           "confidence": 0.26,
           "subscores": {
@@ -7616,6 +7805,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 28.3,
           "confidence": 1,
           "subscores": {
@@ -7650,6 +7840,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 50.3,
           "confidence": 0.72,
           "subscores": {
@@ -7684,6 +7875,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 35.6,
           "confidence": 0.71,
           "subscores": {
@@ -7718,6 +7910,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 57,
           "confidence": 0.31,
           "subscores": {
@@ -7752,6 +7945,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 51.6,
           "confidence": 0.57,
           "subscores": {
@@ -7842,6 +8036,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 47.2,
           "confidence": 1,
           "subscores": {
@@ -7876,6 +8071,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 48.5,
           "confidence": 0.38,
           "subscores": {
@@ -7910,6 +8106,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 40.6,
           "confidence": 0.31,
           "subscores": {
@@ -7944,6 +8141,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 65.8,
           "confidence": 1,
           "subscores": {
@@ -7978,6 +8176,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 76.4,
           "confidence": 1,
           "subscores": {
@@ -8012,6 +8211,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 72.5,
           "confidence": 0.67,
           "subscores": {
@@ -8046,6 +8246,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 48.2,
           "confidence": 1,
           "subscores": {
@@ -8080,6 +8281,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 43.1,
           "confidence": 1,
           "subscores": {
@@ -8114,6 +8316,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 44.5,
           "confidence": 0.37,
           "subscores": {
@@ -8148,6 +8351,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 80.5,
           "confidence": 1,
           "subscores": {
@@ -8238,6 +8442,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 49.5,
           "confidence": 1,
           "subscores": {
@@ -8272,6 +8477,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 50.1,
           "confidence": 0.3,
           "subscores": {
@@ -8306,6 +8512,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 24.7,
           "confidence": 1,
           "subscores": {
@@ -8340,6 +8547,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 50.9,
           "confidence": 1,
           "subscores": {
@@ -8374,6 +8582,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 45.3,
           "confidence": 0.46,
           "subscores": {
@@ -8464,6 +8673,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 51.7,
           "confidence": 1,
           "subscores": {
@@ -8498,6 +8708,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 46.2,
           "confidence": 0.31,
           "subscores": {
@@ -8532,6 +8743,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 34.7,
           "confidence": 1,
           "subscores": {
@@ -8566,6 +8778,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 52.9,
           "confidence": 0.93,
           "subscores": {
@@ -8600,6 +8813,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 42.7,
           "confidence": 0.37,
           "subscores": {
@@ -8690,6 +8904,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 76.5,
           "confidence": 1,
           "subscores": {
@@ -8724,6 +8939,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 73.8,
           "confidence": 1,
           "subscores": {
@@ -8758,6 +8974,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 65,
           "confidence": 1,
           "subscores": {
@@ -8792,6 +9009,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 50.7,
           "confidence": 1,
           "subscores": {
@@ -8826,6 +9044,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 67.5,
           "confidence": 1,
           "subscores": {
@@ -8860,6 +9079,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 56.5,
           "confidence": 1,
           "subscores": {
@@ -8894,6 +9114,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 63.1,
           "confidence": 1,
           "subscores": {
@@ -8928,6 +9149,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 81.9,
           "confidence": 1,
           "subscores": {
@@ -8962,6 +9184,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 67.1,
           "confidence": 1,
           "subscores": {
@@ -8996,6 +9219,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 63.8,
           "confidence": 1,
           "subscores": {
@@ -9086,6 +9310,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 43,
           "confidence": 1,
           "subscores": {
@@ -9120,6 +9345,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 36.6,
           "confidence": 0.76,
           "subscores": {
@@ -9154,6 +9380,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 40.1,
           "confidence": 1,
           "subscores": {
@@ -9188,6 +9415,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 44.6,
           "confidence": 0.23,
           "subscores": {
@@ -9222,6 +9450,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 39.4,
           "confidence": 1,
           "subscores": {
@@ -9256,6 +9485,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 41.6,
           "confidence": 0.78,
           "subscores": {
@@ -9290,6 +9520,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 34.3,
           "confidence": 1,
           "subscores": {
@@ -9324,6 +9555,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 35.6,
           "confidence": 1,
           "subscores": {
@@ -9358,6 +9590,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 42.7,
           "confidence": 0.63,
           "subscores": {
@@ -9448,6 +9681,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 53.4,
           "confidence": 0.91,
           "subscores": {
@@ -9482,6 +9716,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 52.9,
           "confidence": 1,
           "subscores": {
@@ -9516,6 +9751,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 59.4,
           "confidence": 1,
           "subscores": {
@@ -9550,6 +9786,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 21.1,
           "confidence": 0.92,
           "subscores": {
@@ -9584,6 +9821,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 66.4,
           "confidence": 1,
           "subscores": {
@@ -9618,6 +9856,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 58.7,
           "confidence": 1,
           "subscores": {
@@ -9652,6 +9891,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 49.6,
           "confidence": 0.67,
           "subscores": {
@@ -9686,6 +9926,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 40.2,
           "confidence": 1,
           "subscores": {
@@ -9720,6 +9961,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 58.7,
           "confidence": 1,
           "subscores": {
@@ -9754,6 +9996,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 57.5,
           "confidence": 1,
           "subscores": {
@@ -9788,6 +10031,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 54.8,
           "confidence": 1,
           "subscores": {
@@ -9878,6 +10122,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 46.3,
           "confidence": 1,
           "subscores": {
@@ -9912,6 +10157,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 51.2,
           "confidence": 0.31,
           "subscores": {
@@ -9946,6 +10192,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 43.3,
           "confidence": 1,
           "subscores": {
@@ -9980,6 +10227,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 53.3,
           "confidence": 1,
           "subscores": {
@@ -10014,6 +10262,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 51.5,
           "confidence": 0.4,
           "subscores": {
@@ -10048,6 +10297,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 48.9,
           "confidence": 0.79,
           "subscores": {
@@ -10082,6 +10332,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 49.1,
           "confidence": 0.38,
           "subscores": {
@@ -10116,6 +10367,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 55.3,
           "confidence": 0.97,
           "subscores": {
@@ -10206,6 +10458,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 68.4,
           "confidence": 1,
           "subscores": {
@@ -10240,6 +10493,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 53.4,
           "confidence": 0.38,
           "subscores": {
@@ -10274,6 +10528,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 58.4,
           "confidence": 1,
           "subscores": {
@@ -10308,6 +10563,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 56.1,
           "confidence": 1,
           "subscores": {
@@ -10342,6 +10598,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 61.3,
           "confidence": 1,
           "subscores": {
@@ -10376,6 +10633,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 47.3,
           "confidence": 0.19,
           "subscores": {
@@ -10410,6 +10668,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 56.6,
           "confidence": 0.42,
           "subscores": {
@@ -10444,6 +10703,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 72.5,
           "confidence": 1,
           "subscores": {
@@ -10478,6 +10738,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 56.4,
           "confidence": 1,
           "subscores": {
@@ -10512,6 +10773,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 50.7,
           "confidence": 0.29,
           "subscores": {
@@ -10602,6 +10864,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 58.9,
           "confidence": 1,
           "subscores": {
@@ -10636,6 +10899,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 66.3,
           "confidence": 0.61,
           "subscores": {
@@ -10670,6 +10934,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 48.7,
           "confidence": 1,
           "subscores": {
@@ -10704,6 +10969,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 48.5,
           "confidence": 1,
           "subscores": {
@@ -10738,6 +11004,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 49.2,
           "confidence": 0.25,
           "subscores": {
@@ -10772,6 +11039,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 58.5,
           "confidence": 0.96,
           "subscores": {
@@ -10806,6 +11074,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 70.1,
           "confidence": 1,
           "subscores": {
@@ -10840,6 +11109,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 48.6,
           "confidence": 0.88,
           "subscores": {
@@ -10930,6 +11200,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 53.5,
           "confidence": 1,
           "subscores": {
@@ -10964,6 +11235,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 51.8,
           "confidence": 1,
           "subscores": {
@@ -10998,6 +11270,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 61,
           "confidence": 1,
           "subscores": {
@@ -11032,6 +11305,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 49.4,
           "confidence": 1,
           "subscores": {
@@ -11066,6 +11340,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 38.9,
           "confidence": 1,
           "subscores": {
@@ -11100,6 +11375,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 59.4,
           "confidence": 0.4,
           "subscores": {
@@ -11134,6 +11410,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 52.2,
           "confidence": 0.77,
           "subscores": {
@@ -11168,6 +11445,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 60.6,
           "confidence": 1,
           "subscores": {
@@ -11202,6 +11480,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 46.8,
           "confidence": 0.97,
           "subscores": {
@@ -11292,6 +11571,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 70,
           "confidence": 1,
           "subscores": {
@@ -11326,6 +11606,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 61.9,
           "confidence": 1,
           "subscores": {
@@ -11360,6 +11641,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 62,
           "confidence": 1,
           "subscores": {
@@ -11394,6 +11676,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 77.8,
           "confidence": 1,
           "subscores": {
@@ -11428,6 +11711,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 50,
           "confidence": 1,
           "subscores": {
@@ -11462,6 +11746,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 51.1,
           "confidence": 1,
           "subscores": {
@@ -11496,6 +11781,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 66.8,
           "confidence": 1,
           "subscores": {
@@ -11530,6 +11816,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 69,
           "confidence": 1,
           "subscores": {
@@ -11564,6 +11851,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 67,
           "confidence": 1,
           "subscores": {
@@ -11598,6 +11886,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 65.1,
           "confidence": 1,
           "subscores": {
@@ -11688,6 +11977,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 63,
           "confidence": 0.95,
           "subscores": {
@@ -11722,6 +12012,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 70.5,
           "confidence": 1,
           "subscores": {
@@ -11756,6 +12047,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 54.2,
           "confidence": 1,
           "subscores": {
@@ -11790,6 +12082,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 58,
           "confidence": 0.92,
           "subscores": {
@@ -11824,6 +12117,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 89.1,
           "confidence": 1,
           "subscores": {
@@ -11858,6 +12152,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 85,
           "confidence": 1,
           "subscores": {
@@ -11892,6 +12187,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 51.7,
           "confidence": 0.67,
           "subscores": {
@@ -11926,6 +12222,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 73.8,
           "confidence": 1,
           "subscores": {
@@ -11960,6 +12257,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 71.9,
           "confidence": 1,
           "subscores": {
@@ -11994,6 +12292,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 62.4,
           "confidence": 1,
           "subscores": {
@@ -12028,6 +12327,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 81.3,
           "confidence": 1,
           "subscores": {
@@ -12118,6 +12418,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 36.2,
           "confidence": 0.91,
           "subscores": {
@@ -12152,6 +12453,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 40.8,
           "confidence": 1,
           "subscores": {
@@ -12186,6 +12488,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 55.4,
           "confidence": 1,
           "subscores": {
@@ -12220,6 +12523,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 39.6,
           "confidence": 1,
           "subscores": {
@@ -12254,6 +12558,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 35.5,
           "confidence": 1,
           "subscores": {
@@ -12288,6 +12593,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 48.6,
           "confidence": 0.32,
           "subscores": {
@@ -12322,6 +12628,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 41.4,
           "confidence": 0.71,
           "subscores": {
@@ -12356,6 +12663,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 49.7,
           "confidence": 1,
           "subscores": {
@@ -12390,6 +12698,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 34.8,
           "confidence": 1,
           "subscores": {
@@ -12480,6 +12789,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 64,
           "confidence": 1,
           "subscores": {
@@ -12514,6 +12824,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 78.3,
           "confidence": 1,
           "subscores": {
@@ -12548,6 +12859,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 70.9,
           "confidence": 1,
           "subscores": {
@@ -12582,6 +12894,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 47.1,
           "confidence": 1,
           "subscores": {
@@ -12616,6 +12929,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 60.5,
           "confidence": 1,
           "subscores": {
@@ -12650,6 +12964,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 74.9,
           "confidence": 1,
           "subscores": {
@@ -12684,6 +12999,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 59.1,
           "confidence": 1,
           "subscores": {
@@ -12718,6 +13034,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 69.5,
           "confidence": 1,
           "subscores": {
@@ -12752,6 +13069,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 64.7,
           "confidence": 1,
           "subscores": {
@@ -12786,6 +13104,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 69.3,
           "confidence": 1,
           "subscores": {
@@ -12876,6 +13195,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 75.9,
           "confidence": 0.91,
           "subscores": {
@@ -12910,6 +13230,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 40.9,
           "confidence": 0.86,
           "subscores": {
@@ -12944,6 +13265,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 56.3,
           "confidence": 1,
           "subscores": {
@@ -12978,6 +13300,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 50.6,
           "confidence": 0.38,
           "subscores": {
@@ -13012,6 +13335,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 48.4,
           "confidence": 1,
           "subscores": {
@@ -13046,6 +13370,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 66.1,
           "confidence": 0.78,
           "subscores": {
@@ -13080,6 +13405,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 54.9,
           "confidence": 1,
           "subscores": {
@@ -13114,6 +13440,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 74.3,
           "confidence": 1,
           "subscores": {
@@ -13148,6 +13475,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 58.6,
           "confidence": 1,
           "subscores": {
@@ -13182,6 +13510,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 67.5,
           "confidence": 1,
           "subscores": {
@@ -13272,6 +13601,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 42.4,
           "confidence": 0.8,
           "subscores": {
@@ -13306,6 +13636,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 44.5,
           "confidence": 0.62,
           "subscores": {
@@ -13396,6 +13727,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 59,
           "confidence": 1,
           "subscores": {
@@ -13430,6 +13762,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 48.6,
           "confidence": 0.38,
           "subscores": {
@@ -13464,6 +13797,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 53,
           "confidence": 1,
           "subscores": {
@@ -13498,6 +13832,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 39.5,
           "confidence": 1,
           "subscores": {
@@ -13532,6 +13867,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 57.3,
           "confidence": 1,
           "subscores": {
@@ -13566,6 +13902,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 43.4,
           "confidence": 1,
           "subscores": {
@@ -13600,6 +13937,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 55.6,
           "confidence": 0.67,
           "subscores": {
@@ -13634,6 +13972,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 45.2,
           "confidence": 1,
           "subscores": {
@@ -13668,6 +14007,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 62.3,
           "confidence": 1,
           "subscores": {
@@ -13702,6 +14042,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 53.9,
           "confidence": 1,
           "subscores": {
@@ -13736,6 +14077,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 42.1,
           "confidence": 1,
           "subscores": {
@@ -13826,6 +14168,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 38.3,
           "confidence": 1,
           "subscores": {
@@ -13860,6 +14203,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 49.7,
           "confidence": 0.07,
           "subscores": {
@@ -13894,6 +14238,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 25.2,
           "confidence": 1,
           "subscores": {
@@ -13928,6 +14273,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 40.8,
           "confidence": 0.93,
           "subscores": {
@@ -13962,6 +14308,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 45.8,
           "confidence": 0.17,
           "subscores": {
@@ -14052,6 +14399,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 35,
           "confidence": 1,
           "subscores": {
@@ -14086,6 +14434,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 20.8,
           "confidence": 1,
           "subscores": {
@@ -14120,6 +14469,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 40.7,
           "confidence": 1,
           "subscores": {
@@ -14154,6 +14504,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 53.2,
           "confidence": 0.69,
           "subscores": {
@@ -14188,6 +14539,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 27.7,
           "confidence": 1,
           "subscores": {
@@ -14222,6 +14574,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 26.1,
           "confidence": 1,
           "subscores": {
@@ -14256,6 +14609,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 35.4,
           "confidence": 1,
           "subscores": {
@@ -14346,6 +14700,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 46.4,
           "confidence": 1,
           "subscores": {
@@ -14380,6 +14735,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 53,
           "confidence": 0.31,
           "subscores": {
@@ -14414,6 +14770,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 53.4,
           "confidence": 1,
           "subscores": {
@@ -14448,6 +14805,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 46.6,
           "confidence": 1,
           "subscores": {
@@ -14482,6 +14840,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 52.8,
           "confidence": 0.37,
           "subscores": {
@@ -14572,6 +14931,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 40.8,
           "confidence": 0.38,
           "subscores": {
@@ -14606,6 +14966,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 61.9,
           "confidence": 1,
           "subscores": {
@@ -14640,6 +15001,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 53.4,
           "confidence": 1,
           "subscores": {
@@ -14674,6 +15036,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 46.7,
           "confidence": 1,
           "subscores": {
@@ -14708,6 +15071,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 43.4,
           "confidence": 1,
           "subscores": {
@@ -14742,6 +15106,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 45.4,
           "confidence": 0.33,
           "subscores": {
@@ -14776,6 +15141,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 42.7,
           "confidence": 0.32,
           "subscores": {
@@ -14810,6 +15176,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 60.4,
           "confidence": 1,
           "subscores": {
@@ -14844,6 +15211,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 41.2,
           "confidence": 1,
           "subscores": {
@@ -14934,6 +15302,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 45.9,
           "confidence": 0.3,
           "subscores": {
@@ -14968,6 +15337,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 37.5,
           "confidence": 0.31,
           "subscores": {
@@ -15002,6 +15372,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 26.7,
           "confidence": 1,
           "subscores": {
@@ -15036,6 +15407,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 73,
           "confidence": 0.83,
           "subscores": {
@@ -15070,6 +15442,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 15.5,
           "confidence": 1,
           "subscores": {
@@ -15104,6 +15477,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 46.9,
           "confidence": 0.23,
           "subscores": {
@@ -15138,6 +15512,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 34.3,
           "confidence": 0.38,
           "subscores": {
@@ -15172,6 +15547,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 49.3,
           "confidence": 1,
           "subscores": {
@@ -15262,6 +15638,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 49.3,
           "confidence": 1,
           "subscores": {
@@ -15296,6 +15673,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 48.7,
           "confidence": 1,
           "subscores": {
@@ -15330,6 +15708,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 50.4,
           "confidence": 1,
           "subscores": {
@@ -15364,6 +15743,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 74.3,
           "confidence": 1,
           "subscores": {
@@ -15398,6 +15778,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 84,
           "confidence": 1,
           "subscores": {
@@ -15432,6 +15813,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 42,
           "confidence": 1,
           "subscores": {
@@ -15466,6 +15848,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 51.8,
           "confidence": 1,
           "subscores": {
@@ -15500,6 +15883,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 53.4,
           "confidence": 1,
           "subscores": {
@@ -15534,6 +15918,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 66.1,
           "confidence": 1,
           "subscores": {
@@ -15568,6 +15953,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 45.7,
           "confidence": 1,
           "subscores": {
@@ -15658,6 +16044,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 68.8,
           "confidence": 1,
           "subscores": {
@@ -15692,6 +16079,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 53.9,
           "confidence": 1,
           "subscores": {
@@ -15726,6 +16114,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 65.5,
           "confidence": 1,
           "subscores": {
@@ -15760,6 +16149,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 61.7,
           "confidence": 0.69,
           "subscores": {
@@ -15794,6 +16184,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 39.7,
           "confidence": 1,
           "subscores": {
@@ -15828,6 +16219,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 39.7,
           "confidence": 1,
           "subscores": {
@@ -15862,6 +16254,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 48.9,
           "confidence": 1,
           "subscores": {
@@ -15896,6 +16289,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 77.3,
           "confidence": 1,
           "subscores": {
@@ -15930,6 +16324,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 65.2,
           "confidence": 1,
           "subscores": {
@@ -15964,6 +16359,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 67.8,
           "confidence": 1,
           "subscores": {
@@ -15998,6 +16394,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 58.7,
           "confidence": 1,
           "subscores": {
@@ -16088,6 +16485,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 33.9,
           "confidence": 0.91,
           "subscores": {
@@ -16122,6 +16520,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 32.6,
           "confidence": 1,
           "subscores": {
@@ -16156,6 +16555,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 37.3,
           "confidence": 0.71,
           "subscores": {
@@ -16190,6 +16590,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 47.7,
           "confidence": 0.11,
           "subscores": {
@@ -16280,6 +16681,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 78.5,
           "confidence": 1,
           "subscores": {
@@ -16314,6 +16716,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 56.7,
           "confidence": 0.86,
           "subscores": {
@@ -16348,6 +16751,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 28.7,
           "confidence": 1,
           "subscores": {
@@ -16382,6 +16786,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 54.7,
           "confidence": 0.38,
           "subscores": {
@@ -16416,6 +16821,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 50.2,
           "confidence": 1,
           "subscores": {
@@ -16450,6 +16856,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 79.5,
           "confidence": 1,
           "subscores": {
@@ -16484,6 +16891,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 24.8,
           "confidence": 1,
           "subscores": {
@@ -16574,6 +16982,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 66.1,
           "confidence": 1,
           "subscores": {
@@ -16608,6 +17017,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 46.8,
           "confidence": 0.38,
           "subscores": {
@@ -16642,6 +17052,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 46.9,
           "confidence": 1,
           "subscores": {
@@ -16676,6 +17087,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 59.7,
           "confidence": 1,
           "subscores": {
@@ -16710,6 +17122,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 53.2,
           "confidence": 1,
           "subscores": {
@@ -16744,6 +17157,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 58.4,
           "confidence": 1,
           "subscores": {
@@ -16778,6 +17192,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 40.3,
           "confidence": 1,
           "subscores": {
@@ -16812,6 +17227,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 37.8,
           "confidence": 0.8,
           "subscores": {
@@ -16846,6 +17262,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 61.5,
           "confidence": 1,
           "subscores": {
@@ -16880,6 +17297,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 54.9,
           "confidence": 1,
           "subscores": {
@@ -16914,6 +17332,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 44.4,
           "confidence": 1,
           "subscores": {
@@ -17004,6 +17423,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 28.7,
           "confidence": 1,
           "subscores": {
@@ -17038,6 +17458,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 32.8,
           "confidence": 0.92,
           "subscores": {
@@ -17128,6 +17549,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 19.2,
           "confidence": 1,
           "subscores": {
@@ -17162,6 +17584,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 47.5,
           "confidence": 0.33,
           "subscores": {
@@ -17196,6 +17619,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 40.4,
           "confidence": 1,
           "subscores": {
@@ -17230,6 +17654,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 40.1,
           "confidence": 0.84,
           "subscores": {
@@ -17264,6 +17689,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 48.6,
           "confidence": 0.24,
           "subscores": {
@@ -17298,6 +17724,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 24.7,
           "confidence": 0.86,
           "subscores": {
@@ -17332,6 +17759,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 41.8,
           "confidence": 0.52,
           "subscores": {
@@ -17366,6 +17794,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 41.5,
           "confidence": 0.75,
           "subscores": {
@@ -17456,6 +17885,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 70.6,
           "confidence": 1,
           "subscores": {
@@ -17490,6 +17920,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 64.1,
           "confidence": 1,
           "subscores": {
@@ -17524,6 +17955,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 57.4,
           "confidence": 1,
           "subscores": {
@@ -17558,6 +17990,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 47.9,
           "confidence": 0.69,
           "subscores": {
@@ -17592,6 +18025,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 56.4,
           "confidence": 1,
           "subscores": {
@@ -17626,6 +18060,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 39.2,
           "confidence": 1,
           "subscores": {
@@ -17660,6 +18095,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 57.3,
           "confidence": 1,
           "subscores": {
@@ -17694,6 +18130,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 39,
           "confidence": 1,
           "subscores": {
@@ -17728,6 +18165,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 70,
           "confidence": 1,
           "subscores": {
@@ -17762,6 +18200,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 56.9,
           "confidence": 1,
           "subscores": {
@@ -17796,6 +18235,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 47.9,
           "confidence": 1,
           "subscores": {
@@ -17886,6 +18326,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 50.9,
           "confidence": 1,
           "subscores": {
@@ -17920,6 +18361,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 31.9,
           "confidence": 0.76,
           "subscores": {
@@ -17954,6 +18396,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 49.1,
           "confidence": 1,
           "subscores": {
@@ -17988,6 +18431,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 43.1,
           "confidence": 0.23,
           "subscores": {
@@ -18022,6 +18466,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 59.9,
           "confidence": 1,
           "subscores": {
@@ -18056,6 +18501,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 31.6,
           "confidence": 0.78,
           "subscores": {
@@ -18090,6 +18536,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 43.3,
           "confidence": 1,
           "subscores": {
@@ -18124,6 +18571,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 46.8,
           "confidence": 0.96,
           "subscores": {
@@ -18158,6 +18606,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 37.1,
           "confidence": 0.63,
           "subscores": {
@@ -18248,6 +18697,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 57.4,
           "confidence": 0.57,
           "subscores": {
@@ -18282,6 +18732,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 50.1,
           "confidence": 1,
           "subscores": {
@@ -18316,6 +18767,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 78.9,
           "confidence": 1,
           "subscores": {
@@ -18350,6 +18802,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 69.2,
           "confidence": 1,
           "subscores": {
@@ -18384,6 +18837,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 53.4,
           "confidence": 1,
           "subscores": {
@@ -18418,6 +18872,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 52.3,
           "confidence": 0.58,
           "subscores": {
@@ -18452,6 +18907,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 56.4,
           "confidence": 0.48,
           "subscores": {
@@ -18486,6 +18942,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 64.3,
           "confidence": 1,
           "subscores": {
@@ -18520,6 +18977,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 56,
           "confidence": 1,
           "subscores": {
@@ -18610,6 +19068,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 50.5,
           "confidence": 1,
           "subscores": {
@@ -18644,6 +19103,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 55.8,
           "confidence": 1,
           "subscores": {
@@ -18678,6 +19138,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 58.3,
           "confidence": 1,
           "subscores": {
@@ -18712,6 +19173,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 85.1,
           "confidence": 1,
           "subscores": {
@@ -18746,6 +19208,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 58.5,
           "confidence": 1,
           "subscores": {
@@ -18780,6 +19243,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 59.1,
           "confidence": 1,
           "subscores": {
@@ -18814,6 +19278,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 55.8,
           "confidence": 1,
           "subscores": {
@@ -18848,6 +19313,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 54.1,
           "confidence": 1,
           "subscores": {
@@ -18882,6 +19348,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 76.4,
           "confidence": 1,
           "subscores": {
@@ -18916,6 +19383,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 61.4,
           "confidence": 1,
           "subscores": {
@@ -19006,6 +19474,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 35.4,
           "confidence": 0.82,
           "subscores": {
@@ -19040,6 +19509,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 55.5,
           "confidence": 0.31,
           "subscores": {
@@ -19074,6 +19544,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 55.1,
           "confidence": 0.31,
           "subscores": {
@@ -19108,6 +19579,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 28.5,
           "confidence": 1,
           "subscores": {
@@ -19142,6 +19614,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 39.8,
           "confidence": 0.64,
           "subscores": {
@@ -19176,6 +19649,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 55.1,
           "confidence": 0.49,
           "subscores": {
@@ -19266,6 +19740,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 50.5,
           "confidence": 1,
           "subscores": {
@@ -19300,6 +19775,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 45.7,
           "confidence": 0.31,
           "subscores": {
@@ -19334,6 +19810,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 42.6,
           "confidence": 1,
           "subscores": {
@@ -19368,6 +19845,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 48.4,
           "confidence": 0.93,
           "subscores": {
@@ -19402,6 +19880,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 45.3,
           "confidence": 0.36,
           "subscores": {
@@ -19492,6 +19971,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 31.5,
           "confidence": 0.91,
           "subscores": {
@@ -19526,6 +20006,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 52,
           "confidence": 1,
           "subscores": {
@@ -19560,6 +20041,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 31.7,
           "confidence": 1,
           "subscores": {
@@ -19594,6 +20076,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 66.5,
           "confidence": 1,
           "subscores": {
@@ -19628,6 +20111,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 41.3,
           "confidence": 1,
           "subscores": {
@@ -19662,6 +20146,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 45.8,
           "confidence": 0.32,
           "subscores": {
@@ -19696,6 +20181,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 34.7,
           "confidence": 0.71,
           "subscores": {
@@ -19730,6 +20216,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 56.3,
           "confidence": 1,
           "subscores": {
@@ -19764,6 +20251,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 37.4,
           "confidence": 1,
           "subscores": {
@@ -19854,6 +20342,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 39.3,
           "confidence": 1,
           "subscores": {
@@ -19888,6 +20377,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 48.6,
           "confidence": 0.31,
           "subscores": {
@@ -19922,6 +20412,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 51.5,
           "confidence": 1,
           "subscores": {
@@ -19956,6 +20447,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 42.4,
           "confidence": 0.79,
           "subscores": {
@@ -19990,6 +20482,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 50.7,
           "confidence": 0.37,
           "subscores": {
@@ -20080,6 +20573,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 53,
           "confidence": 1,
           "subscores": {
@@ -20114,6 +20608,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 39.4,
           "confidence": 1,
           "subscores": {
@@ -20148,6 +20643,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 64.1,
           "confidence": 1,
           "subscores": {
@@ -20182,6 +20678,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 56,
           "confidence": 1,
           "subscores": {
@@ -20216,6 +20713,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 52,
           "confidence": 1,
           "subscores": {
@@ -20250,6 +20748,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 70.2,
           "confidence": 1,
           "subscores": {
@@ -20284,6 +20783,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 70.4,
           "confidence": 1,
           "subscores": {
@@ -20318,6 +20818,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 45.7,
           "confidence": 1,
           "subscores": {
@@ -20352,6 +20853,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 60.8,
           "confidence": 1,
           "subscores": {
@@ -20386,6 +20888,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 73.1,
           "confidence": 1,
           "subscores": {
@@ -20476,6 +20979,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 67.5,
           "confidence": 1,
           "subscores": {
@@ -20510,6 +21014,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 49.7,
           "confidence": 0.38,
           "subscores": {
@@ -20544,6 +21049,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 54.1,
           "confidence": 1,
           "subscores": {
@@ -20578,6 +21084,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 58.8,
           "confidence": 1,
           "subscores": {
@@ -20612,6 +21119,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 60.8,
           "confidence": 1,
           "subscores": {
@@ -20646,6 +21154,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 57.5,
           "confidence": 1,
           "subscores": {
@@ -20680,6 +21189,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 42.5,
           "confidence": 1,
           "subscores": {
@@ -20714,6 +21224,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 50.3,
           "confidence": 0.8,
           "subscores": {
@@ -20748,6 +21259,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 57.7,
           "confidence": 1,
           "subscores": {
@@ -20782,6 +21294,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 56,
           "confidence": 1,
           "subscores": {
@@ -20816,6 +21329,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 52.1,
           "confidence": 1,
           "subscores": {
@@ -20906,6 +21420,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 31.6,
           "confidence": 1,
           "subscores": {
@@ -20940,6 +21455,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 55.1,
           "confidence": 0.38,
           "subscores": {
@@ -20974,6 +21490,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 43.9,
           "confidence": 1,
           "subscores": {
@@ -21008,6 +21525,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 67.4,
           "confidence": 1,
           "subscores": {
@@ -21042,6 +21560,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 40.8,
           "confidence": 1,
           "subscores": {
@@ -21076,6 +21595,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 59.5,
           "confidence": 1,
           "subscores": {
@@ -21110,6 +21630,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 44.2,
           "confidence": 0.67,
           "subscores": {
@@ -21144,6 +21665,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 68,
           "confidence": 1,
           "subscores": {
@@ -21178,6 +21700,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 40.6,
           "confidence": 1,
           "subscores": {
@@ -21212,6 +21735,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 48.3,
           "confidence": 1,
           "subscores": {
@@ -21246,6 +21770,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 60.4,
           "confidence": 1,
           "subscores": {
@@ -21336,6 +21861,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 43.1,
           "confidence": 0.57,
           "subscores": {
@@ -21370,6 +21896,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 44.2,
           "confidence": 0.48,
           "subscores": {
@@ -21460,6 +21987,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 15.8,
           "confidence": 1,
           "subscores": {
@@ -21494,6 +22022,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 48.5,
           "confidence": 1,
           "subscores": {
@@ -21528,6 +22057,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 60.9,
           "confidence": 1,
           "subscores": {
@@ -21562,6 +22092,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 53.7,
           "confidence": 1,
           "subscores": {
@@ -21596,6 +22127,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 59.2,
           "confidence": 1,
           "subscores": {
@@ -21630,6 +22162,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 44.9,
           "confidence": 0.32,
           "subscores": {
@@ -21664,6 +22197,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 25.7,
           "confidence": 0.77,
           "subscores": {
@@ -21698,6 +22232,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 59.4,
           "confidence": 1,
           "subscores": {
@@ -21732,6 +22267,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team WE",
           "rating": 59.7,
           "confidence": 1,
           "subscores": {
@@ -21822,6 +22358,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 30,
           "confidence": 1,
           "subscores": {
@@ -21856,6 +22393,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 50.8,
           "confidence": 0.31,
           "subscores": {
@@ -21890,6 +22428,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 40.6,
           "confidence": 1,
           "subscores": {
@@ -21924,6 +22463,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 31.3,
           "confidence": 0.86,
           "subscores": {
@@ -21958,6 +22498,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 44.7,
           "confidence": 0.51,
           "subscores": {
@@ -22048,6 +22589,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 63.1,
           "confidence": 1,
           "subscores": {
@@ -22082,6 +22624,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 48.4,
           "confidence": 1,
           "subscores": {
@@ -22116,6 +22659,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 38.9,
           "confidence": 1,
           "subscores": {
@@ -22150,6 +22694,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 54.6,
           "confidence": 1,
           "subscores": {
@@ -22184,6 +22729,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 30.2,
           "confidence": 1,
           "subscores": {
@@ -22218,6 +22764,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 51.3,
           "confidence": 1,
           "subscores": {
@@ -22252,6 +22799,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 23.3,
           "confidence": 0.83,
           "subscores": {
@@ -22286,6 +22834,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 53.4,
           "confidence": 1,
           "subscores": {
@@ -22320,6 +22869,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 44.3,
           "confidence": 1,
           "subscores": {
@@ -22354,6 +22904,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 26.6,
           "confidence": 1,
           "subscores": {
@@ -22444,6 +22995,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 54.6,
           "confidence": 0.95,
           "subscores": {
@@ -22478,6 +23030,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 46.6,
           "confidence": 1,
           "subscores": {
@@ -22512,6 +23065,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 53.1,
           "confidence": 0.8,
           "subscores": {
@@ -22546,6 +23100,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 48.9,
           "confidence": 0.21,
           "subscores": {
@@ -22636,6 +23191,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 65,
           "confidence": 1,
           "subscores": {
@@ -22670,6 +23226,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 48.7,
           "confidence": 0.33,
           "subscores": {
@@ -22704,6 +23261,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 49.4,
           "confidence": 0.23,
           "subscores": {
@@ -22738,6 +23296,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 25.4,
           "confidence": 1,
           "subscores": {
@@ -22772,6 +23331,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 41.8,
           "confidence": 0.53,
           "subscores": {
@@ -22806,6 +23366,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 62.1,
           "confidence": 0.77,
           "subscores": {
@@ -22840,6 +23401,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 47.2,
           "confidence": 0.46,
           "subscores": {
@@ -22874,6 +23436,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 43.8,
           "confidence": 0.42,
           "subscores": {
@@ -22964,6 +23527,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 42.5,
           "confidence": 1,
           "subscores": {
@@ -22998,6 +23562,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 32.5,
           "confidence": 1,
           "subscores": {
@@ -23032,6 +23597,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 69.3,
           "confidence": 1,
           "subscores": {
@@ -23066,6 +23632,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 53.6,
           "confidence": 0.69,
           "subscores": {
@@ -23100,6 +23667,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 35.2,
           "confidence": 1,
           "subscores": {
@@ -23134,6 +23702,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 32.8,
           "confidence": 1,
           "subscores": {
@@ -23168,6 +23737,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 55,
           "confidence": 1,
           "subscores": {
@@ -23202,6 +23772,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 41.8,
           "confidence": 1,
           "subscores": {
@@ -23236,6 +23807,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 39.5,
           "confidence": 1,
           "subscores": {
@@ -23270,6 +23842,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 63.2,
           "confidence": 1,
           "subscores": {
@@ -23304,6 +23877,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 37.5,
           "confidence": 1,
           "subscores": {
@@ -23394,6 +23968,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 40.3,
           "confidence": 0.95,
           "subscores": {
@@ -23428,6 +24003,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 51.4,
           "confidence": 0.61,
           "subscores": {
@@ -23462,6 +24038,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 48.2,
           "confidence": 0.23,
           "subscores": {
@@ -23496,6 +24073,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 61.7,
           "confidence": 1,
           "subscores": {
@@ -23530,6 +24108,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 69.8,
           "confidence": 0.85,
           "subscores": {
@@ -23564,6 +24143,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 50.6,
           "confidence": 1,
           "subscores": {
@@ -23598,6 +24178,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 41,
           "confidence": 0.8,
           "subscores": {
@@ -23632,6 +24213,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 59.6,
           "confidence": 0.86,
           "subscores": {
@@ -23666,6 +24248,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 70.5,
           "confidence": 1,
           "subscores": {
@@ -23756,6 +24339,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 31.2,
           "confidence": 1,
           "subscores": {
@@ -23790,6 +24374,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 45.9,
           "confidence": 0.31,
           "subscores": {
@@ -23824,6 +24409,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 51.4,
           "confidence": 1,
           "subscores": {
@@ -23858,6 +24444,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 42.8,
           "confidence": 1,
           "subscores": {
@@ -23892,6 +24479,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 43.8,
           "confidence": 1,
           "subscores": {
@@ -23926,6 +24514,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 58.1,
           "confidence": 1,
           "subscores": {
@@ -23960,6 +24549,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 35.8,
           "confidence": 0.79,
           "subscores": {
@@ -23994,6 +24584,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 48,
           "confidence": 0.38,
           "subscores": {
@@ -24028,6 +24619,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 48.1,
           "confidence": 1,
           "subscores": {
@@ -24118,6 +24710,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 52.6,
           "confidence": 0.9,
           "subscores": {
@@ -24152,6 +24745,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 59,
           "confidence": 0.31,
           "subscores": {
@@ -24186,6 +24780,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 40.7,
           "confidence": 0.31,
           "subscores": {
@@ -24220,6 +24815,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 37,
           "confidence": 1,
           "subscores": {
@@ -24254,6 +24850,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 52.1,
           "confidence": 0.8,
           "subscores": {
@@ -24288,6 +24885,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 46.8,
           "confidence": 0.24,
           "subscores": {
@@ -24322,6 +24920,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 52.8,
           "confidence": 0.69,
           "subscores": {
@@ -24356,6 +24955,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 58,
           "confidence": 0.5,
           "subscores": {
@@ -24390,6 +24990,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 50.1,
           "confidence": 0.71,
           "subscores": {
@@ -24480,6 +25081,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 44.5,
           "confidence": 0.91,
           "subscores": {
@@ -24514,6 +25116,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 48.3,
           "confidence": 0.33,
           "subscores": {
@@ -24548,6 +25151,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 53,
           "confidence": 0.23,
           "subscores": {
@@ -24582,6 +25186,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 34,
           "confidence": 1,
           "subscores": {
@@ -24616,6 +25221,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 63.9,
           "confidence": 0.69,
           "subscores": {
@@ -24650,6 +25256,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 60.6,
           "confidence": 0.96,
           "subscores": {
@@ -24684,6 +25291,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 46.7,
           "confidence": 0.71,
           "subscores": {
@@ -24718,6 +25326,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 43.9,
           "confidence": 0.46,
           "subscores": {
@@ -24752,6 +25361,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 68.4,
           "confidence": 0.85,
           "subscores": {
@@ -24842,6 +25452,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 19.6,
           "confidence": 1,
           "subscores": {
@@ -24876,6 +25487,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 58.8,
           "confidence": 0.26,
           "subscores": {
@@ -24910,6 +25522,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 42.7,
           "confidence": 1,
           "subscores": {
@@ -24944,6 +25557,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 59.9,
           "confidence": 1,
           "subscores": {
@@ -24978,6 +25592,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 56.9,
           "confidence": 1,
           "subscores": {
@@ -25012,6 +25627,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 73.1,
           "confidence": 1,
           "subscores": {
@@ -25046,6 +25662,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 26,
           "confidence": 0.77,
           "subscores": {
@@ -25080,6 +25697,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 60.5,
           "confidence": 0.33,
           "subscores": {
@@ -25114,6 +25732,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "JD Gaming",
           "rating": 68.9,
           "confidence": 1,
           "subscores": {
@@ -25204,6 +25823,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 40.8,
           "confidence": 0.91,
           "subscores": {
@@ -25238,6 +25858,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 55.5,
           "confidence": 0.26,
           "subscores": {
@@ -25272,6 +25893,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 59.5,
           "confidence": 1,
           "subscores": {
@@ -25306,6 +25928,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 62.3,
           "confidence": 0.72,
           "subscores": {
@@ -25340,6 +25963,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 40.8,
           "confidence": 0.71,
           "subscores": {
@@ -25374,6 +25998,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 59.4,
           "confidence": 0.33,
           "subscores": {
@@ -25408,6 +26033,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 61.4,
           "confidence": 0.57,
           "subscores": {
@@ -25498,6 +26124,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 23.2,
           "confidence": 0.91,
           "subscores": {
@@ -25532,6 +26159,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 29.6,
           "confidence": 0.71,
           "subscores": {
@@ -25622,6 +26250,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 82.4,
           "confidence": 1,
           "subscores": {
@@ -25656,6 +26285,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 56.7,
           "confidence": 0.38,
           "subscores": {
@@ -25690,6 +26320,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 58.6,
           "confidence": 1,
           "subscores": {
@@ -25724,6 +26355,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 54,
           "confidence": 1,
           "subscores": {
@@ -25758,6 +26390,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 63.8,
           "confidence": 1,
           "subscores": {
@@ -25792,6 +26425,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 50.3,
           "confidence": 1,
           "subscores": {
@@ -25826,6 +26460,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 33.1,
           "confidence": 1,
           "subscores": {
@@ -25860,6 +26495,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 64.1,
           "confidence": 0.8,
           "subscores": {
@@ -25894,6 +26530,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 81.9,
           "confidence": 1,
           "subscores": {
@@ -25928,6 +26565,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 61.5,
           "confidence": 1,
           "subscores": {
@@ -25962,6 +26600,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 50.6,
           "confidence": 1,
           "subscores": {
@@ -26052,6 +26691,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 52.4,
           "confidence": 1,
           "subscores": {
@@ -26086,6 +26726,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 52.6,
           "confidence": 0.57,
           "subscores": {
@@ -26120,6 +26761,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 21.6,
           "confidence": 1,
           "subscores": {
@@ -26154,6 +26796,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 40.4,
           "confidence": 0.35,
           "subscores": {
@@ -26188,6 +26831,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 54.6,
           "confidence": 0.88,
           "subscores": {
@@ -26222,6 +26866,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Royal Never Give Up",
           "rating": 44,
           "confidence": 0.71,
           "subscores": {
@@ -26256,6 +26901,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 41.9,
           "confidence": 0.26,
           "subscores": {
@@ -26346,6 +26992,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 59.2,
           "confidence": 0.82,
           "subscores": {
@@ -26380,6 +27027,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 52.5,
           "confidence": 0.31,
           "subscores": {
@@ -26414,6 +27062,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 47.4,
           "confidence": 0.31,
           "subscores": {
@@ -26448,6 +27097,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 19.4,
           "confidence": 1,
           "subscores": {
@@ -26482,6 +27132,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 49.7,
           "confidence": 0.75,
           "subscores": {
@@ -26516,6 +27167,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 48.2,
           "confidence": 0.24,
           "subscores": {
@@ -26550,6 +27202,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 58.3,
           "confidence": 0.64,
           "subscores": {
@@ -26584,6 +27237,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 42.7,
           "confidence": 0.5,
           "subscores": {
@@ -26618,6 +27272,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 49.7,
           "confidence": 0.68,
           "subscores": {
@@ -26708,6 +27363,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 50.7,
           "confidence": 0.91,
           "subscores": {
@@ -26742,6 +27398,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 53.2,
           "confidence": 0.86,
           "subscores": {
@@ -26776,6 +27433,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 47.4,
           "confidence": 0.52,
           "subscores": {
@@ -26810,6 +27468,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 30.2,
           "confidence": 1,
           "subscores": {
@@ -26844,6 +27503,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 50.5,
           "confidence": 1,
           "subscores": {
@@ -26878,6 +27538,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 44.9,
           "confidence": 0.54,
           "subscores": {
@@ -26968,6 +27629,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 40.8,
           "confidence": 0.91,
           "subscores": {
@@ -27002,6 +27664,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 38.7,
           "confidence": 1,
           "subscores": {
@@ -27036,6 +27699,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 46.5,
           "confidence": 1,
           "subscores": {
@@ -27070,6 +27734,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 61.3,
           "confidence": 1,
           "subscores": {
@@ -27104,6 +27769,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 30.6,
           "confidence": 1,
           "subscores": {
@@ -27138,6 +27804,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 51.5,
           "confidence": 0.4,
           "subscores": {
@@ -27172,6 +27839,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 42.2,
           "confidence": 0.71,
           "subscores": {
@@ -27206,6 +27874,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 46.1,
           "confidence": 1,
           "subscores": {
@@ -27240,6 +27909,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 29.8,
           "confidence": 0.93,
           "subscores": {
@@ -27330,6 +28000,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 38.1,
           "confidence": 0.38,
           "subscores": {
@@ -27364,6 +28035,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 40.9,
           "confidence": 0.32,
           "subscores": {
@@ -27454,6 +28126,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 50.7,
           "confidence": 1,
           "subscores": {
@@ -27488,6 +28161,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 44.7,
           "confidence": 0.38,
           "subscores": {
@@ -27522,6 +28196,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 42.5,
           "confidence": 1,
           "subscores": {
@@ -27556,6 +28231,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 46.8,
           "confidence": 1,
           "subscores": {
@@ -27590,6 +28266,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 68,
           "confidence": 1,
           "subscores": {
@@ -27624,6 +28301,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 57.2,
           "confidence": 1,
           "subscores": {
@@ -27658,6 +28336,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 32.2,
           "confidence": 0.67,
           "subscores": {
@@ -27692,6 +28371,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 68.9,
           "confidence": 1,
           "subscores": {
@@ -27726,6 +28406,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 49.6,
           "confidence": 1,
           "subscores": {
@@ -27760,6 +28441,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 49.5,
           "confidence": 1,
           "subscores": {
@@ -27794,6 +28476,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 59.8,
           "confidence": 1,
           "subscores": {
@@ -27884,6 +28567,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 45.3,
           "confidence": 0.82,
           "subscores": {
@@ -27918,6 +28602,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 54.2,
           "confidence": 0.31,
           "subscores": {
@@ -27952,6 +28637,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 47.5,
           "confidence": 0.31,
           "subscores": {
@@ -27986,6 +28672,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 46.6,
           "confidence": 1,
           "subscores": {
@@ -28020,6 +28707,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 45.8,
           "confidence": 0.75,
           "subscores": {
@@ -28054,6 +28742,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 48.8,
           "confidence": 0.24,
           "subscores": {
@@ -28088,6 +28777,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 46.8,
           "confidence": 0.64,
           "subscores": {
@@ -28122,6 +28812,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 51.2,
           "confidence": 0.48,
           "subscores": {
@@ -28156,6 +28847,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 43,
           "confidence": 0.68,
           "subscores": {
@@ -28246,6 +28938,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 43.1,
           "confidence": 0.22,
           "subscores": {
@@ -28280,6 +28973,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 44.3,
           "confidence": 0.18,
           "subscores": {
@@ -28370,6 +29064,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 48,
           "confidence": 0.33,
           "subscores": {
@@ -28404,6 +29099,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 50.6,
           "confidence": 0.23,
           "subscores": {
@@ -28438,6 +29134,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 48.7,
           "confidence": 1,
           "subscores": {
@@ -28472,6 +29169,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 59.5,
           "confidence": 0.69,
           "subscores": {
@@ -28506,6 +29204,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 38.6,
           "confidence": 0.96,
           "subscores": {
@@ -28540,6 +29239,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 50.2,
           "confidence": 0.45,
           "subscores": {
@@ -28574,6 +29274,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 52.2,
           "confidence": 0.89,
           "subscores": {
@@ -28664,6 +29365,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 49.3,
           "confidence": 0.02,
           "subscores": {
@@ -28698,6 +29400,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 37.8,
           "confidence": 0.84,
           "subscores": {
@@ -28732,6 +29435,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 48.1,
           "confidence": 0.24,
           "subscores": {
@@ -28766,6 +29470,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 49.4,
           "confidence": 0.02,
           "subscores": {
@@ -28800,6 +29505,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 36.2,
           "confidence": 0.79,
           "subscores": {
@@ -28890,6 +29596,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 59.6,
           "confidence": 0.76,
           "subscores": {
@@ -28924,6 +29631,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 43.1,
           "confidence": 1,
           "subscores": {
@@ -28958,6 +29666,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Weibo Gaming",
           "rating": 52.7,
           "confidence": 0.92,
           "subscores": {
@@ -29048,6 +29757,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 54.6,
           "confidence": 0.26,
           "subscores": {
@@ -29082,6 +29792,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 42.9,
           "confidence": 0.22,
           "subscores": {
@@ -29116,6 +29827,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 53.9,
           "confidence": 0.21,
           "subscores": {
@@ -29150,6 +29862,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 44.2,
           "confidence": 0.18,
           "subscores": {
@@ -29240,6 +29953,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 49,
           "confidence": 0.5,
           "subscores": {
@@ -29274,6 +29988,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 46.2,
           "confidence": 0.38,
           "subscores": {
@@ -29308,6 +30023,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 36.4,
           "confidence": 0.78,
           "subscores": {
@@ -29342,6 +30058,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 39.8,
           "confidence": 1,
           "subscores": {
@@ -29376,6 +30093,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 45.7,
           "confidence": 0.5,
           "subscores": {
@@ -29410,6 +30128,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 33.1,
           "confidence": 0.95,
           "subscores": {
@@ -29500,6 +30219,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 51.2,
           "confidence": 0.33,
           "subscores": {
@@ -29534,6 +30254,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 29.7,
           "confidence": 1,
           "subscores": {
@@ -29568,6 +30289,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 50.9,
           "confidence": 0.9,
           "subscores": {
@@ -29602,6 +30324,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 50.2,
           "confidence": 0.24,
           "subscores": {
@@ -29636,6 +30359,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 38.4,
           "confidence": 0.54,
           "subscores": {
@@ -29670,6 +30394,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ultra Prime",
           "rating": 50.9,
           "confidence": 0.79,
           "subscores": {
@@ -29760,6 +30485,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 46,
           "confidence": 0.26,
           "subscores": {
@@ -29794,6 +30520,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 47.4,
           "confidence": 0.21,
           "subscores": {
@@ -29884,6 +30611,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 43.4,
           "confidence": 0.24,
           "subscores": {
@@ -29918,6 +30646,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OMG",
           "rating": 45.1,
           "confidence": 0.19,
           "subscores": {
@@ -30008,6 +30737,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 61.4,
           "confidence": 0.57,
           "subscores": {
@@ -30042,6 +30772,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 73,
           "confidence": 0.96,
           "subscores": {
@@ -30076,6 +30807,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 34.8,
           "confidence": 1,
           "subscores": {
@@ -30110,6 +30842,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 61.8,
           "confidence": 0.46,
           "subscores": {
@@ -30144,6 +30877,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Ninjas in Pyjamas",
           "rating": 67.6,
           "confidence": 1,
           "subscores": {
@@ -30234,6 +30968,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 57,
           "confidence": 0.26,
           "subscores": {
@@ -30268,6 +31003,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 36.8,
           "confidence": 0.88,
           "subscores": {
@@ -30302,6 +31038,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 56.6,
           "confidence": 0.21,
           "subscores": {
@@ -30336,6 +31073,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 41.3,
           "confidence": 0.68,
           "subscores": {
@@ -30426,6 +31164,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 18.6,
           "confidence": 0.91,
           "subscores": {
@@ -30460,6 +31199,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 45,
           "confidence": 0.23,
           "subscores": {
@@ -30494,6 +31234,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "TT",
           "rating": 23.2,
           "confidence": 0.86,
           "subscores": {
@@ -30584,6 +31325,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 36.5,
           "confidence": 0.37,
           "subscores": {
@@ -30618,6 +31360,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 39.2,
           "confidence": 0.29,
           "subscores": {
@@ -30708,6 +31451,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 42.8,
           "confidence": 0.73,
           "subscores": {
@@ -30742,6 +31486,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 25.3,
           "confidence": 0.96,
           "subscores": {
@@ -30776,6 +31521,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Edward Gaming",
           "rating": 33.8,
           "confidence": 0.89,
           "subscores": {
@@ -30866,6 +31612,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 53.1,
           "confidence": 0.75,
           "subscores": {
@@ -30900,6 +31647,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 52,
           "confidence": 0.24,
           "subscores": {
@@ -30934,6 +31682,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LGD Gaming",
           "rating": 51.2,
           "confidence": 0.71,
           "subscores": {
@@ -31024,6 +31773,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 33.3,
           "confidence": 0.5,
           "subscores": {
@@ -31058,6 +31808,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "LNG Esports",
           "rating": 35.8,
           "confidence": 0.42,
           "subscores": {
@@ -31148,6 +31899,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 47.7,
           "confidence": 0.69,
           "subscores": {
@@ -31182,6 +31934,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Funplus Phoenix",
           "rating": 48.5,
           "confidence": 0.53,
           "subscores": {

@@ -1,24 +1,25 @@
 {
   "metadata": {
-    "exportedAt": "2026-04-17T09:43:53.460Z",
+    "exportedAt": "2026-04-17T12:47:06.906Z",
     "tournaments": [
       {
         "name": "2026 First Stand",
         "league": "International",
         "year": 2026,
         "split": "First Stand",
-        "scrapedAt": "2026-04-17T09:43:53.461Z"
+        "scrapedAt": "2026-04-17T12:47:06.907Z"
       }
     ]
   },
   "teamLogos": {
     "Bilibili Gaming": "/logos/bilibili_gaming.png",
-    "BNK FearX": "/logos/bnk_fearx.webp",
-    "G2 Esports": "/logos/g2_esports.webp",
-    "Gen.G": "/logos/gen_g.webp",
-    "JD Gaming": "/logos/jd_gaming.webp",
-    "LYON": "/logos/lyon.webp",
-    "Team Secret Whales": "/logos/team_secret_whales.webp"
+    "BNK FearX": "/logos/bnk_fearx.png",
+    "G2 Esports": "/logos/g2_esports.png",
+    "Gen.G": "/logos/gen_g.png",
+    "JD Gaming": "/logos/jd_gaming.png",
+    "LOUD": "/logos/loud.png",
+    "LYON": "/logos/lyon.png",
+    "Team Secret Whales": "/logos/team_secret_whales.png"
   },
   "players": [
     {

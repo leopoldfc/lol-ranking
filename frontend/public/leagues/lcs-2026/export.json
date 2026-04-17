@@ -1,22 +1,25 @@
 {
   "metadata": {
-    "exportedAt": "2026-04-17T09:43:46.840Z",
+    "exportedAt": "2026-04-17T12:47:00.309Z",
     "tournaments": [
       {
         "name": "LCS 2026",
         "league": "LCS",
         "year": 2026,
         "split": "Spring",
-        "scrapedAt": "2026-04-17T09:43:46.840Z"
+        "scrapedAt": "2026-04-17T12:47:00.310Z"
       }
     ]
   },
   "teamLogos": {
-    "Cloud9": "/logos/cloud9.webp",
-    "Disguised": "/logos/disguised.webp",
+    "Cloud9": "/logos/cloud9.png",
+    "Dignitas": "/logos/dignitas.png",
+    "Disguised": "/logos/disguised.png",
     "FlyQuest": "/logos/flyquest.png",
-    "LYON": "/logos/lyon.webp",
-    "Team Liquid": "/logos/team_liquid.webp"
+    "LYON": "/logos/lyon.png",
+    "Sentinels": "/logos/sentinels.png",
+    "Shopify Rebellion": "/logos/shopify_rebellion.png",
+    "Team Liquid": "/logos/team_liquid.png"
   },
   "players": [
     {

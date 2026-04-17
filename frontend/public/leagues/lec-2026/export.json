@@ -1,28 +1,29 @@
 {
   "metadata": {
-    "exportedAt": "2026-04-17T09:43:34.193Z",
+    "exportedAt": "2026-04-17T12:46:47.510Z",
     "tournaments": [
       {
         "name": "LEC Versus 2026",
         "league": "LEC",
         "year": 2026,
         "split": "Versus",
-        "scrapedAt": "2026-04-17T09:43:34.194Z"
+        "scrapedAt": "2026-04-17T12:46:47.511Z"
       }
     ]
   },
   "teamLogos": {
     "Fnatic": "/logos/fnatic.png",
-    "G2 Esports": "/logos/g2_esports.webp",
-    "GIANTX": "/logos/giantx.webp",
-    "Karmine Corp": "/logos/karmine_corp.webp",
-    "Karmine Corp Blue": "/logos/karmine_corp_blue.webp",
-    "Los Ratones": "/logos/los_ratones.webp",
-    "Movistar KOI": "/logos/movistar_koi.webp",
-    "Natus Vincere": "/logos/natus_vincere.webp",
-    "Shifters": "/logos/shifters.webp",
-    "Team Heretics": "/logos/team_heretics.webp",
-    "Team Vitality": "/logos/team_vitality.webp"
+    "G2 Esports": "/logos/g2_esports.png",
+    "GIANTX": "/logos/giantx.png",
+    "Karmine Corp": "/logos/karmine_corp.png",
+    "Karmine Corp Blue": "/logos/karmine_corp_blue.png",
+    "Los Ratones": "/logos/los_ratones.png",
+    "Movistar KOI": "/logos/movistar_koi.png",
+    "Natus Vincere": "/logos/natus_vincere.png",
+    "Shifters": "/logos/shifters.png",
+    "SK Gaming": "/logos/sk_gaming.png",
+    "Team Heretics": "/logos/team_heretics.png",
+    "Team Vitality": "/logos/team_vitality.png"
   },
   "players": [
     {

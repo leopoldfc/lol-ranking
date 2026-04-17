@@ -30,6 +30,13 @@ const HEADERS       = { 'User-Agent': 'lol-esports-scraper/1.0 (stats research b
 const VALID_ROLES   = ['TOP', 'JGL', 'MID', 'BOT', 'SUP'];
 const ROLE_MAP: Record<string, string> = { TOP: 'TOP', JUNGLE: 'JGL', MID: 'MID', BOT: 'BOT', SUPPORT: 'SUP' };
 
+const AVG_STATS = [
+  'winRate', 'kda', 'avgKills', 'avgDeaths', 'avgAssists',
+  'csm', 'gpm', 'kp', 'dmgPct', 'goldPct', 'vsPct',
+  'dpm', 'vspm', 'avgWpm', 'avgWcpm', 'avgVwpm',
+  'gd15', 'csd15', 'xpd15', 'fbPct', 'fbVictim',
+];
+
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
 const enc   = (s: string)  => encodeURIComponent(s);
 
@@ -71,12 +78,6 @@ function computeRatingsForGroup(group: any[], getStats: (p: any) => any) {
 }
 
 function makeCombined(rows: any[]): any {
-  const AVG_STATS = [
-    'winRate', 'kda', 'avgKills', 'avgDeaths', 'avgAssists',
-    'csm', 'gpm', 'kp', 'dmgPct', 'goldPct', 'vsPct',
-    'dpm', 'vspm', 'avgWpm', 'avgWcpm', 'avgVwpm',
-    'gd15', 'csd15', 'xpd15', 'fbPct', 'fbVictim',
-  ];
   const totalGames = rows.reduce((s, r) => s + r.games, 0);
   const comb: any = { games: totalGames };
   for (const stat of AVG_STATS) comb[stat] = weightedAvg(rows, stat);
@@ -85,12 +86,15 @@ function makeCombined(rows: any[]): any {
   return comb;
 }
 
-// ─── 1. Rosters ───────────────────────────────────────────────────────────────
+// ─── 1. Rosters par split ─────────────────────────────────────────────────────
 
-const roleMap   = new Map<string, { role: string; team: string }>();
+const roleMaps  = new Map<string, Map<string, { role: string; team: string }>>();
 const teamLogos = new Map<string, string>();
 
 for (const split of SPLITS) {
+  const splitRoleMap = new Map<string, { role: string; team: string }>();
+  roleMaps.set(split.key, splitRoleMap);
+
   const teamsHtml = await fetch(`${BASE}/teams/list/season-${split.season}/split-ALL/tournament-${enc(split.name)}/`, { headers: HEADERS }).then(r => r.text());
   const $t = cheerio.load(teamsHtml);
   const teams: { id: string; name: string }[] = [];
@@ -109,11 +113,8 @@ for (const split of SPLITS) {
     const $ = cheerio.load(html);
 
     if (!teamLogos.has(team.name)) {
-
       const logoSrc = $('img[src*="teams_icon"]').first().attr('src');
-
       if (logoSrc) teamLogos.set(team.name, `${BASE}/${logoSrc.replace(/^\.\.\//, '')}`);
-
     }
 
     $('table.table_list tbody tr').each((_, row) => {
@@ -123,19 +124,20 @@ for (const split of SPLITS) {
       if (!roleName) return;
       const name = ($(cells[1]).find('a').first().text() || $(cells[1]).text()).trim();
       if (!name) return;
-      roleMap.set(name.toLowerCase(), { role: roleName, team: team.name });
+      splitRoleMap.set(name.toLowerCase(), { role: roleName, team: team.name });
     });
 
     process.stdout.write(`\r[roster] ${split.name} — ${i + 1}/${teams.length} équipes`);
   }
-  console.log(`\r✓ roster     ${split.name} (${roleMap.size} joueurs cumulés)`);
+  console.log(`\r✓ roster     ${split.name} (${splitRoleMap.size} joueurs)`);
 }
 
 // ─── 2. Stats par split ───────────────────────────────────────────────────────
 
-const byPlayer = new Map<number, { name: string; country: string; team: string; role: string | null; rows: Record<string, any> }>();
+const byPlayer = new Map<number, { name: string; country: string; role: string | null; rows: Record<string, any> }>();
 
 for (const split of SPLITS) {
+  const splitRoleMap = roleMaps.get(split.key)!;
   const statsHtml = await fetch(`${BASE}/players/list/season-${split.season}/split-ALL/tournament-${enc(split.name)}/`, { headers: HEADERS }).then(r => r.text());
   const $s = cheerio.load(statsHtml);
   let count = 0;
@@ -150,7 +152,7 @@ for (const split of SPLITS) {
     if (!name || !golggId) return;
 
     const country     = $s(cells[1]).find('img').first().attr('alt')?.trim() ?? '';
-    const rosterEntry = roleMap.get(name.toLowerCase());
+    const rosterEntry = splitRoleMap.get(name.toLowerCase());
 
     const n = (i: number) => {
       const v = parseFloat($s(cells[i]).text().replace('%', '').replace(',', '.').trim());
@@ -158,6 +160,8 @@ for (const split of SPLITS) {
     };
 
     const rowData = {
+      team: rosterEntry?.team ?? '',
+      role: rosterEntry?.role ?? null,
       games: n(2), winRate: n(3), kda: n(4),
       avgKills: n(5), avgDeaths: n(6), avgAssists: n(7),
       csm: n(8), gpm: n(9), kp: n(10),
@@ -169,14 +173,11 @@ for (const split of SPLITS) {
     };
 
     if (!byPlayer.has(golggId)) {
-      byPlayer.set(golggId, {
-        name, country,
-        team: rosterEntry?.team ?? '',
-        role: rosterEntry?.role ?? null,
-        rows: {},
-      });
+      byPlayer.set(golggId, { name, country, role: rosterEntry?.role ?? null, rows: {} });
     }
-    byPlayer.get(golggId)!.rows[split.key] = rowData;
+    const entry = byPlayer.get(golggId)!;
+    entry.rows[split.key] = rowData;
+    if (rosterEntry?.role) entry.role = rosterEntry.role;
     count++;
   });
 
@@ -187,10 +188,11 @@ for (const split of SPLITS) {
 
 const players: any[] = [];
 
-for (const [golggId, { name, country, team, role, rows }] of byPlayer) {
+for (const [golggId, { name, country, role, rows }] of byPlayer) {
   const splitRows = Object.values(rows);
   if (splitRows.length === 0) continue;
-  players.push({ golggId, name, country, team, role, rows, combined: makeCombined(splitRows) });
+  const lastRow = splitRows[splitRows.length - 1];
+  players.push({ golggId, name, country, team: lastRow.team, role, rows, combined: makeCombined(splitRows) });
 }
 
 console.log(`  → ${players.length} joueurs fusionnés`);
@@ -220,7 +222,7 @@ const exportData = {
 
     for (const split of SPLITS) {
       if (p.rows[split.key]) {
-        tournaments[split.name] = { ...toStats(p.rows[split.key]), ...(p[`lir_${split.key}`] ?? {}) };
+        tournaments[split.name] = { ...toStats(p.rows[split.key]), team: p.rows[split.key].team, ...(p[`lir_${split.key}`] ?? {}) };
       }
     }
     tournaments[COMBINED_NAME] = { ...toStats(p.combined), ...(p.lirCombined ?? {}) };

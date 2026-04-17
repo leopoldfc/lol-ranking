@@ -1131,7 +1131,10 @@ a:hover { opacity: 0.75; }
 
 .team-card__name {
   font-family: var(--font-display);
-  font-size: 16px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   letter-spacing: 0.06em;
   color: var(--text-1);
 }

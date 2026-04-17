@@ -11,12 +11,26 @@ interface Props { players: Player[]; tournament?: string; teamLogos?: Record<str
 export default function RosterPage({ players, tournament, teamLogos = {} }: Props) {
   const [selected, setSelected] = useState<Player | null>(null);
 
+  // Collect all teams a player played for in the active tournament context
+  const getTeams = (p: Player): string[] => {
+    const tournamentTeam = tournament && (p.tournaments[tournament] as any)?.team;
+    if (tournamentTeam) return [tournamentTeam];
+    // No direct team on combined: collect unique teams across all sub-tournament entries
+    const teams = [...new Set(
+      Object.values(p.tournaments)
+        .map((t: any) => t.team)
+        .filter(Boolean)
+    )] as string[];
+    return teams.length > 0 ? teams : (p.team ? [p.team] : []);
+  };
+
   const teamMap = new Map<string, Player[]>();
   for (const p of players) {
-    if (!p.team) continue;
     if (tournament && !getPlayerStats(p, tournament)) continue;
-    if (!teamMap.has(p.team)) teamMap.set(p.team, []);
-    teamMap.get(p.team)!.push(p);
+    for (const team of getTeams(p)) {
+      if (!teamMap.has(team)) teamMap.set(team, []);
+      if (!teamMap.get(team)!.includes(p)) teamMap.get(team)!.push(p);
+    }
   }
 
   const teams = Array.from(teamMap.entries()).sort((a, b) => a[0].localeCompare(b[0]));
@@ -41,17 +55,17 @@ export default function RosterPage({ players, tournament, teamLogos = {} }: Prop
           return (
             <div key={teamName} className="team-card">
               <div className="team-card__header">
-                <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0, overflow: 'hidden' }}>
                   {teamLogos[teamName] && (
                     <img
                       src={teamLogos[teamName]}
                       alt={teamName}
-                      style={{ width: 28, height: 28, objectFit: 'contain', flexShrink: 0 }}
+                      style={{ width: 24, height: 24, objectFit: 'contain', flexShrink: 0 }}
                     />
                   )}
                   <span className="team-card__name">{teamName}</span>
                 </div>
-                <div style={{ textAlign: 'right' }}>
+                <div style={{ textAlign: 'right', flexShrink: 0, paddingLeft: 6 }}>
                   <div className="team-card__wr" style={{ color: wrColor }}>{fmt(teamWr)}%</div>
                   <div className="team-card__wr-label">Win Rate</div>
                 </div>

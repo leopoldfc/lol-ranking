@@ -1,26 +1,27 @@
 {
   "metadata": {
-    "exportedAt": "2026-04-17T09:36:15.273Z",
+    "exportedAt": "2026-04-17T13:00:59.514Z",
     "tournaments": [
       {
         "name": "LCK 2025",
         "league": "LCK",
         "year": 2025,
         "split": "Full Year",
-        "scrapedAt": "2026-04-17T09:36:15.274Z"
+        "scrapedAt": "2026-04-17T13:00:59.515Z"
       }
     ]
   },
   "teamLogos": {
-    "BNK FearX": "/logos/bnk_fearx.webp",
-    "DN Freecs": "/logos/dn_freecs.webp",
-    "DRX": "/logos/drx.png",
-    "Gen.G eSports": "/logos/gen_g_esports.webp",
-    "Hanwha Life eSports": "/logos/hanwha_life_esports.png",
-    "KT Rolster": "/logos/kt_rolster.png",
-    "Nongshim RedForce": "/logos/nongshim_redforce.png",
-    "OK BRION": "/logos/ok_brion.webp",
-    "T1": "/logos/t1.png"
+    "BNK FearX": "https://gol.gg/_img/teams_icon/BNK_FEARXlogo_profile.webp",
+    "DN Freecs": "https://gol.gg/_img/teams_icon/DN_Freecslogo_profile.webp",
+    "Dplus KIA": "https://gol.gg/_img/teams_icon/Dplus_KIAlogo_profile.webp",
+    "DRX": "https://gol.gg/_img/teams_icon/DRX-2020.png",
+    "Gen.G eSports": "https://gol.gg/_img/teams_icon/Gen.Glogo_profile.webp",
+    "Hanwha Life eSports": "https://gol.gg/_img/teams_icon/hanwha-life-esports-2020.png",
+    "KT Rolster": "https://gol.gg/_img/teams_icon/kt-rolster-2021.png",
+    "Nongshim RedForce": "https://gol.gg/_img/teams_icon/nongshim-redforce-2020.png",
+    "OK BRION": "https://gol.gg/_img/teams_icon/OKSavingsBank_BRIONlogo_profile.webp",
+    "T1": "https://gol.gg/_img/teams_icon/t1-2021.png"
   },
   "players": [
     {
@@ -63,6 +64,7 @@
           "fbVictim": 3.8,
           "pentaKills": 0,
           "soloKills": 6,
+          "team": "Dplus KIA",
           "rating": 70.5,
           "confidence": 1,
           "subscores": {
@@ -97,6 +99,7 @@
           "fbVictim": 10.2,
           "pentaKills": 1,
           "soloKills": 4,
+          "team": "Dplus KIA",
           "rating": 67.4,
           "confidence": 1,
           "subscores": {
@@ -131,6 +134,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Dplus KIA",
           "rating": 48.6,
           "confidence": 0.5,
           "subscores": {
@@ -165,6 +169,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "Dplus KIA",
           "rating": 83.6,
           "confidence": 0.97,
           "subscores": {
@@ -199,6 +204,7 @@
           "fbVictim": 8.3,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Dplus KIA",
           "rating": 58.3,
           "confidence": 1,
           "subscores": {
@@ -233,6 +239,7 @@
           "fbVictim": 7.7,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Dplus KIA",
           "rating": 34.8,
           "confidence": 0.93,
           "subscores": {
@@ -323,6 +330,7 @@
           "fbVictim": 23.8,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "DRX",
           "rating": 19,
           "confidence": 1,
           "subscores": {
@@ -357,6 +365,7 @@
           "fbVictim": 9.4,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "DRX",
           "rating": 27.7,
           "confidence": 0.74,
           "subscores": {
@@ -391,6 +400,7 @@
           "fbVictim": 17.6,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "DRX",
           "rating": 43.9,
           "confidence": 1,
           "subscores": {
@@ -481,6 +491,7 @@
           "fbVictim": 6.3,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "KT Rolster",
           "rating": 49.7,
           "confidence": 0.8,
           "subscores": {
@@ -515,6 +526,7 @@
           "fbVictim": 6.4,
           "pentaKills": 0,
           "soloKills": 7,
+          "team": "KT Rolster",
           "rating": 70.8,
           "confidence": 1,
           "subscores": {
@@ -549,6 +561,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "KT Rolster",
           "rating": 70.4,
           "confidence": 1,
           "subscores": {
@@ -583,6 +596,7 @@
           "fbVictim": 11.5,
           "pentaKills": 0,
           "soloKills": 6,
+          "team": "KT Rolster",
           "rating": 58.4,
           "confidence": 0.9,
           "subscores": {
@@ -617,6 +631,7 @@
           "fbVictim": 13.3,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "KT Rolster",
           "rating": 40.6,
           "confidence": 1,
           "subscores": {
@@ -707,6 +722,7 @@
           "fbVictim": 6.7,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "DN Freecs",
           "rating": 47.6,
           "confidence": 1,
           "subscores": {
@@ -741,6 +757,7 @@
           "fbVictim": 9.3,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "DN Freecs",
           "rating": 37.8,
           "confidence": 1,
           "subscores": {
@@ -775,6 +792,7 @@
           "fbVictim": 6.7,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "DN Freecs",
           "rating": 41.9,
           "confidence": 1,
           "subscores": {
@@ -865,6 +883,7 @@
           "fbVictim": 23.1,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Dplus KIA",
           "rating": 44.8,
           "confidence": 1,
           "subscores": {
@@ -899,6 +918,7 @@
           "fbVictim": 22.4,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Dplus KIA",
           "rating": 46.6,
           "confidence": 1,
           "subscores": {
@@ -933,6 +953,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Dplus KIA",
           "rating": 38,
           "confidence": 0.5,
           "subscores": {
@@ -967,6 +988,7 @@
           "fbVictim": 17.9,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Dplus KIA",
           "rating": 57.9,
           "confidence": 1,
           "subscores": {
@@ -1001,6 +1023,7 @@
           "fbVictim": 8.3,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Dplus KIA",
           "rating": 57.9,
           "confidence": 1,
           "subscores": {
@@ -1035,6 +1058,7 @@
           "fbVictim": 30.8,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Dplus KIA",
           "rating": 28.4,
           "confidence": 0.93,
           "subscores": {
@@ -1125,6 +1149,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OK BRION",
           "rating": 53.5,
           "confidence": 0.13,
           "subscores": {
@@ -1159,6 +1184,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "OK BRION",
           "rating": 49.4,
           "confidence": 0.24,
           "subscores": {
@@ -1249,6 +1275,7 @@
           "fbVictim": 15.4,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "DN Freecs",
           "rating": 57,
           "confidence": 0.65,
           "subscores": {
@@ -1283,6 +1310,7 @@
           "fbVictim": 6.1,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "DN Freecs",
           "rating": 51.3,
           "confidence": 0.88,
           "subscores": {
@@ -1317,6 +1345,7 @@
           "fbVictim": 13.3,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "DN Freecs",
           "rating": 58.8,
           "confidence": 1,
           "subscores": {
@@ -1407,6 +1436,7 @@
           "fbVictim": 17.2,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "Gen.G eSports",
           "rating": 56.9,
           "confidence": 1,
           "subscores": {
@@ -1441,6 +1471,7 @@
           "fbVictim": 7.3,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "Gen.G eSports",
           "rating": 69.7,
           "confidence": 0.98,
           "subscores": {
@@ -1475,6 +1506,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Gen.G eSports",
           "rating": 35.7,
           "confidence": 0.83,
           "subscores": {
@@ -1509,6 +1541,7 @@
           "fbVictim": 3.4,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "Gen.G eSports",
           "rating": 50,
           "confidence": 1,
           "subscores": {
@@ -1543,6 +1576,7 @@
           "fbVictim": 11.8,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "Gen.G eSports",
           "rating": 34.9,
           "confidence": 1,
           "subscores": {
@@ -1633,6 +1667,7 @@
           "fbVictim": 3.4,
           "pentaKills": 0,
           "soloKills": 9,
+          "team": "Gen.G eSports",
           "rating": 70.3,
           "confidence": 1,
           "subscores": {
@@ -1667,6 +1702,7 @@
           "fbVictim": 4.9,
           "pentaKills": 1,
           "soloKills": 9,
+          "team": "Gen.G eSports",
           "rating": 89,
           "confidence": 1,
           "subscores": {
@@ -1701,6 +1737,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Gen.G eSports",
           "rating": 76.2,
           "confidence": 0.83,
           "subscores": {
@@ -1735,6 +1772,7 @@
           "fbVictim": 3.4,
           "pentaKills": 0,
           "soloKills": 9,
+          "team": "Gen.G eSports",
           "rating": 83.4,
           "confidence": 1,
           "subscores": {
@@ -1769,6 +1807,7 @@
           "fbVictim": 5.9,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "Gen.G eSports",
           "rating": 65.1,
           "confidence": 1,
           "subscores": {
@@ -1859,6 +1898,7 @@
           "fbVictim": 15.4,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "BNK FearX",
           "rating": 39.3,
           "confidence": 0.63,
           "subscores": {
@@ -1893,6 +1933,7 @@
           "fbVictim": 8.3,
           "pentaKills": 0,
           "soloKills": 7,
+          "team": "BNK FearX",
           "rating": 38.1,
           "confidence": 0.86,
           "subscores": {
@@ -1927,6 +1968,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 7,
+          "team": "BNK FearX",
           "rating": 47.4,
           "confidence": 1,
           "subscores": {
@@ -1961,6 +2003,7 @@
           "fbVictim": 11.1,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "BNK FearX",
           "rating": 64.7,
           "confidence": 0.86,
           "subscores": {
@@ -1995,6 +2038,7 @@
           "fbVictim": 12.5,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "BNK FearX",
           "rating": 32.2,
           "confidence": 0.57,
           "subscores": {
@@ -2085,6 +2129,7 @@
           "fbVictim": 7.1,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "OK BRION",
           "rating": 62.6,
           "confidence": 0.7,
           "subscores": {
@@ -2119,6 +2164,7 @@
           "fbVictim": 2.1,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "OK BRION",
           "rating": 76.4,
           "confidence": 1,
           "subscores": {
@@ -2153,6 +2199,7 @@
           "fbVictim": 9.7,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "OK BRION",
           "rating": 34,
           "confidence": 1,
           "subscores": {
@@ -2187,6 +2234,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "OK BRION",
           "rating": 67.8,
           "confidence": 0.86,
           "subscores": {
@@ -2277,6 +2325,7 @@
           "fbVictim": 12.5,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "KT Rolster",
           "rating": 71.3,
           "confidence": 0.78,
           "subscores": {
@@ -2311,6 +2360,7 @@
           "fbVictim": 2.1,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "KT Rolster",
           "rating": 85.2,
           "confidence": 1,
           "subscores": {
@@ -2345,6 +2395,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "KT Rolster",
           "rating": 66,
           "confidence": 1,
           "subscores": {
@@ -2379,6 +2430,7 @@
           "fbVictim": 3.8,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "KT Rolster",
           "rating": 37.7,
           "confidence": 0.9,
           "subscores": {
@@ -2413,6 +2465,7 @@
           "fbVictim": 6.7,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "KT Rolster",
           "rating": 45.5,
           "confidence": 1,
           "subscores": {
@@ -2503,6 +2556,7 @@
           "fbVictim": 15.2,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Hanwha Life eSports",
           "rating": 68.1,
           "confidence": 1,
           "subscores": {
@@ -2537,6 +2591,7 @@
           "fbVictim": 14.3,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Hanwha Life eSports",
           "rating": 66.2,
           "confidence": 0.98,
           "subscores": {
@@ -2571,6 +2626,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Hanwha Life eSports",
           "rating": 62.7,
           "confidence": 1,
           "subscores": {
@@ -2605,6 +2661,7 @@
           "fbVictim": 10.7,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Hanwha Life eSports",
           "rating": 68.7,
           "confidence": 1,
           "subscores": {
@@ -2639,6 +2696,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Hanwha Life eSports",
           "rating": 58.6,
           "confidence": 0.71,
           "subscores": {
@@ -2729,6 +2787,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "BNK FearX",
           "rating": 53.4,
           "confidence": 0.87,
           "subscores": {
@@ -2763,6 +2822,7 @@
           "fbVictim": 2.2,
           "pentaKills": 1,
           "soloKills": 4,
+          "team": "BNK FearX",
           "rating": 66.2,
           "confidence": 1,
           "subscores": {
@@ -2797,6 +2857,7 @@
           "fbVictim": 17.2,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "BNK FearX",
           "rating": 63.5,
           "confidence": 1,
           "subscores": {
@@ -2831,6 +2892,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "BNK FearX",
           "rating": 74.2,
           "confidence": 0.86,
           "subscores": {
@@ -2865,6 +2927,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "BNK FearX",
           "rating": 37.5,
           "confidence": 0.57,
           "subscores": {
@@ -2955,6 +3018,7 @@
           "fbVictim": 5,
           "pentaKills": 0,
           "soloKills": 6,
+          "team": "T1",
           "rating": 59.4,
           "confidence": 0.98,
           "subscores": {
@@ -2989,6 +3053,7 @@
           "fbVictim": 11.9,
           "pentaKills": 0,
           "soloKills": 13,
+          "team": "T1",
           "rating": 58.2,
           "confidence": 1,
           "subscores": {
@@ -3023,6 +3088,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "T1",
           "rating": 87.7,
           "confidence": 1,
           "subscores": {
@@ -3057,6 +3123,7 @@
           "fbVictim": 6.9,
           "pentaKills": 0,
           "soloKills": 15,
+          "team": "T1",
           "rating": 74.8,
           "confidence": 1,
           "subscores": {
@@ -3091,6 +3158,7 @@
           "fbVictim": 17.6,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "T1",
           "rating": 48.4,
           "confidence": 1,
           "subscores": {
@@ -3181,6 +3249,7 @@
           "fbVictim": 13.3,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "DN Freecs",
           "rating": 65.4,
           "confidence": 0.73,
           "subscores": {
@@ -3215,6 +3284,7 @@
           "fbVictim": 20.9,
           "pentaKills": 0,
           "soloKills": 14,
+          "team": "DN Freecs",
           "rating": 35.4,
           "confidence": 1,
           "subscores": {
@@ -3249,6 +3319,7 @@
           "fbVictim": 6.7,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "DN Freecs",
           "rating": 55.6,
           "confidence": 1,
           "subscores": {
@@ -3339,6 +3410,7 @@
           "fbVictim": 13.8,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Gen.G eSports",
           "rating": 35.4,
           "confidence": 1,
           "subscores": {
@@ -3373,6 +3445,7 @@
           "fbVictim": 7.3,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Gen.G eSports",
           "rating": 73.2,
           "confidence": 0.95,
           "subscores": {
@@ -3407,6 +3480,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Gen.G eSports",
           "rating": 59.4,
           "confidence": 0.83,
           "subscores": {
@@ -3441,6 +3515,7 @@
           "fbVictim": 6.9,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Gen.G eSports",
           "rating": 52.3,
           "confidence": 1,
           "subscores": {
@@ -3475,6 +3550,7 @@
           "fbVictim": 17.6,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Gen.G eSports",
           "rating": 57.5,
           "confidence": 1,
           "subscores": {
@@ -3565,6 +3641,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "T1",
           "rating": 47.1,
           "confidence": 1,
           "subscores": {
@@ -3599,6 +3676,7 @@
           "fbVictim": 11.9,
           "pentaKills": 1,
           "soloKills": 6,
+          "team": "T1",
           "rating": 60.3,
           "confidence": 1,
           "subscores": {
@@ -3633,6 +3711,7 @@
           "fbVictim": 14.3,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "T1",
           "rating": 33.2,
           "confidence": 1,
           "subscores": {
@@ -3667,6 +3746,7 @@
           "fbVictim": 6.9,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "T1",
           "rating": 30.5,
           "confidence": 1,
           "subscores": {
@@ -3701,6 +3781,7 @@
           "fbVictim": 17.6,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "T1",
           "rating": 31.9,
           "confidence": 1,
           "subscores": {
@@ -3791,6 +3872,7 @@
           "fbVictim": 16.1,
           "pentaKills": 0,
           "soloKills": 10,
+          "team": "Nongshim RedForce",
           "rating": 38.6,
           "confidence": 1,
           "subscores": {
@@ -3825,6 +3907,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Nongshim RedForce",
           "rating": 45,
           "confidence": 0.24,
           "subscores": {
@@ -3915,6 +3998,7 @@
           "fbVictim": 3.2,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "Nongshim RedForce",
           "rating": 54.8,
           "confidence": 1,
           "subscores": {
@@ -3949,6 +4033,7 @@
           "fbVictim": 13.3,
           "pentaKills": 1,
           "soloKills": 1,
+          "team": "Nongshim RedForce",
           "rating": 48.3,
           "confidence": 1,
           "subscores": {
@@ -3983,6 +4068,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Nongshim RedForce",
           "rating": 46.3,
           "confidence": 0.5,
           "subscores": {
@@ -4017,6 +4103,7 @@
           "fbVictim": 3.8,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "Nongshim RedForce",
           "rating": 30.1,
           "confidence": 0.9,
           "subscores": {
@@ -4051,6 +4138,7 @@
           "fbVictim": 8.3,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Nongshim RedForce",
           "rating": 21,
           "confidence": 1,
           "subscores": {
@@ -4141,6 +4229,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "T1",
           "rating": 52.8,
           "confidence": 0.33,
           "subscores": {
@@ -4175,6 +4264,7 @@
           "fbVictim": 24.2,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "T1",
           "rating": 59.7,
           "confidence": 0.87,
           "subscores": {
@@ -4209,6 +4299,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "T1",
           "rating": 86.7,
           "confidence": 1,
           "subscores": {
@@ -4243,6 +4334,7 @@
           "fbVictim": 17.2,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "T1",
           "rating": 49.3,
           "confidence": 1,
           "subscores": {
@@ -4277,6 +4369,7 @@
           "fbVictim": 11.8,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "T1",
           "rating": 58.8,
           "confidence": 1,
           "subscores": {
@@ -4367,6 +4460,7 @@
           "fbVictim": 7.1,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OK BRION",
           "rating": 37.8,
           "confidence": 0.68,
           "subscores": {
@@ -4401,6 +4495,7 @@
           "fbVictim": 11.1,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OK BRION",
           "rating": 46.8,
           "confidence": 0.43,
           "subscores": {
@@ -4491,6 +4586,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OK BRION",
           "rating": 58.4,
           "confidence": 0.8,
           "subscores": {
@@ -4525,6 +4621,7 @@
           "fbVictim": 7.9,
           "pentaKills": 1,
           "soloKills": 2,
+          "team": "OK BRION",
           "rating": 47.9,
           "confidence": 1,
           "subscores": {
@@ -4559,6 +4656,7 @@
           "fbVictim": 12.9,
           "pentaKills": 0,
           "soloKills": 7,
+          "team": "OK BRION",
           "rating": 32,
           "confidence": 1,
           "subscores": {
@@ -4593,6 +4691,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OK BRION",
           "rating": 37.3,
           "confidence": 0.86,
           "subscores": {
@@ -4683,6 +4782,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "Nongshim RedForce",
           "rating": 45.1,
           "confidence": 1,
           "subscores": {
@@ -4717,6 +4817,7 @@
           "fbVictim": 14.6,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "Nongshim RedForce",
           "rating": 43.2,
           "confidence": 1,
           "subscores": {
@@ -4751,6 +4852,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Nongshim RedForce",
           "rating": 48.8,
           "confidence": 0.5,
           "subscores": {
@@ -4785,6 +4887,7 @@
           "fbVictim": 9.1,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Nongshim RedForce",
           "rating": 31.7,
           "confidence": 0.76,
           "subscores": {
@@ -4819,6 +4922,7 @@
           "fbVictim": 16.7,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Nongshim RedForce",
           "rating": 28.2,
           "confidence": 1,
           "subscores": {
@@ -4909,6 +5013,7 @@
           "fbVictim": 15.4,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "BNK FearX",
           "rating": 42.3,
           "confidence": 0.63,
           "subscores": {
@@ -4943,6 +5048,7 @@
           "fbVictim": 15.2,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "BNK FearX",
           "rating": 55,
           "confidence": 1,
           "subscores": {
@@ -4977,6 +5083,7 @@
           "fbVictim": 6.9,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "BNK FearX",
           "rating": 58.3,
           "confidence": 1,
           "subscores": {
@@ -5011,6 +5118,7 @@
           "fbVictim": 11.1,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "BNK FearX",
           "rating": 70.6,
           "confidence": 0.86,
           "subscores": {
@@ -5045,6 +5153,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "BNK FearX",
           "rating": 56.2,
           "confidence": 0.57,
           "subscores": {
@@ -5135,6 +5244,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "T1",
           "rating": 85.4,
           "confidence": 0.98,
           "subscores": {
@@ -5169,6 +5279,7 @@
           "fbVictim": 7.1,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "T1",
           "rating": 68.9,
           "confidence": 0.98,
           "subscores": {
@@ -5203,6 +5314,7 @@
           "fbVictim": 14.3,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "T1",
           "rating": 75.8,
           "confidence": 1,
           "subscores": {
@@ -5237,6 +5349,7 @@
           "fbVictim": 6.9,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "T1",
           "rating": 66.8,
           "confidence": 1,
           "subscores": {
@@ -5271,6 +5384,7 @@
           "fbVictim": 5.9,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "T1",
           "rating": 67.7,
           "confidence": 1,
           "subscores": {
@@ -5361,6 +5475,7 @@
           "fbVictim": 17.2,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "Gen.G eSports",
           "rating": 58.5,
           "confidence": 1,
           "subscores": {
@@ -5395,6 +5510,7 @@
           "fbVictim": 19.5,
           "pentaKills": 0,
           "soloKills": 6,
+          "team": "Gen.G eSports",
           "rating": 77.3,
           "confidence": 0.98,
           "subscores": {
@@ -5429,6 +5545,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Gen.G eSports",
           "rating": 53.2,
           "confidence": 0.83,
           "subscores": {
@@ -5463,6 +5580,7 @@
           "fbVictim": 13.8,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "Gen.G eSports",
           "rating": 59.9,
           "confidence": 1,
           "subscores": {
@@ -5497,6 +5615,7 @@
           "fbVictim": 17.6,
           "pentaKills": 0,
           "soloKills": 7,
+          "team": "Gen.G eSports",
           "rating": 69,
           "confidence": 1,
           "subscores": {
@@ -5587,6 +5706,7 @@
           "fbVictim": 27.3,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "DRX",
           "rating": 28.1,
           "confidence": 0.73,
           "subscores": {
@@ -5621,6 +5741,7 @@
           "fbVictim": 4.2,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "DRX",
           "rating": 31.3,
           "confidence": 0.63,
           "subscores": {
@@ -5711,6 +5832,7 @@
           "fbVictim": 9.7,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "Nongshim RedForce",
           "rating": 46.9,
           "confidence": 1,
           "subscores": {
@@ -5745,6 +5867,7 @@
           "fbVictim": 6.7,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "Nongshim RedForce",
           "rating": 32.6,
           "confidence": 1,
           "subscores": {
@@ -5779,6 +5902,7 @@
           "fbVictim": 66.7,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Nongshim RedForce",
           "rating": 36.7,
           "confidence": 0.5,
           "subscores": {
@@ -5813,6 +5937,7 @@
           "fbVictim": 15.4,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Nongshim RedForce",
           "rating": 20.2,
           "confidence": 0.93,
           "subscores": {
@@ -5847,6 +5972,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Nongshim RedForce",
           "rating": 41.1,
           "confidence": 1,
           "subscores": {
@@ -5937,6 +6063,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "DN Freecs",
           "rating": 59.1,
           "confidence": 0.73,
           "subscores": {
@@ -5971,6 +6098,7 @@
           "fbVictim": 9.3,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "DN Freecs",
           "rating": 28.6,
           "confidence": 1,
           "subscores": {
@@ -6005,6 +6133,7 @@
           "fbVictim": 18.2,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "DN Freecs",
           "rating": 55.2,
           "confidence": 0.79,
           "subscores": {
@@ -6095,6 +6224,7 @@
           "fbVictim": 7.7,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Dplus KIA",
           "rating": 70.6,
           "confidence": 1,
           "subscores": {
@@ -6129,6 +6259,7 @@
           "fbVictim": 4.1,
           "pentaKills": 1,
           "soloKills": 4,
+          "team": "Dplus KIA",
           "rating": 58.5,
           "confidence": 1,
           "subscores": {
@@ -6163,6 +6294,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Dplus KIA",
           "rating": 39.6,
           "confidence": 0.5,
           "subscores": {
@@ -6197,6 +6329,7 @@
           "fbVictim": 7.1,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Dplus KIA",
           "rating": 63.4,
           "confidence": 0.97,
           "subscores": {
@@ -6231,6 +6364,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Dplus KIA",
           "rating": 56.3,
           "confidence": 1,
           "subscores": {
@@ -6265,6 +6399,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Dplus KIA",
           "rating": 38.1,
           "confidence": 0.93,
           "subscores": {
@@ -6355,6 +6490,7 @@
           "fbVictim": 21.4,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "OK BRION",
           "rating": 45.9,
           "confidence": 0.68,
           "subscores": {
@@ -6389,6 +6525,7 @@
           "fbVictim": 6.4,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "OK BRION",
           "rating": 31.3,
           "confidence": 1,
           "subscores": {
@@ -6423,6 +6560,7 @@
           "fbVictim": 16.1,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "OK BRION",
           "rating": 65.8,
           "confidence": 1,
           "subscores": {
@@ -6457,6 +6595,7 @@
           "fbVictim": 11.1,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OK BRION",
           "rating": 33.9,
           "confidence": 0.86,
           "subscores": {
@@ -6547,6 +6686,7 @@
           "fbVictim": 5,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "T1",
           "rating": 51.7,
           "confidence": 0.98,
           "subscores": {
@@ -6581,6 +6721,7 @@
           "fbVictim": 2.4,
           "pentaKills": 0,
           "soloKills": 8,
+          "team": "T1",
           "rating": 83.9,
           "confidence": 1,
           "subscores": {
@@ -6615,6 +6756,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "T1",
           "rating": 73.2,
           "confidence": 1,
           "subscores": {
@@ -6649,6 +6791,7 @@
           "fbVictim": 3.4,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "T1",
           "rating": 57.5,
           "confidence": 1,
           "subscores": {
@@ -6683,6 +6826,7 @@
           "fbVictim": 5.9,
           "pentaKills": 1,
           "soloKills": 0,
+          "team": "T1",
           "rating": 89.1,
           "confidence": 1,
           "subscores": {
@@ -6773,6 +6917,7 @@
           "fbVictim": 3,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "Hanwha Life eSports",
           "rating": 38.5,
           "confidence": 1,
           "subscores": {
@@ -6807,6 +6952,7 @@
           "fbVictim": 2.4,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "Hanwha Life eSports",
           "rating": 41.7,
           "confidence": 1,
           "subscores": {
@@ -6841,6 +6987,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Hanwha Life eSports",
           "rating": 56.2,
           "confidence": 1,
           "subscores": {
@@ -6875,6 +7022,7 @@
           "fbVictim": 10.7,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Hanwha Life eSports",
           "rating": 31.4,
           "confidence": 0.97,
           "subscores": {
@@ -6909,6 +7057,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Hanwha Life eSports",
           "rating": 55,
           "confidence": 0.71,
           "subscores": {
@@ -6999,6 +7148,7 @@
           "fbVictim": 18.8,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "KT Rolster",
           "rating": 36.2,
           "confidence": 0.78,
           "subscores": {
@@ -7033,6 +7183,7 @@
           "fbVictim": 17.9,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "KT Rolster",
           "rating": 37.3,
           "confidence": 0.67,
           "subscores": {
@@ -7067,6 +7218,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "KT Rolster",
           "rating": 45.4,
           "confidence": 1,
           "subscores": {
@@ -7101,6 +7253,7 @@
           "fbVictim": 15.4,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "KT Rolster",
           "rating": 15,
           "confidence": 0.9,
           "subscores": {
@@ -7135,6 +7288,7 @@
           "fbVictim": 6.7,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "KT Rolster",
           "rating": 28.4,
           "confidence": 1,
           "subscores": {
@@ -7225,6 +7379,7 @@
           "fbVictim": 14.3,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OK BRION",
           "rating": 53.3,
           "confidence": 0.68,
           "subscores": {
@@ -7259,6 +7414,7 @@
           "fbVictim": 8.5,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OK BRION",
           "rating": 36.1,
           "confidence": 1,
           "subscores": {
@@ -7293,6 +7449,7 @@
           "fbVictim": 12.9,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OK BRION",
           "rating": 36.3,
           "confidence": 1,
           "subscores": {
@@ -7327,6 +7484,7 @@
           "fbVictim": 22.2,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OK BRION",
           "rating": 30.3,
           "confidence": 0.86,
           "subscores": {
@@ -7417,6 +7575,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "DN Freecs",
           "rating": 51.8,
           "confidence": 0.1,
           "subscores": {
@@ -7451,6 +7610,7 @@
           "fbVictim": 30,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "DN Freecs",
           "rating": 43.9,
           "confidence": 0.27,
           "subscores": {
@@ -7541,6 +7701,7 @@
           "fbVictim": 13.3,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "DN Freecs",
           "rating": 45.4,
           "confidence": 0.73,
           "subscores": {
@@ -7575,6 +7736,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "DN Freecs",
           "rating": 30.6,
           "confidence": 0.95,
           "subscores": {
@@ -7609,6 +7771,7 @@
           "fbVictim": 3.3,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "DN Freecs",
           "rating": 56,
           "confidence": 1,
           "subscores": {
@@ -7699,6 +7862,7 @@
           "fbVictim": 7.7,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "BNK FearX",
           "rating": 30.5,
           "confidence": 0.63,
           "subscores": {
@@ -7733,6 +7897,7 @@
           "fbVictim": 6.5,
           "pentaKills": 0,
           "soloKills": 6,
+          "team": "BNK FearX",
           "rating": 38.5,
           "confidence": 1,
           "subscores": {
@@ -7767,6 +7932,7 @@
           "fbVictim": 3.4,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "BNK FearX",
           "rating": 59.1,
           "confidence": 1,
           "subscores": {
@@ -7801,6 +7967,7 @@
           "fbVictim": 11.1,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "BNK FearX",
           "rating": 63.5,
           "confidence": 0.86,
           "subscores": {
@@ -7835,6 +8002,7 @@
           "fbVictim": 25,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "BNK FearX",
           "rating": 42.2,
           "confidence": 0.57,
           "subscores": {
@@ -7925,6 +8093,7 @@
           "fbVictim": 19,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "DRX",
           "rating": 23.3,
           "confidence": 1,
           "subscores": {
@@ -7959,6 +8128,7 @@
           "fbVictim": 14.3,
           "pentaKills": 0,
           "soloKills": 13,
+          "team": "DRX",
           "rating": 40.6,
           "confidence": 1,
           "subscores": {
@@ -7993,6 +8163,7 @@
           "fbVictim": 8.8,
           "pentaKills": 0,
           "soloKills": 8,
+          "team": "DRX",
           "rating": 45.7,
           "confidence": 1,
           "subscores": {
@@ -8083,6 +8254,7 @@
           "fbVictim": 6.9,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "Gen.G eSports",
           "rating": 61.7,
           "confidence": 1,
           "subscores": {
@@ -8117,6 +8289,7 @@
           "fbVictim": 4.9,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Gen.G eSports",
           "rating": 85.2,
           "confidence": 1,
           "subscores": {
@@ -8151,6 +8324,7 @@
           "fbVictim": 40,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Gen.G eSports",
           "rating": 49.6,
           "confidence": 0.83,
           "subscores": {
@@ -8185,6 +8359,7 @@
           "fbVictim": 13.8,
           "pentaKills": 2,
           "soloKills": 2,
+          "team": "Gen.G eSports",
           "rating": 68.8,
           "confidence": 1,
           "subscores": {
@@ -8219,6 +8394,7 @@
           "fbVictim": 5.9,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Gen.G eSports",
           "rating": 64.4,
           "confidence": 1,
           "subscores": {
@@ -8309,6 +8485,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "Dplus KIA",
           "rating": 45.5,
           "confidence": 1,
           "subscores": {
@@ -8343,6 +8520,7 @@
           "fbVictim": 12.2,
           "pentaKills": 0,
           "soloKills": 9,
+          "team": "Dplus KIA",
           "rating": 54.1,
           "confidence": 1,
           "subscores": {
@@ -8377,6 +8555,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Dplus KIA",
           "rating": 48.7,
           "confidence": 0.5,
           "subscores": {
@@ -8411,6 +8590,7 @@
           "fbVictim": 17.9,
           "pentaKills": 0,
           "soloKills": 8,
+          "team": "Dplus KIA",
           "rating": 62.9,
           "confidence": 0.97,
           "subscores": {
@@ -8445,6 +8625,7 @@
           "fbVictim": 8.3,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Dplus KIA",
           "rating": 50.9,
           "confidence": 1,
           "subscores": {
@@ -8479,6 +8660,7 @@
           "fbVictim": 7.7,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Dplus KIA",
           "rating": 43.3,
           "confidence": 0.93,
           "subscores": {
@@ -8569,6 +8751,7 @@
           "fbVictim": 26.9,
           "pentaKills": 0,
           "soloKills": 6,
+          "team": "Dplus KIA",
           "rating": 38.2,
           "confidence": 1,
           "subscores": {
@@ -8603,6 +8786,7 @@
           "fbVictim": 6.1,
           "pentaKills": 1,
           "soloKills": 15,
+          "team": "Dplus KIA",
           "rating": 62,
           "confidence": 1,
           "subscores": {
@@ -8637,6 +8821,7 @@
           "fbVictim": 33.3,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "Dplus KIA",
           "rating": 42.7,
           "confidence": 0.5,
           "subscores": {
@@ -8671,6 +8856,7 @@
           "fbVictim": 17.9,
           "pentaKills": 1,
           "soloKills": 10,
+          "team": "Dplus KIA",
           "rating": 43.7,
           "confidence": 0.97,
           "subscores": {
@@ -8705,6 +8891,7 @@
           "fbVictim": 16.7,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "Dplus KIA",
           "rating": 35,
           "confidence": 1,
           "subscores": {
@@ -8739,6 +8926,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "Dplus KIA",
           "rating": 71.2,
           "confidence": 0.93,
           "subscores": {
@@ -8829,6 +9017,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "T1",
           "rating": 55.9,
           "confidence": 1,
           "subscores": {
@@ -8863,6 +9052,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "T1",
           "rating": 54,
           "confidence": 0.24,
           "subscores": {
@@ -8953,6 +9143,7 @@
           "fbVictim": 9.5,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "DRX",
           "rating": 55.3,
           "confidence": 1,
           "subscores": {
@@ -8987,6 +9178,7 @@
           "fbVictim": 19,
           "pentaKills": 0,
           "soloKills": 7,
+          "team": "DRX",
           "rating": 38.8,
           "confidence": 1,
           "subscores": {
@@ -9021,6 +9213,7 @@
           "fbVictim": 5.9,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "DRX",
           "rating": 52.9,
           "confidence": 1,
           "subscores": {
@@ -9111,6 +9304,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "DRX",
           "rating": 32.2,
           "confidence": 0.67,
           "subscores": {
@@ -9145,6 +9339,7 @@
           "fbVictim": 5.6,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "DRX",
           "rating": 34.9,
           "confidence": 0.47,
           "subscores": {
@@ -9179,6 +9374,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "DRX",
           "rating": 45.6,
           "confidence": 1,
           "subscores": {
@@ -9269,6 +9465,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "DRX",
           "rating": 30.5,
           "confidence": 1,
           "subscores": {
@@ -9303,6 +9500,7 @@
           "fbVictim": 10.8,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "DRX",
           "rating": 39.1,
           "confidence": 0.99,
           "subscores": {
@@ -9393,6 +9591,7 @@
           "fbVictim": 15.4,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "BNK FearX",
           "rating": 38.3,
           "confidence": 0.65,
           "subscores": {
@@ -9427,6 +9626,7 @@
           "fbVictim": 18.4,
           "pentaKills": 0,
           "soloKills": 10,
+          "team": "BNK FearX",
           "rating": 34.4,
           "confidence": 1,
           "subscores": {
@@ -9461,6 +9661,7 @@
           "fbVictim": 24.1,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "BNK FearX",
           "rating": 56.1,
           "confidence": 1,
           "subscores": {
@@ -9495,6 +9696,7 @@
           "fbVictim": 22.2,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "BNK FearX",
           "rating": 37.6,
           "confidence": 0.86,
           "subscores": {
@@ -9529,6 +9731,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "BNK FearX",
           "rating": 52,
           "confidence": 0.57,
           "subscores": {
@@ -9619,6 +9822,7 @@
           "fbVictim": 6.1,
           "pentaKills": 0,
           "soloKills": 8,
+          "team": "Hanwha Life eSports",
           "rating": 60.8,
           "confidence": 1,
           "subscores": {
@@ -9653,6 +9857,7 @@
           "fbVictim": 9.5,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "Hanwha Life eSports",
           "rating": 62,
           "confidence": 1,
           "subscores": {
@@ -9687,6 +9892,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Hanwha Life eSports",
           "rating": 21.9,
           "confidence": 1,
           "subscores": {
@@ -9721,6 +9927,7 @@
           "fbVictim": 3.6,
           "pentaKills": 1,
           "soloKills": 4,
+          "team": "Hanwha Life eSports",
           "rating": 74,
           "confidence": 0.97,
           "subscores": {
@@ -9755,6 +9962,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Hanwha Life eSports",
           "rating": 70,
           "confidence": 0.71,
           "subscores": {
@@ -9845,6 +10053,7 @@
           "fbVictim": 18.8,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "KT Rolster",
           "rating": 45.6,
           "confidence": 0.78,
           "subscores": {
@@ -9879,6 +10088,7 @@
           "fbVictim": 33.3,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "KT Rolster",
           "rating": 50.7,
           "confidence": 0.21,
           "subscores": {
@@ -9969,6 +10179,7 @@
           "fbVictim": 6.1,
           "pentaKills": 1,
           "soloKills": 6,
+          "team": "Hanwha Life eSports",
           "rating": 39.6,
           "confidence": 1,
           "subscores": {
@@ -10003,6 +10214,7 @@
           "fbVictim": 9.5,
           "pentaKills": 1,
           "soloKills": 14,
+          "team": "Hanwha Life eSports",
           "rating": 68.4,
           "confidence": 1,
           "subscores": {
@@ -10037,6 +10249,7 @@
           "fbVictim": 25,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Hanwha Life eSports",
           "rating": 33.4,
           "confidence": 1,
           "subscores": {
@@ -10071,6 +10284,7 @@
           "fbVictim": 17.9,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "Hanwha Life eSports",
           "rating": 42.6,
           "confidence": 0.97,
           "subscores": {
@@ -10105,6 +10319,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Hanwha Life eSports",
           "rating": 61.5,
           "confidence": 0.71,
           "subscores": {
@@ -10195,6 +10410,7 @@
           "fbVictim": 18.2,
           "pentaKills": 0,
           "soloKills": 13,
+          "team": "Hanwha Life eSports",
           "rating": 58,
           "confidence": 1,
           "subscores": {
@@ -10229,6 +10445,7 @@
           "fbVictim": 16.7,
           "pentaKills": 0,
           "soloKills": 22,
+          "team": "Hanwha Life eSports",
           "rating": 86.5,
           "confidence": 1,
           "subscores": {
@@ -10263,6 +10480,7 @@
           "fbVictim": 12.5,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Hanwha Life eSports",
           "rating": 40.5,
           "confidence": 1,
           "subscores": {
@@ -10297,6 +10515,7 @@
           "fbVictim": 14.3,
           "pentaKills": 0,
           "soloKills": 6,
+          "team": "Hanwha Life eSports",
           "rating": 68.8,
           "confidence": 0.97,
           "subscores": {
@@ -10331,6 +10550,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "Hanwha Life eSports",
           "rating": 58.9,
           "confidence": 0.71,
           "subscores": {
@@ -10421,6 +10641,7 @@
           "fbVictim": 12.5,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "KT Rolster",
           "rating": 15.9,
           "confidence": 1,
           "subscores": {
@@ -10455,6 +10676,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "KT Rolster",
           "rating": 54.3,
           "confidence": 1,
           "subscores": {
@@ -10489,6 +10711,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "KT Rolster",
           "rating": 47.1,
           "confidence": 1,
           "subscores": {
@@ -10523,6 +10746,7 @@
           "fbVictim": 11.5,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "KT Rolster",
           "rating": 47.6,
           "confidence": 0.9,
           "subscores": {
@@ -10557,6 +10781,7 @@
           "fbVictim": 6.7,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "KT Rolster",
           "rating": 37,
           "confidence": 1,
           "subscores": {
@@ -10647,6 +10872,7 @@
           "fbVictim": 3.2,
           "pentaKills": 0,
           "soloKills": 7,
+          "team": "Nongshim RedForce",
           "rating": 81.8,
           "confidence": 1,
           "subscores": {
@@ -10681,6 +10907,7 @@
           "fbVictim": 6.7,
           "pentaKills": 0,
           "soloKills": 16,
+          "team": "Nongshim RedForce",
           "rating": 79.6,
           "confidence": 1,
           "subscores": {
@@ -10715,6 +10942,7 @@
           "fbVictim": 33.3,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Nongshim RedForce",
           "rating": 43.6,
           "confidence": 0.5,
           "subscores": {
@@ -10749,6 +10977,7 @@
           "fbVictim": 19.2,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "Nongshim RedForce",
           "rating": 29.2,
           "confidence": 0.9,
           "subscores": {
@@ -10783,6 +11012,7 @@
           "fbVictim": 16.7,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "Nongshim RedForce",
           "rating": 66.6,
           "confidence": 1,
           "subscores": {
@@ -10873,6 +11103,7 @@
           "fbVictim": 13.9,
           "pentaKills": 0,
           "soloKills": 8,
+          "team": "Nongshim RedForce",
           "rating": 41.9,
           "confidence": 0.96,
           "subscores": {
@@ -10907,6 +11138,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Nongshim RedForce",
           "rating": 42,
           "confidence": 0.5,
           "subscores": {
@@ -10941,6 +11173,7 @@
           "fbVictim": 7.7,
           "pentaKills": 0,
           "soloKills": 8,
+          "team": "Nongshim RedForce",
           "rating": 26,
           "confidence": 0.9,
           "subscores": {
@@ -10975,6 +11208,7 @@
           "fbVictim": 16.7,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "Nongshim RedForce",
           "rating": 42.8,
           "confidence": 1,
           "subscores": {
@@ -11065,6 +11299,7 @@
           "fbVictim": 5.3,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "KT Rolster",
           "rating": 43.8,
           "confidence": 0.45,
           "subscores": {
@@ -11155,6 +11390,7 @@
           "fbVictim": 8.3,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "OK BRION",
           "rating": 52.9,
           "confidence": 0.57,
           "subscores": {
@@ -11189,6 +11425,7 @@
           "fbVictim": 9.7,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "OK BRION",
           "rating": 65.9,
           "confidence": 1,
           "subscores": {
@@ -11223,6 +11460,7 @@
           "fbVictim": 11.1,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "OK BRION",
           "rating": 56,
           "confidence": 0.86,
           "subscores": {
@@ -11313,6 +11551,7 @@
           "fbVictim": 33.3,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "DN Freecs",
           "rating": 48.6,
           "confidence": 0.07,
           "subscores": {
@@ -11403,6 +11642,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "BNK FearX",
           "rating": 46.1,
           "confidence": 0.21,
           "subscores": {
@@ -11493,6 +11733,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "OK BRION",
           "rating": 47.3,
           "confidence": 0.12,
           "subscores": {
@@ -11583,6 +11824,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "DRX",
           "rating": 46.9,
           "confidence": 0.13,
           "subscores": {
@@ -11617,6 +11859,7 @@
           "fbVictim": 2.9,
           "pentaKills": 0,
           "soloKills": 7,
+          "team": "DRX",
           "rating": 48.9,
           "confidence": 1,
           "subscores": {
@@ -11707,6 +11950,7 @@
           "fbVictim": 37.5,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "KT Rolster",
           "rating": 40.7,
           "confidence": 0.21,
           "subscores": {
@@ -11797,6 +12041,7 @@
           "fbVictim": 19.1,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "KT Rolster",
           "rating": 66.4,
           "confidence": 1,
           "subscores": {
@@ -11831,6 +12076,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "KT Rolster",
           "rating": 50.8,
           "confidence": 1,
           "subscores": {
@@ -11865,6 +12111,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "KT Rolster",
           "rating": 42.1,
           "confidence": 0.71,
           "subscores": {
@@ -11899,6 +12146,7 @@
           "fbVictim": 13.3,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "KT Rolster",
           "rating": 25.3,
           "confidence": 1,
           "subscores": {
@@ -11989,6 +12237,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "DRX",
           "rating": 51,
           "confidence": 0.23,
           "subscores": {
@@ -12079,6 +12328,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "BNK FearX",
           "rating": 44,
           "confidence": 0.24,
           "subscores": {
@@ -12169,6 +12419,7 @@
           "fbVictim": 25,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Nongshim RedForce",
           "rating": 51.7,
           "confidence": 0.11,
           "subscores": {
@@ -12259,6 +12510,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "DN Freecs",
           "rating": 49.8,
           "confidence": 0.29,
           "subscores": {
@@ -12349,6 +12601,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Nongshim RedForce",
           "rating": 45.3,
           "confidence": 0.14,
           "subscores": {

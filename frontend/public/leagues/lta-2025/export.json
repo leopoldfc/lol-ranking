@@ -2802,5 +2802,13 @@
         "avgKda": 4.1
       }
     }
-  ]
+  ],
+  "teamLogos": {
+    "Vivo Keyd Stars": "/logos/vivo_keyd_stars.png",
+    "FlyQuest": "/logos/flyquest.png",
+    "Shopify Rebellion": "/logos/shopify_rebellion.png",
+    "paiN Gaming": "/logos/pain_gaming.png",
+    "RED Canids": "/logos/red_canids.webp",
+    "100 Thieves": "/logos/100_thieves.png"
+  }
 }

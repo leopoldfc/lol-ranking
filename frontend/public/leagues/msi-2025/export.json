@@ -1,27 +1,27 @@
 {
   "metadata": {
-    "exportedAt": "2026-04-17T09:38:21.781Z",
+    "exportedAt": "2026-04-17T13:03:06.821Z",
     "tournaments": [
       {
         "name": "2025 Mid-Season Invitational",
         "league": "International",
         "year": 2025,
         "split": "MSI",
-        "scrapedAt": "2026-04-17T09:38:21.782Z"
+        "scrapedAt": "2026-04-17T13:03:06.821Z"
       }
     ]
   },
   "teamLogos": {
-    "Anyone s Legend": "/logos/anyone_s_legend.webp",
-    "Bilibili Gaming": "/logos/bilibili_gaming.png",
-    "CTBC Flying Oyster": "/logos/ctbc_flying_oyster.webp",
-    "FlyQuest": "/logos/flyquest.png",
-    "FURIA": "/logos/furia.webp",
-    "G2 Esports": "/logos/g2_esports.webp",
-    "GAM Esports": "/logos/gam_esports.webp",
-    "Gen.G eSports": "/logos/gen_g_esports.webp",
-    "Movistar KOI": "/logos/movistar_koi.webp",
-    "T1": "/logos/t1.png"
+    "Anyone s Legend": "https://gol.gg/_img/teams_icon/Anyone_Legendlogo_profile.webp",
+    "Bilibili Gaming": "https://gol.gg/_img/teams_icon/bilibili-gaming-2020.png",
+    "CTBC Flying Oyster": "https://gol.gg/_img/teams_icon/CTBC_Flying_Oysterlogo_square.webp",
+    "FlyQuest": "https://gol.gg/_img/teams_icon/FlyQuestlogo_square.png",
+    "FURIA": "https://gol.gg/_img/teams_icon/FURIAlogo_profile.webp",
+    "G2 Esports": "https://gol.gg/_img/teams_icon/G2_Esportslogo_square.webp",
+    "GAM Esports": "https://gol.gg/_img/teams_icon/GAM_Esportslogo_square.webp",
+    "Gen.G eSports": "https://gol.gg/_img/teams_icon/Gen.Glogo_profile.webp",
+    "Movistar KOI": "https://gol.gg/_img/teams_icon/Movistar_KOIlogo_square.webp",
+    "T1": "https://gol.gg/_img/teams_icon/t1-2021.png"
   },
   "players": [
     {

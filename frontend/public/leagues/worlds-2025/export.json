@@ -1,34 +1,34 @@
 {
   "metadata": {
-    "exportedAt": "2026-04-17T09:38:35.911Z",
+    "exportedAt": "2026-04-17T13:03:20.776Z",
     "tournaments": [
       {
         "name": "Worlds 2025",
         "league": "International",
         "year": 2025,
         "split": "Worlds",
-        "scrapedAt": "2026-04-17T09:38:35.912Z"
+        "scrapedAt": "2026-04-17T13:03:20.776Z"
       }
     ]
   },
   "teamLogos": {
-    "Invictus Gaming": "/logos/invictus_gaming.png",
-    "T1": "/logos/t1.png",
-    "100 Thieves": "/logos/100_thieves.webp",
-    "Anyone s Legend": "/logos/anyone_s_legend.webp",
-    "Bilibili Gaming": "/logos/bilibili_gaming.png",
-    "CTBC Flying Oyster": "/logos/ctbc_flying_oyster.webp",
-    "FlyQuest": "/logos/flyquest.png",
-    "Fnatic": "/logos/fnatic.png",
-    "G2 Esports": "/logos/g2_esports.webp",
-    "Gen.G eSports": "/logos/gen_g_esports.webp",
-    "Hanwha Life eSports": "/logos/hanwha_life_esports.png",
-    "KT Rolster": "/logos/kt_rolster.png",
-    "Movistar KOI": "/logos/movistar_koi.webp",
-    "PSG Talon": "/logos/psg_talon.webp",
-    "Team Secret Whales": "/logos/team_secret_whales.webp",
-    "Top Esports": "/logos/top_esports.png",
-    "Vivo Keyd Stars": "/logos/vivo_keyd_stars.webp"
+    "Invictus Gaming": "https://gol.gg/_img/teams_icon/invictus-gaming-2017.png",
+    "T1": "https://gol.gg/_img/teams_icon/t1-2021.png",
+    "100 Thieves": "https://gol.gg/_img/teams_icon/100_Thieveslogo_profile.webp",
+    "Anyone s Legend": "https://gol.gg/_img/teams_icon/Anyone_Legendlogo_profile.webp",
+    "Bilibili Gaming": "https://gol.gg/_img/teams_icon/bilibili-gaming-2020.png",
+    "CTBC Flying Oyster": "https://gol.gg/_img/teams_icon/CTBC_Flying_Oysterlogo_square.webp",
+    "FlyQuest": "https://gol.gg/_img/teams_icon/FlyQuestlogo_square.png",
+    "Fnatic": "https://gol.gg/_img/teams_icon/Fnaticlogo_square.png",
+    "G2 Esports": "https://gol.gg/_img/teams_icon/G2_Esportslogo_square.webp",
+    "Gen.G eSports": "https://gol.gg/_img/teams_icon/Gen.Glogo_profile.webp",
+    "Hanwha Life eSports": "https://gol.gg/_img/teams_icon/hanwha-life-esports-2020.png",
+    "KT Rolster": "https://gol.gg/_img/teams_icon/kt-rolster-2021.png",
+    "Movistar KOI": "https://gol.gg/_img/teams_icon/Movistar_KOIlogo_square.webp",
+    "PSG Talon": "https://gol.gg/_img/teams_icon/PSG_Talonlogo_profile.webp",
+    "Team Secret Whales": "https://gol.gg/_img/teams_icon/Team_Secret_Whaleslogo_profile.webp",
+    "Top Esports": "https://gol.gg/_img/teams_icon/top-esports-2019.png",
+    "Vivo Keyd Stars": "https://gol.gg/_img/teams_icon/Vivo_Keyd_Starslogo_profile.webp"
   },
   "players": [
     {
@@ -71,6 +71,7 @@
           "fbVictim": 25,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "T1",
           "rating": 38.8,
           "confidence": 1,
           "subscores": {
@@ -105,6 +106,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "T1",
           "rating": 53.2,
           "confidence": 1,
           "subscores": {
@@ -139,6 +141,7 @@
           "fbVictim": 12.5,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "T1",
           "rating": 51.6,
           "confidence": 1,
           "subscores": {
@@ -195,6 +198,7 @@
           "fbVictim": 25,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "T1",
           "rating": 46,
           "confidence": 1,
           "subscores": {
@@ -229,6 +233,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "T1",
           "rating": 58.6,
           "confidence": 1,
           "subscores": {
@@ -263,6 +268,7 @@
           "fbVictim": 20.833333333333332,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "T1",
           "rating": 55.3,
           "confidence": 1,
           "subscores": {
@@ -319,6 +325,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 37.5,
           "confidence": 1,
           "subscores": {
@@ -353,6 +360,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 51.4,
           "confidence": 0.44,
           "subscores": {
@@ -409,6 +417,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "T1",
           "rating": 62.5,
           "confidence": 1,
           "subscores": {
@@ -443,6 +452,7 @@
           "fbVictim": 15,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "T1",
           "rating": 69.7,
           "confidence": 1,
           "subscores": {
@@ -477,6 +487,7 @@
           "fbVictim": 12.5,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "T1",
           "rating": 68.6,
           "confidence": 1,
           "subscores": {
@@ -533,6 +544,7 @@
           "fbVictim": 25,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "T1",
           "rating": 67.5,
           "confidence": 1,
           "subscores": {
@@ -567,6 +579,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "T1",
           "rating": 62.6,
           "confidence": 1,
           "subscores": {
@@ -601,6 +614,7 @@
           "fbVictim": 4.166666666666667,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "T1",
           "rating": 63.4,
           "confidence": 1,
           "subscores": {
@@ -657,6 +671,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "T1",
           "rating": 55.5,
           "confidence": 1,
           "subscores": {
@@ -691,6 +706,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "T1",
           "rating": 47.9,
           "confidence": 1,
           "subscores": {
@@ -725,6 +741,7 @@
           "fbVictim": 16.666666666666668,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "T1",
           "rating": 48.2,
           "confidence": 1,
           "subscores": {
@@ -781,6 +798,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 54,
           "confidence": 1,
           "subscores": {
@@ -815,6 +833,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 55.5,
           "confidence": 0.44,
           "subscores": {
@@ -871,6 +890,7 @@
           "fbVictim": 25,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Invictus Gaming",
           "rating": 61.3,
           "confidence": 1,
           "subscores": {
@@ -905,6 +925,7 @@
           "fbVictim": 25,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Invictus Gaming",
           "rating": 52.6,
           "confidence": 0.5,
           "subscores": {
@@ -961,6 +982,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Invictus Gaming",
           "rating": 44.5,
           "confidence": 1,
           "subscores": {
@@ -995,6 +1017,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Invictus Gaming",
           "rating": 47.9,
           "confidence": 0.47,
           "subscores": {
@@ -1051,6 +1074,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 32.5,
           "confidence": 1,
           "subscores": {
@@ -1085,6 +1109,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Invictus Gaming",
           "rating": 36.3,
           "confidence": 0.44,
           "subscores": {
@@ -1141,6 +1166,7 @@
           "fbVictim": 6.3,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "Top Esports",
           "rating": 66.5,
           "confidence": 1,
           "subscores": {
@@ -1175,6 +1201,7 @@
           "fbVictim": 6.3,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "Top Esports",
           "rating": 65.5,
           "confidence": 1,
           "subscores": {
@@ -1231,6 +1258,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Movistar KOI",
           "rating": 49.7,
           "confidence": 1,
           "subscores": {
@@ -1265,6 +1293,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Movistar KOI",
           "rating": 51.2,
           "confidence": 1,
           "subscores": {
@@ -1321,6 +1350,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "PSG Talon",
           "rating": 47,
           "confidence": 0.63,
           "subscores": {
@@ -1355,6 +1385,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "PSG Talon",
           "rating": 46.8,
           "confidence": 0.63,
           "subscores": {
@@ -1411,6 +1442,7 @@
           "fbVictim": 18.8,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "KT Rolster",
           "rating": 74.9,
           "confidence": 1,
           "subscores": {
@@ -1445,6 +1477,7 @@
           "fbVictim": 18.8,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "KT Rolster",
           "rating": 74.2,
           "confidence": 1,
           "subscores": {
@@ -1501,6 +1534,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 50.2,
           "confidence": 0.22,
           "subscores": {
@@ -1535,6 +1569,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 50.2,
           "confidence": 0.24,
           "subscores": {
@@ -1591,6 +1626,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "PSG Talon",
           "rating": 32.1,
           "confidence": 0.53,
           "subscores": {
@@ -1625,6 +1661,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "PSG Talon",
           "rating": 31.1,
           "confidence": 0.56,
           "subscores": {
@@ -1681,6 +1718,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Bilibili Gaming",
           "rating": 34.4,
           "confidence": 1,
           "subscores": {
@@ -1715,6 +1753,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Bilibili Gaming",
           "rating": 34.4,
           "confidence": 1,
           "subscores": {
@@ -1771,6 +1810,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Vivo Keyd Stars",
           "rating": 48.9,
           "confidence": 0.88,
           "subscores": {
@@ -1805,6 +1845,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Vivo Keyd Stars",
           "rating": 47.9,
           "confidence": 0.88,
           "subscores": {
@@ -1861,6 +1902,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "G2 Esports",
           "rating": 31.5,
           "confidence": 1,
           "subscores": {
@@ -1895,6 +1937,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "G2 Esports",
           "rating": 32.1,
           "confidence": 1,
           "subscores": {
@@ -1951,6 +1994,7 @@
           "fbVictim": 12.5,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "FlyQuest",
           "rating": 29.1,
           "confidence": 0.84,
           "subscores": {
@@ -1985,6 +2029,7 @@
           "fbVictim": 12.5,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "FlyQuest",
           "rating": 30.8,
           "confidence": 0.89,
           "subscores": {
@@ -2041,6 +2086,7 @@
           "fbVictim": 25,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "FlyQuest",
           "rating": 75.1,
           "confidence": 1,
           "subscores": {
@@ -2075,6 +2121,7 @@
           "fbVictim": 25,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "FlyQuest",
           "rating": 75.4,
           "confidence": 1,
           "subscores": {
@@ -2131,6 +2178,7 @@
           "fbVictim": 7.7,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Gen.G eSports",
           "rating": 48.8,
           "confidence": 1,
           "subscores": {
@@ -2165,6 +2213,7 @@
           "fbVictim": 7.700000000000001,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Gen.G eSports",
           "rating": 49.7,
           "confidence": 1,
           "subscores": {
@@ -2221,6 +2270,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "G2 Esports",
           "rating": 51.3,
           "confidence": 1,
           "subscores": {
@@ -2255,6 +2305,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "G2 Esports",
           "rating": 50.4,
           "confidence": 1,
           "subscores": {
@@ -2311,6 +2362,7 @@
           "fbVictim": 15.4,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "Gen.G eSports",
           "rating": 81.2,
           "confidence": 1,
           "subscores": {
@@ -2345,6 +2397,7 @@
           "fbVictim": 15.400000000000002,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "Gen.G eSports",
           "rating": 79.6,
           "confidence": 1,
           "subscores": {
@@ -2401,6 +2454,7 @@
           "fbVictim": 6.3,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "Top Esports",
           "rating": 50.1,
           "confidence": 1,
           "subscores": {
@@ -2435,6 +2489,7 @@
           "fbVictim": 6.3,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "Top Esports",
           "rating": 49.4,
           "confidence": 1,
           "subscores": {
@@ -2491,6 +2546,7 @@
           "fbVictim": 6.3,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "KT Rolster",
           "rating": 86.2,
           "confidence": 1,
           "subscores": {
@@ -2525,6 +2581,7 @@
           "fbVictim": 6.3,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "KT Rolster",
           "rating": 85.9,
           "confidence": 1,
           "subscores": {
@@ -2581,6 +2638,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Hanwha Life eSports",
           "rating": 52.7,
           "confidence": 0.95,
           "subscores": {
@@ -2615,6 +2673,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Hanwha Life eSports",
           "rating": 55.3,
           "confidence": 1,
           "subscores": {
@@ -2671,6 +2730,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "100 Thieves",
           "rating": 35.4,
           "confidence": 0.63,
           "subscores": {
@@ -2705,6 +2765,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "100 Thieves",
           "rating": 35.4,
           "confidence": 0.63,
           "subscores": {
@@ -2761,6 +2822,7 @@
           "fbVictim": 33.3,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team Secret Whales",
           "rating": 27.4,
           "confidence": 0.63,
           "subscores": {
@@ -2795,6 +2857,7 @@
           "fbVictim": 33.3,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team Secret Whales",
           "rating": 25.9,
           "confidence": 0.67,
           "subscores": {
@@ -2851,6 +2914,7 @@
           "fbVictim": 14.3,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Vivo Keyd Stars",
           "rating": 30.3,
           "confidence": 0.78,
           "subscores": {
@@ -2885,6 +2949,7 @@
           "fbVictim": 14.3,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Vivo Keyd Stars",
           "rating": 28.7,
           "confidence": 0.82,
           "subscores": {
@@ -2941,6 +3006,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "CTBC Flying Oyster",
           "rating": 72.6,
           "confidence": 1,
           "subscores": {
@@ -2975,6 +3041,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 5,
+          "team": "CTBC Flying Oyster",
           "rating": 73,
           "confidence": 1,
           "subscores": {
@@ -3031,6 +3098,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "CTBC Flying Oyster",
           "rating": 36.2,
           "confidence": 0.63,
           "subscores": {
@@ -3065,6 +3133,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "CTBC Flying Oyster",
           "rating": 36.1,
           "confidence": 0.63,
           "subscores": {
@@ -3121,6 +3190,7 @@
           "fbVictim": 15.4,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Gen.G eSports",
           "rating": 32.2,
           "confidence": 1,
           "subscores": {
@@ -3155,6 +3225,7 @@
           "fbVictim": 15.400000000000002,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Gen.G eSports",
           "rating": 34.7,
           "confidence": 1,
           "subscores": {
@@ -3211,6 +3282,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Team Secret Whales",
           "rating": 60.8,
           "confidence": 0.63,
           "subscores": {
@@ -3245,6 +3317,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Team Secret Whales",
           "rating": 61.6,
           "confidence": 0.67,
           "subscores": {
@@ -3301,6 +3374,7 @@
           "fbVictim": 12.5,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 41.5,
           "confidence": 0.84,
           "subscores": {
@@ -3335,6 +3409,7 @@
           "fbVictim": 12.5,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Bilibili Gaming",
           "rating": 41.8,
           "confidence": 0.89,
           "subscores": {
@@ -3391,6 +3466,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Movistar KOI",
           "rating": 79.6,
           "confidence": 1,
           "subscores": {
@@ -3425,6 +3501,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Movistar KOI",
           "rating": 79.8,
           "confidence": 1,
           "subscores": {
@@ -3481,6 +3558,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "100 Thieves",
           "rating": 39.7,
           "confidence": 0.53,
           "subscores": {
@@ -3515,6 +3593,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "100 Thieves",
           "rating": 40.9,
           "confidence": 0.56,
           "subscores": {
@@ -3571,6 +3650,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "100 Thieves",
           "rating": 34.6,
           "confidence": 0.53,
           "subscores": {
@@ -3605,6 +3685,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "100 Thieves",
           "rating": 33.8,
           "confidence": 0.56,
           "subscores": {
@@ -3661,6 +3742,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Anyone s Legend",
           "rating": 54.5,
           "confidence": 1,
           "subscores": {
@@ -3695,6 +3777,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Anyone s Legend",
           "rating": 53.5,
           "confidence": 1,
           "subscores": {
@@ -3751,6 +3834,7 @@
           "fbVictim": 18.8,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Top Esports",
           "rating": 32.9,
           "confidence": 1,
           "subscores": {
@@ -3785,6 +3869,7 @@
           "fbVictim": 18.8,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Top Esports",
           "rating": 36.3,
           "confidence": 1,
           "subscores": {
@@ -3841,6 +3926,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "G2 Esports",
           "rating": 34.4,
           "confidence": 1,
           "subscores": {
@@ -3875,6 +3961,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "G2 Esports",
           "rating": 34.8,
           "confidence": 1,
           "subscores": {
@@ -3931,6 +4018,7 @@
           "fbVictim": 25,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Team Secret Whales",
           "rating": 51.7,
           "confidence": 0.5,
           "subscores": {
@@ -3965,6 +4053,7 @@
           "fbVictim": 25,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Team Secret Whales",
           "rating": 51.5,
           "confidence": 0.5,
           "subscores": {
@@ -4021,6 +4110,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Team Secret Whales",
           "rating": 47,
           "confidence": 0.67,
           "subscores": {
@@ -4055,6 +4145,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Team Secret Whales",
           "rating": 47.9,
           "confidence": 0.71,
           "subscores": {
@@ -4111,6 +4202,7 @@
           "fbVictim": 25,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "CTBC Flying Oyster",
           "rating": 35.1,
           "confidence": 1,
           "subscores": {
@@ -4145,6 +4237,7 @@
           "fbVictim": 25,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "CTBC Flying Oyster",
           "rating": 34.2,
           "confidence": 1,
           "subscores": {
@@ -4201,6 +4294,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 28.2,
           "confidence": 1,
           "subscores": {
@@ -4235,6 +4329,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 28.5,
           "confidence": 1,
           "subscores": {
@@ -4291,6 +4386,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "FlyQuest",
           "rating": 39.6,
           "confidence": 0.89,
           "subscores": {
@@ -4325,6 +4421,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "FlyQuest",
           "rating": 38.8,
           "confidence": 0.94,
           "subscores": {
@@ -4381,6 +4478,7 @@
           "fbVictim": 12.5,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 33.6,
           "confidence": 1,
           "subscores": {
@@ -4415,6 +4513,7 @@
           "fbVictim": 12.5,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Top Esports",
           "rating": 33.3,
           "confidence": 1,
           "subscores": {
@@ -4471,6 +4570,7 @@
           "fbVictim": 8.3,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "CTBC Flying Oyster",
           "rating": 46,
           "confidence": 1,
           "subscores": {
@@ -4505,6 +4605,7 @@
           "fbVictim": 8.3,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "CTBC Flying Oyster",
           "rating": 47.8,
           "confidence": 1,
           "subscores": {
@@ -4561,6 +4662,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 76.6,
           "confidence": 1,
           "subscores": {
@@ -4595,6 +4697,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 77.6,
           "confidence": 1,
           "subscores": {
@@ -4651,6 +4754,7 @@
           "fbVictim": 8.3,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "CTBC Flying Oyster",
           "rating": 83.2,
           "confidence": 1,
           "subscores": {
@@ -4685,6 +4789,7 @@
           "fbVictim": 8.3,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "CTBC Flying Oyster",
           "rating": 83,
           "confidence": 1,
           "subscores": {
@@ -4741,6 +4846,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Top Esports",
           "rating": 39.7,
           "confidence": 1,
           "subscores": {
@@ -4775,6 +4881,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Top Esports",
           "rating": 39.7,
           "confidence": 1,
           "subscores": {
@@ -4831,6 +4938,7 @@
           "fbVictim": 40,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "PSG Talon",
           "rating": 44.8,
           "confidence": 0.56,
           "subscores": {
@@ -4865,6 +4973,7 @@
           "fbVictim": 40,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "PSG Talon",
           "rating": 44.8,
           "confidence": 0.59,
           "subscores": {
@@ -4921,6 +5030,7 @@
           "fbVictim": 15.4,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Gen.G eSports",
           "rating": 60.2,
           "confidence": 1,
           "subscores": {
@@ -4955,6 +5065,7 @@
           "fbVictim": 15.400000000000002,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Gen.G eSports",
           "rating": 59.1,
           "confidence": 1,
           "subscores": {
@@ -5011,6 +5122,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "Bilibili Gaming",
           "rating": 64.5,
           "confidence": 0.84,
           "subscores": {
@@ -5045,6 +5157,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "Bilibili Gaming",
           "rating": 64.3,
           "confidence": 0.89,
           "subscores": {
@@ -5101,6 +5214,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "G2 Esports",
           "rating": 70.4,
           "confidence": 1,
           "subscores": {
@@ -5135,6 +5249,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "G2 Esports",
           "rating": 71.2,
           "confidence": 1,
           "subscores": {
@@ -5191,6 +5306,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "PSG Talon",
           "rating": 42.8,
           "confidence": 0.53,
           "subscores": {
@@ -5225,6 +5341,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "PSG Talon",
           "rating": 42.1,
           "confidence": 0.56,
           "subscores": {
@@ -5281,6 +5398,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "FlyQuest",
           "rating": 46.2,
           "confidence": 0.84,
           "subscores": {
@@ -5315,6 +5433,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "FlyQuest",
           "rating": 45.9,
           "confidence": 0.89,
           "subscores": {
@@ -5371,6 +5490,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Fnatic",
           "rating": 38.8,
           "confidence": 0.53,
           "subscores": {
@@ -5405,6 +5525,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Fnatic",
           "rating": 39.5,
           "confidence": 0.56,
           "subscores": {
@@ -5461,6 +5582,7 @@
           "fbVictim": 14.3,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Vivo Keyd Stars",
           "rating": 42.1,
           "confidence": 0.74,
           "subscores": {
@@ -5495,6 +5617,7 @@
           "fbVictim": 14.3,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Vivo Keyd Stars",
           "rating": 40.9,
           "confidence": 0.78,
           "subscores": {
@@ -5551,6 +5674,7 @@
           "fbVictim": 14.3,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Vivo Keyd Stars",
           "rating": 43.2,
           "confidence": 0.74,
           "subscores": {
@@ -5585,6 +5709,7 @@
           "fbVictim": 14.3,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Vivo Keyd Stars",
           "rating": 41.6,
           "confidence": 0.78,
           "subscores": {
@@ -5641,6 +5766,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "Movistar KOI",
           "rating": 31.2,
           "confidence": 1,
           "subscores": {
@@ -5675,6 +5801,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 4,
+          "team": "Movistar KOI",
           "rating": 31.4,
           "confidence": 1,
           "subscores": {
@@ -5731,6 +5858,7 @@
           "fbVictim": 12.5,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Bilibili Gaming",
           "rating": 40.8,
           "confidence": 0.84,
           "subscores": {
@@ -5765,6 +5893,7 @@
           "fbVictim": 12.5,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Bilibili Gaming",
           "rating": 42.4,
           "confidence": 0.89,
           "subscores": {
@@ -5821,6 +5950,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Fnatic",
           "rating": 46.7,
           "confidence": 0.63,
           "subscores": {
@@ -5855,6 +5985,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Fnatic",
           "rating": 46.8,
           "confidence": 0.63,
           "subscores": {
@@ -5911,6 +6042,7 @@
           "fbVictim": 11.1,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Hanwha Life eSports",
           "rating": 44.7,
           "confidence": 1,
           "subscores": {
@@ -5945,6 +6077,7 @@
           "fbVictim": 11.1,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Hanwha Life eSports",
           "rating": 45.7,
           "confidence": 1,
           "subscores": {
@@ -6001,6 +6134,7 @@
           "fbVictim": 6.3,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "KT Rolster",
           "rating": 62.8,
           "confidence": 1,
           "subscores": {
@@ -6035,6 +6169,7 @@
           "fbVictim": 6.3,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "KT Rolster",
           "rating": 62.4,
           "confidence": 1,
           "subscores": {
@@ -6091,6 +6226,7 @@
           "fbVictim": 12.5,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "KT Rolster",
           "rating": 60,
           "confidence": 1,
           "subscores": {
@@ -6125,6 +6261,7 @@
           "fbVictim": 12.5,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "KT Rolster",
           "rating": 61.5,
           "confidence": 1,
           "subscores": {
@@ -6181,6 +6318,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Fnatic",
           "rating": 41.3,
           "confidence": 0.53,
           "subscores": {
@@ -6215,6 +6353,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Fnatic",
           "rating": 40.6,
           "confidence": 0.56,
           "subscores": {
@@ -6271,6 +6410,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Team Secret Whales",
           "rating": 50.2,
           "confidence": 0.25,
           "subscores": {
@@ -6305,6 +6445,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Team Secret Whales",
           "rating": 50.4,
           "confidence": 0.25,
           "subscores": {
@@ -6361,6 +6502,7 @@
           "fbVictim": 25,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "FlyQuest",
           "rating": 51.6,
           "confidence": 0.84,
           "subscores": {
@@ -6395,6 +6537,7 @@
           "fbVictim": 25,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "FlyQuest",
           "rating": 52.2,
           "confidence": 0.89,
           "subscores": {
@@ -6451,6 +6594,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "100 Thieves",
           "rating": 57.7,
           "confidence": 0.53,
           "subscores": {
@@ -6485,6 +6629,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "100 Thieves",
           "rating": 57.9,
           "confidence": 0.56,
           "subscores": {
@@ -6541,6 +6686,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Fnatic",
           "rating": 35.8,
           "confidence": 0.56,
           "subscores": {
@@ -6575,6 +6721,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Fnatic",
           "rating": 35.1,
           "confidence": 0.59,
           "subscores": {
@@ -6631,6 +6778,7 @@
           "fbVictim": 14.3,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "CTBC Flying Oyster",
           "rating": 55.7,
           "confidence": 0.88,
           "subscores": {
@@ -6665,6 +6813,7 @@
           "fbVictim": 14.3,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "CTBC Flying Oyster",
           "rating": 55.2,
           "confidence": 0.88,
           "subscores": {
@@ -6721,6 +6870,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "100 Thieves",
           "rating": 30.3,
           "confidence": 0.56,
           "subscores": {
@@ -6755,6 +6905,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "100 Thieves",
           "rating": 28.9,
           "confidence": 0.59,
           "subscores": {
@@ -6811,6 +6962,7 @@
           "fbVictim": 7.7,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Gen.G eSports",
           "rating": 67.7,
           "confidence": 1,
           "subscores": {
@@ -6845,6 +6997,7 @@
           "fbVictim": 7.700000000000001,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Gen.G eSports",
           "rating": 66.6,
           "confidence": 1,
           "subscores": {
@@ -6901,6 +7054,7 @@
           "fbVictim": 16.7,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Bilibili Gaming",
           "rating": 67.7,
           "confidence": 0.67,
           "subscores": {
@@ -6935,6 +7089,7 @@
           "fbVictim": 16.7,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Bilibili Gaming",
           "rating": 68.7,
           "confidence": 0.71,
           "subscores": {
@@ -6991,6 +7146,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Anyone s Legend",
           "rating": 62.6,
           "confidence": 1,
           "subscores": {
@@ -7025,6 +7181,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 2,
+          "team": "Anyone s Legend",
           "rating": 62.1,
           "confidence": 1,
           "subscores": {
@@ -7081,6 +7238,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "G2 Esports",
           "rating": 61.8,
           "confidence": 1,
           "subscores": {
@@ -7115,6 +7273,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "G2 Esports",
           "rating": 61.6,
           "confidence": 1,
           "subscores": {
@@ -7171,6 +7330,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 6,
+          "team": "Movistar KOI",
           "rating": 51.7,
           "confidence": 1,
           "subscores": {
@@ -7205,6 +7365,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 6,
+          "team": "Movistar KOI",
           "rating": 51.9,
           "confidence": 1,
           "subscores": {
@@ -7261,6 +7422,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team Secret Whales",
           "rating": 48.6,
           "confidence": 0.63,
           "subscores": {
@@ -7295,6 +7457,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Team Secret Whales",
           "rating": 50,
           "confidence": 0.67,
           "subscores": {
@@ -7351,6 +7514,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 79.7,
           "confidence": 1,
           "subscores": {
@@ -7385,6 +7549,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Anyone s Legend",
           "rating": 79.3,
           "confidence": 1,
           "subscores": {
@@ -7441,6 +7606,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Vivo Keyd Stars",
           "rating": 52.4,
           "confidence": 0.74,
           "subscores": {
@@ -7475,6 +7641,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Vivo Keyd Stars",
           "rating": 54,
           "confidence": 0.78,
           "subscores": {
@@ -7531,6 +7698,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Fnatic",
           "rating": 61.1,
           "confidence": 0.53,
           "subscores": {
@@ -7565,6 +7733,7 @@
           "fbVictim": 20,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Fnatic",
           "rating": 61.2,
           "confidence": 0.56,
           "subscores": {
@@ -7621,6 +7790,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Hanwha Life eSports",
           "rating": 81,
           "confidence": 0.95,
           "subscores": {
@@ -7655,6 +7825,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "Hanwha Life eSports",
           "rating": 82.2,
           "confidence": 1,
           "subscores": {
@@ -7711,6 +7882,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "PSG Talon",
           "rating": 52.6,
           "confidence": 0.53,
           "subscores": {
@@ -7745,6 +7917,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
+          "team": "PSG Talon",
           "rating": 53.8,
           "confidence": 0.56,
           "subscores": {
@@ -7801,6 +7974,7 @@
           "fbVictim": 33.3,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Hanwha Life eSports",
           "rating": 30.8,
           "confidence": 0.95,
           "subscores": {
@@ -7835,6 +8009,7 @@
           "fbVictim": 33.3,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Hanwha Life eSports",
           "rating": 29.4,
           "confidence": 1,
           "subscores": {
@@ -7891,6 +8066,7 @@
           "fbVictim": 11.1,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "Hanwha Life eSports",
           "rating": 76.8,
           "confidence": 1,
           "subscores": {
@@ -7925,6 +8101,7 @@
           "fbVictim": 11.1,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "Hanwha Life eSports",
           "rating": 76.9,
           "confidence": 1,
           "subscores": {
@@ -7981,6 +8158,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "KT Rolster",
           "rating": 58.1,
           "confidence": 1,
           "subscores": {
@@ -8015,6 +8193,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 3,
+          "team": "KT Rolster",
           "rating": 58.6,
           "confidence": 1,
           "subscores": {
@@ -8071,6 +8250,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Movistar KOI",
           "rating": 49.6,
           "confidence": 1,
           "subscores": {
@@ -8105,6 +8285,7 @@
           "fbVictim": 10,
           "pentaKills": 0,
           "soloKills": 1,
+          "team": "Movistar KOI",
           "rating": 49.3,
           "confidence": 1,
           "subscores": {
