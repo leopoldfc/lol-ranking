@@ -189,7 +189,7 @@ interface SelectorProps {
   playerImages: Record<string, string>;
 }
 
-function PlayerSelector({ pools, selectedPlayer, onSelect, color, slot, teamLogos, playerImages }: SelectorProps) {
+function PlayerSelector({ pools, selectedPlayer, onSelect, color, slot, teamLogos }: SelectorProps) {
   const [search, setSearch] = useState('');
   const availableYears = useMemo(() => [...new Set(pools.map(p => p.year))].sort((a, b) => b - a), [pools]);
   const [filterYear, setFilterYear] = useState<number | null>(availableYears[0] ?? null);
