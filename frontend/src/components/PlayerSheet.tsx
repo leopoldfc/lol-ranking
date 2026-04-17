@@ -1,9 +1,25 @@
+import { useEffect, useState } from 'react';
 import {
   Radar, RadarChart, PolarGrid, PolarAngleAxis, ResponsiveContainer, Tooltip,
 } from 'recharts';
 import type { Player, Role, LIRSubscores, TournamentStats } from '../types';
 import { fmt, fmtSign, getPlayerStats } from '../utils';
 import RoleTag from './RoleTag';
+
+function usePolarTickColor() {
+  const [color, setColor] = useState('rgba(240,238,232,0.45)');
+  useEffect(() => {
+    const update = () => {
+      const v = getComputedStyle(document.documentElement).getPropertyValue('--polar-tick').trim();
+      if (v) setColor(v);
+    };
+    update();
+    const obs = new MutationObserver(update);
+    obs.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+    return () => obs.disconnect();
+  }, []);
+  return color;
+}
 
 const ROLE_COLOR: Record<Role, string> = {
   TOP: 'var(--role-top)', JGL: 'var(--role-jgl)', MID: 'var(--role-mid)',
@@ -56,11 +72,11 @@ function pct(val: number, min: number, max: number) {
 
 function StatBar({ label, value, barPct, color }: { label: string; value: string; barPct: number; color: string }) {
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: '76px 1fr 58px', alignItems: 'center', gap: 10, padding: '5px 0', borderBottom: '1px solid rgba(255,255,255,0.03)' }}>
+    <div style={{ display: 'grid', gridTemplateColumns: '76px 1fr 58px', alignItems: 'center', gap: 10, padding: '5px 0', borderBottom: '1px solid var(--separator)' }}>
       <span style={{ fontFamily: 'var(--font-mono)', fontSize: 9, color: 'var(--text-4)', letterSpacing: '0.07em', textTransform: 'uppercase' }}>
         {label}
       </span>
-      <div style={{ height: 3, background: 'rgba(255,255,255,0.05)', borderRadius: 2, overflow: 'hidden' }}>
+      <div style={{ height: 3, background: 'var(--bar-track)', borderRadius: 2, overflow: 'hidden' }}>
         <div style={{ height: '100%', width: `${barPct}%`, background: color, borderRadius: 2, transition: 'width 0.5s cubic-bezier(0.4,0,0.2,1)' }} />
       </div>
       <span style={{ fontFamily: 'var(--font-mono)', fontSize: 12, fontWeight: 700, color: 'var(--text-1)', letterSpacing: '-0.02em', textAlign: 'right' }}>
@@ -97,6 +113,7 @@ interface Props {
 
 export default function PlayerSheet({ player, onClose, tournament, teamLogos = {}, playerImages = {} }: Props) {
   const stats = getPlayerStats(player, tournament);
+  const tickColor = usePolarTickColor();
   if (!stats) return null;
 
   const tournamentEntry  = tournament ? player.tournaments[tournament] : undefined;
@@ -214,10 +231,10 @@ export default function PlayerSheet({ player, onClose, tournament, teamLogos = {
 
             <ResponsiveContainer width="100%" height={220}>
               <RadarChart data={radarData} margin={{ top: 14, right: 18, bottom: 14, left: 18 }}>
-                <PolarGrid gridType="polygon" stroke="rgba(255,255,255,0.07)" strokeWidth={1} />
+                <PolarGrid gridType="polygon" stroke="var(--polar-grid)" strokeWidth={1} />
                 <PolarAngleAxis
                   dataKey="axis"
-                  tick={{ fontFamily: 'Space Mono, monospace', fontSize: 9, fill: 'rgba(240,238,232,0.45)', fontWeight: 700 }}
+                  tick={{ fontFamily: 'Space Mono, monospace', fontSize: 9, fill: tickColor, fontWeight: 700 }}
                   tickLine={false}
                 />
                 <Radar dataKey="val" stroke={roleColor} fill={roleColor} fillOpacity={0.2} strokeWidth={2} dot={false} />

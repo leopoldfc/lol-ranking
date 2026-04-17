@@ -10,6 +10,21 @@ import PlayerSheet from './PlayerSheet';
 const ROLES: Role[] = ['TOP', 'JGL', 'MID', 'BOT', 'SUP'];
 const ROLE_LABEL: Record<Role, string> = { TOP: 'Top', JGL: 'Jungle', MID: 'Mid', BOT: 'Bot', SUP: 'Support' };
 
+function usePolarTickColor() {
+  const [color, setColor] = useState('rgba(240,238,232,0.4)');
+  useEffect(() => {
+    const update = () => {
+      const v = getComputedStyle(document.documentElement).getPropertyValue('--polar-tick').trim();
+      if (v) setColor(v);
+    };
+    update();
+    const obs = new MutationObserver(update);
+    obs.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+    return () => obs.disconnect();
+  }, []);
+  return color;
+}
+
 interface LeagueData {
   id: string;
   label: string;
@@ -92,14 +107,15 @@ function CustomTooltip({ active, payload }: { active?: boolean; payload?: { payl
 
 function PlayerRadar({ player, color, size = 140 }: { player: Player; color: string; size?: number }) {
   const data = buildRadarData(player);
+  const tickColor = usePolarTickColor();
   if (!data) return null;
   return (
     <ResponsiveContainer width={size} height={size}>
       <RadarChart data={data} margin={{ top: 10, right: 10, bottom: 10, left: 10 }}>
-        <PolarGrid gridType="polygon" stroke="rgba(255,255,255,0.07)" strokeWidth={1} />
+        <PolarGrid gridType="polygon" stroke="var(--polar-grid)" strokeWidth={1} />
         <PolarAngleAxis
           dataKey="axis"
-          tick={{ fontFamily: 'Space Mono, monospace', fontSize: 8, fill: 'rgba(240,238,232,0.4)', fontWeight: 700 }}
+          tick={{ fontFamily: 'Space Mono, monospace', fontSize: 8, fill: tickColor, fontWeight: 700 }}
           tickLine={false}
         />
         <Radar dataKey="val" stroke={color} fill={color} fillOpacity={0.2} strokeWidth={1.5} dot={false} />
@@ -164,7 +180,7 @@ function RoleTopRow({ players, teamLogos, playerImages }: { players: Record<Role
                     <span style={{ fontFamily: 'var(--font-mono)', fontSize: 10, color: 'var(--text-3)', letterSpacing: '0.04em', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{p.team}</span>
                   </div>
                 </div>
-                <div style={{ flexShrink: 0 }}>
+                <div style={{ flexShrink: 0, overflow: 'hidden', maxWidth: 90 }}>
                   <PlayerRadar player={p} color={color} size={90} />
                 </div>
               </div>

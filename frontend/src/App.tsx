@@ -5,9 +5,10 @@ import RankingTable from './components/RankingTable';
 import RosterPage from './components/RosterPage';
 import YearOverview from './components/YearOverview';
 import AboutPage from './components/AboutPage';
+import ComparePage from './components/ComparePage';
 import { YEARS, type LeagueConfig, type SplitConfig } from './leagues';
 
-type Page = 'overview' | 'rankings' | 'rosters' | 'about';
+type Page = 'overview' | 'rankings' | 'rosters' | 'compare' | 'about';
 
 function useExportData(league: LeagueConfig) {
   const [data, setData]       = useState<ExportData | null>(null);
@@ -49,6 +50,7 @@ const PAGE_ICONS: Record<Page, string> = {
   overview: '◈',
   rankings: '▤',
   rosters:  '⊞',
+  compare:  '⇄',
   about:    '◎',
 };
 
@@ -114,12 +116,14 @@ export default function App() {
   const pageTitle = page === 'overview'
     ? `${selection.year} Season`
     : page === 'about' ? 'Rating.GG'
+    : page === 'compare' ? 'Compare'
     : league.title;
 
   const pageEyebrow = page === 'overview'
     ? 'Year Overview'
     : page === 'rankings' ? 'Player Rankings'
     : page === 'rosters' ? 'Team Rosters'
+    : page === 'compare' ? 'Player Comparison'
     : 'How it works';
 
   return (
@@ -176,6 +180,13 @@ export default function App() {
           >
             <span className="nav-item__icon">{PAGE_ICONS.rosters}</span>
             Rosters
+          </button>
+          <button
+            className={`nav-item${page === 'compare' ? ' nav-item--active' : ''}`}
+            onClick={() => { setPage('compare'); closeNav(); }}
+          >
+            <span className="nav-item__icon">{PAGE_ICONS.compare}</span>
+            Compare
           </button>
           <button
             className={`nav-item${page === 'about' ? ' nav-item--active' : ''}`}
@@ -299,6 +310,8 @@ export default function App() {
         <main className="page">
           {page === 'about' ? (
             <AboutPage />
+          ) : page === 'compare' ? (
+            <ComparePage />
           ) : page === 'overview' ? (
             <YearOverview yearConfig={yearConfig} onSelectLeague={handleSetLeague} />
           ) : !league.available ? (
