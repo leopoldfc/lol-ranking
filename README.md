@@ -2,13 +2,21 @@
 
 Système de ranking de joueurs professionnels League of Legends, inspiré de HLTV pour CS:GO.
 
-Ligues supportées : **LCK**, **LPL**, **LEC**, **LCS**, **First Stand**, **MSI**, **Worlds** — saisons 2025 et 2026.
+Ligues supportées : **LCK**, **LPL**, **LEC**, **LCS**, **LFL**, **First Stand**, **MSI**, **Worlds** — saisons 2025 et 2026.
 
 ## Stack
 
 - **Scraper** — Node.js + TypeScript, source : [gol.gg](https://gol.gg)
 - **Frontend** — React + Vite 5
 - **Rating** — LIR (LoL Impact Rating) : note sur 100 basée sur des percentiles par rôle
+
+## Pages
+
+- **Overview** — vue d'ensemble par année : meilleur joueur par rôle pour chaque ligue, avec radar chart et fiche détaillée au clic
+- **Rankings** — classement complet des joueurs d'une ligue, filtrable par rôle et split
+- **Rosters** — vue par équipe avec les joueurs et leurs stats
+- **Compare** — comparateur inter-ligues : sélection de deux joueurs (filtres année / ligue / rôle / recherche), radar superposé et tableau de stats en duel avec barres miroir depuis le centre
+- **How it works** — explication du système LIR
 
 ## Lancer l'application
 
