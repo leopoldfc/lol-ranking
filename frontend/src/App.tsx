@@ -131,7 +131,7 @@ export default function App() {
 
   const pageEyebrow = page === 'overview'
     ? 'Year Overview'
-    : page === 'rankings' ? 'Player Rankings'
+    : page === 'rankings' ? 'Rankings'
     : page === 'rosters' ? 'Team Rosters'
     : page === 'compare' ? 'Player Comparison'
     : 'How it works';

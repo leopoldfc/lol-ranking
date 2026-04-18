@@ -3,6 +3,7 @@ import type { Player, Role, TournamentStats } from '../types';
 import { fmt, fmtSign, getPlayerStats } from '../utils';
 import RoleTag from './RoleTag';
 import PlayerModal from './PlayerModal';
+import TeamRankingsPage from './TeamRankingsPage';
 
 type SortKey = 'rating' | keyof TournamentStats | 'name';
 
@@ -68,6 +69,8 @@ function ratingBarClass(r: number) {
 // Cellule de base : padding identique header & data
 const CELL_PAD = '0 8px';
 
+type View = 'TEAMS' | Role | 'ALL';
+
 interface Props {
   players: Player[];
   tournament?: string;
@@ -86,11 +89,29 @@ export default function RankingTable({ players, tournament, tournamentName, team
     setScrolledEnd(el.scrollLeft + el.clientWidth >= el.scrollWidth - 4);
   };
 
-  const [role, setRole]         = useState<Role | 'ALL'>('ALL');
+  const [view, setView]         = useState<View>('TEAMS');
+  const role: Role | 'ALL'      = view === 'TEAMS' ? 'ALL' : view;
   const [sortKey, setSortKey]   = useState<SortKey>('rating');
   const [sortDir, setSortDir]   = useState<'asc' | 'desc'>('desc');
   const [selected, setSelected] = useState<Player | null>(null);
   const [search, setSearch]     = useState('');
+
+  if (view === 'TEAMS') {
+    return (
+      <>
+        <div className="ranking-toolbar" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 10, marginBottom: 16 }}>
+          <div className="filters" style={{ marginBottom: 0 }}>
+            <button className="filter-btn filter-btn--active" onClick={() => {}}>Teams</button>
+            <button className="filter-btn" onClick={() => setView('ALL')}>All</button>
+            {ROLES.map(r => (
+              <button key={r} className={`filter-btn filter-btn--${r.toLowerCase()}`} onClick={() => setView(r)}>{ROLE_LABEL[r]}</button>
+            ))}
+          </div>
+        </div>
+        <TeamRankingsPage players={players} tournament={tournament} teamLogos={teamLogos} leagueTitle={tournamentName} />
+      </>
+    );
+  }
 
   const effectiveRating = (p: Player): number | undefined => {
     if (tournament) {
@@ -163,12 +184,13 @@ export default function RankingTable({ players, tournament, tournamentName, team
       {/* ── Toolbar ───────────────────────────── */}
       <div className="ranking-toolbar" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 10, marginBottom: 16 }}>
         <div className="filters" style={{ marginBottom: 0 }}>
-          <button className={`filter-btn ${role === 'ALL' ? 'filter-btn--active' : ''}`} onClick={() => setRole('ALL')}>All</button>
+          <button className="filter-btn" onClick={() => setView('TEAMS')}>Teams</button>
+          <button className={`filter-btn ${view === 'ALL' ? 'filter-btn--active' : ''}`} onClick={() => setView('ALL')}>All</button>
           {ROLES.map(r => (
             <button
               key={r}
-              className={`filter-btn filter-btn--${r.toLowerCase()} ${role === r ? 'filter-btn--active' : ''}`}
-              onClick={() => setRole(r)}
+              className={`filter-btn filter-btn--${r.toLowerCase()} ${view === r ? 'filter-btn--active' : ''}`}
+              onClick={() => setView(r)}
             >{ROLE_LABEL[r]}</button>
           ))}
         </div>
