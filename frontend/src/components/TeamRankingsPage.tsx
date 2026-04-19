@@ -46,7 +46,6 @@ function rankClass(i: number) {
   return 'rank-num rank-num--rest';
 }
 
-const ROLE_KEY: Record<Role, SortKey> = { TOP: 'top', JGL: 'jgl', MID: 'mid', BOT: 'bot', SUP: 'sup' };
 
 const GRID = '44px 200px 90px 72px 72px 86px 86px 86px 86px 86px';
 //            #    TEAM  LIR  G    W%   TOP  JGL  MID  BOT  SUP
