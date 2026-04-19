@@ -4,7 +4,6 @@
   "description": "Scraper de stats joueurs LoL Esports depuis gol.gg",
   "type": "module",
   "scripts": {
-    "start": "tsx src/index.ts",
     "build": "tsc",
     "scrape": "npm run scrape:2026",
     "logos": "tsx scripts/fetch-logos.ts",
@@ -16,7 +15,6 @@
   "dependencies": {
     "better-sqlite3": "^11.0.0",
     "cheerio": "^1.2.0",
-    "commander": "^12.0.0",
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {

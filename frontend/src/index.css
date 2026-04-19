@@ -1299,7 +1299,7 @@ a:hover { opacity: 0.75; }
 
 .roster-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(240px, 670px));
   gap: 10px;
 }
 
@@ -1440,7 +1440,9 @@ a:hover { opacity: 0.75; }
 }
 
 .rrow__stat {
-  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   min-width: 32px;
 }
 

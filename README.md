@@ -13,7 +13,7 @@ Ligues supportées : **LCK**, **LPL**, **LEC**, **LCS**, **LFL**, **First Stand*
 ## Pages
 
 - **Overview** — vue d'ensemble par année : meilleur joueur par rôle pour chaque ligue, avec radar chart et fiche détaillée au clic
-- **Rankings** — classement complet des joueurs d'une ligue, filtrable par rôle et split
+- **Rankings** — classement complet des joueurs d'une ligue, filtrable par rôle et split. Onglet **Teams** intégré : classement des équipes par LIR moyen (meilleur joueur par rôle), avec détail du LIR par poste
 - **Rosters** — vue par équipe avec les joueurs et leurs stats
 - **Compare** — comparateur inter-ligues : sélection de deux joueurs (filtres année / ligue / rôle / recherche), radar superposé et tableau de stats en duel avec barres miroir depuis le centre
 - **How it works** — explication du système LIR
@@ -29,11 +29,12 @@ Lance le frontend sur http://localhost:5173. Pour mettre à jour les données, u
 ## Commandes disponibles
 
 ```bash
-npm run dev          # lance le frontend sur http://localhost:5173
-npm run scrape       # scrapers 2026 (LCK, LPL, LEC, LCS, First Stand)
-npm run scrape:2026  # scrapers 2026 uniquement
-npm run scrape:2025  # scrapers 2025 (LCK, LPL, LEC, First Stand, MSI, Worlds)
-npm run logos        # télécharge les logos d'équipe depuis l'API Lolesports
+npm run dev            # lance le frontend sur http://localhost:5173
+npm run scrape         # scrapers 2026 (LCK, LPL, LEC, LCS, First Stand, LFL)
+npm run scrape:2026    # scrapers 2026 uniquement
+npm run scrape:2025    # scrapers 2025 (LCK, LPL, LEC, LFL, First Stand, MSI, Worlds)
+npm run logos          # télécharge les logos d'équipe depuis l'API Lolesports
+npm run player-images  # télécharge les photos de joueurs
 ```
 
 Pour détecter de nouveaux tournois sur gol.gg :

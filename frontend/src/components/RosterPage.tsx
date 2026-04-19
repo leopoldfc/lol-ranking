@@ -102,12 +102,12 @@ export default function RosterPage({ players, tournament, teamLogos = {}, player
                       <span className="rrow__name">{p.name}</span>
                       <div className="rrow__stats">
                         <div className="rrow__stat">
-                          <span className="rrow__stat-val">{stats ? stats.kda.toFixed(1) : '—'}</span>
                           <span className="rrow__stat-label">KDA</span>
+                          <span className="rrow__stat-val">{stats ? stats.kda.toFixed(1) : '—'}</span>
                         </div>
                         <div className="rrow__stat">
-                          <span className="rrow__stat-val">{stats ? Math.round(stats.dpm) : '—'}</span>
                           <span className="rrow__stat-label">DPM</span>
+                          <span className="rrow__stat-val">{stats ? Math.round(stats.dpm) : '—'}</span>
                         </div>
                       </div>
                       <span className="rrow__rating" style={{ color: roleColor }}>{rating != null ? rating.toFixed(1) : '—'}</span>
