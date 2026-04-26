@@ -339,39 +339,43 @@ export default function App() {
         <div className="sidebar__footer">
           <div>Data · <strong className="sidebar__footer-source">gol.gg</strong></div>
 
-          <button
-            className={`scrape-btn scrape-btn--${scrape.status}`}
-            disabled={scrape.status === 'running'}
-            onClick={() => {
-              if (scrape.status === 'idle' || scrape.status === 'error') {
-                setLogsOpen(true);
-                scrape.run();
-              } else if (scrape.status === 'done') {
-                scrape.reset();
-                setLogsOpen(false);
-              }
-            }}
-          >
-            <span className="scrape-btn__dot" />
-            <span className="scrape-btn__label">
-              {scrape.status === 'running' ? 'Scraping…'
-               : scrape.status === 'done'  ? 'Done — reset'
-               : scrape.status === 'error' ? 'Error — retry'
-               : 'Scrape 2026'}
-            </span>
-          </button>
-
-          {(scrape.status === 'running' || scrape.status === 'done' || scrape.status === 'error') && scrape.logs.length > 0 && (
-            <div className="scrape-logs">
-              <button className="scrape-logs__toggle" onClick={() => setLogsOpen(o => !o)}>
-                {logsOpen ? '▴ hide logs' : '▾ show logs'}
+          {window.location.hostname === 'localhost' && (
+            <>
+              <button
+                className={`scrape-btn scrape-btn--${scrape.status}`}
+                disabled={scrape.status === 'running'}
+                onClick={() => {
+                  if (scrape.status === 'idle' || scrape.status === 'error') {
+                    setLogsOpen(true);
+                    scrape.run();
+                  } else if (scrape.status === 'done') {
+                    scrape.reset();
+                    setLogsOpen(false);
+                  }
+                }}
+              >
+                <span className="scrape-btn__dot" />
+                <span className="scrape-btn__label">
+                  {scrape.status === 'running' ? 'Scraping…'
+                   : scrape.status === 'done'  ? 'Done — reset'
+                   : scrape.status === 'error' ? 'Error — retry'
+                   : 'Scrape 2026'}
+                </span>
               </button>
-              {logsOpen && (
-                <div className="scrape-logs__body">
-                  {scrape.logs.map((l, i) => <div key={i}>{l}</div>)}
+
+              {(scrape.status === 'running' || scrape.status === 'done' || scrape.status === 'error') && scrape.logs.length > 0 && (
+                <div className="scrape-logs">
+                  <button className="scrape-logs__toggle" onClick={() => setLogsOpen(o => !o)}>
+                    {logsOpen ? '▴ hide logs' : '▾ show logs'}
+                  </button>
+                  {logsOpen && (
+                    <div className="scrape-logs__body">
+                      {scrape.logs.map((l, i) => <div key={i}>{l}</div>)}
+                    </div>
+                  )}
                 </div>
               )}
-            </div>
+            </>
           )}
         </div>
       </nav>
