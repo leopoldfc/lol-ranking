@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "exportedAt": "2026-04-25T11:02:09.932Z",
+    "exportedAt": "2026-04-26T20:52:44.581Z",
     "tournaments": [
       {
         "name": "LPL 2026",
         "league": "LPL",
         "year": 2026,
         "split": "Full Year",
-        "scrapedAt": "2026-04-25T11:02:09.933Z"
+        "scrapedAt": "2026-04-26T20:52:44.582Z"
       }
     ]
   },
@@ -34,8 +34,8 @@
       "country": "CN",
       "team": "LNG Esports",
       "role": "BOT",
-      "rating": 75,
-      "confidence": 0.73,
+      "rating": 74.7,
+      "confidence": 0.72,
       "subscores": {
         "laning": 63.5,
         "damage": 96.9,
@@ -170,12 +170,12 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 54.4,
-          "confidence": 0.42,
+          "rating": 54.8,
+          "confidence": 0.36,
           "subscores": {
-            "laning": 61.1,
-            "damage": 30,
-            "presence": 76.7,
+            "laning": 56.7,
+            "damage": 38.7,
+            "presence": 83.3,
             "efficiency": 93.2
           }
         },
@@ -204,8 +204,8 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 75,
-          "confidence": 0.73,
+          "rating": 74.7,
+          "confidence": 0.72,
           "subscores": {
             "laning": 63.5,
             "damage": 96.9,
@@ -226,13 +226,13 @@
       "country": "CN",
       "team": "Top Esports",
       "role": "TOP",
-      "rating": 49.2,
+      "rating": 48.9,
       "confidence": 1,
       "subscores": {
-        "laning": 46.1,
+        "laning": 44.1,
         "damage": 70,
         "presence": 32.4,
-        "efficiency": 35.3
+        "efficiency": 37.1
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -362,13 +362,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 49.2,
+          "rating": 48.9,
           "confidence": 1,
           "subscores": {
-            "laning": 46.1,
+            "laning": 44.1,
             "damage": 70,
             "presence": 32.4,
-            "efficiency": 35.3
+            "efficiency": 37.1
           }
         }
       },
@@ -384,13 +384,13 @@
       "country": "KR",
       "team": "Team WE",
       "role": "BOT",
-      "rating": 49.3,
+      "rating": 47,
       "confidence": 1,
       "subscores": {
         "laning": 42.7,
-        "damage": 71.9,
-        "presence": 53.1,
-        "efficiency": 22.2
+        "damage": 69.4,
+        "presence": 46.9,
+        "efficiency": 20
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -496,78 +496,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 13,
+          "games": 14,
           "winRate": 0,
-          "kda": 1.5,
-          "avgKills": 3.1,
+          "kda": 1.4,
+          "avgKills": 3,
           "avgDeaths": 4.1,
-          "avgAssists": 3,
-          "csm": 9.8,
-          "gpm": 440,
-          "kp": 73.1,
-          "dmgPct": 27.8,
-          "goldPct": 25,
-          "vsPct": 14.3,
-          "dpm": 681,
-          "vspm": 1.31,
+          "avgAssists": 2.9,
+          "csm": 9.7,
+          "gpm": 437,
+          "kp": 71.4,
+          "dmgPct": 27.2,
+          "goldPct": 24.9,
+          "vsPct": 14.4,
+          "dpm": 664,
+          "vspm": 1.3,
           "avgWpm": 0.48,
           "avgWcpm": 0.29,
           "avgVwpm": 0.16,
-          "gd15": 237,
+          "gd15": 113,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 36.3,
+          "rating": 34.1,
           "confidence": 1,
           "subscores": {
-            "laning": 58.9,
-            "damage": 12.7,
-            "presence": 83.3,
-            "efficiency": 18.7
+            "laning": 54.4,
+            "damage": 16.7,
+            "presence": 70,
+            "efficiency": 16.7
           }
         },
         "LPL 2026": {
-          "games": 44,
-          "winRate": 31.825,
-          "kda": 2.140909090909091,
-          "avgKills": 3.815909090909091,
-          "avgDeaths": 4.090909090909091,
-          "avgAssists": 4.756818181818182,
-          "csm": 9.979545454545455,
-          "gpm": 478.8181818181818,
-          "kp": 67.34545454545454,
-          "dmgPct": 29.177272727272726,
-          "goldPct": 25.220454545454547,
-          "vsPct": 13.672727272727274,
-          "dpm": 789.0227272727273,
-          "vspm": 1.3497727272727273,
-          "avgWpm": 0.47272727272727266,
-          "avgWcpm": 0.3434090909090909,
-          "avgVwpm": 0.1456818181818182,
-          "gd15": -163.54545454545453,
+          "games": 45,
+          "winRate": 31.11777777777778,
+          "kda": 2.0955555555555554,
+          "avgKills": 3.7688888888888887,
+          "avgDeaths": 4.091111111111111,
+          "avgAssists": 4.6866666666666665,
+          "csm": 9.944444444444445,
+          "gpm": 477.02222222222224,
+          "kp": 66.94444444444444,
+          "dmgPct": 28.96,
+          "goldPct": 25.184444444444445,
+          "vsPct": 13.717777777777776,
+          "dpm": 781.3333333333334,
+          "vspm": 1.3457777777777777,
+          "avgWpm": 0.47288888888888886,
+          "avgWcpm": 0.3422222222222222,
+          "avgVwpm": 0.14600000000000002,
+          "gd15": -193.22222222222223,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 49.3,
+          "rating": 47,
           "confidence": 1,
           "subscores": {
             "laning": 42.7,
-            "damage": 71.9,
-            "presence": 53.1,
-            "efficiency": 22.2
+            "damage": 69.4,
+            "presence": 46.9,
+            "efficiency": 20
           }
         }
       },
       "aggregated": {
-        "totalGames": 44,
-        "avgWinRate": 31.825,
-        "avgKda": 2.140909090909091
+        "totalGames": 45,
+        "avgWinRate": 31.11777777777778,
+        "avgKda": 2.0955555555555554
       }
     },
     {
@@ -576,13 +576,13 @@
       "country": "CN",
       "team": "EDward Gaming",
       "role": "MID",
-      "rating": 63,
+      "rating": 63.1,
       "confidence": 0.56,
       "subscores": {
         "laning": 56.7,
-        "damage": 75.3,
+        "damage": 72.7,
         "presence": 90,
-        "efficiency": 74
+        "efficiency": 78.3
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -712,13 +712,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 52.2,
-          "confidence": 0.4,
+          "rating": 50.8,
+          "confidence": 0.36,
           "subscores": {
             "laning": 41.7,
-            "damage": 53.6,
+            "damage": 42.1,
             "presence": 82.1,
-            "efficiency": 50.7
+            "efficiency": 50.5
           }
         },
         "LPL 2026": {
@@ -746,13 +746,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 63,
+          "rating": 63.1,
           "confidence": 0.56,
           "subscores": {
             "laning": 56.7,
-            "damage": 75.3,
+            "damage": 72.7,
             "presence": 90,
-            "efficiency": 74
+            "efficiency": 78.3
           }
         }
       },
@@ -768,11 +768,11 @@
       "country": "CN",
       "team": "Ninjas in Pyjamas",
       "role": "BOT",
-      "rating": 65.8,
+      "rating": 67.9,
       "confidence": 1,
       "subscores": {
         "laning": 57.3,
-        "damage": 76.9,
+        "damage": 83.1,
         "presence": 65.6,
         "efficiency": 58.8
       },
@@ -904,13 +904,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 59.2,
+          "rating": 61.4,
           "confidence": 1,
           "subscores": {
-            "laning": 63.3,
-            "damage": 79.3,
-            "presence": 36.7,
-            "efficiency": 40.5
+            "laning": 58.9,
+            "damage": 81.3,
+            "presence": 43.3,
+            "efficiency": 47
           }
         },
         "LPL 2026": {
@@ -938,11 +938,11 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 65.8,
+          "rating": 67.9,
           "confidence": 1,
           "subscores": {
             "laning": 57.3,
-            "damage": 76.9,
+            "damage": 83.1,
             "presence": 65.6,
             "efficiency": 58.8
           }
@@ -960,13 +960,13 @@
       "country": "CN",
       "team": "Bilibili Gaming",
       "role": "TOP",
-      "rating": 55.2,
+      "rating": 53.8,
       "confidence": 1,
       "subscores": {
-        "laning": 65.7,
-        "damage": 38.2,
+        "laning": 61.8,
+        "damage": 34.7,
         "presence": 20.6,
-        "efficiency": 74.7
+        "efficiency": 78.8
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -1072,78 +1072,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 16,
-          "winRate": 62.5,
-          "kda": 2.5,
-          "avgKills": 2.1,
-          "avgDeaths": 3.2,
+          "games": 18,
+          "winRate": 66.7,
+          "kda": 2.8,
+          "avgKills": 2.3,
+          "avgDeaths": 3,
           "avgAssists": 6,
           "csm": 9,
-          "gpm": 406,
-          "kp": 43.3,
-          "dmgPct": 20.2,
-          "goldPct": 19.9,
-          "vsPct": 12.9,
-          "dpm": 622,
-          "vspm": 1.24,
+          "gpm": 409,
+          "kp": 43.7,
+          "dmgPct": 20,
+          "goldPct": 20,
+          "vsPct": 12.8,
+          "dpm": 606,
+          "vspm": 1.22,
           "avgWpm": 0.41,
-          "avgWcpm": 0.19,
-          "avgVwpm": 0.11,
-          "gd15": -14,
+          "avgWcpm": 0.18,
+          "avgVwpm": 0.12,
+          "gd15": 0,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 42.8,
+          "rating": 42.5,
           "confidence": 1,
           "subscores": {
             "laning": 46.4,
-            "damage": 50.7,
+            "damage": 46.4,
             "presence": 10.7,
-            "efficiency": 41.1
+            "efficiency": 45
           }
         },
         "LPL 2026": {
-          "games": 56,
-          "winRate": 66.07142857142857,
-          "kda": 3.5267857142857144,
-          "avgKills": 2.5285714285714285,
-          "avgDeaths": 2.4857142857142853,
-          "avgAssists": 5.776785714285714,
-          "csm": 9.223214285714286,
-          "gpm": 410.64285714285717,
-          "kp": 46.07678571428572,
-          "dmgPct": 21.905357142857145,
-          "goldPct": 20.06964285714286,
-          "vsPct": 12.301785714285714,
-          "dpm": 627.3571428571429,
-          "vspm": 1.2283928571428573,
-          "avgWpm": 0.40017857142857144,
-          "avgWcpm": 0.17214285714285715,
-          "avgVwpm": 0.11446428571428571,
-          "gd15": 306.26785714285717,
+          "games": 58,
+          "winRate": 67.25172413793103,
+          "kda": 3.5844827586206898,
+          "avgKills": 2.575862068965517,
+          "avgDeaths": 2.4482758620689653,
+          "avgAssists": 5.7844827586206895,
+          "csm": 9.21551724137931,
+          "gpm": 411.41379310344826,
+          "kp": 46.1051724137931,
+          "dmgPct": 21.78448275862069,
+          "goldPct": 20.094827586206897,
+          "vsPct": 12.291379310344826,
+          "dpm": 622.2068965517242,
+          "vspm": 1.2225862068965516,
+          "avgWpm": 0.40051724137931033,
+          "avgWcpm": 0.1696551724137931,
+          "avgVwpm": 0.11741379310344828,
+          "gd15": 299.5689655172414,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 55.2,
+          "rating": 53.8,
           "confidence": 1,
           "subscores": {
-            "laning": 65.7,
-            "damage": 38.2,
+            "laning": 61.8,
+            "damage": 34.7,
             "presence": 20.6,
-            "efficiency": 74.7
+            "efficiency": 78.8
           }
         }
       },
       "aggregated": {
-        "totalGames": 56,
-        "avgWinRate": 66.07142857142857,
-        "avgKda": 3.5267857142857144
+        "totalGames": 58,
+        "avgWinRate": 67.25172413793103,
+        "avgKda": 3.5844827586206898
       }
     },
     {
@@ -1288,13 +1288,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 58.7,
-          "confidence": 0.4,
+          "rating": 57.2,
+          "confidence": 0.36,
           "subscores": {
             "laning": 51.2,
-            "damage": 75,
+            "damage": 66.4,
             "presence": 96.4,
-            "efficiency": 68.8
+            "efficiency": 72.5
           }
         },
         "LPL 2026": {
@@ -1344,13 +1344,13 @@
       "country": "CN",
       "team": "Ninjas in Pyjamas",
       "role": "MID",
-      "rating": 37.7,
+      "rating": 35.1,
       "confidence": 1,
       "subscores": {
         "laning": 45.6,
-        "damage": 22,
+        "damage": 15.3,
         "presence": 16.7,
-        "efficiency": 65.3
+        "efficiency": 63
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -1480,13 +1480,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 36.3,
+          "rating": 29.6,
           "confidence": 1,
           "subscores": {
-            "laning": 46.4,
-            "damage": 32.1,
-            "presence": 25,
-            "efficiency": 40.2
+            "laning": 44,
+            "damage": 20.7,
+            "presence": 17.9,
+            "efficiency": 35.2
           }
         },
         "LPL 2026": {
@@ -1514,13 +1514,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 37.7,
+          "rating": 35.1,
           "confidence": 1,
           "subscores": {
             "laning": 45.6,
-            "damage": 22,
+            "damage": 15.3,
             "presence": 16.7,
-            "efficiency": 65.3
+            "efficiency": 63
           }
         }
       },
@@ -1536,13 +1536,13 @@
       "country": "CN",
       "team": "Top Esports",
       "role": "MID",
-      "rating": 54.1,
+      "rating": 51.9,
       "confidence": 1,
       "subscores": {
         "laning": 54.4,
-        "damage": 84.7,
+        "damage": 79.3,
         "presence": 10,
-        "efficiency": 52.3
+        "efficiency": 50
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -1672,13 +1672,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 64.8,
+          "rating": 63.1,
           "confidence": 1,
           "subscores": {
-            "laning": 53.6,
-            "damage": 89.3,
-            "presence": 39.3,
-            "efficiency": 67
+            "laning": 56,
+            "damage": 83.6,
+            "presence": 32.1,
+            "efficiency": 70.5
           }
         },
         "LPL 2026": {
@@ -1706,13 +1706,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 54.1,
+          "rating": 51.9,
           "confidence": 1,
           "subscores": {
             "laning": 54.4,
-            "damage": 84.7,
+            "damage": 79.3,
             "presence": 10,
-            "efficiency": 52.3
+            "efficiency": 50
           }
         }
       },
@@ -1864,13 +1864,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 66.5,
-          "confidence": 0.67,
+          "rating": 64.9,
+          "confidence": 0.59,
           "subscores": {
             "laning": 63.5,
-            "damage": 44.4,
+            "damage": 40.6,
             "presence": 90.6,
-            "efficiency": 82.2
+            "efficiency": 86.6
           }
         },
         "LPL 2026": {
@@ -2032,58 +2032,58 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 13,
+          "games": 14,
           "winRate": 0,
-          "kda": 0.5,
+          "kda": 0.6,
           "avgKills": 1.1,
-          "avgDeaths": 4.2,
+          "avgDeaths": 4,
           "avgAssists": 1.1,
-          "csm": 8.4,
+          "csm": 8.5,
           "gpm": 350,
-          "kp": 24.1,
-          "dmgPct": 21.8,
-          "goldPct": 19.9,
-          "vsPct": 13.8,
-          "dpm": 526,
-          "vspm": 1.3,
+          "kp": 25.9,
+          "dmgPct": 22,
+          "goldPct": 20,
+          "vsPct": 13.7,
+          "dpm": 527,
+          "vspm": 1.26,
           "avgWpm": 0.48,
           "avgWcpm": 0.15,
           "avgVwpm": 0.1,
-          "gd15": -565,
+          "gd15": -608,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 23.7,
+          "rating": 24.2,
           "confidence": 1,
           "subscores": {
             "laning": 34.5,
             "damage": 26.4,
             "presence": 3.6,
-            "efficiency": 13.2
+            "efficiency": 15.4
           }
         },
         "LPL 2026": {
-          "games": 44,
-          "winRate": 31.825,
-          "kda": 1.9181818181818182,
-          "avgKills": 1.8681818181818182,
-          "avgDeaths": 3.5522727272727277,
-          "avgAssists": 4.343181818181819,
-          "csm": 8.479545454545454,
-          "gpm": 371.84090909090907,
-          "kp": 43.675000000000004,
-          "dmgPct": 22.295454545454547,
-          "goldPct": 19.625,
-          "vsPct": 13.529545454545454,
-          "dpm": 592.9772727272727,
-          "vspm": 1.3472727272727274,
-          "avgWpm": 0.4772727272727273,
-          "avgWcpm": 0.1640909090909091,
-          "avgVwpm": 0.11772727272727272,
-          "gd15": -436.47727272727275,
+          "games": 45,
+          "winRate": 31.11777777777778,
+          "kda": 1.917777777777778,
+          "avgKills": 1.8511111111111114,
+          "avgDeaths": 3.5044444444444443,
+          "avgAssists": 4.271111111111112,
+          "csm": 8.508888888888889,
+          "gpm": 371.35555555555555,
+          "kp": 43.8,
+          "dmgPct": 22.346666666666668,
+          "goldPct": 19.662222222222223,
+          "vsPct": 13.504444444444443,
+          "dpm": 591.8,
+          "vspm": 1.3337777777777777,
+          "avgWpm": 0.47733333333333333,
+          "avgWcpm": 0.1637777777777778,
+          "avgVwpm": 0.11733333333333335,
+          "gd15": -452.7111111111111,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
@@ -2101,9 +2101,9 @@
         }
       },
       "aggregated": {
-        "totalGames": 44,
-        "avgWinRate": 31.825,
-        "avgKda": 1.9181818181818182
+        "totalGames": 45,
+        "avgWinRate": 31.11777777777778,
+        "avgKda": 1.917777777777778
       }
     },
     {
@@ -2112,13 +2112,13 @@
       "country": "CN",
       "team": "Weibo Gaming",
       "role": "BOT",
-      "rating": 61.1,
+      "rating": 56.8,
       "confidence": 1,
       "subscores": {
-        "laning": 51,
-        "damage": 79.4,
+        "laning": 53.1,
+        "damage": 64.4,
         "presence": 84.4,
-        "efficiency": 31.6
+        "efficiency": 33.4
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -2224,78 +2224,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 15,
-          "winRate": 40,
-          "kda": 3.1,
-          "avgKills": 3.9,
-          "avgDeaths": 3.1,
-          "avgAssists": 5.5,
-          "csm": 9.8,
+          "games": 20,
+          "winRate": 35,
+          "kda": 3,
+          "avgKills": 3.8,
+          "avgDeaths": 3,
+          "avgAssists": 5.1,
+          "csm": 9.9,
           "gpm": 481,
-          "kp": 71.9,
-          "dmgPct": 30.4,
-          "goldPct": 25.4,
-          "vsPct": 15.4,
-          "dpm": 841,
+          "kp": 68.9,
+          "dmgPct": 28.4,
+          "goldPct": 25.6,
+          "vsPct": 15.5,
+          "dpm": 768,
           "vspm": 1.5,
-          "avgWpm": 0.41,
+          "avgWpm": 0.4,
           "avgWcpm": 0.44,
           "avgVwpm": 0.16,
-          "gd15": 96,
+          "gd15": 332,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 60,
+          "rating": 47.6,
           "confidence": 1,
           "subscores": {
-            "laning": 56.7,
-            "damage": 76.7,
-            "presence": 70,
-            "efficiency": 33.8
+            "laning": 61.1,
+            "damage": 42,
+            "presence": 56.7,
+            "efficiency": 36.7
           }
         },
         "LPL 2026": {
-          "games": 59,
-          "winRate": 47.45762711864407,
-          "kda": 3.7983050847457624,
-          "avgKills": 5.506779661016949,
-          "avgDeaths": 2.9508474576271184,
-          "avgAssists": 5.720338983050848,
-          "csm": 9.708474576271186,
-          "gpm": 500.0169491525424,
-          "kp": 71.08983050847458,
-          "dmgPct": 29.159322033898306,
-          "goldPct": 25.735593220338984,
-          "vsPct": 14.522033898305084,
-          "dpm": 838.1525423728814,
-          "vspm": 1.463728813559322,
-          "avgWpm": 0.4215254237288136,
-          "avgWcpm": 0.4189830508474576,
-          "avgVwpm": 0.15966101694915255,
-          "gd15": 4.47457627118644,
+          "games": 64,
+          "winRate": 45.3125,
+          "kda": 3.7125,
+          "avgKills": 5.35,
+          "avgDeaths": 2.93125,
+          "avgAssists": 5.578125,
+          "csm": 9.746875,
+          "gpm": 498.53125,
+          "kp": 70.215625,
+          "dmgPct": 28.63125,
+          "goldPct": 25.771875,
+          "vsPct": 14.621875,
+          "dpm": 815.5625,
+          "vspm": 1.4665625,
+          "avgWpm": 0.41750000000000004,
+          "avgWcpm": 0.420625,
+          "avgVwpm": 0.15968749999999998,
+          "gd15": 85.375,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 61.1,
+          "rating": 56.8,
           "confidence": 1,
           "subscores": {
-            "laning": 51,
-            "damage": 79.4,
+            "laning": 53.1,
+            "damage": 64.4,
             "presence": 84.4,
-            "efficiency": 31.6
+            "efficiency": 33.4
           }
         }
       },
       "aggregated": {
-        "totalGames": 59,
-        "avgWinRate": 47.45762711864407,
-        "avgKda": 3.7983050847457624
+        "totalGames": 64,
+        "avgWinRate": 45.3125,
+        "avgKda": 3.7125
       }
     },
     {
@@ -2304,12 +2304,12 @@
       "country": "CN",
       "team": "Team WE",
       "role": "SUP",
-      "rating": 58.1,
+      "rating": 55,
       "confidence": 1,
       "subscores": {
-        "laning": 51,
+        "laning": 46.9,
         "damage": 78.1,
-        "presence": 65.6,
+        "presence": 59.4,
         "efficiency": 46.9
       },
       "tournaments": {
@@ -2416,78 +2416,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 13,
+          "games": 14,
           "winRate": 0,
-          "kda": 1.8,
+          "kda": 1.7,
           "avgKills": 0.8,
           "avgDeaths": 3.9,
-          "avgAssists": 6.1,
+          "avgAssists": 5.9,
           "csm": 1.1,
-          "gpm": 259,
-          "kp": 85.1,
-          "dmgPct": 10.5,
-          "goldPct": 14.7,
-          "vsPct": 41.8,
-          "dpm": 246,
-          "vspm": 3.94,
-          "avgWpm": 1.82,
-          "avgWcpm": 0.46,
-          "avgVwpm": 0.5,
-          "gd15": 53,
+          "gpm": 257,
+          "kp": 82.6,
+          "dmgPct": 10.4,
+          "goldPct": 14.6,
+          "vsPct": 41.5,
+          "dpm": 243,
+          "vspm": 3.84,
+          "avgWpm": 1.79,
+          "avgWcpm": 0.45,
+          "avgVwpm": 0.49,
+          "gd15": 1,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 56.6,
+          "rating": 49.9,
           "confidence": 1,
           "subscores": {
-            "laning": 58.3,
-            "damage": 83.6,
-            "presence": 89.3,
-            "efficiency": 10.7
+            "laning": 46.4,
+            "damage": 87.9,
+            "presence": 82.1,
+            "efficiency": 3.6
           }
         },
         "LPL 2026": {
-          "games": 57,
-          "winRate": 38.59649122807018,
-          "kda": 3.1824561403508773,
-          "avgKills": 0.6,
-          "avgDeaths": 3.5842105263157893,
-          "avgAssists": 10.471929824561402,
-          "csm": 0.9912280701754386,
-          "gpm": 262.57894736842104,
-          "kp": 76.16666666666667,
-          "dmgPct": 8.482456140350877,
-          "goldPct": 13.77719298245614,
-          "vsPct": 41.50526315789474,
-          "dpm": 230.24561403508773,
-          "vspm": 4.169473684210526,
-          "avgWpm": 1.9536842105263155,
-          "avgWcpm": 0.4610526315789474,
-          "avgVwpm": 0.5336842105263159,
-          "gd15": -5.982456140350878,
+          "games": 58,
+          "winRate": 37.93103448275862,
+          "kda": 3.13448275862069,
+          "avgKills": 0.603448275862069,
+          "avgDeaths": 3.589655172413793,
+          "avgAssists": 10.348275862068965,
+          "csm": 0.9931034482758622,
+          "gpm": 262.0344827586207,
+          "kp": 75.71724137931034,
+          "dmgPct": 8.493103448275862,
+          "goldPct": 13.76896551724138,
+          "vsPct": 41.43793103448276,
+          "dpm": 229.79310344827587,
+          "vspm": 4.141379310344828,
+          "avgWpm": 1.9441379310344826,
+          "avgWcpm": 0.45862068965517244,
+          "avgVwpm": 0.5306896551724138,
+          "gd15": -17.517241379310345,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 58.1,
+          "rating": 55,
           "confidence": 1,
           "subscores": {
-            "laning": 51,
+            "laning": 46.9,
             "damage": 78.1,
-            "presence": 65.6,
+            "presence": 59.4,
             "efficiency": 46.9
           }
         }
       },
       "aggregated": {
-        "totalGames": 57,
-        "avgWinRate": 38.59649122807018,
-        "avgKda": 3.1824561403508773
+        "totalGames": 58,
+        "avgWinRate": 37.93103448275862,
+        "avgKda": 3.13448275862069
       }
     },
     {
@@ -2496,12 +2496,12 @@
       "country": "CN",
       "team": "ThunderTalk Gaming",
       "role": "SUP",
-      "rating": 29.2,
+      "rating": 30.7,
       "confidence": 0.7,
       "subscores": {
-        "laning": 40.6,
+        "laning": 38.5,
         "damage": 5.6,
-        "presence": 9.4,
+        "presence": 15.6,
         "efficiency": 28.1
       },
       "tournaments": {
@@ -2632,12 +2632,12 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 51.6,
-          "confidence": 0.4,
+          "rating": 50.5,
+          "confidence": 0.36,
           "subscores": {
             "laning": 65.5,
-            "damage": 47.9,
-            "presence": 25,
+            "damage": 50.7,
+            "presence": 17.9,
             "efficiency": 83.9
           }
         },
@@ -2666,12 +2666,12 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 29.2,
+          "rating": 30.7,
           "confidence": 0.7,
           "subscores": {
-            "laning": 40.6,
+            "laning": 38.5,
             "damage": 5.6,
-            "presence": 9.4,
+            "presence": 15.6,
             "efficiency": 28.1
           }
         }
@@ -2688,12 +2688,12 @@
       "country": "CN",
       "team": "Anyone s Legend",
       "role": "TOP",
-      "rating": 49.6,
+      "rating": 49.9,
       "confidence": 1,
       "subscores": {
         "laning": 48,
-        "damage": 41.8,
-        "presence": 44.1,
+        "damage": 40.6,
+        "presence": 50,
         "efficiency": 63.5
       },
       "tournaments": {
@@ -2800,78 +2800,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 12,
-          "winRate": 50,
+          "games": 15,
+          "winRate": 53.3,
           "kda": 2.8,
-          "avgKills": 2.2,
-          "avgDeaths": 2.7,
-          "avgAssists": 5.2,
-          "csm": 8.9,
-          "gpm": 387,
-          "kp": 46.9,
-          "dmgPct": 22.4,
-          "goldPct": 20.3,
-          "vsPct": 13.2,
-          "dpm": 598,
-          "vspm": 1.35,
-          "avgWpm": 0.49,
-          "avgWcpm": 0.19,
+          "avgKills": 2.1,
+          "avgDeaths": 2.5,
+          "avgAssists": 4.9,
+          "csm": 8.7,
+          "gpm": 384,
+          "kp": 45.9,
+          "dmgPct": 22.7,
+          "goldPct": 20.1,
+          "vsPct": 13.1,
+          "dpm": 588,
+          "vspm": 1.32,
+          "avgWpm": 0.47,
+          "avgWcpm": 0.2,
           "avgVwpm": 0.18,
-          "gd15": -497,
+          "gd15": -465,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 46.1,
-          "confidence": 0.96,
+          "rating": 44.9,
+          "confidence": 1,
           "subscores": {
-            "laning": 36.9,
-            "damage": 53.6,
-            "presence": 21.4,
-            "efficiency": 59.3
+            "laning": 39.3,
+            "damage": 49.3,
+            "presence": 17.9,
+            "efficiency": 58.2
           }
         },
         "LPL 2026": {
-          "games": 55,
-          "winRate": 60.030909090909084,
-          "kda": 3.2509090909090905,
-          "avgKills": 2.4836363636363634,
-          "avgDeaths": 2.505454545454546,
-          "avgAssists": 5.538181818181819,
-          "csm": 8.90909090909091,
-          "gpm": 392.43636363636364,
-          "kp": 50.256363636363645,
-          "dmgPct": 22.187272727272727,
-          "goldPct": 19.8,
-          "vsPct": 12.603636363636362,
-          "dpm": 624.9818181818182,
-          "vspm": 1.3247272727272728,
-          "avgWpm": 0.4343636363636363,
-          "avgWcpm": 0.19490909090909095,
-          "avgVwpm": 0.16818181818181818,
-          "gd15": -25.87272727272727,
+          "games": 58,
+          "winRate": 60.36551724137931,
+          "kda": 3.2275862068965515,
+          "avgKills": 2.443103448275862,
+          "avgDeaths": 2.463793103448276,
+          "avgAssists": 5.443103448275862,
+          "csm": 8.85689655172414,
+          "gpm": 391.37931034482756,
+          "kp": 49.824137931034485,
+          "dmgPct": 22.275862068965516,
+          "goldPct": 19.774137931034485,
+          "vsPct": 12.608620689655172,
+          "dpm": 621,
+          "vspm": 1.3182758620689654,
+          "avgWpm": 0.43206896551724133,
+          "avgWcpm": 0.19724137931034486,
+          "avgVwpm": 0.16879310344827586,
+          "gd15": -41.96551724137931,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 49.6,
+          "rating": 49.9,
           "confidence": 1,
           "subscores": {
             "laning": 48,
-            "damage": 41.8,
-            "presence": 44.1,
+            "damage": 40.6,
+            "presence": 50,
             "efficiency": 63.5
           }
         }
       },
       "aggregated": {
-        "totalGames": 55,
-        "avgWinRate": 60.030909090909084,
-        "avgKda": 3.2509090909090905
+        "totalGames": 58,
+        "avgWinRate": 60.36551724137931,
+        "avgKda": 3.2275862068965515
       }
     },
     {
@@ -2880,10 +2880,10 @@
       "country": "CN",
       "team": "JD Gaming",
       "role": "BOT",
-      "rating": 43.1,
+      "rating": 42.6,
       "confidence": 1,
       "subscores": {
-        "laning": 53.1,
+        "laning": 51,
         "damage": 25.6,
         "presence": 9.4,
         "efficiency": 77.8
@@ -2992,68 +2992,68 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 15,
-          "winRate": 53.3,
-          "kda": 4.2,
-          "avgKills": 3.9,
+          "games": 16,
+          "winRate": 56.3,
+          "kda": 4.3,
+          "avgKills": 4.1,
           "avgDeaths": 2.1,
-          "avgAssists": 5.1,
-          "csm": 10,
-          "gpm": 478,
-          "kp": 61.4,
-          "dmgPct": 28.9,
-          "goldPct": 24.4,
-          "vsPct": 11.9,
-          "dpm": 804,
-          "vspm": 1.25,
+          "avgAssists": 5,
+          "csm": 10.1,
+          "gpm": 483,
+          "kp": 61,
+          "dmgPct": 29.3,
+          "goldPct": 24.5,
+          "vsPct": 12.1,
+          "dpm": 834,
+          "vspm": 1.26,
           "avgWpm": 0.33,
           "avgWcpm": 0.36,
           "avgVwpm": 0.12,
-          "gd15": -1,
+          "gd15": 92,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 56.1,
+          "rating": 60.8,
           "confidence": 1,
           "subscores": {
             "laning": 52.2,
-            "damage": 66,
+            "damage": 74,
             "presence": 16.7,
-            "efficiency": 69.7
+            "efficiency": 77.5
           }
         },
         "LPL 2026": {
-          "games": 63,
-          "winRate": 52.357142857142854,
-          "kda": 4.190476190476191,
-          "avgKills": 4.192063492063492,
-          "avgDeaths": 2.1285714285714286,
-          "avgAssists": 4.70952380952381,
-          "csm": 10.311111111111112,
-          "gpm": 486.53968253968253,
-          "kp": 63.59047619047619,
-          "dmgPct": 27.306349206349207,
-          "goldPct": 25.057142857142857,
-          "vsPct": 12.338095238095237,
-          "dpm": 727.7460317460317,
-          "vspm": 1.3344444444444445,
-          "avgWpm": 0.3623809523809524,
-          "avgWcpm": 0.3857142857142857,
-          "avgVwpm": 0.13587301587301584,
-          "gd15": 18.047619047619047,
+          "games": 64,
+          "winRate": 53.121875,
+          "kda": 4.215625,
+          "avgKills": 4.2375,
+          "avgDeaths": 2.128125,
+          "avgAssists": 4.690625,
+          "csm": 10.33125,
+          "gpm": 487.65625,
+          "kp": 63.45625,
+          "dmgPct": 27.43125,
+          "goldPct": 25.071875,
+          "vsPct": 12.38125,
+          "dpm": 736.4375,
+          "vspm": 1.335625,
+          "avgWpm": 0.36187500000000006,
+          "avgWcpm": 0.38531249999999995,
+          "avgVwpm": 0.135625,
+          "gd15": 41,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 43.1,
+          "rating": 42.6,
           "confidence": 1,
           "subscores": {
-            "laning": 53.1,
+            "laning": 51,
             "damage": 25.6,
             "presence": 9.4,
             "efficiency": 77.8
@@ -3061,9 +3061,9 @@
         }
       },
       "aggregated": {
-        "totalGames": 63,
-        "avgWinRate": 52.357142857142854,
-        "avgKda": 4.190476190476191
+        "totalGames": 64,
+        "avgWinRate": 53.121875,
+        "avgKda": 4.215625
       }
     },
     {
@@ -3072,13 +3072,13 @@
       "country": "KR",
       "team": "Ultra Prime",
       "role": "JGL",
-      "rating": 53,
+      "rating": 52.6,
       "confidence": 0.52,
       "subscores": {
         "laning": 38,
-        "damage": 31.7,
+        "damage": 30.6,
         "presence": 91.7,
-        "efficiency": 38.9
+        "efficiency": 36.9
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -3174,13 +3174,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 53,
+          "rating": 52.6,
           "confidence": 0.52,
           "subscores": {
             "laning": 38,
-            "damage": 31.7,
+            "damage": 30.6,
             "presence": 91.7,
-            "efficiency": 38.9
+            "efficiency": 36.9
           }
         }
       },
@@ -3196,13 +3196,13 @@
       "country": "KR",
       "team": "Ninjas in Pyjamas",
       "role": "JGL",
-      "rating": 44.3,
+      "rating": 42.3,
       "confidence": 1,
       "subscores": {
         "laning": 54.6,
-        "damage": 29.4,
-        "presence": 47.2,
-        "efficiency": 45.6
+        "damage": 26.1,
+        "presence": 41.7,
+        "efficiency": 47.5
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -3332,13 +3332,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 41.4,
+          "rating": 39.1,
           "confidence": 1,
           "subscores": {
             "laning": 53.1,
-            "damage": 58.8,
-            "presence": 34.4,
-            "efficiency": 32.2
+            "damage": 61.3,
+            "presence": 28.1,
+            "efficiency": 30
           }
         },
         "LPL 2026": {
@@ -3366,13 +3366,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 44.3,
+          "rating": 42.3,
           "confidence": 1,
           "subscores": {
             "laning": 54.6,
-            "damage": 29.4,
-            "presence": 47.2,
-            "efficiency": 45.6
+            "damage": 26.1,
+            "presence": 41.7,
+            "efficiency": 47.5
           }
         }
       },
@@ -3394,7 +3394,7 @@
         "laning": 52.2,
         "damage": 40.7,
         "presence": 63.3,
-        "efficiency": 65
+        "efficiency": 64.7
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -3524,13 +3524,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 59.8,
-          "confidence": 0.64,
+          "rating": 56.7,
+          "confidence": 0.57,
           "subscores": {
-            "laning": 61.9,
-            "damage": 50.7,
+            "laning": 65.5,
+            "damage": 36.4,
             "presence": 89.3,
-            "efficiency": 66.8
+            "efficiency": 66.4
           }
         },
         "LPL 2026": {
@@ -3564,7 +3564,7 @@
             "laning": 52.2,
             "damage": 40.7,
             "presence": 63.3,
-            "efficiency": 65
+            "efficiency": 64.7
           }
         }
       },
@@ -3580,13 +3580,13 @@
       "country": "KR",
       "team": "Ultra Prime",
       "role": "BOT",
-      "rating": 40.8,
-      "confidence": 0.42,
+      "rating": 41.2,
+      "confidence": 0.47,
       "subscores": {
-        "laning": 38.5,
-        "damage": 13.1,
-        "presence": 34.4,
-        "efficiency": 35.6
+        "laning": 36.5,
+        "damage": 16.9,
+        "presence": 53.1,
+        "efficiency": 33.8
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -3658,78 +3658,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 2,
-          "winRate": 0,
-          "kda": 1.8,
-          "avgKills": 2,
-          "avgDeaths": 2.5,
-          "avgAssists": 2.5,
-          "csm": 9.8,
-          "gpm": 447,
-          "kp": 52.1,
-          "dmgPct": 33.4,
-          "goldPct": 24.4,
-          "vsPct": 12.9,
-          "dpm": 705,
-          "vspm": 1.13,
+          "games": 4,
+          "winRate": 50,
+          "kda": 3.2,
+          "avgKills": 3.3,
+          "avgDeaths": 2.8,
+          "avgAssists": 5.5,
+          "csm": 9.3,
+          "gpm": 450,
+          "kp": 63.3,
+          "dmgPct": 28.9,
+          "goldPct": 24,
+          "vsPct": 13.5,
+          "dpm": 699,
+          "vspm": 1.26,
           "avgWpm": 0.48,
-          "avgWcpm": 0.25,
-          "avgVwpm": 0.11,
-          "gd15": -1438,
+          "avgWcpm": 0.3,
+          "avgVwpm": 0.1,
+          "gd15": -1622,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 48.2,
-          "confidence": 0.17,
+          "rating": 45.9,
+          "confidence": 0.29,
           "subscores": {
             "laning": 34.4,
-            "damage": 54.7,
-            "presence": 10,
-            "efficiency": 40.8
+            "damage": 46.7,
+            "presence": 23.3,
+            "efficiency": 28.8
           }
         },
         "LPL 2026": {
-          "games": 15,
-          "winRate": 20.02,
-          "kda": 2.753333333333333,
-          "avgKills": 2.606666666666667,
-          "avgDeaths": 2.5,
-          "avgAssists": 4.1466666666666665,
-          "csm": 9.713333333333333,
-          "gpm": 458.26666666666665,
-          "kp": 66.22666666666667,
-          "dmgPct": 27.506666666666668,
-          "goldPct": 24.833333333333332,
-          "vsPct": 13.16,
-          "dpm": 593.2,
-          "vspm": 1.312,
-          "avgWpm": 0.49733333333333335,
-          "avgWcpm": 0.3106666666666667,
-          "avgVwpm": 0.11866666666666667,
-          "gd15": -393.6666666666667,
+          "games": 17,
+          "winRate": 29.429411764705883,
+          "kda": 2.9705882352941178,
+          "avgKills": 2.841176470588235,
+          "avgDeaths": 2.570588235294118,
+          "avgAssists": 4.658823529411765,
+          "csm": 9.605882352941178,
+          "gpm": 457.6470588235294,
+          "kp": 67.2,
+          "dmgPct": 27.141176470588235,
+          "goldPct": 24.688235294117646,
+          "vsPct": 13.270588235294117,
+          "dpm": 604.9411764705883,
+          "vspm": 1.3211764705882354,
+          "avgWpm": 0.49529411764705883,
+          "avgWcpm": 0.31529411764705884,
+          "avgVwpm": 0.11529411764705882,
+          "gd15": -559.8235294117648,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 40.8,
-          "confidence": 0.42,
+          "rating": 41.2,
+          "confidence": 0.47,
           "subscores": {
-            "laning": 38.5,
-            "damage": 13.1,
-            "presence": 34.4,
-            "efficiency": 35.6
+            "laning": 36.5,
+            "damage": 16.9,
+            "presence": 53.1,
+            "efficiency": 33.8
           }
         }
       },
       "aggregated": {
-        "totalGames": 15,
-        "avgWinRate": 20.02,
-        "avgKda": 2.753333333333333
+        "totalGames": 17,
+        "avgWinRate": 29.429411764705883,
+        "avgKda": 2.9705882352941178
       }
     },
     {
@@ -3738,13 +3738,13 @@
       "country": "CN",
       "team": "LGD Gaming",
       "role": "JGL",
-      "rating": 51.3,
-      "confidence": 0.88,
+      "rating": 47.8,
+      "confidence": 0.96,
       "subscores": {
         "laning": 60.2,
-        "damage": 37.2,
-        "presence": 36.1,
-        "efficiency": 74.4
+        "damage": 33.9,
+        "presence": 30.6,
+        "efficiency": 70.6
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -3816,78 +3816,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 5,
-          "winRate": 80,
-          "kda": 5.8,
+          "games": 7,
+          "winRate": 57.1,
+          "kda": 3.9,
           "avgKills": 2.4,
-          "avgDeaths": 1.6,
-          "avgAssists": 6.8,
-          "csm": 7.3,
-          "gpm": 413,
-          "kp": 66,
-          "dmgPct": 15.2,
-          "goldPct": 20.7,
-          "vsPct": 18.4,
-          "dpm": 371,
-          "vspm": 1.89,
-          "avgWpm": 0.41,
-          "avgWcpm": 0.43,
-          "avgVwpm": 0.29,
-          "gd15": -3,
+          "avgDeaths": 2.3,
+          "avgAssists": 6.6,
+          "csm": 7.2,
+          "gpm": 396,
+          "kp": 68.1,
+          "dmgPct": 14.5,
+          "goldPct": 20.4,
+          "vsPct": 17.7,
+          "dpm": 363,
+          "vspm": 1.85,
+          "avgWpm": 0.43,
+          "avgWcpm": 0.41,
+          "avgVwpm": 0.33,
+          "gd15": -30,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 45.1,
-          "confidence": 0.67,
+          "rating": 38.4,
+          "confidence": 0.82,
           "subscores": {
-            "laning": 51,
-            "damage": 23.1,
-            "presence": 15.6,
-            "efficiency": 82.8
+            "laning": 46.9,
+            "damage": 15.6,
+            "presence": 12.5,
+            "efficiency": 71.3
           }
         },
         "LPL 2026": {
-          "games": 22,
-          "winRate": 54.57727272727273,
-          "kda": 3.790909090909091,
-          "avgKills": 2.940909090909091,
-          "avgDeaths": 2.527272727272727,
-          "avgAssists": 5.95,
-          "csm": 7.531818181818181,
-          "gpm": 413,
-          "kp": 70.17272727272729,
-          "dmgPct": 17.20909090909091,
-          "goldPct": 21.00909090909091,
-          "vsPct": 18.70909090909091,
-          "dpm": 418.90909090909093,
-          "vspm": 2.0290909090909093,
-          "avgWpm": 0.3868181818181818,
-          "avgWcpm": 0.4686363636363637,
-          "avgVwpm": 0.2822727272727273,
-          "gd15": 203.3181818181818,
+          "games": 24,
+          "winRate": 50.01666666666667,
+          "kda": 3.404166666666667,
+          "avgKills": 2.8958333333333335,
+          "avgDeaths": 2.6541666666666663,
+          "avgAssists": 5.9624999999999995,
+          "csm": 7.483333333333333,
+          "gpm": 408.0416666666667,
+          "kp": 70.4375,
+          "dmgPct": 16.837500000000002,
+          "goldPct": 20.895833333333332,
+          "vsPct": 18.479166666666668,
+          "dpm": 412.5833333333333,
+          "vspm": 2.0058333333333334,
+          "avgWpm": 0.3945833333333333,
+          "avgWcpm": 0.4595833333333333,
+          "avgVwpm": 0.29458333333333336,
+          "gd15": 178.25,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 51.3,
-          "confidence": 0.88,
+          "rating": 47.8,
+          "confidence": 0.96,
           "subscores": {
             "laning": 60.2,
-            "damage": 37.2,
-            "presence": 36.1,
-            "efficiency": 74.4
+            "damage": 33.9,
+            "presence": 30.6,
+            "efficiency": 70.6
           }
         }
       },
       "aggregated": {
-        "totalGames": 22,
-        "avgWinRate": 54.57727272727273,
-        "avgKda": 3.790909090909091
+        "totalGames": 24,
+        "avgWinRate": 50.01666666666667,
+        "avgKda": 3.404166666666667
       }
     },
     {
@@ -3896,11 +3896,11 @@
       "country": "KR",
       "team": "ThunderTalk Gaming",
       "role": "MID",
-      "rating": 41.8,
+      "rating": 40.2,
       "confidence": 0.49,
       "subscores": {
         "laning": 34.4,
-        "damage": 48.7,
+        "damage": 38,
         "presence": 30,
         "efficiency": 16
       },
@@ -4032,13 +4032,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 45.4,
-          "confidence": 0.4,
+          "rating": 44.7,
+          "confidence": 0.36,
           "subscores": {
-            "laning": 36.9,
-            "damage": 36.4,
+            "laning": 34.5,
+            "damage": 25,
             "presence": 10.7,
-            "efficiency": 64.5
+            "efficiency": 68
           }
         },
         "LPL 2026": {
@@ -4066,11 +4066,11 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 41.8,
+          "rating": 40.2,
           "confidence": 0.49,
           "subscores": {
             "laning": 34.4,
-            "damage": 48.7,
+            "damage": 38,
             "presence": 30,
             "efficiency": 16
           }
@@ -4088,13 +4088,13 @@
       "country": "CN",
       "team": "Oh My God",
       "role": "TOP",
-      "rating": 39.7,
+      "rating": 39.2,
       "confidence": 1,
       "subscores": {
         "laning": 40.2,
         "damage": 53.5,
         "presence": 26.5,
-        "efficiency": 27.6
+        "efficiency": 25.9
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -4224,13 +4224,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 42.1,
-          "confidence": 0.64,
+          "rating": 42.8,
+          "confidence": 0.57,
           "subscores": {
             "laning": 44,
             "damage": 33.6,
-            "presence": 21.4,
-            "efficiency": 39.8
+            "presence": 25,
+            "efficiency": 37.3
           }
         },
         "LPL 2026": {
@@ -4258,13 +4258,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 39.7,
+          "rating": 39.2,
           "confidence": 1,
           "subscores": {
             "laning": 40.2,
             "damage": 53.5,
             "presence": 26.5,
-            "efficiency": 27.6
+            "efficiency": 25.9
           }
         }
       },
@@ -4280,13 +4280,13 @@
       "country": "TW",
       "team": "JD Gaming",
       "role": "MID",
-      "rating": 57.3,
+      "rating": 57.9,
       "confidence": 1,
       "subscores": {
         "laning": 58.9,
         "damage": 70,
         "presence": 70,
-        "efficiency": 30.3
+        "efficiency": 32.7
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -4392,78 +4392,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 15,
-          "winRate": 53.3,
-          "kda": 4.1,
+          "games": 16,
+          "winRate": 56.3,
+          "kda": 4.4,
           "avgKills": 4.3,
-          "avgDeaths": 2.5,
-          "avgAssists": 6.1,
+          "avgDeaths": 2.4,
+          "avgAssists": 6.3,
           "csm": 8.9,
-          "gpm": 429,
-          "kp": 68.9,
-          "dmgPct": 27.3,
-          "goldPct": 21.8,
-          "vsPct": 15.6,
-          "dpm": 750,
-          "vspm": 1.63,
-          "avgWpm": 0.61,
-          "avgWcpm": 0.25,
-          "avgVwpm": 0.33,
-          "gd15": 472,
+          "gpm": 430,
+          "kp": 69.5,
+          "dmgPct": 27.5,
+          "goldPct": 21.7,
+          "vsPct": 15.5,
+          "dpm": 774,
+          "vspm": 1.62,
+          "avgWpm": 0.59,
+          "avgWcpm": 0.26,
+          "avgVwpm": 0.32,
+          "gd15": 416,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 63.4,
+          "rating": 64.2,
           "confidence": 1,
           "subscores": {
-            "laning": 61.9,
+            "laning": 60.7,
             "damage": 82.1,
-            "presence": 60.7,
-            "efficiency": 44.5
+            "presence": 67.9,
+            "efficiency": 43.2
           }
         },
         "LPL 2026": {
-          "games": 63,
-          "winRate": 52.357142857142854,
-          "kda": 3.503174603174603,
-          "avgKills": 3.2523809523809524,
-          "avgDeaths": 2.5761904761904764,
-          "avgAssists": 5.849206349206349,
-          "csm": 8.94126984126984,
-          "gpm": 407.1587301587302,
-          "kp": 65.77619047619046,
-          "dmgPct": 25.642857142857142,
-          "goldPct": 20.961904761904762,
-          "vsPct": 14.679365079365079,
-          "dpm": 680.6031746031746,
-          "vspm": 1.579206349206349,
-          "avgWpm": 0.6398412698412699,
-          "avgWcpm": 0.24015873015873015,
-          "avgVwpm": 0.3188888888888889,
-          "gd15": 126.73015873015873,
+          "games": 64,
+          "winRate": 53.121875,
+          "kda": 3.5875,
+          "avgKills": 3.26875,
+          "avgDeaths": 2.5500000000000003,
+          "avgAssists": 5.903125,
+          "csm": 8.940625,
+          "gpm": 407.75,
+          "kp": 65.975,
+          "dmgPct": 25.71875,
+          "goldPct": 20.95,
+          "vsPct": 14.66875,
+          "dpm": 687.6875,
+          "vspm": 1.5775,
+          "avgWpm": 0.634375,
+          "avgWcpm": 0.2428125,
+          "avgVwpm": 0.3165625,
+          "gd15": 118.125,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 57.3,
+          "rating": 57.9,
           "confidence": 1,
           "subscores": {
             "laning": 58.9,
             "damage": 70,
             "presence": 70,
-            "efficiency": 30.3
+            "efficiency": 32.7
           }
         }
       },
       "aggregated": {
-        "totalGames": 63,
-        "avgWinRate": 52.357142857142854,
-        "avgKda": 3.503174603174603
+        "totalGames": 64,
+        "avgWinRate": 53.121875,
+        "avgKda": 3.5875
       }
     },
     {
@@ -4472,13 +4472,13 @@
       "country": "CN",
       "team": "Anyone s Legend",
       "role": "BOT",
-      "rating": 50.9,
+      "rating": 46.3,
       "confidence": 1,
       "subscores": {
         "laning": 59.4,
-        "damage": 31.9,
-        "presence": 59.4,
-        "efficiency": 64.1
+        "damage": 28.1,
+        "presence": 40.6,
+        "efficiency": 62.2
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -4584,78 +4584,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 12,
-          "winRate": 50,
-          "kda": 3.5,
-          "avgKills": 3.9,
-          "avgDeaths": 2.7,
-          "avgAssists": 5.4,
+          "games": 15,
+          "winRate": 53.3,
+          "kda": 3.4,
+          "avgKills": 3.6,
+          "avgDeaths": 2.6,
+          "avgAssists": 5.1,
           "csm": 9.4,
-          "gpm": 472,
-          "kp": 67.4,
-          "dmgPct": 26.2,
-          "goldPct": 24.6,
-          "vsPct": 14.9,
-          "dpm": 705,
-          "vspm": 1.54,
+          "gpm": 467,
+          "kp": 64.7,
+          "dmgPct": 25,
+          "goldPct": 24.3,
+          "vsPct": 15.4,
+          "dpm": 663,
+          "vspm": 1.56,
           "avgWpm": 0.52,
           "avgWcpm": 0.39,
           "avgVwpm": 0.22,
-          "gd15": -425,
+          "gd15": -659,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 32.4,
+          "rating": 29.1,
           "confidence": 1,
           "subscores": {
-            "laning": 41.1,
-            "damage": 20,
-            "presence": 43.3,
-            "efficiency": 34.3
+            "laning": 38.9,
+            "damage": 10,
+            "presence": 30,
+            "efficiency": 45.5
           }
         },
         "LPL 2026": {
-          "games": 55,
-          "winRate": 60.030909090909084,
-          "kda": 4.125454545454545,
-          "avgKills": 5.38,
-          "avgDeaths": 2.4963636363636366,
-          "avgAssists": 4.914545454545455,
-          "csm": 9.947272727272725,
-          "gpm": 514.0909090909091,
-          "kp": 67.50545454545455,
-          "dmgPct": 27.541818181818186,
-          "goldPct": 25.805454545454545,
-          "vsPct": 14.35090909090909,
-          "dpm": 771.2363636363636,
-          "vspm": 1.505818181818182,
-          "avgWpm": 0.5190909090909092,
+          "games": 58,
+          "winRate": 60.36551724137931,
+          "kda": 4.067241379310344,
+          "avgKills": 5.225862068965518,
+          "avgDeaths": 2.481034482758621,
+          "avgAssists": 4.862068965517241,
+          "csm": 9.918965517241379,
+          "gpm": 510.62068965517244,
+          "kp": 66.80172413793103,
+          "dmgPct": 27.162068965517243,
+          "goldPct": 25.66551724137931,
+          "vsPct": 14.508620689655173,
+          "dpm": 756.948275862069,
+          "vspm": 1.5127586206896553,
+          "avgWpm": 0.5191379310344828,
           "avgWcpm": 0.39000000000000007,
-          "avgVwpm": 0.19945454545454547,
-          "gd15": 270.1454545454545,
+          "avgVwpm": 0.20051724137931032,
+          "gd15": 173.67241379310346,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 50.9,
+          "rating": 46.3,
           "confidence": 1,
           "subscores": {
             "laning": 59.4,
-            "damage": 31.9,
-            "presence": 59.4,
-            "efficiency": 64.1
+            "damage": 28.1,
+            "presence": 40.6,
+            "efficiency": 62.2
           }
         }
       },
       "aggregated": {
-        "totalGames": 55,
-        "avgWinRate": 60.030909090909084,
-        "avgKda": 4.125454545454545
+        "totalGames": 58,
+        "avgWinRate": 60.36551724137931,
+        "avgKda": 4.067241379310344
       }
     },
     {
@@ -4664,13 +4664,13 @@
       "country": "KR",
       "team": "Ninjas in Pyjamas",
       "role": "TOP",
-      "rating": 64.2,
+      "rating": 63.7,
       "confidence": 1,
       "subscores": {
         "laning": 59.8,
         "damage": 66.5,
         "presence": 97.1,
-        "efficiency": 54.4
+        "efficiency": 52.4
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -4800,13 +4800,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 63.6,
+          "rating": 64.6,
           "confidence": 1,
           "subscores": {
-            "laning": 63.1,
-            "damage": 85,
-            "presence": 32.1,
-            "efficiency": 51.1
+            "laning": 60.7,
+            "damage": 90,
+            "presence": 39.3,
+            "efficiency": 49.8
           }
         },
         "LPL 2026": {
@@ -4834,13 +4834,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 64.2,
+          "rating": 63.7,
           "confidence": 1,
           "subscores": {
             "laning": 59.8,
             "damage": 66.5,
             "presence": 97.1,
-            "efficiency": 54.4
+            "efficiency": 52.4
           }
         }
       },
@@ -4856,12 +4856,12 @@
       "country": "CN",
       "team": "Invictus Gaming",
       "role": "BOT",
-      "rating": 44.3,
+      "rating": 45.6,
       "confidence": 1,
       "subscores": {
         "laning": 46.9,
-        "damage": 60.6,
-        "presence": 40.6,
+        "damage": 66.9,
+        "presence": 34.4,
         "efficiency": 21.3
       },
       "tournaments": {
@@ -4992,13 +4992,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 44.2,
+          "rating": 48.2,
           "confidence": 1,
           "subscores": {
             "laning": 45.6,
-            "damage": 43.3,
-            "presence": 56.7,
-            "efficiency": 36.5
+            "damage": 52.7,
+            "presence": 63.3,
+            "efficiency": 35.5
           }
         },
         "LPL 2026": {
@@ -5026,12 +5026,12 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 44.3,
+          "rating": 45.6,
           "confidence": 1,
           "subscores": {
             "laning": 46.9,
-            "damage": 60.6,
-            "presence": 40.6,
+            "damage": 66.9,
+            "presence": 34.4,
             "efficiency": 21.3
           }
         }
@@ -5048,12 +5048,12 @@
       "country": "CN",
       "team": "Weibo Gaming",
       "role": "JGL",
-      "rating": 63.7,
+      "rating": 60.7,
       "confidence": 1,
       "subscores": {
-        "laning": 47.2,
-        "damage": 52.8,
-        "presence": 80.6,
+        "laning": 49.1,
+        "damage": 46.1,
+        "presence": 75,
         "efficiency": 59.4
       },
       "tournaments": {
@@ -5160,78 +5160,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 15,
-          "winRate": 40,
-          "kda": 4,
-          "avgKills": 3.6,
-          "avgDeaths": 2.5,
-          "avgAssists": 6.6,
+          "games": 20,
+          "winRate": 35,
+          "kda": 3.7,
+          "avgKills": 3.1,
+          "avgDeaths": 2.7,
+          "avgAssists": 6.8,
           "csm": 7.1,
-          "gpm": 391,
-          "kp": 76.4,
-          "dmgPct": 15.3,
-          "goldPct": 20.7,
+          "gpm": 383,
+          "kp": 75.2,
+          "dmgPct": 15.1,
+          "goldPct": 20.4,
           "vsPct": 17.7,
-          "dpm": 424,
+          "dpm": 406,
           "vspm": 1.72,
-          "avgWpm": 0.34,
-          "avgWcpm": 0.39,
+          "avgWpm": 0.35,
+          "avgWcpm": 0.38,
           "avgVwpm": 0.29,
-          "gd15": -34,
+          "gd15": 78,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 58.5,
+          "rating": 57.4,
           "confidence": 1,
           "subscores": {
-            "laning": 46.9,
-            "damage": 36.9,
+            "laning": 55.2,
+            "damage": 33.1,
             "presence": 71.9,
-            "efficiency": 63.1
+            "efficiency": 57.7
           }
         },
         "LPL 2026": {
-          "games": 59,
-          "winRate": 47.45762711864407,
-          "kda": 4.101694915254237,
-          "avgKills": 3.383050847457627,
-          "avgDeaths": 2.784745762711865,
-          "avgAssists": 8.24406779661017,
-          "csm": 7.022033898305085,
-          "gpm": 393.06779661016947,
-          "kp": 76.0813559322034,
-          "dmgPct": 16.161016949152543,
-          "goldPct": 20.3135593220339,
-          "vsPct": 17.61864406779661,
-          "dpm": 456.54237288135596,
-          "vspm": 1.7932203389830508,
-          "avgWpm": 0.33118644067796615,
-          "avgWcpm": 0.43847457627118647,
-          "avgVwpm": 0.27813559322033904,
-          "gd15": -49.932203389830505,
+          "games": 64,
+          "winRate": 45.3125,
+          "kda": 4,
+          "avgKills": 3.24375,
+          "avgDeaths": 2.825,
+          "avgAssists": 8.178125,
+          "csm": 7.028125,
+          "gpm": 390.40625,
+          "kp": 75.73125,
+          "dmgPct": 16.03125,
+          "goldPct": 20.25,
+          "vsPct": 17.625,
+          "dpm": 448.375,
+          "vspm": 1.7875,
+          "avgWpm": 0.335,
+          "avgWcpm": 0.43156249999999996,
+          "avgVwpm": 0.27906250000000005,
+          "gd15": -13.6875,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 63.7,
+          "rating": 60.7,
           "confidence": 1,
           "subscores": {
-            "laning": 47.2,
-            "damage": 52.8,
-            "presence": 80.6,
+            "laning": 49.1,
+            "damage": 46.1,
+            "presence": 75,
             "efficiency": 59.4
           }
         }
       },
       "aggregated": {
-        "totalGames": 59,
-        "avgWinRate": 47.45762711864407,
-        "avgKda": 4.101694915254237
+        "totalGames": 64,
+        "avgWinRate": 45.3125,
+        "avgKda": 4
       }
     },
     {
@@ -5240,13 +5240,13 @@
       "country": "KR",
       "team": "Oh My God",
       "role": "JGL",
-      "rating": 29.4,
+      "rating": 29.1,
       "confidence": 0.52,
       "subscores": {
         "laning": 36.1,
         "damage": 2.8,
         "presence": 2.8,
-        "efficiency": 11.7
+        "efficiency": 9.7
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -5342,13 +5342,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 42.8,
-          "confidence": 0.53,
+          "rating": 42.3,
+          "confidence": 0.47,
           "subscores": {
             "laning": 38.5,
             "damage": 9.4,
-            "presence": 53.1,
-            "efficiency": 34.4
+            "presence": 46.9,
+            "efficiency": 32.2
           }
         },
         "LPL 2026": {
@@ -5376,13 +5376,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 29.4,
+          "rating": 29.1,
           "confidence": 0.52,
           "subscores": {
             "laning": 36.1,
             "damage": 2.8,
             "presence": 2.8,
-            "efficiency": 11.7
+            "efficiency": 9.7
           }
         }
       },
@@ -5398,12 +5398,12 @@
       "country": "TW",
       "team": "JD Gaming",
       "role": "JGL",
-      "rating": 43.9,
+      "rating": 40.9,
       "confidence": 1,
       "subscores": {
         "laning": 52.8,
-        "damage": 57.2,
-        "presence": 25,
+        "damage": 51.7,
+        "presence": 19.4,
         "efficiency": 52.8
       },
       "tournaments": {
@@ -5510,78 +5510,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 15,
-          "winRate": 53.3,
+          "games": 16,
+          "winRate": 56.3,
           "kda": 3.5,
-          "avgKills": 2.5,
-          "avgDeaths": 3.1,
+          "avgKills": 2.6,
+          "avgDeaths": 3,
           "avgAssists": 8.1,
           "csm": 7.2,
-          "gpm": 389,
-          "kp": 70.4,
-          "dmgPct": 15.7,
-          "goldPct": 19.9,
-          "vsPct": 16.8,
-          "dpm": 437,
-          "vspm": 1.77,
-          "avgWpm": 0.39,
-          "avgWcpm": 0.35,
+          "gpm": 393,
+          "kp": 69.8,
+          "dmgPct": 15.5,
+          "goldPct": 20,
+          "vsPct": 16.7,
+          "dpm": 438,
+          "vspm": 1.76,
+          "avgWpm": 0.4,
+          "avgWcpm": 0.34,
           "avgVwpm": 0.32,
-          "gd15": 68,
+          "gd15": 175,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 50.4,
+          "rating": 45.4,
           "confidence": 1,
           "subscores": {
-            "laning": 55.2,
-            "damage": 53.1,
-            "presence": 43.8,
-            "efficiency": 53.9
+            "laning": 59.4,
+            "damage": 43.1,
+            "presence": 34.4,
+            "efficiency": 52.7
           }
         },
         "LPL 2026": {
-          "games": 63,
-          "winRate": 52.357142857142854,
-          "kda": 3.2142857142857144,
-          "avgKills": 2.7698412698412698,
-          "avgDeaths": 3.1,
-          "avgAssists": 7.096825396825397,
-          "csm": 7.1650793650793645,
-          "gpm": 393.12698412698415,
-          "kp": 68.92698412698412,
-          "dmgPct": 16.747619047619047,
-          "goldPct": 20.204761904761906,
-          "vsPct": 17.917460317460318,
-          "dpm": 447.5079365079365,
-          "vspm": 1.9388888888888887,
-          "avgWpm": 0.423968253968254,
-          "avgWcpm": 0.40269841269841267,
-          "avgVwpm": 0.35111111111111115,
-          "gd15": 17.047619047619047,
+          "games": 64,
+          "winRate": 53.121875,
+          "kda": 3.21875,
+          "avgKills": 2.790625,
+          "avgDeaths": 3.075,
+          "avgAssists": 7.112500000000001,
+          "csm": 7.1656249999999995,
+          "gpm": 394.0625,
+          "kp": 68.8,
+          "dmgPct": 16.68125,
+          "goldPct": 20.225,
+          "vsPct": 17.875,
+          "dpm": 447.59375,
+          "vspm": 1.9337499999999999,
+          "avgWpm": 0.42593749999999997,
+          "avgWcpm": 0.399375,
+          "avgVwpm": 0.350625,
+          "gd15": 44.59375,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 43.9,
+          "rating": 40.9,
           "confidence": 1,
           "subscores": {
             "laning": 52.8,
-            "damage": 57.2,
-            "presence": 25,
+            "damage": 51.7,
+            "presence": 19.4,
             "efficiency": 52.8
           }
         }
       },
       "aggregated": {
-        "totalGames": 63,
-        "avgWinRate": 52.357142857142854,
-        "avgKda": 3.2142857142857144
+        "totalGames": 64,
+        "avgWinRate": 53.121875,
+        "avgKda": 3.21875
       }
     },
     {
@@ -5590,11 +5590,11 @@
       "country": "CN",
       "team": "ThunderTalk Gaming",
       "role": "JGL",
-      "rating": 48.5,
+      "rating": 47.9,
       "confidence": 0.84,
       "subscores": {
         "laning": 43.5,
-        "damage": 18.3,
+        "damage": 15,
         "presence": 52.8,
         "efficiency": 65
       },
@@ -5726,11 +5726,11 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 68.4,
-          "confidence": 0.67,
+          "rating": 66.3,
+          "confidence": 0.59,
           "subscores": {
             "laning": 61.5,
-            "damage": 48.8,
+            "damage": 49.4,
             "presence": 84.4,
             "efficiency": 96.9
           }
@@ -5760,11 +5760,11 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 48.5,
+          "rating": 47.9,
           "confidence": 0.84,
           "subscores": {
             "laning": 43.5,
-            "damage": 18.3,
+            "damage": 15,
             "presence": 52.8,
             "efficiency": 65
           }
@@ -5782,10 +5782,10 @@
       "country": "CN",
       "team": "EDward Gaming",
       "role": "SUP",
-      "rating": 35.1,
+      "rating": 34.8,
       "confidence": 1,
       "subscores": {
-        "laning": 42.7,
+        "laning": 40.6,
         "damage": 10.6,
         "presence": 28.1,
         "efficiency": 46.9
@@ -5918,8 +5918,8 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 61.4,
-          "confidence": 0.4,
+          "rating": 60.2,
+          "confidence": 0.36,
           "subscores": {
             "laning": 60.7,
             "damage": 9.3,
@@ -5952,10 +5952,10 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 35.1,
+          "rating": 34.8,
           "confidence": 1,
           "subscores": {
-            "laning": 42.7,
+            "laning": 40.6,
             "damage": 10.6,
             "presence": 28.1,
             "efficiency": 46.9
@@ -5974,13 +5974,13 @@
       "country": "KR",
       "team": "Anyone s Legend",
       "role": "SUP",
-      "rating": 57.6,
+      "rating": 58.6,
       "confidence": 1,
       "subscores": {
-        "laning": 53.1,
-        "damage": 43.1,
+        "laning": 49,
+        "damage": 48.1,
         "presence": 53.1,
-        "efficiency": 68.8
+        "efficiency": 71.9
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -6086,78 +6086,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 12,
-          "winRate": 50,
-          "kda": 4.5,
-          "avgKills": 0.9,
+          "games": 15,
+          "winRate": 53.3,
+          "kda": 4.4,
+          "avgKills": 0.8,
           "avgDeaths": 2.4,
-          "avgAssists": 10,
+          "avgAssists": 9.9,
           "csm": 1.1,
-          "gpm": 265,
-          "kp": 76.2,
-          "dmgPct": 8.5,
-          "goldPct": 13.8,
-          "vsPct": 42.5,
-          "dpm": 225,
-          "vspm": 4.33,
-          "avgWpm": 2.09,
-          "avgWcpm": 0.49,
-          "avgVwpm": 0.54,
-          "gd15": -46,
+          "gpm": 263,
+          "kp": 75.5,
+          "dmgPct": 8.6,
+          "goldPct": 13.7,
+          "vsPct": 42,
+          "dpm": 221,
+          "vspm": 4.22,
+          "avgWpm": 2.06,
+          "avgWcpm": 0.47,
+          "avgVwpm": 0.53,
+          "gd15": -91,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 53.8,
-          "confidence": 0.96,
+          "rating": 50,
+          "confidence": 1,
           "subscores": {
-            "laning": 46.4,
-            "damage": 59.3,
-            "presence": 46.4,
+            "laning": 36.9,
+            "damage": 62.1,
+            "presence": 39.3,
             "efficiency": 64.3
           }
         },
         "LPL 2026": {
-          "games": 55,
-          "winRate": 60.030909090909084,
-          "kda": 3.923636363636364,
-          "avgKills": 0.5090909090909091,
-          "avgDeaths": 2.8709090909090906,
-          "avgAssists": 10.652727272727272,
-          "csm": 1.1781818181818182,
-          "gpm": 267.05454545454546,
-          "kp": 73.84545454545454,
-          "dmgPct": 7.5236363636363635,
-          "goldPct": 13.458181818181819,
-          "vsPct": 43.01090909090909,
-          "dpm": 210.94545454545454,
-          "vspm": 4.5156363636363634,
-          "avgWpm": 2.1654545454545455,
-          "avgWcpm": 0.5312727272727272,
-          "avgVwpm": 0.6056363636363636,
-          "gd15": 3.890909090909091,
+          "games": 58,
+          "winRate": 60.36551724137931,
+          "kda": 3.927586206896552,
+          "avgKills": 0.503448275862069,
+          "avgDeaths": 2.846551724137931,
+          "avgAssists": 10.593103448275862,
+          "csm": 1.1741379310344826,
+          "gpm": 266.4310344827586,
+          "kp": 73.78620689655173,
+          "dmgPct": 7.6000000000000005,
+          "goldPct": 13.450000000000001,
+          "vsPct": 42.8551724137931,
+          "dpm": 210.63793103448276,
+          "vspm": 4.477586206896552,
+          "avgWpm": 2.153793103448276,
+          "avgWcpm": 0.5239655172413793,
+          "avgVwpm": 0.5996551724137931,
+          "gd15": -10.327586206896552,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 57.6,
+          "rating": 58.6,
           "confidence": 1,
           "subscores": {
-            "laning": 53.1,
-            "damage": 43.1,
+            "laning": 49,
+            "damage": 48.1,
             "presence": 53.1,
-            "efficiency": 68.8
+            "efficiency": 71.9
           }
         }
       },
       "aggregated": {
-        "totalGames": 55,
-        "avgWinRate": 60.030909090909084,
-        "avgKda": 3.923636363636364
+        "totalGames": 58,
+        "avgWinRate": 60.36551724137931,
+        "avgKda": 3.927586206896552
       }
     },
     {
@@ -6166,11 +6166,11 @@
       "country": "KR",
       "team": "Team WE",
       "role": "MID",
-      "rating": 20.4,
+      "rating": 18,
       "confidence": 1,
       "subscores": {
         "laning": 38.9,
-        "damage": 20.7,
+        "damage": 12.7,
         "presence": 3.3,
         "efficiency": 15.3
       },
@@ -6278,78 +6278,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 13,
+          "games": 14,
           "winRate": 0,
           "kda": 0.9,
           "avgKills": 1.3,
           "avgDeaths": 3.8,
-          "avgAssists": 2.1,
-          "csm": 8.6,
+          "avgAssists": 2.2,
+          "csm": 8.5,
           "gpm": 357,
-          "kp": 41.6,
-          "dmgPct": 22.9,
-          "goldPct": 20.3,
-          "vsPct": 14.2,
-          "dpm": 540,
-          "vspm": 1.33,
+          "kp": 44.5,
+          "dmgPct": 23.4,
+          "goldPct": 20.4,
+          "vsPct": 14.1,
+          "dpm": 547,
+          "vspm": 1.3,
           "avgWpm": 0.36,
-          "avgWcpm": 0.26,
+          "avgWcpm": 0.25,
           "avgVwpm": 0.13,
-          "gd15": -620,
+          "gd15": -544,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 16.8,
+          "rating": 15,
           "confidence": 1,
           "subscores": {
-            "laning": 34.5,
-            "damage": 19.3,
+            "laning": 36.9,
+            "damage": 12.1,
             "presence": 3.6,
-            "efficiency": 6.8
+            "efficiency": 5.7
           }
         },
         "LPL 2026": {
-          "games": 44,
-          "winRate": 31.825,
-          "kda": 2.2545454545454544,
-          "avgKills": 3.5113636363636362,
-          "avgDeaths": 3.6409090909090907,
-          "avgAssists": 4.154545454545455,
-          "csm": 9.025,
-          "gpm": 404.22727272727275,
-          "kp": 56.21818181818182,
-          "dmgPct": 23.45681818181818,
-          "goldPct": 21.275000000000002,
-          "vsPct": 13.952272727272726,
-          "dpm": 614.9090909090909,
-          "vspm": 1.3902272727272726,
-          "avgWpm": 0.4456818181818182,
-          "avgWcpm": 0.2565909090909091,
-          "avgVwpm": 0.16886363636363635,
-          "gd15": -288.09090909090907,
+          "games": 45,
+          "winRate": 31.11777777777778,
+          "kda": 2.2244444444444444,
+          "avgKills": 3.4622222222222216,
+          "avgDeaths": 3.6444444444444444,
+          "avgAssists": 4.140000000000001,
+          "csm": 8.984444444444446,
+          "gpm": 403.1777777777778,
+          "kp": 56.79555555555556,
+          "dmgPct": 23.6,
+          "goldPct": 21.284444444444443,
+          "vsPct": 13.926666666666668,
+          "dpm": 615.4222222222222,
+          "vspm": 1.3795555555555554,
+          "avgWpm": 0.44377777777777777,
+          "avgWcpm": 0.25355555555555553,
+          "avgVwpm": 0.168,
+          "gd15": -271.8222222222222,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 20.4,
+          "rating": 18,
           "confidence": 1,
           "subscores": {
             "laning": 38.9,
-            "damage": 20.7,
+            "damage": 12.7,
             "presence": 3.3,
             "efficiency": 15.3
           }
         }
       },
       "aggregated": {
-        "totalGames": 44,
-        "avgWinRate": 31.825,
-        "avgKda": 2.2545454545454544
+        "totalGames": 45,
+        "avgWinRate": 31.11777777777778,
+        "avgKda": 2.2244444444444444
       }
     },
     {
@@ -6358,11 +6358,11 @@
       "country": "CN",
       "team": "ThunderTalk Gaming",
       "role": "TOP",
-      "rating": 55.7,
+      "rating": 56.2,
       "confidence": 0.72,
       "subscores": {
         "laning": 52,
-        "damage": 77.1,
+        "damage": 79.4,
         "presence": 91.2,
         "efficiency": 29.7
       },
@@ -6494,11 +6494,11 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 57,
-          "confidence": 0.4,
+          "rating": 56.4,
+          "confidence": 0.36,
           "subscores": {
             "laning": 58.3,
-            "damage": 63.6,
+            "damage": 65,
             "presence": 96.4,
             "efficiency": 73
           }
@@ -6528,11 +6528,11 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 55.7,
+          "rating": 56.2,
           "confidence": 0.72,
           "subscores": {
             "laning": 52,
-            "damage": 77.1,
+            "damage": 79.4,
             "presence": 91.2,
             "efficiency": 29.7
           }
@@ -6550,12 +6550,12 @@
       "country": "CN",
       "team": "Bilibili Gaming",
       "role": "MID",
-      "rating": 78.5,
+      "rating": 79.1,
       "confidence": 1,
       "subscores": {
         "laning": 65.6,
-        "damage": 91.3,
-        "presence": 76.7,
+        "damage": 88.7,
+        "presence": 83.3,
         "efficiency": 77.7
       },
       "tournaments": {
@@ -6662,78 +6662,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 16,
-          "winRate": 62.5,
-          "kda": 8.5,
+          "games": 18,
+          "winRate": 66.7,
+          "kda": 9.6,
           "avgKills": 6.9,
-          "avgDeaths": 1.6,
+          "avgDeaths": 1.4,
           "avgAssists": 6.4,
           "csm": 9.2,
-          "gpm": 460,
-          "kp": 70.5,
+          "gpm": 462,
+          "kp": 70.7,
           "dmgPct": 26.7,
           "goldPct": 22.6,
-          "vsPct": 11.7,
-          "dpm": 832,
-          "vspm": 1.12,
-          "avgWpm": 0.33,
-          "avgWcpm": 0.23,
-          "avgVwpm": 0.12,
-          "gd15": 525,
+          "vsPct": 12.3,
+          "dpm": 817,
+          "vspm": 1.18,
+          "avgWpm": 0.35,
+          "avgWcpm": 0.24,
+          "avgVwpm": 0.13,
+          "gd15": 445,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 76.3,
+          "rating": 77.2,
           "confidence": 1,
           "subscores": {
-            "laning": 65.5,
-            "damage": 82.1,
+            "laning": 63.1,
+            "damage": 79.3,
             "presence": 75,
-            "efficiency": 81.1
+            "efficiency": 90.7
           }
         },
         "LPL 2026": {
-          "games": 56,
-          "winRate": 66.07142857142857,
-          "kda": 6.651785714285714,
-          "avgKills": 6.016071428571428,
-          "avgDeaths": 1.9035714285714285,
-          "avgAssists": 6.435714285714285,
-          "csm": 9.244642857142859,
-          "gpm": 453.57142857142856,
-          "kp": 68.52678571428571,
-          "dmgPct": 27.2,
-          "goldPct": 22.073214285714283,
-          "vsPct": 12.342857142857143,
-          "dpm": 804.3214285714286,
-          "vspm": 1.2423214285714288,
-          "avgWpm": 0.33535714285714285,
-          "avgWcpm": 0.2782142857142857,
-          "avgVwpm": 0.11375,
-          "gd15": 466.69642857142856,
+          "games": 58,
+          "winRate": 67.25172413793103,
+          "kda": 7.0568965517241375,
+          "avgKills": 6.046551724137931,
+          "avgDeaths": 1.8310344827586207,
+          "avgAssists": 6.43448275862069,
+          "csm": 9.243103448275862,
+          "gpm": 454.41379310344826,
+          "kp": 68.65689655172415,
+          "dmgPct": 27.182758620689654,
+          "goldPct": 22.091379310344827,
+          "vsPct": 12.506896551724138,
+          "dpm": 800.6206896551724,
+          "vspm": 1.2567241379310345,
+          "avgWpm": 0.3413793103448276,
+          "avgWcpm": 0.27965517241379306,
+          "avgVwpm": 0.11706896551724139,
+          "gd15": 443.87931034482756,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 78.5,
+          "rating": 79.1,
           "confidence": 1,
           "subscores": {
             "laning": 65.6,
-            "damage": 91.3,
-            "presence": 76.7,
+            "damage": 88.7,
+            "presence": 83.3,
             "efficiency": 77.7
           }
         }
       },
       "aggregated": {
-        "totalGames": 56,
-        "avgWinRate": 66.07142857142857,
-        "avgKda": 6.651785714285714
+        "totalGames": 58,
+        "avgWinRate": 67.25172413793103,
+        "avgKda": 7.0568965517241375
       }
     },
     {
@@ -6742,13 +6742,13 @@
       "country": "CN",
       "team": "EDward Gaming",
       "role": "BOT",
-      "rating": 51.7,
-      "confidence": 0.68,
+      "rating": 53.9,
+      "confidence": 0.67,
       "subscores": {
         "laning": 61.5,
-        "damage": 44.4,
-        "presence": 46.9,
-        "efficiency": 58.4
+        "damage": 46.9,
+        "presence": 59.4,
+        "efficiency": 60.6
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -6878,13 +6878,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 55.2,
-          "confidence": 0.42,
+          "rating": 54.9,
+          "confidence": 0.36,
           "subscores": {
-            "laning": 54.4,
-            "damage": 59.3,
+            "laning": 50,
+            "damage": 62,
             "presence": 96.7,
-            "efficiency": 54.8
+            "efficiency": 60.5
           }
         },
         "LPL 2026": {
@@ -6912,13 +6912,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 51.7,
-          "confidence": 0.68,
+          "rating": 53.9,
+          "confidence": 0.67,
           "subscores": {
             "laning": 61.5,
-            "damage": 44.4,
-            "presence": 46.9,
-            "efficiency": 58.4
+            "damage": 46.9,
+            "presence": 59.4,
+            "efficiency": 60.6
           }
         }
       },
@@ -6934,12 +6934,12 @@
       "country": "CN",
       "team": "Ultra Prime",
       "role": "TOP",
-      "rating": 40.1,
+      "rating": 40.4,
       "confidence": 0.45,
       "subscores": {
         "laning": 36.3,
         "damage": 2.9,
-        "presence": 38.2,
+        "presence": 44.1,
         "efficiency": 42.4
       },
       "tournaments": {
@@ -7036,12 +7036,12 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 40.1,
+          "rating": 40.4,
           "confidence": 0.45,
           "subscores": {
             "laning": 36.3,
             "damage": 2.9,
-            "presence": 38.2,
+            "presence": 44.1,
             "efficiency": 42.4
           }
         }
@@ -7058,12 +7058,12 @@
       "country": "CN",
       "team": "LNG Esports",
       "role": "SUP",
-      "rating": 65.1,
+      "rating": 67,
       "confidence": 0.87,
       "subscores": {
         "laning": 65.6,
-        "damage": 64.4,
-        "presence": 59.4,
+        "damage": 61.9,
+        "presence": 65.6,
         "efficiency": 78.1
       },
       "tournaments": {
@@ -7194,13 +7194,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 42.8,
-          "confidence": 0.4,
+          "rating": 43.5,
+          "confidence": 0.36,
           "subscores": {
             "laning": 56,
-            "damage": 7.9,
+            "damage": 10.7,
             "presence": 32.1,
-            "efficiency": 28.6
+            "efficiency": 26.8
           }
         },
         "LPL 2026": {
@@ -7228,12 +7228,12 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 65.1,
+          "rating": 67,
           "confidence": 0.87,
           "subscores": {
             "laning": 65.6,
-            "damage": 64.4,
-            "presence": 59.4,
+            "damage": 61.9,
+            "presence": 65.6,
             "efficiency": 78.1
           }
         }
@@ -7250,13 +7250,13 @@
       "country": "KR",
       "team": "Oh My God",
       "role": "SUP",
-      "rating": 57.1,
+      "rating": 58.4,
       "confidence": 0.97,
       "subscores": {
         "laning": 36.5,
-        "damage": 45.6,
+        "damage": 48.1,
         "presence": 71.9,
-        "efficiency": 53.1
+        "efficiency": 56.3
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -7386,13 +7386,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 57.1,
-          "confidence": 0.64,
+          "rating": 58.4,
+          "confidence": 0.57,
           "subscores": {
-            "laning": 41.7,
-            "damage": 32.1,
-            "presence": 82.1,
-            "efficiency": 53.6
+            "laning": 39.3,
+            "damage": 37.9,
+            "presence": 89.3,
+            "efficiency": 55.4
           }
         },
         "LPL 2026": {
@@ -7420,13 +7420,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 57.1,
+          "rating": 58.4,
           "confidence": 0.97,
           "subscores": {
             "laning": 36.5,
-            "damage": 45.6,
+            "damage": 48.1,
             "presence": 71.9,
-            "efficiency": 53.1
+            "efficiency": 56.3
           }
         }
       },
@@ -7442,13 +7442,13 @@
       "country": "CN",
       "team": "Team WE",
       "role": "JGL",
-      "rating": 35.7,
+      "rating": 33.2,
       "confidence": 1,
       "subscores": {
         "laning": 41.7,
         "damage": 65,
-        "presence": 30.6,
-        "efficiency": 19.2
+        "presence": 25,
+        "efficiency": 17.2
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -7578,13 +7578,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 35.3,
+          "rating": 33,
           "confidence": 1,
           "subscores": {
-            "laning": 34.4,
-            "damage": 50.6,
-            "presence": 43.8,
-            "efficiency": 15.6
+            "laning": 36.5,
+            "damage": 49.4,
+            "presence": 40.6,
+            "efficiency": 11.6
           }
         },
         "LPL 2026": {
@@ -7612,13 +7612,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 35.7,
+          "rating": 33.2,
           "confidence": 1,
           "subscores": {
             "laning": 41.7,
             "damage": 65,
-            "presence": 30.6,
-            "efficiency": 19.2
+            "presence": 25,
+            "efficiency": 17.2
           }
         }
       },
@@ -7634,13 +7634,13 @@
       "country": "CN",
       "team": "Bilibili Gaming",
       "role": "SUP",
-      "rating": 43,
+      "rating": 37.7,
       "confidence": 1,
       "subscores": {
         "laning": 59.4,
-        "damage": 59.4,
-        "presence": 15.6,
-        "efficiency": 62.5
+        "damage": 53.1,
+        "presence": 9.4,
+        "efficiency": 56.3
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -7746,78 +7746,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 16,
-          "winRate": 62.5,
-          "kda": 4.2,
+          "games": 18,
+          "winRate": 66.7,
+          "kda": 3.7,
           "avgKills": 0.6,
-          "avgDeaths": 3.1,
-          "avgAssists": 12.4,
+          "avgDeaths": 3.4,
+          "avgAssists": 11.9,
           "csm": 1.1,
           "gpm": 280,
-          "kp": 69.9,
-          "dmgPct": 8.2,
-          "goldPct": 13.8,
-          "vsPct": 43.1,
-          "dpm": 252,
-          "vspm": 4.11,
+          "kp": 67.2,
+          "dmgPct": 7.8,
+          "goldPct": 13.7,
+          "vsPct": 43,
+          "dpm": 236,
+          "vspm": 4.1,
           "avgWpm": 2.08,
-          "avgWcpm": 0.5,
+          "avgWcpm": 0.49,
           "avgVwpm": 0.65,
-          "gd15": 14,
+          "gd15": 8,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 30.2,
+          "rating": 25.6,
           "confidence": 1,
           "subscores": {
             "laning": 48.8,
-            "damage": 70.7,
+            "damage": 56.4,
             "presence": 3.6,
-            "efficiency": 41.1
+            "efficiency": 32.1
           }
         },
         "LPL 2026": {
-          "games": 56,
-          "winRate": 66.07142857142857,
-          "kda": 4.003571428571428,
-          "avgKills": 0.6803571428571429,
-          "avgDeaths": 3.1982142857142857,
-          "avgAssists": 11.9625,
-          "csm": 1.1,
-          "gpm": 278.0357142857143,
-          "kp": 69.26607142857144,
-          "dmgPct": 7.7,
-          "goldPct": 13.55892857142857,
-          "vsPct": 43.31428571428571,
-          "dpm": 226.55357142857142,
-          "vspm": 4.3394642857142856,
-          "avgWpm": 2.155892857142857,
-          "avgWcpm": 0.5196428571428572,
-          "avgVwpm": 0.6294642857142857,
-          "gd15": 103.91071428571429,
+          "games": 58,
+          "winRate": 67.25172413793103,
+          "kda": 3.855172413793104,
+          "avgKills": 0.6775862068965517,
+          "avgDeaths": 3.2879310344827584,
+          "avgAssists": 11.822413793103449,
+          "csm": 1.0999999999999999,
+          "gpm": 278.1034482758621,
+          "kp": 68.45,
+          "dmgPct": 7.593103448275862,
+          "goldPct": 13.536206896551725,
+          "vsPct": 43.275862068965516,
+          "dpm": 222.4655172413793,
+          "vspm": 4.328448275862069,
+          "avgWpm": 2.1532758620689654,
+          "avgWcpm": 0.5158620689655172,
+          "avgVwpm": 0.6301724137931035,
+          "gd15": 98.94827586206897,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 43,
+          "rating": 37.7,
           "confidence": 1,
           "subscores": {
             "laning": 59.4,
-            "damage": 59.4,
-            "presence": 15.6,
-            "efficiency": 62.5
+            "damage": 53.1,
+            "presence": 9.4,
+            "efficiency": 56.3
           }
         }
       },
       "aggregated": {
-        "totalGames": 56,
-        "avgWinRate": 66.07142857142857,
-        "avgKda": 4.003571428571428
+        "totalGames": 58,
+        "avgWinRate": 67.25172413793103,
+        "avgKda": 3.855172413793104
       }
     },
     {
@@ -7984,12 +7984,12 @@
       "country": "CN",
       "team": "Oh My God",
       "role": "BOT",
-      "rating": 38.1,
+      "rating": 40.4,
       "confidence": 1,
       "subscores": {
         "laning": 40.6,
-        "damage": 43.1,
-        "presence": 21.9,
+        "damage": 46.9,
+        "presence": 28.1,
         "efficiency": 38.4
       },
       "tournaments": {
@@ -8120,13 +8120,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 44.8,
-          "confidence": 0.17,
+          "rating": 45.7,
+          "confidence": 0.14,
           "subscores": {
             "laning": 36.7,
             "damage": 3.3,
             "presence": 3.3,
-            "efficiency": 32
+            "efficiency": 37.3
           }
         },
         "LPL 2026": {
@@ -8154,12 +8154,12 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 38.1,
+          "rating": 40.4,
           "confidence": 1,
           "subscores": {
             "laning": 40.6,
-            "damage": 43.1,
-            "presence": 21.9,
+            "damage": 46.9,
+            "presence": 28.1,
             "efficiency": 38.4
           }
         }
@@ -8334,13 +8334,13 @@
       "country": "CN",
       "team": "ThunderTalk Gaming",
       "role": "BOT",
-      "rating": 34.4,
-      "confidence": 0.45,
+      "rating": 34.5,
+      "confidence": 0.44,
       "subscores": {
         "laning": 34.4,
-        "damage": 6.9,
+        "damage": 3.1,
         "presence": 3.1,
-        "efficiency": 15.6
+        "efficiency": 19.7
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -8470,13 +8470,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 34.4,
-          "confidence": 0.45,
+          "rating": 34.5,
+          "confidence": 0.44,
           "subscores": {
             "laning": 34.4,
-            "damage": 6.9,
+            "damage": 3.1,
             "presence": 3.1,
-            "efficiency": 15.6
+            "efficiency": 19.7
           }
         }
       },
@@ -8492,13 +8492,13 @@
       "country": "CN",
       "team": "Ultra Prime",
       "role": "MID",
-      "rating": 53.9,
-      "confidence": 0.35,
+      "rating": 57.3,
+      "confidence": 0.4,
       "subscores": {
         "laning": 43.3,
-        "damage": 42,
+        "damage": 60.7,
         "presence": 96.7,
-        "efficiency": 73.3
+        "efficiency": 80.3
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -8570,78 +8570,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 2,
-          "winRate": 0,
-          "kda": 1.3,
-          "avgKills": 2,
-          "avgDeaths": 3.5,
-          "avgAssists": 2.5,
+          "games": 4,
+          "winRate": 50,
+          "kda": 4.1,
+          "avgKills": 3,
+          "avgDeaths": 2.3,
+          "avgAssists": 6.3,
           "csm": 9.2,
-          "gpm": 425,
-          "kp": 52.8,
-          "dmgPct": 23.2,
-          "goldPct": 23.2,
-          "vsPct": 10.4,
-          "dpm": 492,
-          "vspm": 0.91,
-          "avgWpm": 0.4,
-          "avgWcpm": 0.08,
+          "gpm": 417,
+          "kp": 65.8,
+          "dmgPct": 25.8,
+          "goldPct": 22.2,
+          "vsPct": 12.2,
+          "dpm": 654,
+          "vspm": 1.16,
+          "avgWpm": 0.37,
+          "avgWcpm": 0.18,
           "avgVwpm": 0.11,
-          "gd15": 364,
+          "gd15": 354,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 46.3,
-          "confidence": 0.16,
+          "rating": 51.7,
+          "confidence": 0.29,
           "subscores": {
             "laning": 58.3,
-            "damage": 3.6,
-            "presence": 17.9,
-            "efficiency": 31.1
+            "damage": 52.1,
+            "presence": 53.6,
+            "efficiency": 59.5
           }
         },
         "LPL 2026": {
-          "games": 15,
-          "winRate": 20.02,
-          "kda": 4.16,
-          "avgKills": 3.386666666666667,
-          "avgDeaths": 1.94,
-          "avgAssists": 3.9733333333333336,
-          "csm": 9.806666666666668,
-          "gpm": 419.8,
-          "kp": 78.79999999999998,
-          "dmgPct": 28.399999999999995,
-          "goldPct": 22.766666666666662,
-          "vsPct": 12.566666666666668,
-          "dpm": 606.4,
-          "vspm": 1.2566666666666668,
-          "avgWpm": 0.3653333333333333,
-          "avgWcpm": 0.26199999999999996,
-          "avgVwpm": 0.11,
-          "gd15": -161.2,
+          "games": 17,
+          "winRate": 29.429411764705883,
+          "kda": 4.48235294117647,
+          "avgKills": 3.458823529411765,
+          "avgDeaths": 1.8411764705882352,
+          "avgAssists": 4.694117647058824,
+          "csm": 9.735294117647058,
+          "gpm": 418.52941176470586,
+          "kp": 78.8,
+          "dmgPct": 28.4,
+          "goldPct": 22.58235294117647,
+          "vsPct": 12.735294117647058,
+          "dpm": 631.0588235294117,
+          "vspm": 1.2747058823529414,
+          "avgWpm": 0.3623529411764706,
+          "avgWcpm": 0.2641176470588235,
+          "avgVwpm": 0.10999999999999999,
+          "gd15": -101.76470588235294,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 53.9,
-          "confidence": 0.35,
+          "rating": 57.3,
+          "confidence": 0.4,
           "subscores": {
             "laning": 43.3,
-            "damage": 42,
+            "damage": 60.7,
             "presence": 96.7,
-            "efficiency": 73.3
+            "efficiency": 80.3
           }
         }
       },
       "aggregated": {
-        "totalGames": 15,
-        "avgWinRate": 20.02,
-        "avgKda": 4.16
+        "totalGames": 17,
+        "avgWinRate": 29.429411764705883,
+        "avgKda": 4.48235294117647
       }
     },
     {
@@ -8762,58 +8762,58 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 12,
-          "winRate": 50,
-          "kda": 4.1,
-          "avgKills": 3.8,
-          "avgDeaths": 2.2,
-          "avgAssists": 5.2,
+          "games": 15,
+          "winRate": 53.3,
+          "kda": 4,
+          "avgKills": 3.9,
+          "avgDeaths": 2.3,
+          "avgAssists": 5.1,
           "csm": 8.9,
-          "gpm": 407,
-          "kp": 60.2,
-          "dmgPct": 25.9,
-          "goldPct": 21.2,
-          "vsPct": 12,
-          "dpm": 677,
-          "vspm": 1.22,
-          "avgWpm": 0.46,
-          "avgWcpm": 0.23,
-          "avgVwpm": 0.16,
-          "gd15": 228,
+          "gpm": 411,
+          "kp": 60.6,
+          "dmgPct": 26.7,
+          "goldPct": 21.4,
+          "vsPct": 12.1,
+          "dpm": 687,
+          "vspm": 1.21,
+          "avgWpm": 0.44,
+          "avgWcpm": 0.24,
+          "avgVwpm": 0.15,
+          "gd15": 123,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 53.9,
-          "confidence": 0.96,
+          "rating": 49.7,
+          "confidence": 1,
           "subscores": {
-            "laning": 56,
-            "damage": 72.1,
-            "presence": 32.1,
-            "efficiency": 48.2
+            "laning": 53.6,
+            "damage": 69.3,
+            "presence": 25,
+            "efficiency": 42
           }
         },
         "LPL 2026": {
-          "games": 55,
-          "winRate": 60.030909090909084,
-          "kda": 4.14,
-          "avgKills": 3.5854545454545454,
-          "avgDeaths": 2.3181818181818183,
-          "avgAssists": 6.016363636363636,
-          "csm": 8.987272727272728,
-          "gpm": 406.7818181818182,
-          "kp": 62.30727272727273,
-          "dmgPct": 24.632727272727273,
-          "goldPct": 20.456363636363633,
-          "vsPct": 12.392727272727273,
-          "dpm": 687.0181818181818,
-          "vspm": 1.3034545454545454,
-          "avgWpm": 0.43963636363636366,
-          "avgWcpm": 0.2349090909090909,
-          "avgVwpm": 0.14145454545454547,
-          "gd15": 192.8909090909091,
+          "games": 58,
+          "winRate": 60.36551724137931,
+          "kda": 4.112068965517241,
+          "avgKills": 3.622413793103448,
+          "avgDeaths": 2.3379310344827586,
+          "avgAssists": 5.948275862068965,
+          "csm": 8.982758620689655,
+          "gpm": 407.82758620689657,
+          "kp": 62.30172413793103,
+          "dmgPct": 24.905172413793103,
+          "goldPct": 20.54655172413793,
+          "vsPct": 12.398275862068965,
+          "dpm": 689.0862068965517,
+          "vspm": 1.2965517241379307,
+          "avgWpm": 0.4355172413793103,
+          "avgWcpm": 0.23724137931034484,
+          "avgVwpm": 0.13982758620689653,
+          "gd15": 167.55172413793105,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
@@ -8831,9 +8831,9 @@
         }
       },
       "aggregated": {
-        "totalGames": 55,
-        "avgWinRate": 60.030909090909084,
-        "avgKda": 4.14
+        "totalGames": 58,
+        "avgWinRate": 60.36551724137931,
+        "avgKda": 4.112068965517241
       }
     },
     {
@@ -8842,13 +8842,13 @@
       "country": "CN",
       "team": "LGD Gaming",
       "role": "BOT",
-      "rating": 41.2,
-      "confidence": 0.62,
+      "rating": 39.7,
+      "confidence": 0.67,
       "subscores": {
-        "laning": 49,
-        "damage": 25.6,
-        "presence": 28.1,
-        "efficiency": 41.6
+        "laning": 55.2,
+        "damage": 23.1,
+        "presence": 21.9,
+        "efficiency": 37.5
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -8920,78 +8920,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 5,
-          "winRate": 80,
-          "kda": 4.8,
-          "avgKills": 4.2,
-          "avgDeaths": 1.8,
+          "games": 7,
+          "winRate": 57.1,
+          "kda": 3.2,
+          "avgKills": 3.7,
+          "avgDeaths": 2.6,
           "avgAssists": 4.4,
-          "csm": 9.6,
-          "gpm": 493,
-          "kp": 61.8,
-          "dmgPct": 27.8,
-          "goldPct": 24.6,
-          "vsPct": 13,
-          "dpm": 726,
-          "vspm": 1.32,
-          "avgWpm": 0.45,
-          "avgWcpm": 0.28,
-          "avgVwpm": 0.13,
-          "gd15": -17,
+          "csm": 9.4,
+          "gpm": 477,
+          "kp": 58.9,
+          "dmgPct": 27,
+          "goldPct": 24.4,
+          "vsPct": 13.5,
+          "dpm": 707,
+          "vspm": 1.41,
+          "avgWpm": 0.44,
+          "avgWcpm": 0.31,
+          "avgVwpm": 0.14,
+          "gd15": 504,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 47.6,
-          "confidence": 0.42,
+          "rating": 44.3,
+          "confidence": 0.5,
           "subscores": {
-            "laning": 50,
-            "damage": 34,
-            "presence": 23.3,
-            "efficiency": 65.3
+            "laning": 63.3,
+            "damage": 31.3,
+            "presence": 10,
+            "efficiency": 40.8
           }
         },
         "LPL 2026": {
-          "games": 22,
-          "winRate": 54.57727272727273,
-          "kda": 3.4863636363636363,
-          "avgKills": 3.7363636363636363,
-          "avgDeaths": 2.5727272727272723,
-          "avgAssists": 4.9409090909090905,
-          "csm": 9.831818181818182,
-          "gpm": 493,
-          "kp": 65.97272727272728,
-          "dmgPct": 27.8,
-          "goldPct": 25.063636363636363,
-          "vsPct": 13.85,
-          "dpm": 689.6818181818181,
-          "vspm": 1.5131818181818182,
-          "avgWpm": 0.5118181818181818,
-          "avgWcpm": 0.31863636363636366,
-          "avgVwpm": 0.16090909090909092,
-          "gd15": 0.7727272727272727,
+          "games": 24,
+          "winRate": 50.01666666666667,
+          "kda": 3.129166666666667,
+          "avgKills": 3.629166666666667,
+          "avgDeaths": 2.7416666666666667,
+          "avgAssists": 4.895833333333333,
+          "csm": 9.754166666666668,
+          "gpm": 488.3333333333333,
+          "kp": 64.77916666666667,
+          "dmgPct": 27.566666666666666,
+          "goldPct": 24.966666666666665,
+          "vsPct": 13.924999999999999,
+          "dpm": 687.1666666666666,
+          "vspm": 1.5233333333333334,
+          "avgWpm": 0.50375,
+          "avgWcpm": 0.32416666666666666,
+          "avgVwpm": 0.16125,
+          "gd15": 151.25,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 41.2,
-          "confidence": 0.62,
+          "rating": 39.7,
+          "confidence": 0.67,
           "subscores": {
-            "laning": 49,
-            "damage": 25.6,
-            "presence": 28.1,
-            "efficiency": 41.6
+            "laning": 55.2,
+            "damage": 23.1,
+            "presence": 21.9,
+            "efficiency": 37.5
           }
         }
       },
       "aggregated": {
-        "totalGames": 22,
-        "avgWinRate": 54.57727272727273,
-        "avgKda": 3.4863636363636363
+        "totalGames": 24,
+        "avgWinRate": 50.01666666666667,
+        "avgKda": 3.129166666666667
       }
     },
     {
@@ -9000,11 +9000,11 @@
       "country": "KR",
       "team": "Invictus Gaming",
       "role": "TOP",
-      "rating": 33.6,
+      "rating": 35.7,
       "confidence": 1,
       "subscores": {
         "laning": 42.2,
-        "damage": 50,
+        "damage": 57.1,
         "presence": 14.7,
         "efficiency": 9.4
       },
@@ -9136,11 +9136,11 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 33.6,
+          "rating": 35.7,
           "confidence": 1,
           "subscores": {
             "laning": 42.2,
-            "damage": 50,
+            "damage": 57.1,
             "presence": 14.7,
             "efficiency": 9.4
           }
@@ -9158,13 +9158,13 @@
       "country": "CN",
       "team": "Oh My God",
       "role": "BOT",
-      "rating": 43.9,
-      "confidence": 0.76,
+      "rating": 45.3,
+      "confidence": 0.75,
       "subscores": {
-        "laning": 36.5,
-        "damage": 34.4,
+        "laning": 38.5,
+        "damage": 36.9,
         "presence": 96.9,
-        "efficiency": 25
+        "efficiency": 26.9
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -9294,13 +9294,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 52.5,
-          "confidence": 0.5,
+          "rating": 53.1,
+          "confidence": 0.43,
           "subscores": {
-            "laning": 38.9,
-            "damage": 66,
+            "laning": 41.1,
+            "damage": 72.7,
             "presence": 90,
-            "efficiency": 34.7
+            "efficiency": 32.5
           }
         },
         "LPL 2026": {
@@ -9328,13 +9328,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 43.9,
-          "confidence": 0.76,
+          "rating": 45.3,
+          "confidence": 0.75,
           "subscores": {
-            "laning": 36.5,
-            "damage": 34.4,
+            "laning": 38.5,
+            "damage": 36.9,
             "presence": 96.9,
-            "efficiency": 25
+            "efficiency": 26.9
           }
         }
       },
@@ -9350,13 +9350,13 @@
       "country": "CN",
       "team": "LGD Gaming",
       "role": "MID",
-      "rating": 54.3,
-      "confidence": 0.51,
+      "rating": 56.2,
+      "confidence": 0.56,
       "subscores": {
         "laning": 50,
-        "damage": 24.7,
-        "presence": 83.3,
-        "efficiency": 87.7
+        "damage": 43.3,
+        "presence": 76.7,
+        "efficiency": 81.3
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -9428,58 +9428,24 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 5,
-          "winRate": 80,
-          "kda": 8.6,
-          "avgKills": 2.6,
-          "avgDeaths": 1,
-          "avgAssists": 6,
-          "csm": 9.5,
-          "gpm": 393,
-          "kp": 62,
-          "dmgPct": 22.4,
-          "goldPct": 19.6,
-          "vsPct": 15.2,
-          "dpm": 541,
-          "vspm": 1.58,
-          "avgWpm": 0.43,
-          "avgWcpm": 0.3,
+          "games": 7,
+          "winRate": 57.1,
+          "kda": 4.8,
+          "avgKills": 3.6,
+          "avgDeaths": 1.7,
+          "avgAssists": 4.7,
+          "csm": 9.1,
+          "gpm": 390,
+          "kp": 63.4,
+          "dmgPct": 25.5,
+          "goldPct": 20.1,
+          "vsPct": 15.4,
+          "dpm": 639,
+          "vspm": 1.63,
+          "avgWpm": 0.44,
+          "avgWcpm": 0.25,
           "avgVwpm": 0.15,
-          "gd15": -38,
-          "csd15": 0,
-          "xpd15": 0,
-          "fbPct": 0,
-          "fbVictim": 0,
-          "pentaKills": 0,
-          "soloKills": 0,
-          "rating": 51.3,
-          "confidence": 0.4,
-          "subscores": {
-            "laning": 48.8,
-            "damage": 26.4,
-            "presence": 46.4,
-            "efficiency": 95.2
-          }
-        },
-        "LPL 2026": {
-          "games": 22,
-          "winRate": 54.57727272727273,
-          "kda": 5.740909090909091,
-          "avgKills": 2.9863636363636363,
-          "avgDeaths": 1.6181818181818182,
-          "avgAssists": 5.6909090909090905,
-          "csm": 9.577272727272726,
-          "gpm": 406.1363636363636,
-          "kp": 68.8,
-          "dmgPct": 25.027272727272727,
-          "goldPct": 20.75909090909091,
-          "vsPct": 14.504545454545456,
-          "dpm": 593.5454545454545,
-          "vspm": 1.5799999999999998,
-          "avgWpm": 0.4918181818181818,
-          "avgWcpm": 0.29227272727272724,
-          "avgVwpm": 0.16545454545454547,
-          "gd15": 6.045454545454546,
+          "gd15": -125,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
@@ -9487,19 +9453,53 @@
           "pentaKills": 0,
           "soloKills": 0,
           "rating": 54.3,
-          "confidence": 0.51,
+          "confidence": 0.5,
+          "subscores": {
+            "laning": 46.4,
+            "damage": 67.9,
+            "presence": 46.4,
+            "efficiency": 69.3
+          }
+        },
+        "LPL 2026": {
+          "games": 24,
+          "winRate": 50.01666666666667,
+          "kda": 4.870833333333334,
+          "avgKills": 3.2458333333333336,
+          "avgDeaths": 1.7708333333333333,
+          "avgAssists": 5.3374999999999995,
+          "csm": 9.454166666666666,
+          "gpm": 404.1666666666667,
+          "kp": 68.64166666666667,
+          "dmgPct": 25.712500000000002,
+          "goldPct": 20.808333333333337,
+          "vsPct": 14.620833333333335,
+          "dpm": 617.75,
+          "vspm": 1.5945833333333332,
+          "avgWpm": 0.4895833333333333,
+          "avgWcpm": 0.2783333333333333,
+          "avgVwpm": 0.16416666666666668,
+          "gd15": -23,
+          "csd15": 0,
+          "xpd15": 0,
+          "fbPct": 0,
+          "fbVictim": 0,
+          "pentaKills": 0,
+          "soloKills": 0,
+          "rating": 56.2,
+          "confidence": 0.56,
           "subscores": {
             "laning": 50,
-            "damage": 24.7,
-            "presence": 83.3,
-            "efficiency": 87.7
+            "damage": 43.3,
+            "presence": 76.7,
+            "efficiency": 81.3
           }
         }
       },
       "aggregated": {
-        "totalGames": 22,
-        "avgWinRate": 54.57727272727273,
-        "avgKda": 5.740909090909091
+        "totalGames": 24,
+        "avgWinRate": 50.01666666666667,
+        "avgKda": 4.870833333333334
       }
     },
     {
@@ -9508,13 +9508,13 @@
       "country": "KR",
       "team": "Anyone s Legend",
       "role": "JGL",
-      "rating": 70.4,
+      "rating": 70.5,
       "confidence": 1,
       "subscores": {
         "laning": 58.3,
-        "damage": 90.6,
+        "damage": 88.3,
         "presence": 58.3,
-        "efficiency": 76.9
+        "efficiency": 78.9
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -9620,78 +9620,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 12,
-          "winRate": 50,
-          "kda": 3.8,
-          "avgKills": 2.8,
-          "avgDeaths": 2.8,
-          "avgAssists": 7.8,
+          "games": 15,
+          "winRate": 53.3,
+          "kda": 4,
+          "avgKills": 3.1,
+          "avgDeaths": 2.6,
+          "avgAssists": 7.4,
           "csm": 7.3,
-          "gpm": 389,
-          "kp": 75.4,
-          "dmgPct": 16.9,
-          "goldPct": 20.1,
-          "vsPct": 17.5,
-          "dpm": 451,
-          "vspm": 1.79,
-          "avgWpm": 0.36,
+          "gpm": 394,
+          "kp": 74.9,
+          "dmgPct": 17,
+          "goldPct": 20.4,
+          "vsPct": 17.4,
+          "dpm": 448,
+          "vspm": 1.76,
+          "avgWpm": 0.35,
           "avgWcpm": 0.35,
-          "avgVwpm": 0.3,
-          "gd15": 83,
+          "avgVwpm": 0.29,
+          "gd15": 38,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 67,
+          "rating": 65.6,
           "confidence": 1,
           "subscores": {
-            "laning": 57.3,
-            "damage": 79.4,
+            "laning": 51,
+            "damage": 65.6,
             "presence": 65.6,
-            "efficiency": 65.3
+            "efficiency": 72.8
           }
         },
         "LPL 2026": {
-          "games": 55,
-          "winRate": 60.030909090909084,
-          "kda": 4.483636363636363,
-          "avgKills": 3.152727272727273,
-          "avgDeaths": 2.5472727272727274,
-          "avgAssists": 8.116363636363635,
-          "csm": 7.387272727272727,
-          "gpm": 407.8363636363636,
-          "kp": 74.47272727272727,
-          "dmgPct": 18.170909090909092,
-          "goldPct": 20.479999999999997,
-          "vsPct": 17.663636363636364,
-          "dpm": 510.1636363636364,
-          "vspm": 1.8603636363636364,
-          "avgWpm": 0.36600000000000005,
-          "avgWcpm": 0.3607272727272727,
-          "avgVwpm": 0.31672727272727275,
-          "gd15": 162.3272727272727,
+          "games": 58,
+          "winRate": 60.36551724137931,
+          "kda": 4.5,
+          "avgKills": 3.2120689655172416,
+          "avgDeaths": 2.5086206896551726,
+          "avgAssists": 7.996551724137931,
+          "csm": 7.382758620689655,
+          "gpm": 408.1551724137931,
+          "kp": 74.39137931034485,
+          "dmgPct": 18.13103448275862,
+          "goldPct": 20.537931034482757,
+          "vsPct": 17.629310344827587,
+          "dpm": 506.32758620689657,
+          "vspm": 1.8489655172413795,
+          "avgWpm": 0.3631034482758621,
+          "avgWcpm": 0.36017241379310344,
+          "avgVwpm": 0.31327586206896557,
+          "gd15": 146.58620689655172,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 70.4,
+          "rating": 70.5,
           "confidence": 1,
           "subscores": {
             "laning": 58.3,
-            "damage": 90.6,
+            "damage": 88.3,
             "presence": 58.3,
-            "efficiency": 76.9
+            "efficiency": 78.9
           }
         }
       },
       "aggregated": {
-        "totalGames": 55,
-        "avgWinRate": 60.030909090909084,
-        "avgKda": 4.483636363636363
+        "totalGames": 58,
+        "avgWinRate": 60.36551724137931,
+        "avgKda": 4.5
       }
     },
     {
@@ -9700,13 +9700,13 @@
       "country": "CN",
       "team": "JD Gaming",
       "role": "SUP",
-      "rating": 56,
+      "rating": 57.3,
       "confidence": 1,
       "subscores": {
         "laning": 57.3,
-        "damage": 51.9,
+        "damage": 54.4,
         "presence": 34.4,
-        "efficiency": 81.3
+        "efficiency": 84.4
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -9812,78 +9812,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 15,
-          "winRate": 53.3,
-          "kda": 3.8,
+          "games": 16,
+          "winRate": 56.3,
+          "kda": 4.2,
           "avgKills": 0.5,
-          "avgDeaths": 2.7,
-          "avgAssists": 9.7,
+          "avgDeaths": 2.5,
+          "avgAssists": 9.9,
           "csm": 1.1,
-          "gpm": 263,
-          "kp": 73.2,
-          "dmgPct": 8.4,
+          "gpm": 265,
+          "kp": 73.5,
+          "dmgPct": 8.1,
           "goldPct": 13.5,
-          "vsPct": 41.2,
-          "dpm": 232,
-          "vspm": 4.35,
-          "avgWpm": 2.05,
+          "vsPct": 41.1,
+          "dpm": 228,
+          "vspm": 4.33,
+          "avgWpm": 2.03,
           "avgWcpm": 0.54,
           "avgVwpm": 0.58,
-          "gd15": 23,
+          "gd15": 63,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 36.6,
+          "rating": 44.2,
           "confidence": 1,
           "subscores": {
-            "laning": 53.6,
-            "damage": 66.4,
-            "presence": 14.3,
-            "efficiency": 46.4
+            "laning": 58.3,
+            "damage": 60.7,
+            "presence": 25,
+            "efficiency": 55.4
           }
         },
         "LPL 2026": {
-          "games": 63,
-          "winRate": 52.357142857142854,
-          "kda": 4.073015873015874,
-          "avgKills": 0.5412698412698413,
-          "avgDeaths": 2.484126984126984,
-          "avgAssists": 9.480952380952381,
+          "games": 64,
+          "winRate": 53.121875,
+          "kda": 4.16875,
+          "avgKills": 0.540625,
+          "avgDeaths": 2.4375,
+          "avgAssists": 9.534375,
           "csm": 1.1,
-          "gpm": 263.031746031746,
-          "kp": 73.02222222222221,
-          "dmgPct": 7.974603174603174,
-          "goldPct": 13.550793650793652,
-          "vsPct": 40.93333333333334,
-          "dpm": 209.015873015873,
-          "vspm": 4.417301587301587,
-          "avgWpm": 2.085238095238095,
-          "avgWcpm": 0.534920634920635,
-          "avgVwpm": 0.6053968253968254,
-          "gd15": 49.92063492063492,
+          "gpm": 263.53125,
+          "kp": 73.1,
+          "dmgPct": 7.90625,
+          "goldPct": 13.55,
+          "vsPct": 40.9125,
+          "dpm": 208.375,
+          "vspm": 4.41125,
+          "avgWpm": 2.0796875,
+          "avgWcpm": 0.5349999999999999,
+          "avgVwpm": 0.605,
+          "gd15": 59.5,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 56,
+          "rating": 57.3,
           "confidence": 1,
           "subscores": {
             "laning": 57.3,
-            "damage": 51.9,
+            "damage": 54.4,
             "presence": 34.4,
-            "efficiency": 81.3
+            "efficiency": 84.4
           }
         }
       },
       "aggregated": {
-        "totalGames": 63,
-        "avgWinRate": 52.357142857142854,
-        "avgKda": 4.073015873015874
+        "totalGames": 64,
+        "avgWinRate": 53.121875,
+        "avgKda": 4.16875
       }
     },
     {
@@ -9892,10 +9892,10 @@
       "country": "KR",
       "team": "Bilibili Gaming",
       "role": "BOT",
-      "rating": 46.4,
+      "rating": 44.8,
       "confidence": 1,
       "subscores": {
-        "laning": 55.2,
+        "laning": 49,
         "damage": 38.1,
         "presence": 15.6,
         "efficiency": 67.5
@@ -10004,68 +10004,68 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 16,
-          "winRate": 62.5,
-          "kda": 4.7,
-          "avgKills": 4.9,
-          "avgDeaths": 2.6,
-          "avgAssists": 7.2,
+          "games": 18,
+          "winRate": 66.7,
+          "kda": 4.6,
+          "avgKills": 4.7,
+          "avgDeaths": 2.7,
+          "avgAssists": 7.6,
           "csm": 9.3,
           "gpm": 489,
-          "kp": 65.2,
-          "dmgPct": 28.3,
-          "goldPct": 24,
-          "vsPct": 16.7,
-          "dpm": 861,
-          "vspm": 1.61,
-          "avgWpm": 0.61,
-          "avgWcpm": 0.33,
-          "avgVwpm": 0.26,
-          "gd15": -47,
+          "kp": 65.8,
+          "dmgPct": 28.8,
+          "goldPct": 23.9,
+          "vsPct": 16.3,
+          "dpm": 859,
+          "vspm": 1.57,
+          "avgWpm": 0.6,
+          "avgWcpm": 0.32,
+          "avgVwpm": 0.25,
+          "gd15": -65,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 56,
+          "rating": 60.9,
           "confidence": 1,
           "subscores": {
             "laning": 47.8,
-            "damage": 80.7,
-            "presence": 30,
-            "efficiency": 45.3
+            "damage": 89.3,
+            "presence": 36.7,
+            "efficiency": 48.7
           }
         },
         "LPL 2026": {
-          "games": 56,
-          "winRate": 66.07142857142857,
-          "kda": 5.958928571428571,
-          "avgKills": 4.783928571428571,
-          "avgDeaths": 2.0732142857142857,
-          "avgAssists": 6.941071428571428,
-          "csm": 9.844642857142857,
-          "gpm": 497.57142857142856,
-          "kp": 64.41428571428571,
-          "dmgPct": 26.192857142857143,
-          "goldPct": 24.267857142857142,
-          "vsPct": 15.798214285714286,
-          "dpm": 771.9821428571429,
-          "vspm": 1.5894642857142858,
-          "avgWpm": 0.6135714285714285,
-          "avgWcpm": 0.35500000000000004,
-          "avgVwpm": 0.25107142857142856,
-          "gd15": 42.285714285714285,
+          "games": 58,
+          "winRate": 67.25172413793103,
+          "kda": 5.88448275862069,
+          "avgKills": 4.725862068965518,
+          "avgDeaths": 2.122413793103448,
+          "avgAssists": 7.074137931034482,
+          "csm": 9.825862068965517,
+          "gpm": 497.2758620689655,
+          "kp": 64.62758620689655,
+          "dmgPct": 26.420689655172417,
+          "goldPct": 24.227586206896554,
+          "vsPct": 15.705172413793106,
+          "dpm": 774.4310344827586,
+          "vspm": 1.5777586206896552,
+          "avgWpm": 0.6103448275862069,
+          "avgWcpm": 0.3510344827586207,
+          "avgVwpm": 0.2482758620689655,
+          "gd15": 33.62068965517241,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 46.4,
+          "rating": 44.8,
           "confidence": 1,
           "subscores": {
-            "laning": 55.2,
+            "laning": 49,
             "damage": 38.1,
             "presence": 15.6,
             "efficiency": 67.5
@@ -10073,9 +10073,9 @@
         }
       },
       "aggregated": {
-        "totalGames": 56,
-        "avgWinRate": 66.07142857142857,
-        "avgKda": 5.958928571428571
+        "totalGames": 58,
+        "avgWinRate": 67.25172413793103,
+        "avgKda": 5.88448275862069
       }
     },
     {
@@ -10084,12 +10084,12 @@
       "country": "CN",
       "team": "Invictus Gaming",
       "role": "JGL",
-      "rating": 49.7,
+      "rating": 47.1,
       "confidence": 1,
       "subscores": {
         "laning": 56.5,
-        "damage": 72.8,
-        "presence": 41.7,
+        "damage": 69.4,
+        "presence": 36.1,
         "efficiency": 40.3
       },
       "tournaments": {
@@ -10220,13 +10220,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 44.5,
+          "rating": 38.2,
           "confidence": 1,
           "subscores": {
-            "laning": 59.4,
-            "damage": 61.3,
-            "presence": 28.1,
-            "efficiency": 44.8
+            "laning": 57.3,
+            "damage": 63.8,
+            "presence": 12.5,
+            "efficiency": 41.7
           }
         },
         "LPL 2026": {
@@ -10254,12 +10254,12 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 49.7,
+          "rating": 47.1,
           "confidence": 1,
           "subscores": {
             "laning": 56.5,
-            "damage": 72.8,
-            "presence": 41.7,
+            "damage": 69.4,
+            "presence": 36.1,
             "efficiency": 40.3
           }
         }
@@ -10276,12 +10276,12 @@
       "country": "CN",
       "team": "Bilibili Gaming",
       "role": "JGL",
-      "rating": 50.9,
+      "rating": 48.4,
       "confidence": 1,
       "subscores": {
-        "laning": 50.9,
+        "laning": 47.2,
         "damage": 80.6,
-        "presence": 19.4,
+        "presence": 13.9,
         "efficiency": 67.8
       },
       "tournaments": {
@@ -10388,78 +10388,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 16,
-          "winRate": 62.5,
-          "kda": 3.3,
-          "avgKills": 3.8,
-          "avgDeaths": 3.8,
-          "avgAssists": 8.6,
+          "games": 18,
+          "winRate": 66.7,
+          "kda": 3.7,
+          "avgKills": 3.9,
+          "avgDeaths": 3.4,
+          "avgAssists": 8.7,
           "csm": 7.1,
-          "gpm": 403,
-          "kp": 67.9,
-          "dmgPct": 16.7,
-          "goldPct": 19.8,
+          "gpm": 407,
+          "kp": 68.5,
+          "dmgPct": 16.8,
+          "goldPct": 19.9,
           "vsPct": 15.6,
-          "dpm": 518,
+          "dpm": 511,
           "vspm": 1.5,
-          "avgWpm": 0.31,
+          "avgWpm": 0.29,
           "avgWcpm": 0.27,
-          "avgVwpm": 0.26,
-          "gd15": -30,
+          "avgVwpm": 0.25,
+          "gd15": -118,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 45.3,
+          "rating": 46.2,
           "confidence": 1,
           "subscores": {
-            "laning": 49,
-            "damage": 89.4,
+            "laning": 44.8,
+            "damage": 85.6,
             "presence": 21.9,
-            "efficiency": 41.3
+            "efficiency": 48.9
           }
         },
         "LPL 2026": {
-          "games": 56,
-          "winRate": 66.07142857142857,
-          "kda": 4.148214285714286,
-          "avgKills": 3.9875000000000003,
-          "avgDeaths": 3.0767857142857147,
-          "avgAssists": 8.278571428571428,
-          "csm": 7.207142857142857,
-          "gpm": 411.2142857142857,
-          "kp": 68.30178571428571,
-          "dmgPct": 17.075,
-          "goldPct": 20.05892857142857,
-          "vsPct": 16.314285714285713,
-          "dpm": 499.42857142857144,
-          "vspm": 1.644642857142857,
-          "avgWpm": 0.30375,
-          "avgWcpm": 0.3110714285714286,
-          "avgVwpm": 0.24035714285714288,
-          "gd15": -3.125,
+          "games": 58,
+          "winRate": 67.25172413793103,
+          "kda": 4.243103448275862,
+          "avgKills": 4.0120689655172415,
+          "avgDeaths": 2.9775862068965515,
+          "avgAssists": 8.320689655172414,
+          "csm": 7.203448275862069,
+          "gpm": 412.17241379310343,
+          "kp": 68.47413793103448,
+          "dmgPct": 17.093103448275862,
+          "goldPct": 20.08103448275862,
+          "vsPct": 16.28965517241379,
+          "dpm": 497.8965517241379,
+          "vspm": 1.639655172413793,
+          "avgWpm": 0.29775862068965514,
+          "avgWcpm": 0.30965517241379314,
+          "avgVwpm": 0.23793103448275862,
+          "gd15": -31.362068965517242,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 50.9,
+          "rating": 48.4,
           "confidence": 1,
           "subscores": {
-            "laning": 50.9,
+            "laning": 47.2,
             "damage": 80.6,
-            "presence": 19.4,
+            "presence": 13.9,
             "efficiency": 67.8
           }
         }
       },
       "aggregated": {
-        "totalGames": 56,
-        "avgWinRate": 66.07142857142857,
-        "avgKda": 4.148214285714286
+        "totalGames": 58,
+        "avgWinRate": 67.25172413793103,
+        "avgKda": 4.243103448275862
       }
     },
     {
@@ -10468,12 +10468,12 @@
       "country": "CN",
       "team": "EDward Gaming",
       "role": "JGL",
-      "rating": 68.6,
+      "rating": 70.5,
       "confidence": 0.96,
       "subscores": {
         "laning": 62,
         "damage": 41.7,
-        "presence": 75,
+        "presence": 80.6,
         "efficiency": 85
       },
       "tournaments": {
@@ -10604,13 +10604,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 33.8,
-          "confidence": 0.67,
+          "rating": 35.5,
+          "confidence": 0.59,
           "subscores": {
             "laning": 42.7,
             "damage": 3.1,
             "presence": 3.1,
-            "efficiency": 58.8
+            "efficiency": 57.5
           }
         },
         "LPL 2026": {
@@ -10638,12 +10638,12 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 68.6,
+          "rating": 70.5,
           "confidence": 0.96,
           "subscores": {
             "laning": 62,
             "damage": 41.7,
-            "presence": 75,
+            "presence": 80.6,
             "efficiency": 85
           }
         }
@@ -10660,13 +10660,13 @@
       "country": "CN",
       "team": "Ultra Prime",
       "role": "SUP",
-      "rating": 49.2,
-      "confidence": 0.5,
+      "rating": 49.9,
+      "confidence": 0.57,
       "subscores": {
-        "laning": 46.9,
+        "laning": 42.7,
         "damage": 39.4,
         "presence": 90.6,
-        "efficiency": 3.1
+        "efficiency": 9.4
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -10738,78 +10738,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 2,
-          "winRate": 0,
-          "kda": 1.6,
+          "games": 4,
+          "winRate": 50,
+          "kda": 2.7,
           "avgKills": 0,
-          "avgDeaths": 4,
-          "avgAssists": 6.5,
+          "avgDeaths": 3.8,
+          "avgAssists": 10.3,
           "csm": 0.9,
-          "gpm": 247,
-          "kp": 75.7,
-          "dmgPct": 7.9,
-          "goldPct": 13.5,
-          "vsPct": 44,
-          "dpm": 168,
-          "vspm": 3.87,
-          "avgWpm": 2.11,
-          "avgWcpm": 0.26,
-          "avgVwpm": 0.61,
-          "gd15": -196,
+          "gpm": 250,
+          "kp": 78.7,
+          "dmgPct": 7.2,
+          "goldPct": 13.3,
+          "vsPct": 41.9,
+          "dpm": 177,
+          "vspm": 3.92,
+          "avgWpm": 2.17,
+          "avgWcpm": 0.31,
+          "avgVwpm": 0.57,
+          "gd15": -318,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 46,
-          "confidence": 0.16,
+          "rating": 46.2,
+          "confidence": 0.29,
           "subscores": {
             "laning": 34.5,
-            "damage": 26.4,
-            "presence": 39.3,
-            "efficiency": 3.6
+            "damage": 27.9,
+            "presence": 60.7,
+            "efficiency": 12.5
           }
         },
         "LPL 2026": {
-          "games": 15,
-          "winRate": 20.02,
-          "kda": 1.8599999999999999,
-          "avgKills": 0.6933333333333334,
-          "avgDeaths": 4.173333333333334,
-          "avgAssists": 6.933333333333334,
-          "csm": 1.0733333333333335,
-          "gpm": 250.46666666666667,
-          "kp": 78.3,
-          "dmgPct": 8.593333333333334,
-          "goldPct": 13.586666666666666,
-          "vsPct": 41.313333333333325,
-          "dpm": 174.93333333333334,
-          "vspm": 4.086666666666667,
-          "avgWpm": 2.248666666666667,
-          "avgWcpm": 0.38133333333333336,
-          "avgVwpm": 0.584,
-          "gd15": -46.06666666666667,
+          "games": 17,
+          "winRate": 29.429411764705883,
+          "kda": 2.088235294117647,
+          "avgKills": 0.611764705882353,
+          "avgDeaths": 4.105882352941176,
+          "avgAssists": 7.776470588235293,
+          "csm": 1.0529411764705883,
+          "gpm": 250.76470588235293,
+          "kp": 78.7,
+          "dmgPct": 8.347058823529412,
+          "goldPct": 13.529411764705882,
+          "vsPct": 41.13529411764706,
+          "dpm": 176.23529411764707,
+          "vspm": 4.0729411764705885,
+          "avgWpm": 2.2464705882352938,
+          "avgWcpm": 0.3788235294117647,
+          "avgVwpm": 0.5776470588235293,
+          "gd15": -92.41176470588235,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 49.2,
-          "confidence": 0.5,
+          "rating": 49.9,
+          "confidence": 0.57,
           "subscores": {
-            "laning": 46.9,
+            "laning": 42.7,
             "damage": 39.4,
             "presence": 90.6,
-            "efficiency": 3.1
+            "efficiency": 9.4
           }
         }
       },
       "aggregated": {
-        "totalGames": 15,
-        "avgWinRate": 20.02,
-        "avgKda": 1.8599999999999999
+        "totalGames": 17,
+        "avgWinRate": 29.429411764705883,
+        "avgKda": 2.088235294117647
       }
     },
     {
@@ -10818,13 +10818,13 @@
       "country": "CN",
       "team": "JD Gaming",
       "role": "TOP",
-      "rating": 46.6,
+      "rating": 48.9,
       "confidence": 1,
       "subscores": {
-        "laning": 44.1,
+        "laning": 46.1,
         "damage": 28.8,
-        "presence": 67.6,
-        "efficiency": 62.9
+        "presence": 73.5,
+        "efficiency": 67.1
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -10930,78 +10930,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 15,
-          "winRate": 53.3,
+          "games": 16,
+          "winRate": 56.3,
           "kda": 2.9,
           "avgKills": 3.3,
-          "avgDeaths": 2.9,
-          "avgAssists": 4.9,
-          "csm": 8.9,
-          "gpm": 398,
-          "kp": 56.8,
-          "dmgPct": 19.8,
+          "avgDeaths": 2.8,
+          "avgAssists": 5,
+          "csm": 9,
+          "gpm": 402,
+          "kp": 56.4,
+          "dmgPct": 19.7,
           "goldPct": 20.3,
           "vsPct": 14.5,
-          "dpm": 557,
+          "dpm": 564,
           "vspm": 1.52,
-          "avgWpm": 0.53,
+          "avgWpm": 0.52,
           "avgWcpm": 0.17,
           "avgVwpm": 0.14,
-          "gd15": 119,
+          "gd15": 184,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 46.1,
+          "rating": 50.4,
           "confidence": 1,
           "subscores": {
-            "laning": 51.2,
+            "laning": 56,
             "damage": 26.4,
             "presence": 82.1,
-            "efficiency": 48
+            "efficiency": 58.8
           }
         },
         "LPL 2026": {
-          "games": 63,
-          "winRate": 52.357142857142854,
-          "kda": 3.033333333333333,
-          "avgKills": 2.9158730158730157,
-          "avgDeaths": 2.465079365079365,
-          "avgAssists": 4.3126984126984125,
-          "csm": 8.982539682539683,
-          "gpm": 393.58730158730157,
-          "kp": 52.939682539682536,
-          "dmgPct": 22.35238095238095,
-          "goldPct": 20.236507936507937,
-          "vsPct": 14.173015873015874,
-          "dpm": 599.2857142857143,
-          "vspm": 1.5326984126984124,
-          "avgWpm": 0.563015873015873,
-          "avgWcpm": 0.13825396825396827,
-          "avgVwpm": 0.1406349206349206,
-          "gd15": -73.06349206349206,
+          "games": 64,
+          "winRate": 53.121875,
+          "kda": 3.03125,
+          "avgKills": 2.921875,
+          "avgDeaths": 2.4468750000000004,
+          "avgAssists": 4.346875,
+          "csm": 9.00625,
+          "gpm": 394.65625,
+          "kp": 52.9,
+          "dmgPct": 22.287499999999998,
+          "goldPct": 20.2375,
+          "vsPct": 14.178125000000001,
+          "dpm": 600.375,
+          "vspm": 1.5324999999999998,
+          "avgWpm": 0.56,
+          "avgWcpm": 0.13875,
+          "avgVwpm": 0.140625,
+          "gd15": -53.8125,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 46.6,
+          "rating": 48.9,
           "confidence": 1,
           "subscores": {
-            "laning": 44.1,
+            "laning": 46.1,
             "damage": 28.8,
-            "presence": 67.6,
-            "efficiency": 62.9
+            "presence": 73.5,
+            "efficiency": 67.1
           }
         }
       },
       "aggregated": {
-        "totalGames": 63,
-        "avgWinRate": 52.357142857142854,
-        "avgKda": 3.033333333333333
+        "totalGames": 64,
+        "avgWinRate": 53.121875,
+        "avgKda": 3.03125
       }
     },
     {
@@ -11010,13 +11010,13 @@
       "country": "CN",
       "team": "LGD Gaming",
       "role": "SUP",
-      "rating": 57.4,
-      "confidence": 0.73,
+      "rating": 57.6,
+      "confidence": 0.8,
       "subscores": {
-        "laning": 44.8,
-        "damage": 39.4,
+        "laning": 53.1,
+        "damage": 31.9,
         "presence": 46.9,
-        "efficiency": 87.5
+        "efficiency": 84.4
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -11088,78 +11088,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 5,
-          "winRate": 80,
-          "kda": 10.4,
-          "avgKills": 1.2,
-          "avgDeaths": 1,
-          "avgAssists": 9.2,
-          "csm": 1.2,
-          "gpm": 278,
-          "kp": 73.2,
-          "dmgPct": 7.2,
-          "goldPct": 13.9,
-          "vsPct": 38.5,
-          "dpm": 179,
-          "vspm": 3.92,
-          "avgWpm": 2,
-          "avgWcpm": 0.42,
+          "games": 7,
+          "winRate": 57.1,
+          "kda": 7,
+          "avgKills": 0.9,
+          "avgDeaths": 1.4,
+          "avgAssists": 9.1,
+          "csm": 1.1,
+          "gpm": 267,
+          "kp": 72.9,
+          "dmgPct": 6.3,
+          "goldPct": 13.7,
+          "vsPct": 38.4,
+          "dpm": 160,
+          "vspm": 4,
+          "avgWpm": 2.03,
+          "avgWcpm": 0.44,
           "avgVwpm": 0.53,
-          "gd15": -148,
+          "gd15": 20,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 48.9,
-          "confidence": 0.4,
+          "rating": 48.6,
+          "confidence": 0.5,
           "subscores": {
-            "laning": 39.3,
-            "damage": 19.3,
-            "presence": 14.3,
+            "laning": 53.6,
+            "damage": 12.1,
+            "presence": 10.7,
             "efficiency": 96.4
           }
         },
         "LPL 2026": {
-          "games": 22,
-          "winRate": 54.57727272727273,
-          "kda": 4.836363636363637,
-          "avgKills": 0.6590909090909091,
-          "avgDeaths": 2.4681818181818183,
-          "avgAssists": 8.968181818181819,
-          "csm": 1.2,
-          "gpm": 264.09090909090907,
-          "kp": 73.7409090909091,
-          "dmgPct": 7.972727272727272,
-          "goldPct": 13.513636363636364,
-          "vsPct": 39.89090909090908,
-          "dpm": 188.27272727272728,
-          "vspm": 4.3140909090909085,
-          "avgWpm": 2.069545454545455,
-          "avgWcpm": 0.4895454545454545,
-          "avgVwpm": 0.5609090909090909,
-          "gd15": -49.86363636363637,
+          "games": 24,
+          "winRate": 50.01666666666667,
+          "kda": 4.308333333333334,
+          "avgKills": 0.6166666666666667,
+          "avgDeaths": 2.4625,
+          "avgAssists": 8.958333333333334,
+          "csm": 1.1708333333333334,
+          "gpm": 262.0416666666667,
+          "kp": 73.60833333333335,
+          "dmgPct": 7.645833333333332,
+          "goldPct": 13.487499999999999,
+          "vsPct": 39.74583333333333,
+          "dpm": 181.95833333333334,
+          "vspm": 4.304583333333333,
+          "avgWpm": 2.0725000000000002,
+          "avgWcpm": 0.4895833333333333,
+          "avgVwpm": 0.5583333333333332,
+          "gd15": -9.041666666666666,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 57.4,
-          "confidence": 0.73,
+          "rating": 57.6,
+          "confidence": 0.8,
           "subscores": {
-            "laning": 44.8,
-            "damage": 39.4,
+            "laning": 53.1,
+            "damage": 31.9,
             "presence": 46.9,
-            "efficiency": 87.5
+            "efficiency": 84.4
           }
         }
       },
       "aggregated": {
-        "totalGames": 22,
-        "avgWinRate": 54.57727272727273,
-        "avgKda": 4.836363636363637
+        "totalGames": 24,
+        "avgWinRate": 50.01666666666667,
+        "avgKda": 4.308333333333334
       }
     },
     {
@@ -11168,13 +11168,13 @@
       "country": "CN",
       "team": "EDward Gaming",
       "role": "TOP",
-      "rating": 47.8,
+      "rating": 48.4,
       "confidence": 0.83,
       "subscores": {
         "laning": 53.9,
-        "damage": 30,
+        "damage": 27.6,
         "presence": 85.3,
-        "efficiency": 43.8
+        "efficiency": 49.7
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -11304,13 +11304,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 53.7,
-          "confidence": 0.4,
+          "rating": 52.6,
+          "confidence": 0.36,
           "subscores": {
-            "laning": 56,
-            "damage": 60.7,
+            "laning": 53.6,
+            "damage": 56.4,
             "presence": 89.3,
-            "efficiency": 49.8
+            "efficiency": 51.3
           }
         },
         "LPL 2026": {
@@ -11338,13 +11338,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 47.8,
+          "rating": 48.4,
           "confidence": 0.83,
           "subscores": {
             "laning": 53.9,
-            "damage": 30,
+            "damage": 27.6,
             "presence": 85.3,
-            "efficiency": 43.8
+            "efficiency": 49.7
           }
         }
       },
@@ -11496,13 +11496,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 64.1,
+          "rating": 63.5,
           "confidence": 1,
           "subscores": {
             "laning": 44,
             "damage": 37.9,
             "presence": 75,
-            "efficiency": 67.9
+            "efficiency": 66.1
           }
         },
         "LPL 2026": {
@@ -11552,13 +11552,13 @@
       "country": "CN",
       "team": "Weibo Gaming",
       "role": "TOP",
-      "rating": 61.1,
+      "rating": 60.6,
       "confidence": 1,
       "subscores": {
         "laning": 50,
         "damage": 90,
-        "presence": 50,
-        "efficiency": 46.5
+        "presence": 55.9,
+        "efficiency": 42.1
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -11664,78 +11664,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 15,
-          "winRate": 40,
-          "kda": 2.6,
+          "games": 20,
+          "winRate": 35,
+          "kda": 2.3,
           "avgKills": 2.3,
-          "avgDeaths": 2.8,
-          "avgAssists": 5,
-          "csm": 8.3,
-          "gpm": 367,
-          "kp": 55.4,
-          "dmgPct": 22.1,
-          "goldPct": 19.4,
-          "vsPct": 12.6,
-          "dpm": 580,
-          "vspm": 1.23,
-          "avgWpm": 0.39,
+          "avgDeaths": 3,
+          "avgAssists": 4.5,
+          "csm": 8.4,
+          "gpm": 368,
+          "kp": 54.6,
+          "dmgPct": 23.4,
+          "goldPct": 19.6,
+          "vsPct": 12.2,
+          "dpm": 599,
+          "vspm": 1.19,
+          "avgWpm": 0.37,
           "avgWcpm": 0.18,
           "avgVwpm": 0.15,
-          "gd15": 34,
+          "gd15": 65,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 48.6,
+          "rating": 49.4,
           "confidence": 1,
           "subscores": {
             "laning": 48.8,
-            "damage": 47.9,
+            "damage": 62.1,
             "presence": 75,
-            "efficiency": 38.8
+            "efficiency": 24.8
           }
         },
         "LPL 2026": {
-          "games": 59,
-          "winRate": 47.45762711864407,
-          "kda": 3.1220338983050846,
-          "avgKills": 2.8186440677966105,
-          "avgDeaths": 2.5762711864406778,
-          "avgAssists": 5.345762711864406,
-          "csm": 8.523728813559321,
-          "gpm": 383.06779661016947,
-          "kp": 50.47796610169492,
-          "dmgPct": 24.283050847457623,
-          "goldPct": 19.772881355932203,
-          "vsPct": 12.705084745762711,
-          "dpm": 683.5254237288135,
-          "vspm": 1.2832203389830508,
-          "avgWpm": 0.41169491525423735,
-          "avgWcpm": 0.16983050847457626,
-          "avgVwpm": 0.15440677966101693,
-          "gd15": -17.627118644067796,
+          "games": 64,
+          "winRate": 45.3125,
+          "kda": 2.9875,
+          "avgKills": 2.778125,
+          "avgDeaths": 2.65625,
+          "avgAssists": 5.1625,
+          "csm": 8.5375,
+          "gpm": 382.125,
+          "kp": 50.612500000000004,
+          "dmgPct": 24.518749999999997,
+          "goldPct": 19.80625,
+          "vsPct": 12.571875,
+          "dpm": 681.375,
+          "vspm": 1.2665625,
+          "avgWpm": 0.40375000000000005,
+          "avgWcpm": 0.170625,
+          "avgVwpm": 0.1540625,
+          "gd15": -3.90625,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 61.1,
+          "rating": 60.6,
           "confidence": 1,
           "subscores": {
             "laning": 50,
             "damage": 90,
-            "presence": 50,
-            "efficiency": 46.5
+            "presence": 55.9,
+            "efficiency": 42.1
           }
         }
       },
       "aggregated": {
-        "totalGames": 59,
-        "avgWinRate": 47.45762711864407,
-        "avgKda": 3.1220338983050846
+        "totalGames": 64,
+        "avgWinRate": 45.3125,
+        "avgKda": 2.9875
       }
     },
     {
@@ -11744,13 +11744,13 @@
       "country": "CN",
       "team": "Top Esports",
       "role": "SUP",
-      "rating": 31.8,
+      "rating": 31.6,
       "confidence": 1,
       "subscores": {
-        "laning": 49,
-        "damage": 58.1,
+        "laning": 51,
+        "damage": 64.4,
         "presence": 21.9,
-        "efficiency": 28.1
+        "efficiency": 25
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -11880,11 +11880,11 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 62.5,
+          "rating": 63.3,
           "confidence": 1,
           "subscores": {
             "laning": 63.1,
-            "damage": 59.3,
+            "damage": 66.4,
             "presence": 67.9,
             "efficiency": 57.1
           }
@@ -11914,13 +11914,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 31.8,
+          "rating": 31.6,
           "confidence": 1,
           "subscores": {
-            "laning": 49,
-            "damage": 58.1,
+            "laning": 51,
+            "damage": 64.4,
             "presence": 21.9,
-            "efficiency": 28.1
+            "efficiency": 25
           }
         }
       },
@@ -11936,13 +11936,13 @@
       "country": "CN",
       "team": "Top Esports",
       "role": "JGL",
-      "rating": 31.2,
+      "rating": 27.4,
       "confidence": 1,
       "subscores": {
         "laning": 45.4,
-        "damage": 47.2,
-        "presence": 13.9,
-        "efficiency": 33.6
+        "damage": 43.9,
+        "presence": 8.3,
+        "efficiency": 29.7
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -12072,13 +12072,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 31.2,
+          "rating": 27.4,
           "confidence": 1,
           "subscores": {
             "laning": 45.4,
-            "damage": 47.2,
-            "presence": 13.9,
-            "efficiency": 33.6
+            "damage": 43.9,
+            "presence": 8.3,
+            "efficiency": 29.7
           }
         }
       },
@@ -12094,11 +12094,11 @@
       "country": "CN",
       "team": "Oh My God",
       "role": "JGL",
-      "rating": 44.5,
+      "rating": 44,
       "confidence": 0.64,
       "subscores": {
         "laning": 39.8,
-        "damage": 23.9,
+        "damage": 20.6,
         "presence": 63.9,
         "efficiency": 27.5
       },
@@ -12230,13 +12230,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 47.3,
-          "confidence": 0.53,
+          "rating": 46.5,
+          "confidence": 0.47,
           "subscores": {
             "laning": 40.6,
-            "damage": 51.9,
+            "damage": 46.9,
             "presence": 59.4,
-            "efficiency": 25.6
+            "efficiency": 21.3
           }
         },
         "LPL 2026": {
@@ -12264,11 +12264,11 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 44.5,
+          "rating": 44,
           "confidence": 0.64,
           "subscores": {
             "laning": 39.8,
-            "damage": 23.9,
+            "damage": 20.6,
             "presence": 63.9,
             "efficiency": 27.5
           }
@@ -12286,13 +12286,13 @@
       "country": "CN",
       "team": "Ultra Prime",
       "role": "TOP",
-      "rating": 38.1,
-      "confidence": 0.66,
+      "rating": 36.2,
+      "confidence": 0.72,
       "subscores": {
         "laning": 38.2,
         "damage": 8.8,
         "presence": 2.9,
-        "efficiency": 61.8
+        "efficiency": 58.2
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -12364,78 +12364,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 2,
-          "winRate": 0,
-          "kda": 1.1,
-          "avgKills": 1,
-          "avgDeaths": 4,
-          "avgAssists": 3.5,
+          "games": 4,
+          "winRate": 50,
+          "kda": 1.9,
+          "avgKills": 1.8,
+          "avgDeaths": 3.8,
+          "avgAssists": 5.3,
           "csm": 8,
-          "gpm": 366,
+          "gpm": 369,
           "kp": 54.2,
-          "dmgPct": 19.3,
-          "goldPct": 20,
-          "vsPct": 15.1,
-          "dpm": 408,
-          "vspm": 1.33,
-          "avgWpm": 0.44,
-          "avgWcpm": 0.2,
-          "avgVwpm": 0.1,
-          "gd15": -180,
+          "dmgPct": 18.8,
+          "goldPct": 19.7,
+          "vsPct": 13.8,
+          "dpm": 469,
+          "vspm": 1.28,
+          "avgWpm": 0.47,
+          "avgWcpm": 0.16,
+          "avgVwpm": 0.14,
+          "gd15": -488,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 46.4,
-          "confidence": 0.16,
+          "rating": 43.2,
+          "confidence": 0.29,
           "subscores": {
-            "laning": 41.7,
+            "laning": 36.9,
             "damage": 10.7,
             "presence": 67.9,
-            "efficiency": 10.7
+            "efficiency": 13.2
           }
         },
         "LPL 2026": {
-          "games": 19,
-          "winRate": 42.142105263157895,
-          "kda": 2.621052631578947,
-          "avgKills": 1.536842105263158,
-          "avgDeaths": 2.121052631578947,
-          "avgAssists": 3.7684210526315787,
-          "csm": 8.805263157894737,
-          "gpm": 373.1578947368421,
-          "kp": 42.12105263157895,
-          "dmgPct": 20.28421052631579,
-          "goldPct": 19.28421052631579,
-          "vsPct": 12.86315789473684,
-          "dpm": 494.7894736842105,
-          "vspm": 1.374736842105263,
-          "avgWpm": 0.4578947368421053,
-          "avgWcpm": 0.15526315789473683,
-          "avgVwpm": 0.08210526315789474,
-          "gd15": -140.6315789473684,
+          "games": 21,
+          "winRate": 47.65238095238095,
+          "kda": 2.6285714285714286,
+          "avgKills": 1.6380952380952383,
+          "avgDeaths": 2.261904761904762,
+          "avgAssists": 4.085714285714285,
+          "csm": 8.72857142857143,
+          "gpm": 373.04761904761904,
+          "kp": 43.27142857142857,
+          "dmgPct": 20.09523809523809,
+          "goldPct": 19.295238095238094,
+          "vsPct": 12.828571428571427,
+          "dpm": 498.14285714285717,
+          "vspm": 1.360952380952381,
+          "avgWpm": 0.4619047619047619,
+          "avgWcpm": 0.1519047619047619,
+          "avgVwpm": 0.09142857142857144,
+          "gd15": -203.04761904761904,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 38.1,
-          "confidence": 0.66,
+          "rating": 36.2,
+          "confidence": 0.72,
           "subscores": {
             "laning": 38.2,
             "damage": 8.8,
             "presence": 2.9,
-            "efficiency": 61.8
+            "efficiency": 58.2
           }
         }
       },
       "aggregated": {
-        "totalGames": 19,
-        "avgWinRate": 42.142105263157895,
-        "avgKda": 2.621052631578947
+        "totalGames": 21,
+        "avgWinRate": 47.65238095238095,
+        "avgKda": 2.6285714285714286
       }
     },
     {
@@ -12444,12 +12444,12 @@
       "country": "CN",
       "team": "LNG Esports",
       "role": "TOP",
-      "rating": 58,
+      "rating": 58.6,
       "confidence": 0.9,
       "subscores": {
         "laning": 55.9,
         "damage": 39.4,
-        "presence": 55.9,
+        "presence": 61.8,
         "efficiency": 87.9
       },
       "tournaments": {
@@ -12580,13 +12580,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 45.1,
-          "confidence": 0.4,
+          "rating": 46.6,
+          "confidence": 0.36,
           "subscores": {
-            "laning": 39.3,
+            "laning": 41.7,
             "damage": 3.6,
-            "presence": 39.3,
-            "efficiency": 76.4
+            "presence": 46.4,
+            "efficiency": 80.4
           }
         },
         "LPL 2026": {
@@ -12614,12 +12614,12 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 58,
+          "rating": 58.6,
           "confidence": 0.9,
           "subscores": {
             "laning": 55.9,
             "damage": 39.4,
-            "presence": 55.9,
+            "presence": 61.8,
             "efficiency": 87.9
           }
         }
@@ -12636,13 +12636,13 @@
       "country": "CN",
       "team": "Weibo Gaming",
       "role": "MID",
-      "rating": 31.4,
+      "rating": 30.4,
       "confidence": 1,
       "subscores": {
         "laning": 41.1,
-        "damage": 23.3,
+        "damage": 22,
         "presence": 43.3,
-        "efficiency": 21.7
+        "efficiency": 19.3
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -12748,78 +12748,78 @@
           }
         },
         "LPL 2026 Split 2": {
-          "games": 15,
-          "winRate": 40,
-          "kda": 2.9,
-          "avgKills": 2.9,
-          "avgDeaths": 3.3,
-          "avgAssists": 6.5,
-          "csm": 8.6,
-          "gpm": 392,
-          "kp": 70,
-          "dmgPct": 22.8,
+          "games": 20,
+          "winRate": 35,
+          "kda": 2.8,
+          "avgKills": 3.2,
+          "avgDeaths": 3.2,
+          "avgAssists": 5.7,
+          "csm": 8.5,
+          "gpm": 388,
+          "kp": 68.4,
+          "dmgPct": 23.5,
           "goldPct": 20.6,
           "vsPct": 14.2,
           "dpm": 623,
-          "vspm": 1.39,
+          "vspm": 1.38,
           "avgWpm": 0.35,
-          "avgWcpm": 0.29,
-          "avgVwpm": 0.14,
-          "gd15": -205,
+          "avgWcpm": 0.28,
+          "avgVwpm": 0.15,
+          "gd15": -89,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 36.7,
+          "rating": 32.4,
           "confidence": 1,
           "subscores": {
-            "laning": 44,
-            "damage": 26.4,
-            "presence": 67.9,
-            "efficiency": 16.8
+            "laning": 48.8,
+            "damage": 17.9,
+            "presence": 60.7,
+            "efficiency": 10.7
           }
         },
         "LPL 2026": {
-          "games": 59,
-          "winRate": 47.45762711864407,
-          "kda": 3.520338983050847,
-          "avgKills": 3.269491525423729,
-          "avgDeaths": 2.9135593220338984,
-          "avgAssists": 6.954237288135594,
-          "csm": 8.79322033898305,
-          "gpm": 398.8474576271187,
-          "kp": 64.36610169491526,
-          "dmgPct": 22.125423728813562,
-          "goldPct": 20.54237288135593,
-          "vsPct": 14.027118644067794,
-          "dpm": 626.728813559322,
-          "vspm": 1.421186440677966,
-          "avgWpm": 0.4422033898305085,
-          "avgWcpm": 0.27508474576271186,
-          "avgVwpm": 0.17423728813559322,
-          "gd15": -268.2881355932203,
+          "games": 64,
+          "winRate": 45.3125,
+          "kda": 3.440625,
+          "avgKills": 3.334375,
+          "avgDeaths": 2.9125,
+          "avgAssists": 6.66875,
+          "csm": 8.746875,
+          "gpm": 397.0625,
+          "kp": 64.30625,
+          "dmgPct": 22.396875,
+          "goldPct": 20.546875,
+          "vsPct": 14.040624999999999,
+          "dpm": 626.4375,
+          "vspm": 1.415625,
+          "avgWpm": 0.435,
+          "avgWcpm": 0.273125,
+          "avgVwpm": 0.1746875,
+          "gd15": -227.09375,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 31.4,
+          "rating": 30.4,
           "confidence": 1,
           "subscores": {
             "laning": 41.1,
-            "damage": 23.3,
+            "damage": 22,
             "presence": 43.3,
-            "efficiency": 21.7
+            "efficiency": 19.3
           }
         }
       },
       "aggregated": {
-        "totalGames": 59,
-        "avgWinRate": 47.45762711864407,
-        "avgKda": 3.520338983050847
+        "totalGames": 64,
+        "avgWinRate": 45.3125,
+        "avgKda": 3.440625
       }
     },
     {
@@ -12828,13 +12828,13 @@
       "country": "CN",
       "team": "Team WE",
       "role": "SUP",
-      "rating": 27.4,
+      "rating": 26.3,
       "confidence": 1,
       "subscores": {
         "laning": 34.4,
         "damage": 26.9,
         "presence": 40.6,
-        "efficiency": 9.4
+        "efficiency": 6.3
       },
       "tournaments": {
         "LPL 2026 Split 1": {
@@ -12964,13 +12964,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 27.4,
+          "rating": 26.3,
           "confidence": 1,
           "subscores": {
             "laning": 34.4,
             "damage": 26.9,
             "presence": 40.6,
-            "efficiency": 9.4
+            "efficiency": 6.3
           }
         }
       },
@@ -12986,7 +12986,7 @@
       "country": "CN",
       "team": "ThunderTalk Gaming",
       "role": "BOT",
-      "rating": 54.1,
+      "rating": 54,
       "confidence": 0.14,
       "subscores": {
         "laning": 65.6,
@@ -13020,12 +13020,12 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 58.3,
-          "confidence": 0.42,
+          "rating": 58.2,
+          "confidence": 0.36,
           "subscores": {
             "laning": 65.6,
-            "damage": 59.3,
-            "presence": 63.3,
+            "damage": 62,
+            "presence": 76.7,
             "efficiency": 93.5
           }
         },
@@ -13054,7 +13054,7 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 54.1,
+          "rating": 54,
           "confidence": 0.14,
           "subscores": {
             "laning": 65.6,
@@ -13076,12 +13076,12 @@
       "country": "CN",
       "team": "Invictus Gaming",
       "role": "TOP",
-      "rating": 57.8,
+      "rating": 58.7,
       "confidence": 0.59,
       "subscores": {
         "laning": 57.8,
-        "damage": 75.9,
-        "presence": 61.8,
+        "damage": 79.4,
+        "presence": 67.6,
         "efficiency": 56.3
       },
       "tournaments": {
@@ -13110,13 +13110,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 64.3,
+          "rating": 64,
           "confidence": 1,
           "subscores": {
-            "laning": 53.6,
-            "damage": 83.6,
-            "presence": 46.4,
-            "efficiency": 63.2
+            "laning": 51.2,
+            "damage": 85,
+            "presence": 53.6,
+            "efficiency": 61.1
           }
         },
         "LPL 2026": {
@@ -13144,12 +13144,12 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 57.8,
+          "rating": 58.7,
           "confidence": 0.59,
           "subscores": {
             "laning": 57.8,
-            "damage": 75.9,
-            "presence": 61.8,
+            "damage": 79.4,
+            "presence": 67.6,
             "efficiency": 56.3
           }
         }
@@ -13166,88 +13166,88 @@
       "country": "KR",
       "team": "LGD Gaming",
       "role": "TOP",
-      "rating": 55.4,
-      "confidence": 0.17,
+      "rating": 56.2,
+      "confidence": 0.24,
       "subscores": {
-        "laning": 61.8,
-        "damage": 93.5,
-        "presence": 79.4,
-        "efficiency": 95
+        "laning": 65.7,
+        "damage": 87.6,
+        "presence": 38.2,
+        "efficiency": 90.9
       },
       "tournaments": {
         "LPL 2026 Split 2": {
-          "games": 5,
-          "winRate": 80,
-          "kda": 4.7,
-          "avgKills": 3,
-          "avgDeaths": 1.4,
+          "games": 7,
+          "winRate": 57.1,
+          "kda": 3.4,
+          "avgKills": 2.3,
+          "avgDeaths": 1.7,
           "avgAssists": 3.6,
-          "csm": 9.6,
-          "gpm": 425,
-          "kp": 53.1,
-          "dmgPct": 27.5,
-          "goldPct": 21.2,
-          "vsPct": 14.8,
-          "dpm": 668,
-          "vspm": 1.52,
-          "avgWpm": 0.43,
-          "avgWcpm": 0.23,
-          "avgVwpm": 0.2,
-          "gd15": 245,
+          "csm": 9.5,
+          "gpm": 418,
+          "kp": 48.5,
+          "dmgPct": 26.7,
+          "goldPct": 21.4,
+          "vsPct": 15,
+          "dpm": 664,
+          "vspm": 1.57,
+          "avgWpm": 0.42,
+          "avgWcpm": 0.25,
+          "avgVwpm": 0.22,
+          "gd15": 403,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 62.1,
-          "confidence": 0.4,
+          "rating": 62.6,
+          "confidence": 0.5,
           "subscores": {
-            "laning": 60.7,
-            "damage": 96.4,
-            "presence": 60.7,
-            "efficiency": 96.4
+            "laning": 65.5,
+            "damage": 87.1,
+            "presence": 32.1,
+            "efficiency": 91.4
           }
         },
         "LPL 2026": {
-          "games": 5,
-          "winRate": 80,
-          "kda": 4.7,
-          "avgKills": 3,
-          "avgDeaths": 1.4,
+          "games": 7,
+          "winRate": 57.1,
+          "kda": 3.4,
+          "avgKills": 2.3,
+          "avgDeaths": 1.7,
           "avgAssists": 3.6,
-          "csm": 9.6,
-          "gpm": 425,
-          "kp": 53.1,
-          "dmgPct": 27.5,
-          "goldPct": 21.2,
-          "vsPct": 14.8,
-          "dpm": 668,
-          "vspm": 1.52,
-          "avgWpm": 0.43,
-          "avgWcpm": 0.23000000000000004,
-          "avgVwpm": 0.2,
-          "gd15": 245,
+          "csm": 9.5,
+          "gpm": 418,
+          "kp": 48.5,
+          "dmgPct": 26.7,
+          "goldPct": 21.4,
+          "vsPct": 15,
+          "dpm": 664,
+          "vspm": 1.57,
+          "avgWpm": 0.42,
+          "avgWcpm": 0.25,
+          "avgVwpm": 0.22,
+          "gd15": 403,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 55.4,
-          "confidence": 0.17,
+          "rating": 56.2,
+          "confidence": 0.24,
           "subscores": {
-            "laning": 61.8,
-            "damage": 93.5,
-            "presence": 79.4,
-            "efficiency": 95
+            "laning": 65.7,
+            "damage": 87.6,
+            "presence": 38.2,
+            "efficiency": 90.9
           }
         }
       },
       "aggregated": {
-        "totalGames": 5,
-        "avgWinRate": 80,
-        "avgKda": 4.7
+        "totalGames": 7,
+        "avgWinRate": 57.1,
+        "avgKda": 3.4
       }
     },
     {
@@ -13256,88 +13256,88 @@
       "country": "CN",
       "team": "Ultra Prime",
       "role": "JGL",
-      "rating": 47.5,
-      "confidence": 0.08,
+      "rating": 49.6,
+      "confidence": 0.16,
       "subscores": {
-        "laning": 49.1,
-        "damage": 39.4,
-        "presence": 8.3,
-        "efficiency": 2.8
+        "laning": 50.9,
+        "damage": 83.9,
+        "presence": 47.2,
+        "efficiency": 21.9
       },
       "tournaments": {
         "LPL 2026 Split 2": {
-          "games": 2,
-          "winRate": 0,
-          "kda": 0.8,
-          "avgKills": 3.5,
-          "avgDeaths": 6.5,
-          "avgAssists": 2,
-          "csm": 5.6,
-          "gpm": 343,
-          "kp": 65.3,
-          "dmgPct": 16.2,
-          "goldPct": 18.8,
-          "vsPct": 17.6,
-          "dpm": 337,
-          "vspm": 1.54,
-          "avgWpm": 0.17,
-          "avgWcpm": 0.46,
-          "avgVwpm": 0.12,
-          "gd15": -46,
+          "games": 4,
+          "winRate": 50,
+          "kda": 2.7,
+          "avgKills": 4.8,
+          "avgDeaths": 3.8,
+          "avgAssists": 5.3,
+          "csm": 6.5,
+          "gpm": 392,
+          "kp": 73.1,
+          "dmgPct": 19.3,
+          "goldPct": 20.8,
+          "vsPct": 18.7,
+          "dpm": 487,
+          "vspm": 1.76,
+          "avgWpm": 0.27,
+          "avgWcpm": 0.49,
+          "avgVwpm": 0.22,
+          "gd15": 25,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 41.9,
-          "confidence": 0.27,
+          "rating": 50.7,
+          "confidence": 0.47,
           "subscores": {
-            "laning": 44.8,
-            "damage": 43.1,
-            "presence": 9.4,
-            "efficiency": 3.1
+            "laning": 49,
+            "damage": 89.4,
+            "presence": 53.1,
+            "efficiency": 25.3
           }
         },
         "LPL 2026": {
-          "games": 2,
-          "winRate": 0,
-          "kda": 0.8,
-          "avgKills": 3.5,
-          "avgDeaths": 6.5,
-          "avgAssists": 2,
-          "csm": 5.6,
-          "gpm": 343,
-          "kp": 65.3,
-          "dmgPct": 16.2,
-          "goldPct": 18.8,
-          "vsPct": 17.6,
-          "dpm": 337,
-          "vspm": 1.54,
-          "avgWpm": 0.17,
-          "avgWcpm": 0.46,
-          "avgVwpm": 0.12,
-          "gd15": -46,
+          "games": 4,
+          "winRate": 50,
+          "kda": 2.7,
+          "avgKills": 4.8,
+          "avgDeaths": 3.8,
+          "avgAssists": 5.3,
+          "csm": 6.5,
+          "gpm": 392,
+          "kp": 73.1,
+          "dmgPct": 19.3,
+          "goldPct": 20.8,
+          "vsPct": 18.7,
+          "dpm": 487,
+          "vspm": 1.76,
+          "avgWpm": 0.27,
+          "avgWcpm": 0.49,
+          "avgVwpm": 0.22,
+          "gd15": 25,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 47.5,
-          "confidence": 0.08,
+          "rating": 49.6,
+          "confidence": 0.16,
           "subscores": {
-            "laning": 49.1,
-            "damage": 39.4,
-            "presence": 8.3,
-            "efficiency": 2.8
+            "laning": 50.9,
+            "damage": 83.9,
+            "presence": 47.2,
+            "efficiency": 21.9
           }
         }
       },
       "aggregated": {
-        "totalGames": 2,
-        "avgWinRate": 0,
-        "avgKda": 0.8
+        "totalGames": 4,
+        "avgWinRate": 50,
+        "avgKda": 2.7
       }
     },
     {
@@ -13346,88 +13346,88 @@
       "country": "CN",
       "team": "Weibo Gaming",
       "role": "SUP",
-      "rating": 53.5,
-      "confidence": 0.5,
+      "rating": 54.6,
+      "confidence": 0.67,
       "subscores": {
-        "laning": 38.5,
+        "laning": 44.8,
         "damage": 90.6,
         "presence": 78.1,
-        "efficiency": 31.3
+        "efficiency": 28.1
       },
       "tournaments": {
         "LPL 2026 Split 2": {
-          "games": 15,
-          "winRate": 40,
-          "kda": 2.9,
-          "avgKills": 0.7,
+          "games": 20,
+          "winRate": 35,
+          "kda": 2.8,
+          "avgKills": 0.6,
           "avgDeaths": 3.7,
-          "avgAssists": 9.8,
+          "avgAssists": 9.7,
           "csm": 1,
-          "gpm": 261,
-          "kp": 76.4,
+          "gpm": 260,
+          "kp": 77.8,
           "dmgPct": 9.5,
           "goldPct": 13.8,
-          "vsPct": 40.1,
-          "dpm": 256,
-          "vspm": 3.9,
-          "avgWpm": 1.95,
-          "avgWcpm": 0.4,
+          "vsPct": 40.4,
+          "dpm": 250,
+          "vspm": 3.91,
+          "avgWpm": 1.94,
+          "avgWcpm": 0.39,
           "avgVwpm": 0.5,
-          "gd15": -160,
+          "gd15": -76,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 43.7,
+          "rating": 41,
           "confidence": 1,
           "subscores": {
-            "laning": 36.9,
+            "laning": 41.7,
             "damage": 86.4,
-            "presence": 53.6,
-            "efficiency": 23.2
+            "presence": 46.4,
+            "efficiency": 21.4
           }
         },
         "LPL 2026": {
-          "games": 15,
-          "winRate": 40,
-          "kda": 2.9,
-          "avgKills": 0.7,
+          "games": 20,
+          "winRate": 35,
+          "kda": 2.8,
+          "avgKills": 0.6,
           "avgDeaths": 3.7,
-          "avgAssists": 9.8,
+          "avgAssists": 9.7,
           "csm": 1,
-          "gpm": 261,
-          "kp": 76.4,
+          "gpm": 260,
+          "kp": 77.8,
           "dmgPct": 9.5,
           "goldPct": 13.8,
-          "vsPct": 40.1,
-          "dpm": 256,
-          "vspm": 3.9,
-          "avgWpm": 1.95,
-          "avgWcpm": 0.4,
+          "vsPct": 40.4,
+          "dpm": 250,
+          "vspm": 3.91,
+          "avgWpm": 1.94,
+          "avgWcpm": 0.39,
           "avgVwpm": 0.5,
-          "gd15": -160,
+          "gd15": -76,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 53.5,
-          "confidence": 0.5,
+          "rating": 54.6,
+          "confidence": 0.67,
           "subscores": {
-            "laning": 38.5,
+            "laning": 44.8,
             "damage": 90.6,
             "presence": 78.1,
-            "efficiency": 31.3
+            "efficiency": 28.1
           }
         }
       },
       "aggregated": {
-        "totalGames": 15,
-        "avgWinRate": 40,
-        "avgKda": 2.9
+        "totalGames": 20,
+        "avgWinRate": 35,
+        "avgKda": 2.8
       }
     },
     {
@@ -13436,11 +13436,11 @@
       "country": "CN",
       "team": "Top Esports",
       "role": "BOT",
-      "rating": 55.5,
+      "rating": 55.7,
       "confidence": 0.39,
       "subscores": {
         "laning": 44.8,
-        "damage": 80.6,
+        "damage": 83.1,
         "presence": 71.9,
         "efficiency": 54.7
       },
@@ -13470,13 +13470,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 55.2,
+          "rating": 55.9,
           "confidence": 1,
           "subscores": {
             "laning": 43.3,
-            "damage": 64.7,
+            "damage": 67.3,
             "presence": 50,
-            "efficiency": 56.8
+            "efficiency": 55.8
           }
         },
         "LPL 2026": {
@@ -13504,11 +13504,11 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 55.5,
+          "rating": 55.7,
           "confidence": 0.39,
           "subscores": {
             "laning": 44.8,
-            "damage": 80.6,
+            "damage": 83.1,
             "presence": 71.9,
             "efficiency": 54.7
           }
@@ -13560,13 +13560,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 40.4,
+          "rating": 35.1,
           "confidence": 1,
           "subscores": {
             "laning": 39.3,
-            "damage": 50.7,
-            "presence": 53.6,
-            "efficiency": 18.6
+            "damage": 45,
+            "presence": 39.3,
+            "efficiency": 15.7
           }
         },
         "LPL 2026": {
@@ -13650,13 +13650,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 77.7,
+          "rating": 79.6,
           "confidence": 1,
           "subscores": {
             "laning": 65.6,
-            "damage": 73.1,
+            "damage": 79.4,
             "presence": 78.1,
-            "efficiency": 86.3
+            "efficiency": 88.4
           }
         },
         "LPL 2026": {
@@ -13706,88 +13706,88 @@
       "country": "CN",
       "team": "Team WE",
       "role": "JGL",
-      "rating": 50.8,
-      "confidence": 0.12,
+      "rating": 50.3,
+      "confidence": 0.16,
       "subscores": {
         "laning": 34.3,
-        "damage": 65,
+        "damage": 56.1,
         "presence": 97.2,
-        "efficiency": 14.2
+        "efficiency": 4.7
       },
       "tournaments": {
         "LPL 2026 Split 2": {
-          "games": 3,
+          "games": 4,
           "winRate": 0,
-          "kda": 1.4,
+          "kda": 1.3,
           "avgKills": 2,
-          "avgDeaths": 4.3,
+          "avgDeaths": 4.8,
           "avgAssists": 4,
-          "csm": 5.9,
-          "gpm": 360,
-          "kp": 87.1,
-          "dmgPct": 17.6,
-          "goldPct": 20.4,
-          "vsPct": 18.4,
-          "dpm": 444,
-          "vspm": 1.88,
-          "avgWpm": 0.49,
-          "avgWcpm": 0.34,
-          "avgVwpm": 0.35,
-          "gd15": -702,
+          "csm": 5.7,
+          "gpm": 348,
+          "kp": 90.4,
+          "dmgPct": 17.5,
+          "goldPct": 20.1,
+          "vsPct": 19,
+          "dpm": 428,
+          "vspm": 1.76,
+          "avgWpm": 0.5,
+          "avgWcpm": 0.31,
+          "avgVwpm": 0.34,
+          "gd15": -972,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 53.3,
-          "confidence": 0.4,
+          "rating": 51.7,
+          "confidence": 0.47,
           "subscores": {
-            "laning": 36.5,
-            "damage": 73.8,
+            "laning": 34.4,
+            "damage": 64.4,
             "presence": 96.9,
-            "efficiency": 13.8
+            "efficiency": 5.3
           }
         },
         "LPL 2026": {
-          "games": 3,
+          "games": 4,
           "winRate": 0,
-          "kda": 1.3999999999999997,
+          "kda": 1.3,
           "avgKills": 2,
-          "avgDeaths": 4.3,
+          "avgDeaths": 4.8,
           "avgAssists": 4,
-          "csm": 5.900000000000001,
-          "gpm": 360,
-          "kp": 87.09999999999998,
-          "dmgPct": 17.6,
-          "goldPct": 20.4,
-          "vsPct": 18.4,
-          "dpm": 444,
-          "vspm": 1.88,
-          "avgWpm": 0.49,
-          "avgWcpm": 0.34,
-          "avgVwpm": 0.3499999999999999,
-          "gd15": -702,
+          "csm": 5.7,
+          "gpm": 348,
+          "kp": 90.4,
+          "dmgPct": 17.5,
+          "goldPct": 20.1,
+          "vsPct": 19,
+          "dpm": 428,
+          "vspm": 1.76,
+          "avgWpm": 0.5,
+          "avgWcpm": 0.31,
+          "avgVwpm": 0.34,
+          "gd15": -972,
           "csd15": 0,
           "xpd15": 0,
           "fbPct": 0,
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 50.8,
-          "confidence": 0.12,
+          "rating": 50.3,
+          "confidence": 0.16,
           "subscores": {
             "laning": 34.3,
-            "damage": 65,
+            "damage": 56.1,
             "presence": 97.2,
-            "efficiency": 14.2
+            "efficiency": 4.7
           }
         }
       },
       "aggregated": {
-        "totalGames": 3,
+        "totalGames": 4,
         "avgWinRate": 0,
-        "avgKda": 1.3999999999999997
+        "avgKda": 1.3
       }
     },
     {
@@ -13796,12 +13796,12 @@
       "country": "CN",
       "team": "Top Esports",
       "role": "TOP",
-      "rating": 52.5,
+      "rating": 52.8,
       "confidence": 0.48,
       "subscores": {
         "laning": 63.7,
         "damage": 54.7,
-        "presence": 73.5,
+        "presence": 79.4,
         "efficiency": 36.6
       },
       "tournaments": {
@@ -13830,13 +13830,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 55.4,
+          "rating": 55.6,
           "confidence": 1,
           "subscores": {
-            "laning": 65.5,
+            "laning": 63.1,
             "damage": 57.9,
-            "presence": 53.6,
-            "efficiency": 39.1
+            "presence": 60.7,
+            "efficiency": 40.4
           }
         },
         "LPL 2026": {
@@ -13864,12 +13864,12 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 52.5,
+          "rating": 52.8,
           "confidence": 0.48,
           "subscores": {
             "laning": 63.7,
             "damage": 54.7,
-            "presence": 73.5,
+            "presence": 79.4,
             "efficiency": 36.6
           }
         }
@@ -13886,13 +13886,13 @@
       "country": "CN",
       "team": "Invictus Gaming",
       "role": "SUP",
-      "rating": 62.8,
+      "rating": 63.4,
       "confidence": 0.57,
       "subscores": {
         "laning": 55.2,
         "damage": 96.9,
         "presence": 84.4,
-        "efficiency": 59.4
+        "efficiency": 62.5
       },
       "tournaments": {
         "LPL 2026 Split 2": {
@@ -13920,13 +13920,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 54.4,
+          "rating": 52.2,
           "confidence": 1,
           "subscores": {
             "laning": 51.2,
             "damage": 93.6,
-            "presence": 60.7,
-            "efficiency": 37.5
+            "presence": 53.6,
+            "efficiency": 39.3
           }
         },
         "LPL 2026": {
@@ -13954,13 +13954,13 @@
           "fbVictim": 0,
           "pentaKills": 0,
           "soloKills": 0,
-          "rating": 62.8,
+          "rating": 63.4,
           "confidence": 0.57,
           "subscores": {
             "laning": 55.2,
             "damage": 96.9,
             "presence": 84.4,
-            "efficiency": 59.4
+            "efficiency": 62.5
           }
         }
       },
